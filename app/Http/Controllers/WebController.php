@@ -108,6 +108,11 @@ class WebController extends Controller
         return view('politicas');
     }
 
+     public function reclamaciones(){
+        return view('reclamaciones');
+    }
+
+
      public function error(){
         return view('error');
     }

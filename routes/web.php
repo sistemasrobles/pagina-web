@@ -27,6 +27,8 @@ Route::post('/atencion/registrar','ClienteController@store')->name('/atencion/re
 
 Route::get('/terminos','WebController@terminos');
 Route::get('/politicas','WebController@politicas');
+Route::get('/reclamaciones','WebController@reclamaciones');
+
 
 Route::get('/download/{file}','WebController@download')->where('file', '.*');;
 
