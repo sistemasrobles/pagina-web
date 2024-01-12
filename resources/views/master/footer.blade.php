@@ -24,7 +24,7 @@
             <li class="py-1"><a href="{{url('/proyectos')}}"> Proyectos</a></li>
             <li class="py-1"><a href="{{url('/blog')}}"> Blog</a></li>
             <li class="py-1"><a href="{{url('/terminos')}}">Terminos y condiciones</a></li>
-            <li class="py-1"><a href="{{url('/error')}}">Libro de reclamaciones</a></li>
+            <li class="py-1"><a href="{{url('/error')}}">Libro de reclamacionesxx</a></li>
           </ul>
 
 
