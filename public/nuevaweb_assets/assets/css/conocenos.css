@@ -1,0 +1,106 @@
+/** Style main*/
+.bg-main-conocenos {
+
+  position: relative;
+/*  width: 100%;*/
+ height: calc(30vh - 70px);
+
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url('../img/paisa.jpg')
+      center center/cover no-repeat;
+}
+.bg-main-conocenos p{
+  font-size: .86rem;
+}
+.title-main-conocenos {
+  font-size: 4rem;
+}
+
+/**Style conocenos*/
+.container-vision p{
+    font-size: 0.88rem;
+}
+
+.container-vision {
+/*  background: #005c53e3;*/
+
+background: #fff;
+
+/*  border-radius: 14px 0px 14px 0px;*/
+   border-radius: 0px;
+  box-shadow: rgb(72 72 72 / 18%) 0px 48px 100px 0px;
+  margin-top: 0px;
+  backdrop-filter: blur(10px);
+  padding: 20px 35px;/**30 35*/
+}
+
+/**Style valores*/
+.creatividad,.empatia,.respeto{
+    height: 345px;
+}
+.empatia{
+    background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url('../img/vision.webp')
+      center center/cover no-repeat;
+}
+.creatividad{
+    background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url('../img/mision.webp')
+      center center/cover no-repeat;
+}
+.respeto{
+    background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(../img/valores.webp)
+      center center/cover no-repeat;
+}
+.bg-trasparent{
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 92, 83, 0.404);
+   animation: cardHover 0.4s ease-in-out 1;
+}
+@keyframes cardHover {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+/**styled preguntas frecuente 2*/
+.container-video-faq{
+  background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../img/banner-nosotros.webp')
+  center center/cover no-repeat;
+  height: 300px;
+  width: 100%;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color:none;
+  outline: 0;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  font-weight: 700;
+  color: #005c53e3;
+  background-color: #e7f1ff;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+
+
+}
+
+
+.accordion-button::after{
+
+background-image:url(../img/mas.png) !important;
+
+}
+.accordion-button:not(.collapsed)::after {
+ 
+
+  background-image:url(../img/min.png) !important;
+}

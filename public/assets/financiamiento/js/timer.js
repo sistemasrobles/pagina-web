@@ -1,0 +1,3 @@
+$(function(){
+  $('#myFlipper').flipper('init');
+});

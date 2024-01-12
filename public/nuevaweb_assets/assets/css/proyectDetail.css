@@ -1,0 +1,210 @@
+.bg-main {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  /*background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(https://gruporobles.com.pe/storage/proyectos/valle-orquidea/y3YzH.jpg)
+    center center/cover no-repeat;*/
+}
+
+.video-proyect-main {
+  left: 0 !important;
+  right: 0 !important;
+  z-index: -1 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.video-proyect-main > video {
+  aspect-ratio: 21/9;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.width-max-proyect {
+  max-width: 900px;
+}
+/**STYLE MAIN*/
+.trans-main-proyect-green {
+  background: #005c5366;
+  backdrop-filter: blur(2px);
+}
+.container-main-margin {
+  position: relative;
+  top: 100px;
+}
+.container-grid-main-cuadro {
+  z-index: 5;
+  box-shadow: rgb(72 72 72 / 18%) 0px 48px 100px 0px;
+}
+.container-grid-main-cuadro > div {
+  border-right: 1px dashed #526260;
+  padding: 0px 28px;
+}
+.container-grid-main-cuadro > div:nth-child(2) {
+  border: none;
+}
+.container-grid-main-cuadro h6 {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.container-title-info-main > h2 {
+  font-size: 2.5rem;
+}
+
+/**navegador styled proyect*/
+.header {
+  z-index: 10;
+}
+
+.sub-nav{
+
+  cursor: pointer;
+}
+.sub-nav-container {
+  padding-top: 80px;
+}
+.bg-gris {
+  background: #e5ece9;
+}
+.fs-9 {
+  font-size: 0.8rem;
+}
+
+.link-proyect::before {
+  content: "";
+/*  width: calc(100% - 40px);*/
+width: calc(100% - 20px);
+  height: 2px;
+  position: absolute;
+  bottom: -8px;
+  background-color: #005c53;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.link-proyect::after {
+  content: "";
+  position: absolute;
+  border-bottom: solid 0px #005c53;
+  border-top: solid 10px transparent;
+  border-left: solid 10px transparent;
+  border-right: solid 10px transparent;
+  left: 50%;
+  bottom: -7px;
+  transform: translateX(-50%);
+}
+
+/**ubicanos*/
+.sub-title-section {
+  font-weight: 400;
+  color: #696969;
+}
+
+/**Style galery*/
+.active-option-galery {
+  background: #005c53 !important;
+  color: white !important;
+}
+.video-proyect {
+  height: 360px;
+}
+.active-view-galery {
+  display: block !important;
+}
+
+.video-proyect > iframe {
+  height: 100%;
+  width: 100%;
+}
+.video-proyect > img {
+  object-fit: cover;
+  height: 100% !important;
+}
+.play-galery > i {
+  font-size: 4rem;
+}
+
+
+/**Styled conocenos galerya bento*/
+.galery-bento-grid {
+  display: grid;
+  grid-template-areas:
+    "image1 image2"
+    "image3 image2"
+    "image3  image4";
+  gap: 15px 20px;
+}
+
+.slider-bento {
+  cursor: pointer;
+}
+.img-bento {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.image1 {
+  width: 100%;
+  height: 228px;
+  grid-area: image1;
+}
+.image2 {
+  width: 100%;
+  height: 318px;
+  grid-area: image2;
+}
+.image3 {
+  grid-area: image3;
+}
+.image4 {
+  grid-area: image4;
+}
+
+.modal-swiper {
+  top: 0;
+  position: fixed;
+  z-index: 30 !important;
+  height: 100vh;
+  background: rgb(0 0 0 / 52%);
+}
+.d-none-swiper {
+  display: none;
+  opacity: 0;
+}
+.active-modal-swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: modalSlider 0.4s ease-in-out 1;
+}
+
+@keyframes modalSlider {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.mid-slider {
+  overflow: hidden;
+}
+.modal-swiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  aspect-ratio: 21/9;
+}
+.end-close {
+  right: 20px !important;
+  top: 20px !important;
+}
+
+@media (max-width: 1400px) {
+  .width-max-proyect {
+    max-width: 700px;
+  }
+}
