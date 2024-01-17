@@ -18,7 +18,7 @@
                 
                 <img src="{{asset('nuevaweb_assets/assets/img/triangulo.png')}}" class="w-100" style="height:181px" >
                  <div class="container d-flex justify-content-start align-items-center  h-100 w-100" style="position:absolute;top: 0;z-index: 1;">
-                    <h1 class="text-center family-700-one text-white">Terminos y Condiciones</h1>
+                    <h1 class="text-center family-700-one text-white">Términos y Condiciones</h1>
 
                     <p></p>
 

@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Validator;
 
 use App\Http\Controllers\ZapierController;
 use App\Mail\EmailReclamaciones;
+use App\Mail\ClienteReclamo;
+
+
 use DB;
 use App\cliente;
 use App\Ciudad;
@@ -379,6 +382,25 @@ class PromocionesController extends Controller
 
 
 
+    public function generar_codigo_reclamo(){
+
+        $anio = date("Y");
+
+        $max = DB::select("SELECT MAX(id) as maximo FROM reclamaciones ");
+
+
+       
+        $nextId = (int)$max[0]->maximo + 1;
+
+      
+
+
+        $codigoGenerado = $anio . '-' . sprintf('%05d', $nextId);
+
+        return $codigoGenerado;
+
+
+    }
 
     public function guardarReclamaciones(Request $request){
        
@@ -446,7 +468,10 @@ class PromocionesController extends Controller
 
                         $now = date("Y-m-d H:i:s");
 
-                       $status = DB::insert("INSERT INTO reclamaciones(ruc,razon_social,direccion,proyecto,tipo_documento,numero_documento,nombres,apepat,apemat,celular,fijo,email,departamento,provincia,distrito,direccion_cliente,bien_contratado,tipo_reclamo,queja,pedido,created_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",[  $request->ruc,
+
+                        $codigo_generado = $this->generar_codigo_reclamo();
+
+                       $status = DB::insert("INSERT INTO reclamaciones(ruc,codigo,razon_social,direccion,proyecto,tipo_documento,numero_documento,nombres,apepat,apemat,celular,fijo,email,departamento,provincia,distrito,direccion_cliente,bien_contratado,tipo_reclamo,queja,pedido,created_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",[  $request->ruc,$codigo_generado,
                         $request->razon,
                         $request->direccion,
                         $request->proyecto,
@@ -476,7 +501,11 @@ class PromocionesController extends Controller
                         if($status == 1){
 
 
-                             \Mail::to(['victor.mangiante@killyazu.com.pe'])->send(new EmailReclamaciones($request,$nameProyect->descripcion));
+                             \Mail::to(['miguel.alfonzo@killyazu.com.pe'])->send(new EmailReclamaciones($request,$nameProyect->descripcion,$codigo_generado));
+
+                             \Mail::to([$request->email])->send(new ClienteReclamo($request,$nameProyect->descripcion,$codigo_generado));
+                             
+
 
                             $rpta = array('status'=>'ok','description'=>'Datos guardados satisfactoriamente','data'=>[]);
                         

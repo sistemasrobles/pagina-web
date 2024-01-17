@@ -85,3 +85,8 @@ Route::get('/landing/lotes/{slug}/gracias', 'PromocionesController@graciasLandin
 
 Route::post('/reclamaciones/guardar','PromocionesController@guardarReclamaciones');
 Route::get('/reclamaciones/success','PromocionesController@successReclamaciones');
+
+
+
+
+
