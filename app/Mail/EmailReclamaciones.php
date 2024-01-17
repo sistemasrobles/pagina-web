@@ -16,13 +16,18 @@ class EmailReclamaciones extends Mailable
 
     public $distressCall;
     public $name;
+    public $time;
 
     public function __construct($distressCall,$name)
     {
          $this->distressCall = $distressCall;
          $this->name = $name;
 
-          $this->subject('Registro Libro de Reclamaciones');
+
+           date_default_timezone_set('America/Lima');
+
+          $this->time = date("Y-m-d H:i:s");
+          $this->subject('REGISTRO LIBRO DE RECLAMACIONES');
     }
 
     /**

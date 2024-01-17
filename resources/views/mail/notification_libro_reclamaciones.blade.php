@@ -7,34 +7,29 @@
 <body>
 
 
-    <p>Hola! Se ha reportado un nuevo registro de libro de reclamación .</p><br>
+    <p>Hola! Se ha reportado un nuevo registro de libro de reclamación .</p>
+
+    <h2>* El proveedor debe dar respuesta al reclamo o queja en un plazo no mayor a quince (15) días hábiles, el cual es improrrogable.</h2>
     <p>Estos son los datos registrados :</p>
 
-
-     <p><strong>Datos de la Empresa:</strong></p><br>
+     <p><strong>Datos de la Empresa:</strong></p>
     <ul>
 
          <li>RUC : {{ $distressCall->ruc }}</li>
         <li>Empresa : {{ $distressCall->razon }}</li>
         <li>Dirección : {{ $distressCall->direccion }}</li>
-        
-
-        
+        <li>Fecha de Registro : {{ $time }}</li>
 
     </ul>
 
 
-     <p><strong>Datos del Proyecto:</strong></p><br>
+     <p><strong>Datos del Proyecto:</strong></p>
     <ul>
-        <li>Proyecto : {{ $name }}</li>
-       
-        
-
-        
+        <li>Proyecto : {{ $name }}</li>   
 
     </ul>
 
-    
+     <p><strong>Datos del Cliente:</strong></p>
 
     <ul>
         <li>Nombres : {{ $distressCall->nombres }}</li>
@@ -60,7 +55,7 @@
     </ul>
 
    
-
+    <p>Sistema Automatizado de Correos - Área de Sistemas<br>{{ config('app.name') }}</p>
     
 </body>
 </html>
