@@ -109,7 +109,10 @@ class WebController extends Controller
     }
 
      public function reclamaciones(){
-        return view('reclamaciones');
+
+        $projects = proyectos::where('estado_proyecto','=','1')->get();
+        
+        return view('reclamaciones' ,compact('projects'));
     }
 
 

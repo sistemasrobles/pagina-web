@@ -81,3 +81,7 @@ Route::get('/landing/terrenos-en-oxapampa/gracias', 'PromocionesController@graci
 
 Route::get('/landing/lotes/{slug}', 'PromocionesController@formularioDetalle');
 Route::get('/landing/lotes/{slug}/gracias', 'PromocionesController@graciasLanding');
+
+
+Route::post('/reclamaciones/guardar','PromocionesController@guardarReclamaciones');
+Route::get('/reclamaciones/success','PromocionesController@successReclamaciones');

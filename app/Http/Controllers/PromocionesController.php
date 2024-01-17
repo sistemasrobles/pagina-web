@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Validator;
 
 use App\Http\Controllers\ZapierController;
 
-
+use DB;
 use App\cliente;
 use App\Ciudad;
 use App\proyectos;
@@ -22,6 +22,13 @@ class PromocionesController extends Controller
 {
   
  
+  public function successReclamaciones(){
+
+
+    return view('success_reclamo');
+
+
+  }
 
    public function graciasLanding(){
         
@@ -366,6 +373,140 @@ class PromocionesController extends Controller
                        
                             
                     }
+
+    }
+
+
+
+
+
+    public function guardarReclamaciones(Request $request){
+       
+
+            try {
+                
+                $data = $request->only('ruc','razon','direccion','proyecto','tipo_documento','numero_documento','nombres','apepat','apemat','celular','fijo','email','departamento','provincia','distrito','direccion_cliente','bien','gridRadios','queja','pedido');
+
+
+
+                $rules = [
+            
+ 
+                        'ruc' => 'required',
+                        'razon' => 'required',
+                        'direccion' => 'required',
+                        'proyecto' => 'required',
+
+
+                        'tipo_documento' => 'required',
+                        'numero_documento' => 'required|string|max:20',
+                        'nombres' => 'required|string|max:250',
+                        'apepat' => 'required|string|max:250',
+                        'apemat' => 'required|string|max:250',
+
+                        'celular' => 'required|string|max:100',
+                        'fijo' => 'nullable',
+                        'email' => 'required|string|max:250',
+
+                        'departamento' => 'required|string|max:250',
+                        'provincia' => 'required|string|max:250',
+                        'distrito' => 'required|string|max:250',
+                        'direccion_cliente' => 'required|string|max:250',
+
+                        'bien' => 'required|string|max:2000',
+                        'gridRadios' => 'required',
+                        'queja' => 'required|string|max:2000',
+                        'pedido' => 'required|string|max:2000',
+                        
+                        
+                       
+                     
+            
+                    ];
+
+                  
+
+
+                    $validator = Validator::make($data,$rules);
+                    
+
+                    if ($validator->fails()) {
+
+
+                        $errors = $validator->messages()->all();
+
+                        $rpta = array('status'=>'error','description'=>'Completar los inputs solicitados','data'=>$errors);
+
+                        return response()->json($rpta);     
+                        
+                    }else{
+
+
+                        date_default_timezone_set('America/Lima');
+                        
+                        $now = date("Y-m-d H:i:s");
+
+                       $status = DB::insert("INSERT INTO reclamaciones(ruc,razon_social,direccion,proyecto,tipo_documento,numero_documento,nombres,apepat,apemat,celular,fijo,email,departamento,provincia,distrito,direccion_cliente,bien_contratado,tipo_reclamo,queja,pedido,created_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",[  $request->ruc,
+                        $request->razon,
+                        $request->direccion,
+                        $request->proyecto,
+                        $request->tipo_documento,
+                        $request->numero_documento,
+                        $request->nombres,
+                        $request->apepat,
+                        $request->apemat,
+                        $request->celular,
+                        $request->fijo,
+                        $request->email,
+                        $request->departamento,
+                        $request->provincia,
+                        $request->distrito,
+                        $request->direccion_cliente,
+                        $request->bien,
+                        $request->gridRadios,
+                        $request->queja,
+                        $request->pedido,
+                        $now
+                        ]);
+
+
+                        if($status == 1){
+
+
+                            $rpta = array('status'=>'ok','description'=>'Datos guardados satisfactoriamente','data'=>[]);
+                        
+                            return response()->json($rpta);
+
+
+
+                        }else{
+
+
+                             $rpta = array('status'=>'error','description'=>'No se pudo guardar los datos','data'=>[]);
+                        
+                            return response()->json($rpta);
+
+                        }
+
+                       
+                            
+                    }
+
+
+
+
+            } catch (\Exception $e) {
+                
+
+
+                 $rpta = array('status'=>'error','description'=>$e->getMessage(),'data'=>[]);
+                        
+                return response()->json($rpta);
+
+            }
+
+
+         
 
     }
 }
