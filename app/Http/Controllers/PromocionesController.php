@@ -13,7 +13,7 @@ use Artesaos\SEOTools\Facades\JsonLdMulti;
 use Illuminate\Support\Facades\Validator;
 
 use App\Http\Controllers\ZapierController;
-
+use App\Mail\EmailReclamaciones;
 use DB;
 use App\cliente;
 use App\Ciudad;
@@ -443,7 +443,7 @@ class PromocionesController extends Controller
 
 
                         date_default_timezone_set('America/Lima');
-                        
+
                         $now = date("Y-m-d H:i:s");
 
                        $status = DB::insert("INSERT INTO reclamaciones(ruc,razon_social,direccion,proyecto,tipo_documento,numero_documento,nombres,apepat,apemat,celular,fijo,email,departamento,provincia,distrito,direccion_cliente,bien_contratado,tipo_reclamo,queja,pedido,created_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",[  $request->ruc,
@@ -470,8 +470,13 @@ class PromocionesController extends Controller
                         ]);
 
 
+                        $nameProyect =proyectos::where('idproyecto','=',$request->proyecto)->first();
+
+
                         if($status == 1){
 
+
+                             \Mail::to(['miguel.alfonzo@killyazu.com.pe'])->send(new EmailReclamaciones($request,$nameProyect->descripcion));
 
                             $rpta = array('status'=>'ok','description'=>'Datos guardados satisfactoriamente','data'=>[]);
                         
