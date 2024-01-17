@@ -476,7 +476,7 @@ class PromocionesController extends Controller
                         if($status == 1){
 
 
-                             \Mail::to(['miguel.alfonzo@killyazu.com.pe'])->send(new EmailReclamaciones($request,$nameProyect->descripcion));
+                             \Mail::to(['victor.mangiante@killyazu.com.pe'])->send(new EmailReclamaciones($request,$nameProyect->descripcion));
 
                             $rpta = array('status'=>'ok','description'=>'Datos guardados satisfactoriamente','data'=>[]);
                         
