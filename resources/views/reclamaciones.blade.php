@@ -254,7 +254,7 @@ a.disabled-link {
                
 
 
-                <button class="btn  nextBtn btn-lg my-5 text-white w-100 " type="button" style="background:var(--color-primary);"><small>SIGUIENTE</small></button>
+                <button class="btn  nextBtn btn-lg my-5 text-white w-100 " type="button" style="background:var(--color-primary);"><strong><small>SIGUIENTE</small></strong></button>
             </div>
         </div>
     </div>
@@ -378,9 +378,9 @@ a.disabled-link {
 
                 
 
-                <button class="btn  nextBtn btn-lg mt-5 text-white w-100" type="button" style="background:var(--color-primary);"><small>SIGUIENTE</small></button>
+                <button class="btn  nextBtn btn-lg mt-5 text-white w-100" type="button" style="background:var(--color-primary);"><strong><small>SIGUIENTE</small></strong></button>
                 
-                <button id="go-step-1"  class="btn  btn-lg text-white w-100  mt-2 mb-5" type="button" style="background:#666666"><small>ATRAS</small></button>
+                <button id="go-step-1"  class="btn  btn-lg text-white w-100  mt-2 mb-5" type="button" style="background:#666666"><strong><small>ATRAS</small></strong></button>
                
 
             </div>
@@ -412,9 +412,9 @@ a.disabled-link {
 
 
 
-                  <button class="btn  nextBtn btn-lg mt-5 text-white w-100" type="button" style="background:var(--color-primary);"><small>SIGUIENTE</small></button>
+                  <button class="btn  nextBtn btn-lg mt-5 text-white w-100" type="button" style="background:var(--color-primary);"><strong><small>SIGUIENTE</small></strong></button>
                 
-                <button id="go-step-2"  class="btn  btn-lg text-white w-100  mt-2 mb-5" type="button" style="background:#666666"><small>ATRAS</small></button>
+                <button id="go-step-2"  class="btn  btn-lg text-white w-100  mt-2 mb-5" type="button" style="background:#666666"><strong><small>ATRAS</small></strong></button>
 
 
             </div>
@@ -475,9 +475,9 @@ a.disabled-link {
 
                
 
-                <button id="envio-final" class="btn nextBtn btn-lg mt-5 text-white w-100" type="button" style="background:var(--color-primary-oscuro);"><small>ENVIAR RECLAMO</small></button>
+                <button id="envio-final" class="btn nextBtn btn-lg mt-5 text-white w-100" type="button" style="background:var(--color-primary-oscuro);"><strong><small>ENVIAR RECLAMO</small></strong></button>
 
-                <button id="go-step-3" class="btn  btn-lg text-white w-100  mb-5 mt-2" type="button" style="background:#666666"><small>ATRAS</small></button>
+                <button id="go-step-3" class="btn  btn-lg text-white w-100  mb-5 mt-2" type="button" style="background:#666666"><strong><small>ATRAS</small></strong></button>
 
 
                  <span id="errores" style="font-size:11px" class="text-danger">
