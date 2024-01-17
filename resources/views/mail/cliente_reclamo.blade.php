@@ -294,8 +294,8 @@
                                 <tr>
                                     <td align="left" style="color: #888888; font-size: 14px; font-family: 'Work Sans', Calibri, sans-serif; line-height: 23px;" class="text_color">
                                         <div style="color: #333333; font-size: 14px; font-family: 'Work Sans', Calibri, sans-serif; font-weight: 600; mso-line-height-rule: exactly; line-height: 23px;">
-                                            Equipo de PostVenta <br/> <span style="font-weight: 500;">correo :</span><span  style="color: #888888; font-size: 14px; font-family: 'Hind Siliguri', Calibri, Sans-serif; font-weight: 400;">postventa@gruporobles.com.pe</span><br/> 
-                                            <span style="font-weight: 500;">celular :</span><span style="color: #888888; font-size: 14px; font-family: 'Hind Siliguri', Calibri, Sans-serif; font-weight: 400;" >947 278 914</span>
+                                            Equipo de PostVenta <br/> <span style="font-weight: 500;">correo : </span><span  style="color: #888888; font-size: 14px; font-family: 'Hind Siliguri', Calibri, Sans-serif; font-weight: 400;">postventa@gruporobles.com.pe</span><br/> 
+                                            <span style="font-weight: 500;">celular : </span><span style="color: #888888; font-size: 14px; font-family: 'Hind Siliguri', Calibri, Sans-serif; font-weight: 400;" >947 278 914</span>
                                         </div>
                                     </td>
                                 </tr>

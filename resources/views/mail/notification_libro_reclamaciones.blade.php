@@ -47,11 +47,11 @@
         <li>Dirección : {{ $distressCall->direccion_cliente }}</li>
 
 
-         <li>Descripción del Bien Adquirido : {{ $distressCall->bien }}</li>
+         <li>Descripción del Bien Adquirido : <br>{{ $distressCall->bien }}</li>
          <li>Tipo de Reclamo : {{ $distressCall->gridRadios }}</li>
 
-         <li>Descripcion del Tipo de Reclamo : {{ $distressCall->queja }}</li>
-         <li>Pedido del cliente : {{ $distressCall->pedido }}</li>
+         <li>Descripcion del Tipo de Reclamo : <br>{{ $distressCall->queja }}</li>
+         <li>Pedido del cliente : <br>{{ $distressCall->pedido }}</li>
     </ul>
 
    
