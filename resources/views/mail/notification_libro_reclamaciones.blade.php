@@ -20,6 +20,8 @@
         <li>Dirección : {{ $distressCall->direccion }}</li>
         <li>Fecha de Registro : {{ $time }}</li>
 
+        <li>Código  : {{ $codigo }}</li>
+
     </ul>
 
 
