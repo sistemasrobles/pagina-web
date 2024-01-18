@@ -156,6 +156,17 @@ background:  #FBFBFB;
         height: 350px; 
     }
 }
+
+
+@media (max-width: 600px) {
+        #image-video-proyect {
+            content: url('{{ asset("/storage/$proyetoactual->link_video_bg_mobil") }}');
+            max-height: 350px; 
+            width: 100%;
+        }
+    }
+
+
     </style>
 
 
@@ -405,15 +416,10 @@ background:  #FBFBFB;
                 <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"><i class="text-white fa-brands fa-youtube"></i></button>
 
                 
-                 <!--  <img id="image-video-proyect" class="img-fluid w-100 d-block d-lg-none " src='{{ asset("/storage/$proyetoactual->link_video_bg_mobil") }}' alt="">  
+               
+            
 
-                 <img id="image-video-proyect" class="img-fluid  d-none d-lg-block" src='{{ asset("/storage/$proyetoactual->link_video_bg") }}' alt="">  -->
-                
-                <!-- <img id="image-video-proyect" class="img-fluid  d-block" src='{{ asset("/storage/$proyetoactual->link_video_bg") }}' alt="">  -->
-
-
-                <img id="image-video-proyect" class="img-fluid d-block" 
-     srcset="{{ asset("/storage/$proyetoactual->link_video_bg") }} 1200w,{{ asset("/storage/$proyetoactual->link_video_bg_mobil") }} 600w" sizes="(min-width: 600px)1200px, 100vw" alt="Descripción de la imagen">
+                <img id="image-video-proyect" class="img-fluid d-block" src="{{ asset("/storage/$proyetoactual->link_video_bg") }}"alt="">
 
 
 
