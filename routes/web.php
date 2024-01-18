@@ -88,5 +88,15 @@ Route::get('/reclamaciones/success','PromocionesController@successReclamaciones'
 
 
 
+Route::get('/eme',function(){
 
+	$data=[
+
+		array('NUMERO_CONTRATO'=>'','FAMILIA'=>'')
+	];
+	$empresa_user='001';
+	$tipo='T';
+return view('reports.libro_reclamaciones',compact('data','tipo','empresa_user'));
+
+});
 

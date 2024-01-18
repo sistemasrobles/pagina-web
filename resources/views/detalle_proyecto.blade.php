@@ -145,6 +145,17 @@ background:  #FBFBFB;
 }
 
 
+
+.img-detalle-view {
+    height: auto; 
+}
+
+
+@media (max-width: 600px) {
+    .img-detalle-view {
+        height: 350px; 
+    }
+}
     </style>
 
 
@@ -224,7 +235,7 @@ background:  #FBFBFB;
                 <div class="sub-nav border-end border-dark px-3 position-relative link-proyect">Ubicación</div>
                 <div class="sub-nav border-end border-dark px-3 position-relative">Acerca</div>
                 <div class="sub-nav border-end border-dark px-3 position-relative">Galería</div>
-                 <div class="sub-nav border-end border-dark px-3 position-relative">Planos</div>
+                 <div class="sub-nav border-end border-dark px-3 position-relative">Recorridos</div>
                 <div class="sub-nav border-end border-dark px-3 position-relative">Zona</div>
                
                 
@@ -377,7 +388,7 @@ background:  #FBFBFB;
                     @foreach($renders as $list)
 
 
-                        <div class="swiper-slide"><img class="img-fluid w-100" src='{{ asset("/storage/$list->img") }}' alt="" style="height:350px"></div>
+                        <div class="swiper-slide"><img class="img-fluid w-100 img-detalle-view" src='{{ asset("/storage/$list->img") }}' alt="" style="height:auto"></div>
 
 
                     @endforeach
@@ -394,10 +405,15 @@ background:  #FBFBFB;
                 <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"><i class="text-white fa-brands fa-youtube"></i></button>
 
                 
-                <img id="image-video-proyect" class="img-fluid w-100 d-block d-lg-none " src='{{ asset("/storage/$proyetoactual->link_video_bg_mobil") }}' alt="">
+                 <!--  <img id="image-video-proyect" class="img-fluid w-100 d-block d-lg-none " src='{{ asset("/storage/$proyetoactual->link_video_bg_mobil") }}' alt="">  
 
-                <img id="image-video-proyect" class="img-fluid  d-none d-lg-block" src='{{ asset("/storage/$proyetoactual->link_video_bg") }}' alt="">
+                 <img id="image-video-proyect" class="img-fluid  d-none d-lg-block" src='{{ asset("/storage/$proyetoactual->link_video_bg") }}' alt="">  -->
                 
+                <!-- <img id="image-video-proyect" class="img-fluid  d-block" src='{{ asset("/storage/$proyetoactual->link_video_bg") }}' alt="">  -->
+
+
+                <img id="image-video-proyect" class="img-fluid d-block" 
+     srcset="{{ asset("/storage/$proyetoactual->link_video_bg") }} 1200w,{{ asset("/storage/$proyetoactual->link_video_bg_mobil") }} 600w" sizes="(min-width: 600px)1200px, 100vw" alt="Descripción de la imagen">
 
 
 
@@ -414,7 +430,7 @@ background:  #FBFBFB;
     
 
 <!-- ver proyecto 3d -->
-                <section class="container-xl py-5" id="planos">
+                <section class="container-xl py-5" id="recorridos">
                     <span>
                         <h2 style="font-weight: 700;" class="color-green-2">Mira nuestro proyecto</h2>
                         <p class="sub-title-section">{{$proyetoactual->turismo_conocido}}</p>

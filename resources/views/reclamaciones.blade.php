@@ -173,11 +173,11 @@ a.disabled-link {
         </div>
         <div class="stepwizard-step">
             <a href="#step-2" type="button" class="btn btn-default btn-circle active-2 disabled-link" disabled="disabled">2</a>
-            <p>Identificacion del Consumidor</p>
+            <p>Identificación del Consumidor</p>
         </div>
         <div class="stepwizard-step">
             <a href="#step-3" type="button" class="btn btn-default btn-circle active-3 disabled-link" disabled="disabled">3</a>
-            <p>Identificacion del Bien</p>
+            <p>Identificación del Bien</p>
         </div>
 
         <div class="stepwizard-step">
