@@ -407,7 +407,7 @@ class PromocionesController extends Controller
 
             try {
                 
-                $data = $request->only('ruc','razon','direccion','proyecto','tipo_documento','numero_documento','nombres','apepat','apemat','celular','fijo','email','departamento','provincia','distrito','direccion_cliente','bien','gridRadios','queja','pedido');
+                $data = $request->only('ruc','razon','direccion','proyecto','tipo_documento','numero_documento','nombres','apepat','apemat','celular','fijo','email','departamento','provincia','distrito','direccion_cliente','monto_reclamado','bien','gridRadios','queja','pedido');
 
 
 
@@ -435,6 +435,7 @@ class PromocionesController extends Controller
                         'distrito' => 'required|string|max:250',
                         'direccion_cliente' => 'required|string|max:250',
 
+                        'monto_reclamado' => 'required|numeric',
                         'bien' => 'required|string|max:2000',
                         'gridRadios' => 'required',
                         'queja' => 'required|string|max:2000',
@@ -471,7 +472,7 @@ class PromocionesController extends Controller
 
                         $codigo_generado = $this->generar_codigo_reclamo();
 
-                       $status = DB::insert("INSERT INTO reclamaciones(ruc,codigo,razon_social,direccion,proyecto,tipo_documento,numero_documento,nombres,apepat,apemat,celular,fijo,email,departamento,provincia,distrito,direccion_cliente,bien_contratado,tipo_reclamo,queja,pedido,created_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",[  $request->ruc,$codigo_generado,
+                       $status = DB::insert("INSERT INTO reclamaciones(ruc,codigo,razon_social,direccion,proyecto,tipo_documento,numero_documento,nombres,apepat,apemat,celular,fijo,email,departamento,provincia,distrito,direccion_cliente,bien_contratado,monto_reclamado,tipo_reclamo,queja,pedido,created_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",[  $request->ruc,$codigo_generado,
                         $request->razon,
                         $request->direccion,
                         $request->proyecto,
@@ -488,6 +489,7 @@ class PromocionesController extends Controller
                         $request->distrito,
                         $request->direccion_cliente,
                         $request->bien,
+                        $request->monto_reclamado,
                         $request->gridRadios,
                         $request->queja,
                         $request->pedido,

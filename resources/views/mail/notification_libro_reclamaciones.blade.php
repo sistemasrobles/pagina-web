@@ -49,14 +49,33 @@
         <li>Dirección : {{ $distressCall->direccion_cliente }}</li>
 
 
-         <li>Descripción del Bien Adquirido : <br>{{ $distressCall->bien }}</li>
-         <li>Tipo de Reclamo : {{ $distressCall->gridRadios }}</li>
 
-         <li>Descripcion del Tipo de Reclamo : <br>{{ $distressCall->queja }}</li>
-         <li>Pedido del cliente : <br>{{ $distressCall->pedido }}</li>
     </ul>
 
-   
+
+     <p><strong>Datos del Bien:</strong></p>
+     <ul>
+         
+          <li>Descripción : <br>{{ $distressCall->bien }}</li>
+          <li>Monto :{{ $distressCall->monto_reclamado }}</li>
+
+     </ul>
+    
+
+     <p><strong>Detalle del Reclamo:</strong></p>
+     <ul>
+         
+         <li>Tipo de Reclamo : {{ $distressCall->gridRadios }}</li>
+         <li>Descripción : <br>{{ $distressCall->queja }}</li>
+         <li>Pedido del cliente : <br>{{ $distressCall->pedido }}</li>
+
+     </ul>
+ 
+
+       
+
+
+
     <p>Sistema Automatizado de Correos - Área de Sistemas<br>{{ config('app.name') }}</p>
     
 </body>

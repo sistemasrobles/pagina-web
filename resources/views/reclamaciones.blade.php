@@ -393,6 +393,16 @@ a.disabled-link {
 
 
                 <div class="row">
+
+
+                       <div class="col-lg-12 mt-3">
+
+                       <label class="control-label">Monto Reclamado<span class="text-danger">(*)</span>:</label>
+                        <input maxlength="20" type="text"  class="form-control mt-3" value="" id="monto_reclamado" name="monto_reclamado"/>
+                        <span class="text-danger" id="error-monto"></span>
+                    </div>
+
+
                     <div class="col-lg-12 mt-3">
                          <label class="control-label">Descripción<span class="text-danger">(*)</span>:</label>
                         <textarea maxlength="2000" type="text"  class="form-control mt-3" value="" id="bien" name="bien" style="height: 250px;resize: none;" /></textarea>
@@ -835,7 +845,8 @@ a.disabled-link {
 
                 let bien = $("#bien").val().trim();
 
-               
+               let monto_reclamado = $("#monto_reclamado").val();
+
 
 
                 if( bien == ""){
@@ -848,6 +859,20 @@ a.disabled-link {
                 }else{
 
                      $("#error-identificacion-bien").text('');
+
+                }
+
+
+                 if( monto_reclamado == ""){
+
+
+                     $("#error-monto").text('ingrese un monto ');
+
+                     isValid = false;
+
+                }else{
+
+                     $("#error-monto").text('');
 
                 }
             }
@@ -1092,6 +1117,35 @@ function guardar_datos_formulario(){
         $("#error-pedido-consumidor").text('');
 
     });
+
+
+    $("#monto_reclamado").on('input',function(){
+
+        $("#error-monto").text('');
+
+    });
+
+
+
+       document.getElementById('monto_reclamado').addEventListener('input', function(event) {
+    
+     
+
+        
+           let inputValue = event.target.value;
+
+    
+            let numericValue = inputValue.replace(/[^\d.]/g, '');
+
+         
+            numericValue = numericValue.replace(/^(\.\d*)\..*$/, '$1');
+            numericValue = numericValue.replace(/(\.\d*)\..*$/, '$1');
+            numericValue = numericValue.replace(/^(\d+\.\d{0,2}).*$/, '$1');
+
+            event.target.value = numericValue;
+
+    });
+
 
     document.getElementById('celular').addEventListener('input', function(event) {
     
