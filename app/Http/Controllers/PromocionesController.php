@@ -402,12 +402,24 @@ class PromocionesController extends Controller
 
     }
 
+    public function genera_pdf_reclamo($data,$codigo){
+
+
+
+        $pdf = \App::make('dompdf.wrapper');
+        $pdf->setPaper('A4');
+        $pdf->loadView('reports.libro_reclamaciones', compact('empresa_user','list'));
+        return $pdf->stream();
+
+
+    }
+
     public function guardarReclamaciones(Request $request){
        
 
             try {
                 
-                $data = $request->only('ruc','razon','direccion','proyecto','tipo_documento','numero_documento','nombres','apepat','apemat','celular','fijo','email','departamento','provincia','distrito','direccion_cliente','monto_reclamado','bien','gridRadios','queja','pedido');
+                $data = $request->only('ruc','razon','direccion','proyecto','tipo_documento','numero_documento','nombres','apepat','apemat','celular','fijo','email','departamento','provincia','distrito','direccion_cliente','apoderado','monto_reclamado','bien','gridRadios','queja','pedido');
 
 
 
@@ -435,6 +447,8 @@ class PromocionesController extends Controller
                         'distrito' => 'required|string|max:250',
                         'direccion_cliente' => 'required|string|max:250',
 
+                        
+                        'apoderado' => 'nullable',
                         'monto_reclamado' => 'required|numeric',
                         'bien' => 'required|string|max:2000',
                         'gridRadios' => 'required',
@@ -472,7 +486,7 @@ class PromocionesController extends Controller
 
                         $codigo_generado = $this->generar_codigo_reclamo();
 
-                       $status = DB::insert("INSERT INTO reclamaciones(ruc,codigo,razon_social,direccion,proyecto,tipo_documento,numero_documento,nombres,apepat,apemat,celular,fijo,email,departamento,provincia,distrito,direccion_cliente,bien_contratado,monto_reclamado,tipo_reclamo,queja,pedido,created_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",[  $request->ruc,$codigo_generado,
+                       $status = DB::insert("INSERT INTO reclamaciones(ruc,codigo,razon_social,direccion,proyecto,tipo_documento,numero_documento,nombres,apepat,apemat,celular,fijo,email,departamento,provincia,distrito,direccion_cliente,bien_contratado,monto_reclamado,tipo_reclamo,queja,pedido,created_at,apoderado) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",[  $request->ruc,$codigo_generado,
                         $request->razon,
                         $request->direccion,
                         $request->proyecto,
@@ -493,7 +507,8 @@ class PromocionesController extends Controller
                         $request->gridRadios,
                         $request->queja,
                         $request->pedido,
-                        $now
+                        $now,
+                        $request->apoderado
                         ]);
 
 
@@ -504,6 +519,10 @@ class PromocionesController extends Controller
 
 
                              \Mail::to(['miguel.alfonzo@killyazu.com.pe'])->send(new EmailReclamaciones($request,$nameProyect->descripcion,$codigo_generado));
+
+
+                             $file_reclamo = $this->genera_pdf_reclamo($request,$codigo_generado);
+
 
                              \Mail::to([$request->email])->send(new ClienteReclamo($request,$nameProyect->descripcion,$codigo_generado));
                              

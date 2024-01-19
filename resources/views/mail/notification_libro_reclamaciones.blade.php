@@ -47,9 +47,7 @@
         <li>Provincia : {{ $distressCall->provincia }}</li>
         <li>Distrito : {{ $distressCall->distrito }}</li>
         <li>Dirección : {{ $distressCall->direccion_cliente }}</li>
-
-
-
+        <li>Apoderado : {{ $distressCall->apoderado }}</li>
     </ul>
 
 

@@ -150,6 +150,12 @@ a.disabled-link {
     animation: spin 2s linear infinite;
 }
 
+
+.form-check-input:checked {
+    background-color:  var(--color-primary-oscuro);
+     border-color:  var(--color-primary-oscuro);
+}
+
     </style>
 
 
@@ -371,6 +377,25 @@ a.disabled-link {
                        <label class="control-label">Dirección<span class="text-danger">(*)</span>:</label>
                         <input maxlength="100" type="text"  class="form-control mt-3" value="" id="direccion_cliente" name="direccion_cliente"/>
                         <span class="text-danger" id="error-direccion"></span>
+                    </div>
+
+
+                    <div class="col-lg-12 mt-3">
+                        
+
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="checkapoderado" name="checkapoderado">
+                            <label class="form-check-label" for="checkapoderado">Soy menor de edad</label>
+                        </div>
+
+                    </div>
+
+
+                     <div class="col-lg-12 mt-3 d-none show-apoderado">
+
+                       <label class="control-label">Nombre del apoderado <span class="text-danger">(*)</span>:</label>
+                        <input maxlength="100" type="text"  class="form-control mt-3" value="" id="apoderado" name="apoderado"/>
+                        <span class="text-danger" id="error-apoderado"></span>
                     </div>
 
 
@@ -666,7 +691,9 @@ a.disabled-link {
                  let provincia =   $("#provincia").val().trim();
                  let distrito =   $("#distrito").val().trim();
                  let direccion =   $("#direccion_cliente").val().trim();
-               
+                
+                 let apoderado = $("#apoderado").val().trim();
+                
                 
                 if( tipo_documento == ""){
                    
@@ -836,6 +863,26 @@ a.disabled-link {
                      $("#error-direccion").text('');
 
                 }
+
+
+                let menor_de_edad = $("#checkapoderado").prop('checked');
+
+                if(menor_de_edad){
+
+                    if( apoderado == ""){
+                   
+
+                        $("#error-apoderado").text('ingrese nombre de apoderado');
+
+                        isValid = false;
+
+                    }else{
+                     
+                        $("#error-apoderado").text('');
+
+                    }
+                }
+                
 
              }
 
@@ -1022,6 +1069,28 @@ function guardar_datos_formulario(){
 <script>
 
 
+    
+
+    $("#checkapoderado").on('change',function(){
+
+        let isChecked = $(this).prop('checked');
+
+        if (isChecked) {
+            
+            $('.show-apoderado').removeClass('d-none');
+            $('.show-apoderado').addClass('d-block');
+
+        } else {
+            
+            $('.show-apoderado').removeClass('d-block');
+            $('.show-apoderado').addClass('d-none');
+            $("#apoderado").val('');
+        }
+
+
+    });
+
+
 
     $("#proyecto").on('change',function(){
 
@@ -1034,6 +1103,16 @@ function guardar_datos_formulario(){
         $("#error-tipo-documento").text('');
 
     });
+
+
+    
+
+     $("#apoderado").on('input',function(){
+
+        $("#error-apoderado").text('');
+
+    });
+
 
      $("#numero_documento").on('input',function(){
 

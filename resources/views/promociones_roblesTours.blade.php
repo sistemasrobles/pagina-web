@@ -239,7 +239,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
           </div>
           <div class="col-12 col-lg-5  text-dark  p-4 "  style="background: white;">
             
-               <h3 class="family-700-one color-green-2 contacto-span" style="padding:0px 20px">Confirma tu participación a nuestro gran evento en Oxapampa este 27 y 28 de enero</h3> 
+               <h3 class="family-700-one color-green-2 contacto-span" style="padding:0px 20px">Confirma tu participación a nuestro gran evento en Oxapampa este 03 y 04 de Febrero</h3> 
                 <p style="padding:0px 20px" class="mt-2 "><small>Déjanos tus datos y un asesor se contactará contigo.</small></p>
 
 
@@ -423,7 +423,7 @@ y donde vivirás una experiencia inolvidable con nuestra familia Robles & Yasiko
     
      <div class="text-center  video-container">
                 
-                             <iframe loading="lazy" width="100%" height="500" src="https://www.youtube.com/embed/W76aUnZmi1Y?autoplay=1" frameborder="0" allowfullscreen></iframe> 
+                             <iframe loading="lazy" width="100%" height="500" src="https://www.youtube.com/embed/sRE8E7tvX1Q?autoplay=1" frameborder="0" allowfullscreen></iframe> 
                         </div>   
   </section> 
 
@@ -461,7 +461,7 @@ y donde vivirás una experiencia inolvidable con nuestra familia Robles & Yasiko
 
               
              <img src="{{asset('assets/img/icon-oxa5.svg')}}" height="150" width="150" class="rounded-circle bg bg-terce">
-           <p class="text-dark mt-3">El evento se realizará este 27 y 28 de enero.</p>
+           <p class="text-dark mt-3">El evento se realizará este 03 y 04 de Febrero.</p>
 
             </div>
 
