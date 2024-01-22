@@ -423,7 +423,7 @@ a.disabled-link {
                        <div class="col-lg-12 mt-3">
 
                        <label class="control-label">Monto Reclamado<span class="text-danger">(*)</span>:</label>
-                        <input maxlength="20" type="text"  class="form-control mt-3" value="" id="monto_reclamado" name="monto_reclamado"/>
+                        <input maxlength="10" type="text"  class="form-control mt-3" value="" id="monto_reclamado" name="monto_reclamado"/>
                         <span class="text-danger" id="error-monto"></span>
                     </div>
 
