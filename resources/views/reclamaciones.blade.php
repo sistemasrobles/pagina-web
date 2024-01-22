@@ -220,7 +220,7 @@ a.disabled-link {
 
                        <div class="col-lg-12 mt-3">
 
-                         <label class="control-label">DIRECCION:</label>
+                         <label class="control-label">DIRECCIÓN:</label>
                         <input maxlength="100" type="text" readonly class="form-control mt-3" value="Av. Circunvalación del Golf Los Incas #154" id="direccion" name="direccion"/>
 
                     </div>
