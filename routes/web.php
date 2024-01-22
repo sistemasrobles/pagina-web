@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Http;
 
 
 Route::get('/error','WebController@error');
@@ -87,16 +87,4 @@ Route::post('/reclamaciones/guardar','PromocionesController@guardarReclamaciones
 Route::get('/reclamaciones/success','PromocionesController@successReclamaciones');
 
 
-
-Route::get('/eme',function(){
-
-	$data=[
-
-		array('NUMERO_CONTRATO'=>'','FAMILIA'=>'')
-	];
-	$empresa_user='001';
-	$tipo='T';
-return view('reports.libro_reclamaciones',compact('data','tipo','empresa_user'));
-
-});
 

@@ -405,11 +405,19 @@ class PromocionesController extends Controller
     public function genera_pdf_reclamo($data,$codigo){
 
 
+        date_default_timezone_set('America/Lima');
+
+        $now = date("Y-m-d H:i:s");
 
         $pdf = \App::make('dompdf.wrapper');
         $pdf->setPaper('A4');
-        $pdf->loadView('reports.libro_reclamaciones', compact('empresa_user','list'));
-        return $pdf->stream();
+        $pdf->loadView('reports.libro_reclamaciones',compact('data','codigo','now'));
+
+
+        return $pdf->output();
+
+
+        
 
 
     }
@@ -517,14 +525,18 @@ class PromocionesController extends Controller
 
                         if($status == 1){
 
+                            $file_reclamo = $this->genera_pdf_reclamo($request,$codigo_generado);
+                            
 
-                             \Mail::to(['miguel.alfonzo@killyazu.com.pe'])->send(new EmailReclamaciones($request,$nameProyect->descripcion,$codigo_generado));
+                             \Mail::to(['miguel.alfonzo@killyazu.com.pe'])->send(new EmailReclamaciones($request,$nameProyect->descripcion,$codigo_generado,$file_reclamo));
 
 
-                             $file_reclamo = $this->genera_pdf_reclamo($request,$codigo_generado);
+                             
+
+                             
 
 
-                             \Mail::to([$request->email])->send(new ClienteReclamo($request,$nameProyect->descripcion,$codigo_generado));
+                             \Mail::to([$request->email])->send(new ClienteReclamo($request,$nameProyect->descripcion,$codigo_generado,$file_reclamo));
                              
 
 

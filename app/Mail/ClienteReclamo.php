@@ -18,14 +18,16 @@ class ClienteReclamo extends Mailable
     public $name;
     public $time;
     public $codigo;
+    public $pdfContent;
 
 
-
-    public function __construct($distressCall,$name,$codigo_generado)
+    public function __construct($distressCall,$name,$codigo_generado,$file_reclamo)
     {
          $this->distressCall = $distressCall;
          $this->name = $name;
          $this->codigo = $codigo_generado;
+         $this->pdfContent = $file_reclamo;
+           
 
            date_default_timezone_set('America/Lima');
 
@@ -39,7 +41,15 @@ class ClienteReclamo extends Mailable
      * @return $this
      */
     public function build()
-    {
-        return $this->view('mail.cliente_reclamo');
+    {   
+        $codigo = $this->codigo;
+        
+        return $this->view('mail.cliente_reclamo')
+                    ->attachData($this->pdfContent, 'libro_reclamaciones_'.$codigo.'.pdf', [
+                        'mime' => 'application/pdf',
+                    ]);
+
+
+        
     }
 }
