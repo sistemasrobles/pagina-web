@@ -88,3 +88,16 @@ Route::get('/reclamaciones/success','PromocionesController@successReclamaciones'
 
 
 
+
+
+
+
+
+
+ Route::group(['prefix' => 'sperant'], function () {
+
+        Route::get('listProyects', 'SperantController@listProyects');
+        Route::post('saveCliente', 'SperantController@saveCliente');
+            
+     
+    });
