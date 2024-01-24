@@ -252,7 +252,15 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                 </div>
                 <div class="columns large-5 medium-6 box3">
                     <form id="promocion-form" method="POST" action="">
-                        @csrf                        
+                        @csrf    
+
+
+                           <input type="hidden" name="formulario" id="formulario" value="landing-financiamiento">
+                          
+                           <input type="hidden" name="mensaje" id="mensaje" value="">
+
+
+
                         <h6 class="outfitextralight color4 text-center">Déjanos tus datos para que un asesor especializado se comunique contigo.</h6>
                         
                         <div class="columns large-6 nothing pl-5">
@@ -297,13 +305,23 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                                                                     </select>
                             </div>
                         </div>
-                        <div class="columns large-12 nothing display-flex pl-5">
-                            <input name="terminos" id="terminos" type="checkbox" checked="" value="1"><label for="terminos" class="color4 outfitlight">Acepto los <a class="color2-alfin outfitlight" href="https://gruporobles.com.pe/terminos" target="_blank"> Términos y Condiciones</a></label>
-                            
-                        </div>
-                        <div class="columns large-12 nothing display-flex pl-5">
-                            <input name="tratamiento" id="tratamiento" type="checkbox" value="1" checked=""><label for="tratamiento" class="color4 outfitlight">Autorizo el uso de mis datos para fines adicionales.</label>
-                        </div>
+
+
+                         <div class="input-data textarea">
+
+
+                                     <small class="text-center text-dark outfitlight">Al enviar este formulario estás aceptando nuestros <a target="_blank" href="{{url('/terminos')}}" class="color-green-2" style="text-decoration:underline;">términos y condiciones</a> </small>
+
+                                </div>
+
+
+                         <input class="" type="hidden" value="1" id="tratamiento" name="tratamiento" >
+                                <input class="" type="hidden" value="1" id="terminos" name="terminos" >
+                                <input class="" type="hidden" value="" id="horario" name="horario" >
+
+
+
+                     
                         <div class="columns large-12 nothing text-center rel" style="margin-top: 15px;">
                             <button  type="submit" id="btn-enviar-promo" class="btn-form outfitlight">¡Pide tu financiamiento!</button>
                             
@@ -441,7 +459,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             <div class="columns large-5 medium-10">
                 <h2 class="outfitsemibold color1-alfin">Preguntas frecuentes</h2>
                 <p class="outfitextralight color4">¿Tienes alguna otra pregunta? Escríbela aquí y te contestaremos en breve:</p>
-                <textarea class="outfitregular color4" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Deja tu mensaje aquí"></textarea>
+                <textarea class="outfitregular color4" name="mensaje_inp" id="mensaje_inp" cols="30" rows="10" placeholder="Deja tu mensaje aquí"></textarea>
                 <a class="btn-financiamiento outfitlight" id="enviar">Enviar pregunta <i class="fa-regular fa-paper-plane"></i></a>
             </div>
             <div class="columns large-7 medium-12">
@@ -638,21 +656,21 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 <script>
 
      var token_="{{ csrf_token() }}";
-    var assetUrl = "{{ url('zapier-salvar-financiamiento') }}";
+    var assetUrl = "{{ url('promociones/registrar') }}";
 </script>
   <script src="{{asset('assets/js/financiamiento.js')}}"></script>
 
     <script>
         $("#enviar").on("click",function(event){
         event.preventDefault()
-        var mensaje = $("#mensaje").val()
+        var mensaje_inp = $("#mensaje_inp").val()
 
-        if (mensaje == '') {
-            $("#mensaje").required = true
-            $("#mensaje").focus()
+        if (mensaje_inp == '') {
+            $("#mensaje_inp").required = true
+            $("#mensaje_inp").focus()
         }
         else {
-            window.location="https://wa.me/51955162610?text="+mensaje
+            window.location="https://wa.me/51955162610?text="+mensaje_inp
         }
         })
     </script>

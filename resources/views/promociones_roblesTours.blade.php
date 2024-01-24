@@ -252,10 +252,11 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                               
 
 
-                              <input type="hidden" name="mensaje" id="mensaje" value="robles-tour">
+                              <input type="hidden" name="mensaje" id="mensaje" value="">
                         
-
-
+                               <input type="hidden" name="formulario" id="formulario" value="robles-tour">
+                               
+                                <input type="hidden" name="horario" id="horario" value="">
 
                              <div class="row " >
 
@@ -305,12 +306,15 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
                                   <select class="form-control  js-example-basic-single" id="proyecto" name="proyecto">
 
-                                      <option >Elige tu región</option>
+                                      <option value="">Elige proyecto</option>
 
-                                        @foreach($ciudades as $list)
-                                            <option value="{{$list['id']}}">{{$list['text']}}</option>
+                                        @foreach($projects as $list)
 
-                                            @endforeach 
+                                        <option value="{{$list->idproyecto}}">
+                                         Lotes en {{$list->region}} - {{$list->descripcion}}
+                                        </option>
+
+                                      @endforeach
                                       
                                   </select>
 

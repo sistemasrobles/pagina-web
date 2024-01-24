@@ -214,8 +214,11 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
          @csrf
 
-           <input type="hidden" name="mensaje" id="mensaje" value="landing-{{$proyetoactual->rewrite}}">
-
+           <input type="hidden" name="mensaje" id="mensaje" value="">
+            <input type="hidden" name="formulario" id="formulario" value="landing-{{$proyetoactual->rewrite}}">
+            <input type="hidden" name="horario" id="horario" value="">
+            <input type="hidden" name="prospecting" id="prospecting" value="1">
+            
           <!-- flex nombre y apellido -->
           <span class="d-flex gap-2 flex-column">
             <label class="" style="color :#005c53"><strong>Nombres</strong>(*)</label>
@@ -257,7 +260,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
            
             
             
-             <input type="hidden" name="horario" id="horario" value="">
+             
              
              
            
@@ -355,7 +358,7 @@ window.intlTelInput(input, {
     <script src="{{ asset('sweetalert2/sweetalert2.all.min.js') }}"></script>
     
     <script>
-    var assetUrl = "{{ url('promociones/formulario') }}";
+    var assetUrl = "{{ url('promociones/registrar') }}";
     var token_="{{ csrf_token() }}";
 
      var slug="{{ $proyetoactual->rewrite }}";

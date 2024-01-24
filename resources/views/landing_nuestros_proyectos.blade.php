@@ -237,8 +237,8 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                            <div class="form-row">
                               
 
-
-                              <input type="hidden" name="mensaje" id="mensaje" value="nuestros-proyectos">
+                            <input type="hidden" name="formulario" id="formulario" value="landing-nuestros-proyectos">
+                              <input type="hidden" name="mensaje" id="mensaje" value="">
                         
 
 
@@ -551,7 +551,7 @@ dataProyect.forEach((card) => {
  <script>
 
      var token_="{{ csrf_token() }}";
-    var assetUrl = "{{ url('zapier-salvar-nosotros') }}";
+    var assetUrl = "{{ url('promociones/registrar') }}";
 </script>
 
 <script type="text/javascript">

@@ -250,9 +250,10 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
                               
 
 
-                              <input type="hidden" name="mensaje" id="mensaje" value="lotes-en-oxapampa">
                         
-
+                        
+                                <input type="hidden" name="mensaje" id="mensaje" value="">
+                              <input type="hidden" name="formulario" id="formulario" value="lotes-en-oxapampa">
 
 
                              <div class="row " >

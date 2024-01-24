@@ -198,7 +198,15 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
          @csrf
 
-           <input type="hidden" name="mensaje" id="mensaje" value="landing-lotes-en-oxapampa">
+       
+
+
+
+            <input type="hidden" name="mensaje" id="mensaje" value="">
+           <input type="hidden" name="formulario" id="formulario" value="landing-terrenos-en-oxapampa">
+
+            <input type="hidden" name="horario" id="horario" value="">
+            <input type="hidden" name="prospecting" id="prospecting" value="1">
 
           <!-- flex nombre y apellido -->
           <span class="d-flex gap-2 flex-column">
@@ -246,7 +254,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
         </span>
             
             
-             <input type="hidden" name="horario" id="horario" value="">
+            
              
              
            
@@ -298,7 +306,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
     <script src="{{ asset('sweetalert2/sweetalert2.all.min.js') }}"></script>
     
     <script>
-    var assetUrl = "{{ url('promociones/formulario') }}";
+    var assetUrl = "{{ url('promociones/registrar') }}";
     var token_="{{ csrf_token() }}";
 </script>
 

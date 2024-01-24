@@ -11,7 +11,7 @@
                             @csrf
                            <input type="hidden" name="formulario" id="formulario" value="formulario-detalle">
                           
-                           <input type="hidden" name="mensaje" id="mensaje" value="formulario-detalle">
+                           <input type="hidden" name="mensaje" id="mensaje" value="">
                            <input type="hidden" name="proyecto" id="proyecto" value="{{$proyetoactual->idproyecto}}">
                            
                            <div class="form-row">

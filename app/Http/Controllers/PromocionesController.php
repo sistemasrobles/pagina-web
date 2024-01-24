@@ -103,22 +103,10 @@ class PromocionesController extends Controller
 
      public function roblesTours(){
         
-       
+     
+        $projects = Proyectos::where('estado_proyecto','=',1)->get();
 
-        $ciudadesx = Ciudad::all();
-
-        $ciudades = array();
-
-
-        foreach($ciudadesx as $list){
-
-            $ciudades[] = array('id'=>$list->text,'text'=>$list->text);
-
-        }
-
-        
-
-        return view('promociones_roblesTours',compact('ciudades'));
+        return view('promociones_roblesTours',compact('projects'));
     }
 
 
@@ -150,7 +138,7 @@ class PromocionesController extends Controller
        
 
         
-         $data = $request->only('nombre','apellido','movil','email','proyecto','tratamiento','terminos','horario');
+         $data = $request->only('nombre','apellido','movil','email','proyecto','mensaje','horario','formulario');
 
 
 
@@ -162,9 +150,10 @@ class PromocionesController extends Controller
                         'movil' => 'required|string|min:9|max:20',
                         'email' => 'required|email',
                         'proyecto' => 'required',
-                        'tratamiento' => 'accepted',
-                        'terminos' => 'accepted',
-                        
+                       
+                        'mensaje' => 'nullable',
+                        'horario' => 'nullable',
+                        'formulario' => 'required',
                         
                         
                        
@@ -182,8 +171,7 @@ class PromocionesController extends Controller
                         'email.required' => 'El email es obligatorio.',
                         'email.email' => 'El email es inválido.',
                         'proyecto.required' => 'El proyecto es obligatorio.',
-                        'tratamiento.accepted' => 'Acepte el tratamiento de datos.',
-                        'terminos.accepted' => 'Acepte los términos y condiciones.',
+                       
                        
                         
                        
@@ -210,16 +198,9 @@ class PromocionesController extends Controller
 
                        
 
-                        if($request->mensaje!='robles-tour'){
+                        $nameProyect = Proyectos::where('idproyecto',$request->proyecto)->first();
 
-                            $nameProyect = Proyectos::where('idproyecto',$request->proyecto)->first();
 
-                            $nameProyect_lbl = $nameProyect->descripcion;
-                            
-                        }else{
-
-                            $nameProyect_lbl = $request->proyecto;
-                        }
 
                         $data = array(
 
@@ -227,11 +208,12 @@ class PromocionesController extends Controller
                             'surename'=> $request->apellido,
                             'email'=> $request->email,
                             'phone'=> $request->movil,
-                            'project'=>$nameProyect_lbl,
+                            'project'=>$nameProyect->descripcion,
                             'message'=> $request->mensaje,
                             'timecall'=> $request->horario,
-                            'form'=> 'formulario-landing',
-
+                            'form'=> $request->formulario,
+                            'slug'=>$nameProyect->rewrite,
+                            'prospecting'=>$request->prospecting
 
                         );
 
@@ -266,118 +248,6 @@ class PromocionesController extends Controller
 
     }
 
-
-
-     public function registrarLandingFormulario(Request $request){
-       
-
-        
-         $data = $request->only('nombre','apellido','movil','email','proyecto','tratamiento','terminos','horario');
-
-
-
-            $rules = [
-            
- 
-                        'nombre' => 'required',
-                        'apellido' => 'required',
-                        'movil' => 'required|string|min:9|max:20',
-                        'email' => 'required|email',
-                        'proyecto' => 'required',
-                        'tratamiento' => 'accepted',
-                        'terminos' => 'accepted',
-                        
-                        
-                        
-                       
-                     
-            
-                    ];
-
-                    $customMessages = [
-                       
-                        'nombre.required' => 'El nombre es obligatorio.',
-                        'apellido.required' => 'El apellido es obligatorio.',
-                        'movil.required' => 'El teléfono es obligatorio.',
-                        'movil.min' => 'El teléfono debe tener al menos 9 dígitos.',
-                        'movil.max' => 'El teléfono debe tener como maximo 20 dígitos.',
-                        'email.required' => 'El email es obligatorio.',
-                        'email.email' => 'El email es inválido.',
-                        'proyecto.required' => 'El proyecto es obligatorio.',
-                        'tratamiento.accepted' => 'Acepte el tratamiento de datos.',
-                        'terminos.accepted' => 'Acepte los términos y condiciones.',
-                       
-                        
-                       
-                    ];
-
-
-                    $validator = Validator::make($data,$rules,$customMessages);
-                    
-
-                    if ($validator->fails()) {
-
-
-                        $errors = $validator->messages()->all();
-
-                        $rpta = array('status'=>'error','description'=>'Completar los inputs solicitados','data'=>$errors);
-
-                        return response()->json($rpta);     
-                        
-                    }else{
-
-
-                        $zapier = new ZapierController;
-
-
-                        $nameProyect = Proyectos::where('idproyecto',$request->proyecto)->first();
-
-
-                        $data = array(
-
-                            'name'=> $request->nombre,
-                            'surename'=> $request->apellido,
-                            'email'=> $request->email,
-                            'phone'=> $request->movil,
-                            'project'=>$nameProyect->descripcion,
-                            'message'=> $request->mensaje,
-                            'timecall'=> $request->horario,
-                            'form'=> 'solo-formulario',
-                            'slug'=>$nameProyect->rewrite
-
-
-                        );
-
-
-
-                        $middleRpta = $zapier->registrarLandingFormulario($data);
-
-                        if($middleRpta == 200){
-
-
-                           
-
-
-                            $rpta = array('status'=>'ok','description'=>'Datos guardados satisfactoriamente','data'=>[]);
-                        
-                            return response()->json($rpta);
-
-
-
-                        }else{
-
-
-                             $rpta = array('status'=>'error','description'=>'No se pudo sincronizar via zapier','data'=>[]);
-                        
-                            return response()->json($rpta);
-
-                        }
-
-                       
-                            
-                    }
-
-    }
 
 
 

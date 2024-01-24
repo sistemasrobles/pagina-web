@@ -547,7 +547,7 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
  <script>
 
      var token_="{{ csrf_token() }}";
-     var assetUrl = "{{ url('atencion/registrar') }}";
+     var assetUrl = "{{ url('promociones/registrar') }}";
 </script>
 
 

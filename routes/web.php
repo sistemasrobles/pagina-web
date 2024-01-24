@@ -23,7 +23,7 @@ Route::get('/blog','BlogController@blog');
 Route::get('/detalle_blog/{slug}','BlogController@blogd');
 Route::get('/contactanos','WebController@contactanos');
 
-Route::post('/atencion/registrar','ClienteController@store')->name('/atencion/registrar');
+
 
 Route::get('/terminos','WebController@terminos');
 Route::get('/politicas','WebController@politicas');
@@ -37,7 +37,7 @@ Route::get('/download/{file}','WebController@download')->where('file', '.*');;
 
 Route::post('/promociones/registrar','PromocionesController@registrar')->name('/promociones/registrar');
 
-Route::post('/promociones/formulario','PromocionesController@registrarLandingFormulario')->name('/promociones/formulario');
+
 
 
 Route::get('/eventos/robles-tours','PromocionesController@roblesTours');
@@ -57,12 +57,6 @@ Route::get('/financiamiento','PromocionesController@financiamiento');
 Route::get('/financiamiento/gracias','PromocionesController@financiamiento');
 
 
-
-
-
-
-Route::post('/zapier-salvar-financiamiento','ZapierController@guardarFinancimiento');
-Route::post('/zapier-salvar-nosotros','ZapierController@guardarNosotros');
 
 
 

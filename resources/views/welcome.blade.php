@@ -536,7 +536,7 @@ background:  #FBFBFB;
   <script>
 
      var token_="{{ csrf_token() }}";
-     var assetUrl = "{{ url('atencion/registrar') }}";
+     var assetUrl = "{{ url('promociones/registrar') }}";
 </script>
 
 

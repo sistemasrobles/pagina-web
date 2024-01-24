@@ -678,7 +678,7 @@ let video_unico_proyecto = "{{ $proyetoactual->link_video }}";
      var slug ="{{$proyetoactual->rewrite}}";
 
      var token_="{{ csrf_token() }}";
-     var assetUrl = "{{ url('atencion/registrar') }}";
+     var assetUrl = "{{ url('promociones/registrar') }}";
 </script>
 
 
