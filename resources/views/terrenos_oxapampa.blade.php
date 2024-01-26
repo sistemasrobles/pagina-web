@@ -404,7 +404,7 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
                                        @foreach($projects as $list)
 
                                         <option value="{{$list->idproyecto}}">
-                                           Lotes en {{$list->region}} - {{$list->descripcion}}
+                                           Terrenos en {{$list->region}} - {{$list->descripcion}}
                                         </option>
 
                                       @endforeach
