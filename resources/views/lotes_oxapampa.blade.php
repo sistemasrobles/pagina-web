@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  <meta name="description" content="Lotes en Oxapampa de Robles & Yasikov. Regístrate y descubre las mejores ofertas y promociones en lotes y cabañas." />
+  <meta name="description" content="lotes en Oxapampa de Robles & Yasikov. Regístrate y descubre las mejores ofertas y promociones en lotes y cabañas." />
 
         <meta name="author" content="Robles & Yasikov" />
 
@@ -144,17 +144,55 @@ color:#fff;
               
             }
 
+
+            .box-form{
+
+                background: rgba(255, 255, 255, 0.93);
+            }
+
+
+            #btn-enviar-promo{
+
+               background: #005c53;
+               color:#fff;
+            }
+
+
 .contenedor-formulario{
     
     height: 100%;
     
 }
+.titulo-movil{
 
+    color:#fff; 
+}
+
+.subtitulo-movil{
+
+  color:#000; 
+}
 
  @media (max-width: 992px) {
             
-           
-            
+        
+        .subtitulo-movil{
+
+  color:#fff; 
+}
+
+
+           .box-form{
+
+                background: #005c53;
+            }
+
+                
+            #btn-enviar-promo{
+
+               background: #fff;
+               color : #005c53;
+            }
             
              .main {
         background: url("nuevaweb_assets/assets/img/grid-teal.png")
@@ -233,11 +271,11 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
   <div class="container-xl d-flex   justify-content-between align-items-center index-header ">
     <img src="{{url('assets/img/logo-color.svg')}}" alt="logo-robles">
-    <!-- btn hamburger -->
-    <span type="button" id="btn-hamburger" class="d-xxl-none d-xl-none d-md-none d-sm-flex gap-3">
+    
+     <span type="button" id="btn-hamburger" class="d-xxl-none d-xl-none d-md-none d-sm-flex gap-3">
       Menu <i class="fa-solid fa-bars fs-2"></i>
-    </span>
-    <!-- navegacion pc -->
+    </span> 
+   
     <nav class="d-xxl-flex d-xl-flex d-md-flex  d-none  justify-content-center align-items-center gap-5">
       <ul class="list-header  list-group list-group-horizontal-xl  list-group-horizontal-md list-group-horizontal-xxl ">
         <li><a  href="#" onclick="scrollToDiv(event,'miDiv1')" class="text-dark">Inicio</a></li>
@@ -253,7 +291,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
   </div> 
 
   <!-- mobil -->
-  <nav id="list-navegacion-header"  class="list-header-movil position-absolute no-view flex-column justify-content-center w-100 px-5 py-4   gap-4">
+   <nav id="list-navegacion-header"  class="list-header-movil position-absolute no-view flex-column justify-content-center w-100 px-5 py-4   gap-4">
       <ul class="list-header  gap-4 list-group list-group-horizontal-xl  list-group-horizontal-md list-group-horizontal-xxl ">
         <li><a class="text-dark fs-2" href="{{url('/lotes-en-oxapampa')}}">Inicio</a></li>
         <li><a class="text-dark fs-2"   href="{{url('/lotes-en-oxapampa')}}" >Proyectos </a></li>
@@ -261,7 +299,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
       </ul>
       
-    </nav>
+    </nav> 
   
 </header>
   
@@ -287,7 +325,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
   backdrop-filter: blur(2px);" class="text-white text-start py-2 px-4 rounded-3">
                     <p style="font-weight: 300;" class="mb-0">¡ Vive rodeado de la naturaleza !</p>
                     <h1 style="font-weight: 500;" class="family-700-one">Lotes en Oxapampa</h1>
-          </div>
+                </div>
                 
                 
               
@@ -327,14 +365,14 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
     
     
     
-          <div class="col-12 col-lg-5  text-dark  p-4 shadow"  style="background: rgba(255, 255, 255, 0.93);">
+          <div class="col-12 col-lg-5  text-dark  p-4 shadow box-form" >
             
                <h3 class="family-700-one color-green-2 contacto-span d-none d-lg-block" style="padding:0px 20px">¡Regístrate y recibe hasta el 40% de dscto. en nuestros lotes!</h3> 
                
-               <h4 class="family-700-one color-green-2 contacto-span d-block d-lg-none" style="padding:0px 20px">¡Recibe hasta el 40% de dscto.!</h4>
+               <h4 class="family-700-one titulo-movil contacto-span d-block d-lg-none" style="padding:0px 20px">¡Recibe hasta el 40% de dscto.!</h4>
                
                
-                <p style="padding:0px 20px" class="mt-2 "><small>Déjanos tus datos y un asesor se contactará contigo.</small></p>
+                <p style="padding:0px 20px" class="mt-2 subtitulo-movil"><small>Déjanos tus datos y un asesor se contactará contigo.</small></p>
 
 
                   <div class="container" >
@@ -453,7 +491,7 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
 
                            <div class="form-row">
 
-                            <small class="text-center">Al enviar este formulario estás aceptando nuestros <a target="_blank" href="{{url('/terminos')}}" class="color-green-2" style="text-decoration:underline;">términos y condiciones</a> y <a target="_blank"  href="{{url('/politicas')}}" class="color-green-2" style="text-decoration:underline;">las políticas de protección de datos.</a> </small>
+                            <small class="text-center subtitulo-movil">Al enviar este formulario estás aceptando nuestros <a target="_blank" href="{{url('/terminos')}}" class="subtitulo-movil" style="text-decoration:underline;">términos y condiciones</a> y <a target="_blank"  href="{{url('/politicas')}}" class="subtitulo-movil" style="text-decoration:underline;">las políticas de protección de datos.</a> </small>
 
                                 
 
@@ -476,7 +514,7 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
                                 <div class="input-data textarea">
 
 
-                                       <button  type="submit" id="btn-enviar-promo"  class="w-100 btn raleway-bold py-2 bg-terce text-white">Solicitar Información</button>
+                                       <button  type="submit" id="btn-enviar-promo"  class="w-100 btn raleway-bold py-2 ">Solicitar Información</button>
 
                                 </div>
 
@@ -729,6 +767,7 @@ Adquiere uno de nuestros lotes y disfruta de aire fresco, hermosas vistas desde 
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <h2 class="color-green-2 mt-3">Fundo Los Robles</h2>
           <p class="mt-3 text-center">
+              
               A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.Vive en un ambiente donde tú y la naturaleza serán uno.
           </p>
 
@@ -749,7 +788,7 @@ Adquiere uno de nuestros lotes y disfruta de aire fresco, hermosas vistas desde 
       
       <div class="col-12 col-lg-12 ">
          <h2 class="text-left  title-proyect family-700-one margin-0" >Nuestros Clientes</h2>
-         <p class="mt-3">¡ Estos son nuestros clientes que ya son parte de la familia de Robles & Yasikov. !</p>
+         <p class="mt-3">¡Haz de Oxapampa tu hogar y forma parte de nuestra familia Robles & Yasikov!"</p>
       </div>
 
    
@@ -794,7 +833,7 @@ Adquiere uno de nuestros lotes y disfruta de aire fresco, hermosas vistas desde 
   </section>
 
 
-  <footer class="container-fluid position-relative " >
+<footer class="container-fluid position-relative " >
   <div class="container-xl  text-white pb-4">
     <!-- grid footer -->
     <div class="row row-cols-xl-3 row-cols-lg-1 row-cols-md-1 g-5 justify-content-xl-between justify-content-lg-center ">
