@@ -272,9 +272,9 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
   <div class="container-xl d-flex   justify-content-between align-items-center index-header ">
     <img src="{{url('assets/img/logo-color.svg')}}" alt="logo-robles">
     
-    <!-- <span type="button" id="btn-hamburger" class="d-xxl-none d-xl-none d-md-none d-sm-flex gap-3">
+     <span type="button" id="btn-hamburger" class="d-xxl-none d-xl-none d-md-none d-sm-flex gap-3">
       Menu <i class="fa-solid fa-bars fs-2"></i>
-    </span> -->
+    </span> 
    
     <nav class="d-xxl-flex d-xl-flex d-md-flex  d-none  justify-content-center align-items-center gap-5">
       <ul class="list-header  list-group list-group-horizontal-xl  list-group-horizontal-md list-group-horizontal-xxl ">
@@ -291,7 +291,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
   </div> 
 
   <!-- mobil -->
-  <!-- <nav id="list-navegacion-header"  class="list-header-movil position-absolute no-view flex-column justify-content-center w-100 px-5 py-4   gap-4">
+   <nav id="list-navegacion-header"  class="list-header-movil position-absolute no-view flex-column justify-content-center w-100 px-5 py-4   gap-4">
       <ul class="list-header  gap-4 list-group list-group-horizontal-xl  list-group-horizontal-md list-group-horizontal-xxl ">
         <li><a class="text-dark fs-2" href="{{url('/terrenos-en-oxapampa')}}">Inicio</a></li>
         <li><a class="text-dark fs-2"   href="{{url('/terrenos-en-oxapampa')}}" >Proyectos </a></li>
@@ -299,7 +299,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
       </ul>
       
-    </nav> -->
+    </nav> 
   
 </header>
   
@@ -324,7 +324,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
          <div style="width: max-content;background: #005c5366;
   backdrop-filter: blur(2px);" class="text-white text-start py-2 px-4 rounded-3">
                     <p style="font-weight: 300;" class="mb-0">¡ Vive rodeado de la naturaleza !</p>
-                    <h1 style="font-weight: 500;" class="family-700-one">vive en Oxapampa</h1>
+                    <h1 style="font-weight: 500;" class="family-700-one">Terrenos en Oxapampa</h1>
                 </div>
                 
                 
