@@ -729,7 +729,8 @@ Adquiere uno de nuestros lotes y disfruta de aire fresco, hermosas vistas desde 
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <h2 class="color-green-2 mt-3">Fundo Los Robles</h2>
           <p class="mt-3 text-center">
-              Vive a solo 10 minutos de la plaza de armas de Oxapampa .<br> sumérgete en un ambiente donde tú y la naturaleza seran uno.
+              A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.<br>
+Vive en un ambiente donde tú y la naturaleza serán uno.
           </p>
 
           <a  href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
