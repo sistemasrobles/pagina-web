@@ -321,11 +321,11 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
          
         
          
-       <!--   <div style="width: max-content;background: #005c5366;
+         <div style="width: max-content;background: #005c5366;
   backdrop-filter: blur(2px);" class="text-white text-start py-2 px-4 rounded-3">
                     <p style="font-weight: 300;" class="mb-0">¡ Vive rodeado de la naturaleza !</p>
                     <h1 style="font-weight: 500;" class="family-700-one">Terrenos en Oxapampa</h1>
-                </div> -->
+                </div>
                 
                 
               
@@ -833,7 +833,7 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
   </section>
 
 
-  <footer class="container-fluid position-relative " >
+  <!-- <footer class="container-fluid position-relative " >
   <div class="container-xl  text-white pb-4">
     <!-- grid footer -->
     <div class="row row-cols-xl-3 row-cols-lg-1 row-cols-md-1 g-5 justify-content-xl-between justify-content-lg-center ">
@@ -886,7 +886,7 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
      <small>Copyright© 2023 - Robles & Yasikov. Todos los derechos reservados.</small>
      
      </div>
-    </section>
+    </section> -->
 
 
   <!-- Libs JS -->
