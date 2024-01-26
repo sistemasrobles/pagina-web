@@ -278,7 +278,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
           background: rgba(0,0,0,0);
           z-index:1;"></div>
      
-     <div style="position:absolute;top:50%;left:50%;z-index:2; transform: translate(-50%, -50%);">
+     <div style="position:absolute;top:60%;left:50%;z-index:2; transform: translate(-50%, -10%);">
          
          
         
