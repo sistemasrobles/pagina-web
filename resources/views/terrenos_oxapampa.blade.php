@@ -41,14 +41,13 @@
   <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
 
   <style type="text/css">
-
-      main {
+       main {
             position: relative;
-
-            min-height: auto;
+               
+            max-height: 100%;
 
         }
-    video {
+    #mi-video {
             position: absolute;
             top: 0;
             left: 0;
@@ -90,7 +89,7 @@ color:#fff;
 
 .form-control {
     border: none !important;
-    padding: 5px 10px;
+    padding: 10px 10px;
    
     margin:10px 0px;
 }
@@ -111,8 +110,57 @@ color:#fff;
              color :var(--color-primary-oscuro) !important;
         }
 
+#tetis-sw .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#tetis-sw .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+#tetis-sw .swiper-slide img {
+    display: block;
+    width: 100%;
+}
 
 
+.video-container {
+              position: relative;
+              padding-bottom: 56.25%; 
+              height: 0;
+            }
+
+            .video-container iframe {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              
+            }
+
+.contenedor-formulario{
+    
+    height: 100%;
+    
+}
+
+
+ @media (max-width: 992px) {
+            
+           
+            
+            
+             .main {
+        background: url("nuevaweb_assets/assets/img/grid-teal.png")
+    center center/auto repeat;
+    }
+        }
       </style>
 
 
@@ -192,13 +240,13 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
     <!-- navegacion pc -->
     <nav class="d-xxl-flex d-xl-flex d-md-flex  d-none  justify-content-center align-items-center gap-5">
       <ul class="list-header  list-group list-group-horizontal-xl  list-group-horizontal-md list-group-horizontal-xxl ">
-        <li><a  href="{{url('/terrenos-en-oxapampa')}}" class="text-dark">Inicio</a></li>
-        <li id="view-propiedades" class="view-propiedades"><a  href="{{url('/proyectos')}}" class="text-dark">Proyectos</a></li>
+        <li><a  href="#" onclick="scrollToDiv(event,'miDiv1')" class="text-dark">Inicio</a></li>
+        <li id="view-propiedades" class="view-propiedades"><a  href="#" onclick="scrollToDiv(event,'miDiv2')" class="text-dark">Proyectos</a></li>
        
 
 
       </ul>
-      <a href="#" style="text-decoration: none;color:black;" 
+      <a href="#" onclick="scrollToDiv(event,'miDiv1')" style="text-decoration: none;color:black;" 
       type="button" class="btn raleway-bold py-2 btn-link 
       border border-1 border-dark bg-white ">Contáctanos</a>
     </nav>   
@@ -208,23 +256,61 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
   <nav id="list-navegacion-header"  class="list-header-movil position-absolute no-view flex-column justify-content-center w-100 px-5 py-4   gap-4">
       <ul class="list-header  gap-4 list-group list-group-horizontal-xl  list-group-horizontal-md list-group-horizontal-xxl ">
         <li><a class="text-dark fs-2" href="{{url('/terrenos-en-oxapampa')}}">Inicio</a></li>
-        <li><a class="text-dark fs-2"  href="{{url('/proyectos')}}">Proyectos </a></li>
-         <li><a class="text-dark fs-2"  href="#">Contáctanos </a></li>
+        <li><a class="text-dark fs-2"   href="{{url('/terrenos-en-oxapampa')}}" >Proyectos </a></li>
+         <li><a class="text-dark fs-2"  href="{{url('/terrenos-en-oxapampa')}}">Contáctanos </a></li>
 
       </ul>
       
     </nav>
   
 </header>
+  
+  
+    <div class="d-block d-lg-none" style="position:relative">
+        
+        
 
-  <!-- Main -->
-  <main class="main "  >
    
+     <div style="width: 100%;
+            height: 99%;
+          position: absolute;
+          top: 0;
+          background: rgba(0,0,0,0);
+          z-index:1;"></div>
+     
+     <div style="position:absolute;top:50%;left:50%;z-index:2; transform: translate(-50%, -50%);">
+         
+         
+        
+         
+         <div style="width: max-content;background: #005c5366;
+  backdrop-filter: blur(2px);" class="text-white text-start py-2 px-4 rounded-3">
+                    <p style="font-weight: 300;" class="mb-0">¡ Vive rodeado de la naturaleza !</p>
+                    <h1 style="font-weight: 500;" class="raleway-medium">Vive en Oxapampa</h1>
+                </div>
+                
+                
+              
+         
+         </div>
+        <video autoplay muted loop  style="
+          
+            width: 100%;
+            height: 100%;
+            ">
+        <source src="{{asset('nuevaweb_assets/assets/img/9mbz.mp4')}}" type="video/mp4">
+    </div>
+    
+    
+  <!-- Main -->
+  <main class="main"  id="miDiv1">
+   
+   
+    
+    <div class=" contenedor-formulario container-fluid  d-flex align-items-center justify-content-center "  style="z-index:3;position: absolute;top:0;left: 0;">
 
-    <div class="container-fluid  d-flex align-items-center justify-content-center "  style="z-index:3;position: absolute;top:0;left: 0;height: 100%;;">
 
-
-      <div class="container  d-flex align-items-center justify-content-end "  >
+      <div class="container  d-flex align-items-center justify-content-end  "  >
           
           <div class="col-12 col-lg-7  p-5 d-none d-lg-block ">
             
@@ -235,9 +321,19 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la finalidad que consigas esa casa de campo que tanto anhelas.</p> 
 
           </div>
-          <div class="col-12 col-lg-5  text-dark  p-4 "  style="background: rgba(255, 255, 255, 0.93);">
+          
+          
+         
+    
+    
+    
+          <div class="col-12 col-lg-5  text-dark  p-4 shadow"  style="background: rgba(255, 255, 255, 0.93);">
             
-               <h3 class="family-700-one color-green-2 contacto-span" style="padding:0px 20px">¡Regístrate y recibe hasta el 40% de dscto. en nuestros terrenos!</h3> 
+               <h3 class="family-700-one color-green-2 contacto-span d-none d-lg-block" style="padding:0px 20px">¡Regístrate y recibe hasta el 40% de dscto. en nuestros terrenos!</h3> 
+               
+               <h4 class="family-700-one color-green-2 contacto-span d-block d-lg-none" style="padding:0px 20px">¡Recibe hasta el 40% de dscto.!</h4>
+               
+               
                 <p style="padding:0px 20px" class="mt-2 "><small>Déjanos tus datos y un asesor se contactará contigo.</small></p>
 
 
@@ -257,13 +353,13 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
 
                              <div class="row " >
 
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
 
                                   <input type="text" class=" form-control" id="nombre" name="nombre" placeholder="*Nombres" >
                                   
                                 </div>
 
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
 
                                    <input type="text" class=" form-control" id="apellido" name="apellido" placeholder="*Apellidos">
                                   
@@ -278,14 +374,14 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
 
                              <div class="row " >
 
-                                <div class="col">
+                                <div class="col-12 col-lg-6">
 
                                   <input type="text" class="form-control" id="email" name="email" placeholder="*Correo">
                                 
 
                                 </div>
 
-                                <div class="col">
+                                <div class="col-12 col-lg-6">
 
                                   <input type="text" class="form-control" name="movil" id="movil"  placeholder="*Celular">
                                   
@@ -401,11 +497,11 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
     </div>
 
      
-     <div class="overlay-video"></div> 
+     <div class="overlay-video d-none d-lg-block"></div> 
 
    
 
-      <video autoplay muted loop>
+      <video autoplay muted loop class="d-none d-lg-block" id="mi-video">
         <source src="{{asset('nuevaweb_assets/assets/img/9mbz.mp4')}}" type="video/mp4">
        
     </video> 
@@ -417,23 +513,30 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
   <section class="container-fluid ">
     
 
-    <div class="col-12 col-lg-12  pt-3 pb-2 d-block d-lg-none " style="border-bottom: 1px dotted var(--color-primary-oscuro);">
+    <div class="col-12 col-lg-12  pt-2 pb-2 d-block d-lg-none " >
             
           
-           <h1 class="family-700-one color-green-2 " >Terrenos en Oxapampa</h1> 
+           <h1 class="family-700-one color-green-2 d-none" >Terrenos en Oxapampa</h1> 
 
-            <p style="font-size: 20px;" class="">En Robles & Yasikov, contamos con terrenos disponibles en la maravillosa ciudad de Oxapampa.
-Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la finalidad que consigas esa casa de campo que tanto anhelas.</p> 
+            <p style="font-size: 20px;" class="mt-1">En Robles & Yasikov, contamos con terrenos disponibles en la maravillosa ciudad de Oxapampa.<br>
+Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la finalidad que consigas esa casa de campo que tanto anhelas.</p> 
 
           </div>
 
   </section>
 
+<section class="container d-block d-lg-none my-3">
+    
+     <div class="text-center  video-container">
+                
+                             <iframe loading="lazy" width="100%" height="500" src="https://www.youtube.com/embed/24bDL2XNhEU?autoplay=1" frameborder="0" allowfullscreen></iframe> 
+                        </div>   
+  </section> 
 
   <!-- Nuestros proyectos -->
 
  
-  <section class="container-xl py-2 py-lg-5 ">
+  <section class="container-xl py-2 py-lg-5 " id="miDiv2">
 
     
     <div class="row  d-flex justify-content-center align-items-center py-3  ">
@@ -452,7 +555,7 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
          
 
     <!-- Slider main container -->
-    <div class="swiper swiperProyectos h-100 w-100 d-flex justify-content-center align-items-center">
+    <div class="swiper swiperProyectos h-100 w-100 d-flex justify-content-center align-items-center" >
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper pb-5 " id="swiper-padre">
         <!-- Slides -->
@@ -467,7 +570,7 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
 
 
 
-  <section class="container p-5 shadow variados">
+  <section class="container p-5 shadow variados"  >
 
     <div class="row ">
         
@@ -495,7 +598,7 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
 Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas desde nuestra colina y tranquilidad sin igual.
           </p>
 
-          <a href="https://gruporobles.com.pe/proyectos/lotes/el-bosque-del-rey?utm_source=landingpage&utm_medium=cpc&utm_campaign=terrenos-en-oxapampa" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
+          <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
         </div>
     </div>
     
@@ -529,7 +632,7 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
             ¡Nuevo condominio en Oxapampa! <br>Crea recuerdos inolvidables en familia junto a la bellaza natural que Oxapampa tiene para ofrecerte.
           </p>
 
-          <a href="https://gruporobles.com.pe/proyectos/lotes/bella-primavera?utm_source=landingpage&utm_medium=cpc&utm_campaign=terrenos-en-oxapampa" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
+          <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
         </div>
     </div>
     
@@ -562,7 +665,7 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
               A solo 35 minutos de la plaza de Armas de Oxapampa, encontrarás terrenos de 300m2 y 500m2 con las mejores vistas panorámicas de la naturaleza.
           </p>
 
-          <a href="https://gruporobles.com.pe/proyectos/lotes/el-arco-dorado?utm_source=landingpage&utm_medium=cpc&utm_campaign=terrenos-en-oxapampa" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
+          <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
         </div>
     </div>
     
@@ -595,24 +698,111 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
               ¡Vive frente a nuestra laguna en Oxapampa! <br>¡Reserva ahora tu lote en Oxapampa y vive una experiencia única!
           </p>
 
-          <a href="https://gruporobles.com.pe/proyectos/lotes/fundo-valentina?utm_source=landingpage&utm_medium=cpc&utm_campaign=terrenos-en-oxapampa" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
+          <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
         </div>
     </div>
     
   </section>
 
 
- 
+ <section class="container p-5 shadow mb-5">
 
-  <footer class="cotainer-fluid position-relative " >
-  <div class="container-xl  text-white mb-5">
+    <div class="row ">
+        
+        <div class="col-lg-6">
+          
+          <div class=" swiper mySwiperBanner ">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_4.webp" alt="" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_5.webp" alt="" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_1.webp" alt="" class="img-fluid"></div>
+               
+               
+               
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="color-green-2 mt-3">Fundo Los Robles</h2>
+          <p class="mt-3 text-center">
+              Vive a solo 10 minutos de la plaza de armas de Oxapampa .<br> sumérgete en un ambiente donde tú y la naturaleza seran uno.
+          </p>
+
+          <a  href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
+        </div>
+    </div>
+    
+  </section>
+  
+  
+  
+  
+   <section class="container mb-5 mt-4">
+    
+
+
+    <div class="row  d-flex justify-content-center align-items-center py-3  ">
+      
+      <div class="col-12 col-lg-12 ">
+         <h2 class="text-left  title-proyect family-700-one margin-0" >Nuestros Clientes</h2>
+         <p class="mt-3">¡ Estos son nuestros clientes que ya son parte de la familia de Robles & Yasikov. !</p>
+      </div>
+
+   
+    </div>
+
+
+
+
+     <div class="swiper mySwiperText" id="tetis-sw">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="{{asset('assets/img/BELLA-1.webp')}}"  loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img src="{{asset('assets/img/BELLA-2.webp')}}"  loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+       <img src="{{asset('assets/img/BELLA-3.webp')}}"  loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img src="{{asset('assets/img/BELLA-4.webp')}}"  loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img src="{{asset('assets/img/BELLA-5.webp')}}"  loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img src="{{asset('assets/img/BELLA-6.webp')}}"  loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img src="{{asset('assets/img/FUNDO-1.webp')}}"  loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img src="{{asset('assets/img/FUNDO-2.webp')}}"  loading="lazy" />
+      </div>
+      <div class="swiper-slide">
+        <img src="{{asset('assets/img/FUNDO-3.webp')}}"  loading="lazy" />
+      </div>
+    </div>
+    <br>
+    <div class="swiper-pagination "></div>
+  </div>
+  </section>
+
+
+  <footer class="container-fluid position-relative " >
+  <div class="container-xl  text-white pb-4">
     <!-- grid footer -->
     <div class="row row-cols-xl-3 row-cols-lg-1 row-cols-md-1 g-5 justify-content-xl-between justify-content-lg-center ">
       <!-- contactanos -->
       <div style="width: max-content;"  class="container-contact px-5">
         <h4 class="mb-4">Contáctanos</h4>
         <div class="d-flex gap-4 flex-column">
-          <span class="d-flex gap-2  align-items-center"><i class="fa-solid fa-phone"></i> +51 955 162 610</span>
+          <span class="d-flex gap-2  align-items-center"><i class="fa-solid fa-phone"></i> (+51) 955 162 610</span>
           <span class="d-flex gap-2 align-items-center"><i class="fa-regular fa-envelope"></i>ventas@gruporobles.com.pe</span>
         </div>
       </div>
@@ -621,16 +811,16 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
         <h4>Descubre más</h4>
         <div class="d-flex gap-3">
           <ul class="d-flex flex-column gap-2">
-            <li class="py-1"><a href="{{url('/terrenos-en-oxapampa')}}">Inicio</a></li>
+            <li class="py-1"><a href="{{url('/')}}">Inicio</a></li>
             <li class="py-1"><a href="{{url('/nosotros')}}"> Quienes Somos</a></li>
-            
+            <li class="py-1"><a href="{{url('/contactanos')}}">Contacto</a></li>
             <li class="py-1"><a href="{{url('/politicas')}}">Politica y privacidad</a></li>
           </ul>
           <ul class="d-flex flex-column gap-2 ">
             <li class="py-1"><a href="{{url('/proyectos')}}"> Proyectos</a></li>
-           
+            <li class="py-1"><a href="{{url('/blog')}}"> Blog</a></li>
             <li class="py-1"><a href="{{url('/terminos')}}">Terminos y condiciones</a></li>
-            <li class="py-1"><a href="#">Libro de reclamaciones</a></li>
+            <li class="py-1"><a href="{{url('/reclamaciones')}}">Libro de reclamaciones</a></li>
           </ul>
 
 
@@ -642,7 +832,7 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
         <div class="d-flex gap-4 flex-wrap">
         <a href="https://www.facebook.com/RoblesYasikov" target="_blank"><span><i class="fa-brands fa-facebook-f"></i></span></a>
         <a href="https://www.youtube.com/@roblesyyasikov" target="_blank"><span><i class="fa-brands fa-youtube"></i></span></a>
-        <a href="https://www.instagram.com/roblesyyasikov/?utm_source=P%C3%A1gina%20web&utm_medium=P%C3%A1gina%20web&utm_campaign=P%C3%A1gina%20web" target="_blank"><span><i class="fa-brands fa-instagram"></i></span></a>
+        <a href="https://www.instagram.com/roblesyyasikov/" target="_blank"><span><i class="fa-brands fa-instagram"></i></span></a>
         <a href="https://www.linkedin.com/company/grupo-robles-y-yasikov/" target="_blank"><span><i class="fa-brands fa-linkedin-in"></i></span></a>
         <a href="https://www.tiktok.com/@roblesyyasikov" target="_blank"><span><i class="fa-brands fa-tiktok"></i></span></a>
         </div>
@@ -650,20 +840,21 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
     </div>
 
   </div>
-  <section class="copyright text-white py-4 ">
-     <div class="container-xl d-flex justify-content-center">
-     <span>Copyright© 2023 - Robles & Yasikov. Todos los derechos reservados.</span>
+ 
+</footer>
+ <section class=" copyright text-white py-4   w-100 " style="">
+     <div class="container-fluid d-flex justify-content-center text-center">
+     <small>Copyright© 2023 - Robles & Yasikov. Todos los derechos reservados.</small>
      
      </div>
     </section>
-</footer>
 
 
   <!-- Libs JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 
-  <script type="module" src="{{asset('nuevaweb_assets/js/main2.js?v=1')}}"></script>
+  <script type="module" src="{{asset('nuevaweb_assets/js/main2.js?v=1424')}}"></script>
     <script src="{{asset('nuevaweb_assets/js/hamburger.js')}}"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script type="module">
@@ -800,6 +991,36 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
 
 
 </script>
+
+<script>
+    function scrollToDiv(event, divId) {
+        event.preventDefault();
+        var offset = $('#' + divId).offset().top;
+        $('html, body').animate({ scrollTop: offset }, 100);
+    }
+</script>
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiperText", {
+      effect: "coverflow",
+       loop: true,
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
 </body>
 
 </html>

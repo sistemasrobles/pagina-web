@@ -187,7 +187,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             alt=""
         /></span>
         <p class="w-50 text-center">
-         Cotiza hoy y llevate <br> <span style="font-size:1.7rem;color:#FFF000;font-weight: 700;">¡40% de dscto. en tu lote!</span>
+         Cotiza hoy y llevate <br> <span style="font-size:1.7rem;color:#FFF000;font-weight: 700;">¡30% de dscto. en tu lote!</span>
         </p>
         <!-- formularios  -->
         <form

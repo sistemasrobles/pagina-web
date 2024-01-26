@@ -202,7 +202,13 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             alt=""
         /></span>
         <p class="w-50 text-center">
-         <span style="color:#fff">Cotiza hoy y llevate</span> <br> <span style="font-size:1.7rem;color:#FFF000;font-weight: 700;">¡40% de dscto. en tu lote!</span>
+         <span style="color:#fff">Cotiza hoy y llevate</span> <br> <span style="font-size:1.7rem;color:#FFF000;font-weight: 700;">¡
+         @if($proyetoactual->rewrite == 'la-retama')
+    {{ 10 . '%' }}
+@else
+    {{ 30  . '%'}}
+@endif de dscto. en tu lote!</span>
+         
         </p>
         <!-- formularios  -->
         <form
