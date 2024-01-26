@@ -144,17 +144,55 @@ color:#fff;
               
             }
 
+
+            .box-form{
+
+                background: rgba(255, 255, 255, 0.93);
+            }
+
+
+            #btn-enviar-promo{
+
+               background: #005c53;
+               color:#fff;
+            }
+
+
 .contenedor-formulario{
     
     height: 100%;
     
 }
+.titulo-movil{
 
+    color:#fff; 
+}
+
+.subtitulo-movil{
+
+  color:#000; 
+}
 
  @media (max-width: 992px) {
             
-           
-            
+        
+        .subtitulo-movil{
+
+  color:#fff; 
+}
+
+
+           .box-form{
+
+                background: #005c53;
+            }
+
+                
+            #btn-enviar-promo{
+
+               background: #fff;
+               color : #005c53;
+            }
             
              .main {
         background: url("nuevaweb_assets/assets/img/grid-teal.png")
@@ -327,14 +365,14 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
     
     
     
-          <div class="col-12 col-lg-5  text-dark  p-4 shadow"  style="background: rgba(255, 255, 255, 0.93);">
+          <div class="col-12 col-lg-5  text-dark  p-4 shadow box-form" >
             
                <h3 class="family-700-one color-green-2 contacto-span d-none d-lg-block" style="padding:0px 20px">¡Regístrate y recibe hasta el 40% de dscto. en nuestros terrenos!</h3> 
                
-               <h4 class="family-700-one color-green-2 contacto-span d-block d-lg-none" style="padding:0px 20px">¡Recibe hasta el 40% de dscto.!</h4>
+               <h4 class="family-700-one titulo-movil contacto-span d-block d-lg-none" style="padding:0px 20px">¡Recibe hasta el 40% de dscto.!</h4>
                
                
-                <p style="padding:0px 20px" class="mt-2 "><small>Déjanos tus datos y un asesor se contactará contigo.</small></p>
+                <p style="padding:0px 20px" class="mt-2 subtitulo-movil"><small>Déjanos tus datos y un asesor se contactará contigo.</small></p>
 
 
                   <div class="container" >
@@ -453,7 +491,7 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
 
                            <div class="form-row">
 
-                            <small class="text-center">Al enviar este formulario estás aceptando nuestros <a target="_blank" href="{{url('/terminos')}}" class="color-green-2" style="text-decoration:underline;">términos y condiciones</a> y <a target="_blank"  href="{{url('/politicas')}}" class="color-green-2" style="text-decoration:underline;">las políticas de protección de datos.</a> </small>
+                            <small class="text-center subtitulo-movil">Al enviar este formulario estás aceptando nuestros <a target="_blank" href="{{url('/terminos')}}" class="subtitulo-movil" style="text-decoration:underline;">términos y condiciones</a> y <a target="_blank"  href="{{url('/politicas')}}" class="subtitulo-movil" style="text-decoration:underline;">las políticas de protección de datos.</a> </small>
 
                                 
 
@@ -476,7 +514,7 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
                                 <div class="input-data textarea">
 
 
-                                       <button  type="submit" id="btn-enviar-promo"  class="w-100 btn raleway-bold py-2 bg-terce text-white">Solicitar Información</button>
+                                       <button  type="submit" id="btn-enviar-promo"  class="w-100 btn raleway-bold py-2 ">Solicitar Información</button>
 
                                 </div>
 
