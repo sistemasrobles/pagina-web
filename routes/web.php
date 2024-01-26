@@ -38,8 +38,6 @@ Route::get('/download/{file}','WebController@download')->where('file', '.*');;
 Route::post('/promociones/registrar','PromocionesController@registrar')->name('/promociones/registrar');
 
 
-
-
 Route::get('/eventos/robles-tours','PromocionesController@roblesTours');
 Route::get('/eventos/robles-tours/gracias','PromocionesController@roblesTours');
 
