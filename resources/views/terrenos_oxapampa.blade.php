@@ -788,7 +788,7 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
       
       <div class="col-12 col-lg-12 ">
          <h2 class="text-left  title-proyect family-700-one margin-0" >Nuestros Clientes</h2>
-         <p class="mt-3">¡ Estos son nuestros clientes que ya son parte de la familia de Robles & Yasikov. !</p>
+         <p class="mt-3">¡Haz de Oxapampa tu hogar y forma parte de nuestra familia Robles & Yasikov!"</p>
       </div>
 
    
