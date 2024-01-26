@@ -286,7 +286,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
          <div style="width: max-content;background: #005c5366;
   backdrop-filter: blur(2px);" class="text-white text-start py-2 px-4 rounded-3">
                     <p style="font-weight: 300;" class="mb-0">¡ Vive rodeado de la naturaleza !</p>
-                    <h1 style="font-weight: 500;" class="raleway-medium">Lotes en Oxapampa</h1>
+                    <h1 style="font-weight: 500;" class="family-700-one">Lotes en Oxapampa</h1>
           </div>
                 
                 
