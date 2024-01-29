@@ -138,7 +138,7 @@ class PromocionesController extends Controller
         }
 
 
-    protected function savePromocion($request){
+    protected function savePromotion($request){
 
 
         $zapier = new ZapierController;
@@ -193,7 +193,7 @@ class PromocionesController extends Controller
        
 
         
-         $data = $request->only('nombre','apellido','movil','email','proyecto','mensaje','horario','formulario');
+         $data = $request->only('nombre','apellido','movil','email','proyecto','mensaje','horario','formulario','utm_source','utm_medium','utm_campaign','utm_term','utm_content');
 
 
 
@@ -204,11 +204,16 @@ class PromocionesController extends Controller
                         'apellido' => 'required',
                         'movil' => 'required|string|min:9|max:20',
                         'email' => 'required|email',
-                        'proyecto' => 'required',
-                       
+                        'proyecto' => 'required',                
                         'mensaje' => 'nullable',
                         'horario' => 'nullable',
                         'formulario' => 'required',
+
+                        'utm_source' => 'nullable',
+                        'utm_medium' => 'nullable',
+                        'utm_campaign' => 'nullable',
+                        'utm_term' => 'nullable',
+                        'utm_content' => 'nullable',
                         
                         
                        
@@ -258,13 +263,13 @@ class PromocionesController extends Controller
 
                             $sperant = new SperantController();
 
-                            $middleRpta = $sperant->saveCliente($request);
+                            $middleRpta = $sperant->saveLead($request);
 
 
                         }else{
 
 
-                           $middleRpta =  $this->savePromocion($request);
+                           $middleRpta =  $this->savePromotion($request);
 
 
                         }

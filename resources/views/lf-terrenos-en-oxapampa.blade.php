@@ -329,6 +329,27 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
     let data =   new FormData($("#promocion-form")[0])
     data.append( "_token",token_)
+
+
+    var urlActual = window.location.href;
+
+
+    var url = new URL(urlActual);
+    var utm_source = url.searchParams.get("utm_source");
+    var utm_medium = url.searchParams.get("utm_medium");
+    var utm_campaign = url.searchParams.get("utm_campaign");
+    var utm_term = url.searchParams.get("utm_term");
+    var utm_content = url.searchParams.get("utm_content");
+
+
+
+      data.append("utm_source",utm_source)
+      data.append("utm_medium",utm_medium)
+      data.append("utm_campaign",utm_campaign)
+      data.append("utm_term",utm_term)
+      data.append("utm_content",utm_content)
+
+      
     $.ajax({
         "url":assetUrl,
         data: data,

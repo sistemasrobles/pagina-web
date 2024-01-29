@@ -67,7 +67,7 @@ class SperantController extends Controller
 
  
 
-     public function saveCliente($request){
+     public function saveLead($request){
 
 
        
@@ -96,6 +96,11 @@ class SperantController extends Controller
                 'lname' => $request->apellido,
                 'email' => $request->email,
                 'phone' => $request->movil,
+                'utm_source' => $request->utm_source,
+                'utm_medium' => $request->utm_medium,
+                'utm_campaign' => $request->utm_campaign,
+                'utm_term' => $request->utm_term,
+                'utm_content' => $request->utm_content,
                 'input_channel_id' => reset($inputChannels)["id"],
                 'source_id' => reset($captationWays)["id"],
                 'interest_type_id' => reset($interestTypes)["id"],
@@ -118,7 +123,7 @@ class SperantController extends Controller
             $responseData = json_decode($response->getBody(), true);
 
            
-            return response()->json(['status'=>'ok','description'=>'Datos guardados satisfactoriamente - sperant','data'=>$responseData]);
+            return response()->json(['status'=>'ok','description'=>'Datos guardados satisfactoriamente','data'=>$responseData]);
 
             
 
