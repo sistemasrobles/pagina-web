@@ -293,10 +293,19 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                                 <span class="input-group-label outfitlight">Proyecto</span>
                                 <select name="proyecto" id="proyecto">
                                       <option></option>
-                                    
+                                            
+
+                                             @php
+                                          
+                                          
+                                          $condicion = config('sperant.getIdProject'); 
+
+                                      @endphp
+
+                                      
                                             @foreach($projects as $list)
 
-                                        <option value="{{$list->idproyecto}}">
+                                        <option value="{{ $condicion ? $list->id_sperant : $list->idproyecto }}">
                                             
                                           Lotes en {{$list->region}} - {{$list->descripcion}}
                                         </option>

@@ -744,6 +744,22 @@ event.preventDefault();
 
             }else{
 
+
+                if(response.status=='error'){
+
+
+                    Swal.fire({
+
+                   icon: 'error',
+                    title: response.description,
+                    showConfirmButton: false,
+                    timer: 1500
+
+                  })
+
+
+                }
+                
                 var data = response.data;
 
                 var str = '';

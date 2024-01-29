@@ -4,56 +4,133 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Validator;
-
+use Illuminate\Support\Collection;
 class SperantController extends Controller
-{
-    public function listProyects(Request $request){
+{   
 
 
-       
+    protected function listEntities($entity,$desiredId)
+    {   
 
-        $endPoint = '/v3/projects';
-      
-        $apiKey =  config('sperant.apiKey');
+        
+        $apiEndpoint = '/'.config('sperant.version').'/'.$entity;
+        $apiKey = config('sperant.apiKey');
+        $url    = config('sperant.url').$apiEndpoint;
 
-        $url = config('sperant.url').$endPoint;
 
-       
+
         $client = new Client();
 
-
         try {
+
 
             $response = $client->request('GET', $url, [
                 'headers' => [
                     'Authorization' => $apiKey,
                     'Accept' => 'application/json',
-                  
                 ],
             ]);
 
             $data = json_decode($response->getBody(), true);
 
-            $resultSet = [];
+           
+            $resultSet = collect($data['data'])->filter(function ($item) use ($desiredId) {
 
-            foreach($data['data'] as $list){
+                return empty($desiredId) || $item['attributes']['id'] == $desiredId;
 
-                $resultSet [] = array(
+            })->map(function ($item) {
 
-                                    'id'=>$list["attributes"]['id'],
-                                    'text'=>$list["attributes"]['name']
-                                );
-                
-            }
+                return [
+                    'id' => $item['attributes']['id'],
+                    'text' => $item['attributes']['name'],
+                ];
+
+            })->toArray();
+
+
 
             return $resultSet;
 
+        } catch (\GuzzleHttp\Exception\RequestException $e) {
+           
+            return response()->json(['error' => 'Error en la solicitud: ' . $e->getMessage()]);
 
         } catch (\Exception $e) {
          
-            return response()->json(['error' =>$e->getMessage()]);
+
+            return response()->json(['error' => $e->getMessage()]);
         }
-                          
+    }
+
+
+ 
+
+ 
+
+     public function saveCliente($request){
+
+
+       
+        $entity ='clients';
+        $entity = '/'.config('sperant.version').'/'.$entity;
+        $apiKey = config('sperant.apiKey');
+        $url    = config('sperant.url').$entity;
+
+        
+        
+        $inputChannels = $this->listEntities('input_channels',19); //pagina web
+        $captationWays = $this->listEntities('captation_ways',53); //pagina web - seo
+        $interestTypes = $this->listEntities('interest_types',5); //por contactar
+
+        
+       
+
+        $client = new Client();
+
+
+    
+        try {
+          
+            $postData = [
+                'fname' => $request->nombre,
+                'lname' => $request->apellido,
+                'email' => $request->email,
+                'phone' => $request->movil,
+                'input_channel_id' => reset($inputChannels)["id"],
+                'source_id' => reset($captationWays)["id"],
+                'interest_type_id' => reset($interestTypes)["id"],
+                'project_id' => $request->proyecto,
+               
+                
+            ];
+
+            
+
+            $response = $client->request('POST', $url, [
+                'headers' => [
+                    'Authorization' => $apiKey,
+                    'Accept' => 'application/json',
+                ],
+                'json' => $postData, 
+            ]);
+
+           
+            $responseData = json_decode($response->getBody(), true);
+
+           
+            return response()->json(['status'=>'ok','description'=>'Datos guardados satisfactoriamente - sperant','data'=>$responseData]);
+
+            
+
+        }catch (\GuzzleHttp\Exception\RequestException $e) {
+           
+            return response()->json(['status' =>'error','description'=>$e->getMessage(),'data'=>[]]);
+
+        }  catch (\Exception $e) {
+
+
+            return response()->json(['status' =>'error','description'=>$e->getMessage(),'data'=>[]]);
+        }               
 
        
     }

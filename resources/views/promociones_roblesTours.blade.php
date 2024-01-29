@@ -308,9 +308,20 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
                                       <option value="">Elige proyecto</option>
 
+
+
+                                         @php
+                                          
+                                          
+                                          $condicion = config('sperant.getIdProject'); 
+
+                                      @endphp
+
+
+                                      
                                         @foreach($projects as $list)
 
-                                        <option value="{{$list->idproyecto}}">
+                                        <option value="{{ $condicion ? $list->id_sperant : $list->idproyecto }}">
                                          Lotes en {{$list->region}} - {{$list->descripcion}}
                                         </option>
 
@@ -721,6 +732,23 @@ y donde vivirás una experiencia inolvidable con nuestra familia Robles & Yasiko
 
             }else{
 
+
+              if(response.status=='error'){
+
+
+                    Swal.fire({
+
+                   icon: 'error',
+                    title: response.description,
+                    showConfirmButton: false,
+                    timer: 1500
+
+                  })
+
+
+                }
+
+                
                 var data = response.data;
 
                 var str = '';

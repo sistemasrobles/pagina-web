@@ -258,8 +258,18 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
          
 
+           @php
+                                          
+                                          
+                                          $condicion = config('sperant.getIdProject'); 
 
-            <input type="hidden" name="proyecto" id="proyecto" value="{{$proyetoactual->idproyecto}}">
+                                      @endphp
+
+
+
+            <input type="hidden" name="proyecto" id="proyecto" value=" {{ $condicion ? $proyetoactual->id_sperant : $proyetoactual->idproyecto }}">
+
+
 
 
             <!-- select form -->
@@ -427,6 +437,24 @@ window.intlTelInput(input, {
 
             }else{
 
+
+                if(response.status=='error'){
+
+
+                    Swal.fire({
+
+                   icon: 'error',
+                    title: response.description,
+                    showConfirmButton: false,
+                    timer: 1500
+
+                  })
+
+
+                }
+
+
+                
                 var data = response.data;
 
                 var str = '';

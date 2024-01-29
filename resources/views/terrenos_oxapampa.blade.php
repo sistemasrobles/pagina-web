@@ -439,9 +439,19 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
 
                                       <option value="">*Elige el proyecto</option>
 
+
+                                       @php
+                                          
+                                          
+                                          $condicion = config('sperant.getIdProject'); 
+
+                                      @endphp
+
+
+
                                        @foreach($projects as $list)
 
-                                        <option value="{{$list->idproyecto}}">
+                                        <option value="{{ $condicion ? $list->id_sperant : $list->idproyecto }}">
                                            Terrenos en {{$list->region}} - {{$list->descripcion}}
                                         </option>
 
@@ -1002,6 +1012,23 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
 
             }else{
 
+
+                if(response.status=='error'){
+
+
+                    Swal.fire({
+
+                   icon: 'error',
+                    title: response.description,
+                    showConfirmButton: false,
+                    timer: 1500
+
+                  })
+
+
+                }
+
+                
                 var data = response.data;
 
                 var str = '';

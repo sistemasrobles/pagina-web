@@ -9,11 +9,29 @@
 
 
                             @csrf
+
+
+
+                             @php
+                                          
+                                          
+                                          $condicion = config('sperant.getIdProject'); 
+
+                                      @endphp
+
+
+
                            <input type="hidden" name="formulario" id="formulario" value="formulario-detalle">
                           
                            <input type="hidden" name="mensaje" id="mensaje" value="">
-                           <input type="hidden" name="proyecto" id="proyecto" value="{{$proyetoactual->idproyecto}}">
+                           <input type="hidden" name="proyecto" id="proyecto" value="{{ $condicion ? $proyetoactual->id_sperant : $proyetoactual->idproyecto }}">
                            
+
+
+
+
+
+
                            <div class="form-row">
                               <div class="input-data">
                                    <input type="text" id="nombre" name="nombre" required>

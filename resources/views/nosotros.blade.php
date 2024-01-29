@@ -414,9 +414,19 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
                                           <Open>Seleccionar Proyecto
                                       </option>
 
+
+
+                                      @php
+                                          
+                                          
+                                          $condicion = config('sperant.getIdProject'); 
+
+                                      @endphp
+
+                                      
                                       @foreach($proyectos as $list)
 
-                                           <option value="{{$list->idproyecto}}" data-slug="{{$list->rewrite}}">{{$list->descripcion}}</option>
+                                           <option value="{{ $condicion ? $list->id_sperant : $list->idproyecto }}" data-slug="{{$list->rewrite}}">{{$list->descripcion}}</option>
 
                                       @endforeach
 
@@ -618,6 +628,25 @@ event.preventDefault();
 
             }else{
 
+
+
+                if(response.status=='error'){
+
+
+                    Swal.fire({
+
+                   icon: 'error',
+                    title: response.description,
+                    showConfirmButton: false,
+                    timer: 1500
+
+                  })
+
+
+                }
+
+
+                
                 var data = response.data;
 
                 var str = '';

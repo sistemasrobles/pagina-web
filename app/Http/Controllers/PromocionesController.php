@@ -13,6 +13,9 @@ use Artesaos\SEOTools\Facades\JsonLdMulti;
 use Illuminate\Support\Facades\Validator;
 
 use App\Http\Controllers\ZapierController;
+use App\Http\Controllers\SperantController;
+
+
 use App\Mail\EmailReclamaciones;
 use App\Mail\ClienteReclamo;
 
@@ -134,6 +137,58 @@ class PromocionesController extends Controller
 
         }
 
+
+    protected function savePromocion($request){
+
+
+        $zapier = new ZapierController;
+
+                        $nameProyect = Proyectos::where('idproyecto',$request->proyecto)->first();
+
+
+
+                        $data = array(
+
+                            'name'=> $request->nombre,
+                            'surename'=> $request->apellido,
+                            'email'=> $request->email,
+                            'phone'=> $request->movil,
+                            'project'=>$nameProyect->descripcion,
+                            'message'=> $request->mensaje,
+                            'timecall'=> $request->horario,
+                            'form'=> $request->formulario,
+                            'slug'=>$nameProyect->rewrite,
+                            'prospecting'=>$request->prospecting
+
+                        );
+
+
+                       
+
+                        $middleRpta = $zapier->save_zapier_data($data);
+
+                        if($middleRpta == 200){
+
+
+                           $rtpa =  array('status'=>'ok','description'=>'Datos guardados satisfactoriamente','data'=>[]);
+                        
+                        
+                           return response()->json($rtpa);
+
+
+
+                        }
+
+                         $rtpa =  array('status'=>'error','description'=>'No se pudo sincronizar via zapier','data'=>[]);
+                        
+                         return response()->json($rtpa);
+
+
+
+    }
+
+
+
     public function registrar(Request $request){
        
 
@@ -188,59 +243,37 @@ class PromocionesController extends Controller
 
                         $rpta = array('status'=>'error','description'=>'Completar los inputs solicitados','data'=>$errors);
 
-                        return response()->json($rpta);     
+                        return response()->json($rpta); 
+
+
+
                         
                     }else{
 
 
-                        $zapier = new ZapierController;
+                        $saveSperant = config('sperant.getIdProject');
 
 
-                       
+                        if($saveSperant){
 
-                        $nameProyect = Proyectos::where('idproyecto',$request->proyecto)->first();
+                            $sperant = new SperantController();
 
-
-
-                        $data = array(
-
-                            'name'=> $request->nombre,
-                            'surename'=> $request->apellido,
-                            'email'=> $request->email,
-                            'phone'=> $request->movil,
-                            'project'=>$nameProyect->descripcion,
-                            'message'=> $request->mensaje,
-                            'timecall'=> $request->horario,
-                            'form'=> $request->formulario,
-                            'slug'=>$nameProyect->rewrite,
-                            'prospecting'=>$request->prospecting
-
-                        );
-
-
-
-                        $middleRpta = $zapier->save_zapier_data($data);
-
-                        if($middleRpta == 200){
-
-
-                           
-
-
-                            $rpta = array('status'=>'ok','description'=>'Datos guardados satisfactoriamente','data'=>[]);
-                        
-                            return response()->json($rpta);
-
+                            $middleRpta = $sperant->saveCliente($request);
 
 
                         }else{
 
 
-                             $rpta = array('status'=>'error','description'=>'No se pudo sincronizar via zapier','data'=>[]);
-                        
-                            return response()->json($rpta);
+                           $middleRpta =  $this->savePromocion($request);
+
 
                         }
+
+
+
+
+                         return $middleRpta;
+                        
 
                        
                             
