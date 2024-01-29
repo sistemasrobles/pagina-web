@@ -163,7 +163,7 @@ class PromocionesController extends Controller
                         );
 
 
-                       
+
 
                         $middleRpta = $zapier->save_zapier_data($data);
 
@@ -241,7 +241,7 @@ class PromocionesController extends Controller
 
                         $errors = $validator->messages()->all();
 
-                        $rpta = array('status'=>'error','description'=>'Completar los inputs solicitados','data'=>$errors);
+                        $rpta = array('status'=>'warning','description'=>'Completar los inputs solicitados','data'=>$errors);
 
                         return response()->json($rpta); 
 
