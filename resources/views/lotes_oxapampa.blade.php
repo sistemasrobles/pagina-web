@@ -577,7 +577,7 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
     
      <div class="text-center  video-container">
                 
-                             <iframe loading="lazy" width="100%" height="500" src="https://www.youtube.com/embed/24bDL2XNhEU?autoplay=1" frameborder="0" allowfullscreen></iframe> 
+                             <iframe loading="lazy" width="100%" height="500" src="https://www.youtube.com/embed/S88n6GYjltU?autoplay=1" frameborder="0" allowfullscreen></iframe> 
                         </div>   
   </section> 
 
