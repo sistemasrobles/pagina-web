@@ -122,7 +122,7 @@ class SperantController extends Controller
                 'source_id' => reset($captationWays)["id"],
                 'interest_type_id' => reset($interestTypes)["id"],
                 'project_id' => $request->proyecto,
-                'observation'=> $observation
+                'observation'=> $observation,
                
                     
             ];
