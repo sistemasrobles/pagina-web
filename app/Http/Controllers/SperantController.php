@@ -107,7 +107,6 @@ class SperantController extends Controller
             $observation = "llamar a las : ".$request->horario;
 
 
-
             $postData = [
                 'fname' => $request->nombre,
                 'lname' => $request->apellido,
