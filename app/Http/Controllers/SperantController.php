@@ -5,6 +5,10 @@ use Illuminate\Http\Request;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\NotificacionSperant;
+
+
 class SperantController extends Controller
 {   
 
@@ -65,7 +69,13 @@ class SperantController extends Controller
 
  
 
- 
+    public function sendNotification($e){
+
+        $support = config('sperant.support_mail_1');
+
+        Mail::to($support)->send(new NotificacionSperant($e));
+
+    }
 
      public function saveLead($request){
 
@@ -106,7 +116,7 @@ class SperantController extends Controller
                 'interest_type_id' => reset($interestTypes)["id"],
                 'project_id' => $request->proyecto,
                
-                
+                    
             ];
 
             
@@ -128,11 +138,15 @@ class SperantController extends Controller
             
 
         }catch (\GuzzleHttp\Exception\RequestException $e) {
-           
+            
+            $this->sendNotification($e);
+
             return response()->json(['status' =>'error','description'=>$e->getMessage(),'data'=>[]]);
 
         }  catch (\Exception $e) {
 
+
+            $this->sendNotification($e);
 
             return response()->json(['status' =>'error','description'=>$e->getMessage(),'data'=>[]]);
         }               
