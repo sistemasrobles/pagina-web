@@ -81,26 +81,31 @@ class SperantController extends Controller
 
 
        
-        $entity ='clients';
-        $entity = '/'.config('sperant.version').'/'.$entity;
-        $apiKey = config('sperant.apiKey');
-        $url    = config('sperant.url').$entity;
+        
+
+    
+        try {
+            
+
+            $entity ='clients';
+            $entity = '/'.config('sperant.version').'/'.$entity;
+            $apiKey = config('sperant.apiKey');
+            $url    = config('sperant.url').$entity;
 
         
         
-        $inputChannels = $this->listEntities('input_channels',19); //pagina web
-        $captationWays = $this->listEntities('captation_ways',53); //pagina web - seo
-        $interestTypes = $this->listEntities('interest_types',5); //por contactar
+            $inputChannels = $this->listEntities('input_channels',19); //pagina web
+            $captationWays = $this->listEntities('captation_ways',53); //pagina web - seo
+            $interestTypes = $this->listEntities('interest_types',5); //por contactar
 
         
        
 
-        $client = new Client();
+            $client = new Client();
 
 
-    
-        try {
-          
+
+
             $postData = [
                 'fname' => $request->nombre,
                 'lname' => $request->apellido,
