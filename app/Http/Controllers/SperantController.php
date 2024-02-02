@@ -100,11 +100,12 @@ class SperantController extends Controller
 
         
        
+          
 
             $client = new Client();
 
 
-            $observation = "llamar a las : ".$request->horario;
+            $observation = $request->mensaje."; llamar a las : ".$request->horario;
 
 
             $postData = [
@@ -127,6 +128,7 @@ class SperantController extends Controller
             ];
 
             
+          
 
             $response = $client->request('POST', $url, [
                 'headers' => [
@@ -139,6 +141,7 @@ class SperantController extends Controller
            
             $responseData = json_decode($response->getBody(), true);
 
+           
            
             return response()->json(['status'=>'ok','description'=>'Datos guardados satisfactoriamente','data'=>$responseData]);
 
