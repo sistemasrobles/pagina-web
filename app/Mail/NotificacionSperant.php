@@ -15,11 +15,12 @@ class NotificacionSperant extends Mailable
 
 
     public $error;
+    public $postData;
 
-
-    public function __construct($error)
+    public function __construct($error,$postData)
     {
         $this->error = $error->getMessage();
+        $this->postData = $postData;
     }
 
     public function build()

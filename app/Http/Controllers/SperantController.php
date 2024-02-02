@@ -69,11 +69,13 @@ class SperantController extends Controller
 
  
 
-    public function sendNotification($e){
+    public function sendNotification($e,$postData){
 
         $support = config('sperant.support_mail_1');
+        $support2 = config('sperant.support_mail_2');
 
-        Mail::to($support)->send(new NotificacionSperant($e));
+
+        Mail::to($support)->cc($support2)->send(new NotificacionSperant($e,$postData));
 
     }
 
@@ -149,14 +151,14 @@ class SperantController extends Controller
 
         }catch (\GuzzleHttp\Exception\RequestException $e) {
             
-            $this->sendNotification($e);
+            $this->sendNotification($e,$postData);
 
             return response()->json(['status' =>'error','description'=>$e->getMessage(),'data'=>[]]);
 
         }  catch (\Exception $e) {
 
 
-            $this->sendNotification($e);
+            $this->sendNotification($e,$postData);
 
             return response()->json(['status' =>'error','description'=>$e->getMessage(),'data'=>[]]);
         }               

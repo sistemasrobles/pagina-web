@@ -6,5 +6,12 @@
 <body>
     
     <p>{{ $error }}</p>
+    <br>
+
+    <p>
+        
+         {{ print_r($postData, true) }}
+
+    </p>
 </body>
 </html>
