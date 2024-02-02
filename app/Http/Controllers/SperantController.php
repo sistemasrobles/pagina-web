@@ -94,8 +94,8 @@ class SperantController extends Controller
 
         
         
-            $inputChannels = $this->listEntities('input_channels',19); //pagina web
-            $captationWays = $this->listEntities('captation_ways',53); //pagina web - seo
+            $inputChannels = $this->listEntities('input_channels',3); //pagina web
+            $captationWays = $this->listEntities('captation_ways',8); //pagina web 
             $interestTypes = $this->listEntities('interest_types',5); //por contactar
 
         
