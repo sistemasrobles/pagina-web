@@ -449,9 +449,11 @@ background:  #FBFBFB;
                         <div style="position:absolute;top: 0;height: 100%;width: 100%;background: rgba(0, 0, 0, 0.4);"></div>
                         <div style="position:absolute;top:0;color:white;height: 100%;width: 100%;" class="d-flex flex-column justify-content-center align-items-center text-center">
 
+                             @if(!in_array($proyetoactual->idproyecto, [6, 7]))
+                             
                             <img class="" src="{{asset('nuevaweb_assets/assets/img/tour_virtual_icon.svg')}}" alt="">
                             
-                            @if(!in_array($proyetoactual->idproyecto, [6, 7]))
+                           
                            <button id="rendereiza-360" type="button" class="border btn  btn-white  py-2 raleway-medium fs-6 text-white shadow mt-4" style="height: max-content; width:max-content">Iniciar Tour</button>
 
                            @endif
