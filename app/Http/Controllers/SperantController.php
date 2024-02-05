@@ -107,7 +107,10 @@ class SperantController extends Controller
             $client = new Client();
 
 
-            $observation = $request->mensaje."; llamar a las : ".$request->horario;
+            $horario_llamada = (!empty($request->horario))?"; llamar a las : ".$request->horario:'';
+
+
+            $observation = $request->mensaje." ".$horario_llamada;
 
 
             $postData = [
