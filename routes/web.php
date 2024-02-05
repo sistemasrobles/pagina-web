@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Http;
 
 
+use App\Http\Controllers\ApiController;
+
 Route::get('/error','WebController@error');
 
 Route::get('/','IndexController@index');
@@ -90,6 +92,15 @@ Route::get('/reclamaciones/success','PromocionesController@successReclamaciones'
 
         Route::get('listEntities', 'SperantController@listEntities');
        
-            
+          
      
     });
+
+
+
+Route::middleware(['api_key'])->group(function () {
+
+    Route::post('sperant/save/lead', [ApiController::class, 'saveLead']);
+
+});
+
