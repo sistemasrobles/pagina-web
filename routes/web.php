@@ -98,9 +98,4 @@ Route::get('/reclamaciones/success','PromocionesController@successReclamaciones'
 
 
 
-Route::middleware(['api_key'])->group(function () {
-
-    Route::post('sperant/save/lead', [ApiController::class, 'saveLead']);
-
-});
 

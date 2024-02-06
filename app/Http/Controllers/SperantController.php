@@ -72,8 +72,8 @@ class SperantController extends Controller
     public function sendNotification($e,$postData){
 
         $support = config('sperant.support_mail_1');
-        //$support2 = config('sperant.support_mail_2');
-        $support2 = config('sperant.support_mail_1');
+        $support2 = config('sperant.support_mail_2');
+       
 
 
         Mail::to($support)->cc($support2)->send(new NotificacionSperant($e,$postData));
@@ -177,95 +177,5 @@ class SperantController extends Controller
     }
 
 
-    public function saveLead_key($request){
-
-
-       
-        
-
     
-        try {
-            
-
-            // $entity ='clients';
-            // $entity = '/'.config('sperant.version').'/'.$entity;
-            
-
-            $apiKey = "OhGTXLiVop5wOTiz1tgXq9XoRkLXsITU8KKeNNgA";
-            $url    = "https://api.eterniasoft.com/v3/clients";
-
-        
-        
-            $inputChannels = $this->listEntities('input_channels',3); //pagina web
-            $captationWays = $this->listEntities('captation_ways',8); //pagina web 
-            $interestTypes = $this->listEntities('interest_types',5); //por contactar
-
-        
-       
-          
-
-            $client = new Client();
-
-
-            $horario_llamada = (!empty($request->horario))?"; llamar a las : ".$request->horario:'';
-
-
-            $observation = $request->mensaje." ".$horario_llamada;
-
-
-            $postData = [
-                'fname' => $request->nombre,
-                'lname' => $request->apellido,
-                'email' => $request->email,
-                'phone' => $request->movil,
-                'utm_source' => $request->utm_source,
-                'utm_medium' => $request->utm_medium,
-                'utm_campaign' => $request->utm_campaign,
-                'utm_term' => $request->utm_term,
-                'utm_content' => $request->utm_content,
-                'input_channel_id' => reset($inputChannels)["id"],
-                'source_id' => reset($captationWays)["id"],
-                'interest_type_id' => reset($interestTypes)["id"],
-                'project_id' => $request->proyecto,
-                'observation'=> $observation,
-               
-                    
-            ];
-
-            
-          
-
-            $response = $client->request('POST', $url, [
-                'headers' => [
-                    'Authorization' => $apiKey,
-                    'Accept' => 'application/json',
-                ],
-                'json' => $postData, 
-            ]);
-
-           
-            $responseData = json_decode($response->getBody(), true);
-
-           
-           
-            return response()->json(['status'=>'ok','description'=>'Datos guardados satisfactoriamente','data'=>$responseData]);
-
-            
-
-        }catch (\GuzzleHttp\Exception\RequestException $e) {
-            
-            $this->sendNotification($e,$postData);
-
-            return response()->json(['status' =>'error','description'=>$e->getMessage(),'data'=>[]]);
-
-        }  catch (\Exception $e) {
-
-
-            $this->sendNotification($e,$postData);
-
-            return response()->json(['status' =>'error','description'=>$e->getMessage(),'data'=>[]]);
-        }               
-
-       
-    }
 }
