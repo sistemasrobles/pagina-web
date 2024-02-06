@@ -21,7 +21,7 @@ class ApiController extends Controller
 
         $sperant = new SperantController;
 
-        $response = $sperant->saveLead($request);
+        $response = $sperant->saveLead_key($request);
 
         return $response;
        
