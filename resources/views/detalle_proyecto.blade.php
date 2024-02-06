@@ -201,7 +201,13 @@ background:  #FBFBFB;
                 <div class="container-title-info-main d-flex text-white flex-column flex-xl-row 
                 flex-lg-row flex-sm-column justify-content-xl-between align-items-xl-center">
                      <h2 style="font-weight: 700;" class="text-start d-none"><i>{{$proyetoactual->frase}}</i></h2>
+
+
+                      @if(!in_array($proyetoactual->idproyecto, [6, 7]))
                     <a href="{{ url('download/' . $proyetoactual->brochure) }}" type="button" class="border btn px-4 btn-white text-nowrap py-2 raleway-medium fs-6 text-white shadow" style="height: max-content; width:max-content">Descargar brochure <i class="fa-solid fa-download ms-2"></i></a>
+
+                    @endif
+
                 </div>
                 <!-- section main cuadro -->
                 <div class="row row-cols-2 row-cols-xl-2  row-cols-lg-2 row-cols-md-2 raleway-medium container-grid-main-cuadro  fs-3 py-3  bg-white  justify-content-between  rounded-0 ">
