@@ -203,7 +203,8 @@ class PromocionesController extends Controller
                         'nombre' => 'required',
                         'apellido' => 'required',
                         'movil' => 'required|string|min:9|max:20',
-                        'email' => 'required|email',
+                        //'email' => 'required|email',
+                          'email' => ['required', 'regex:/^[^\s@]+@[^\s@]+\.[^\s@]+$/'],
                         'proyecto' => 'required',                
                         'mensaje' => 'nullable',
                         'horario' => 'nullable',
@@ -229,7 +230,8 @@ class PromocionesController extends Controller
                         'movil.min' => 'El teléfono debe tener al menos 9 dígitos.',
                         'movil.max' => 'El teléfono debe tener como maximo 20 dígitos.',
                         'email.required' => 'El email es obligatorio.',
-                        'email.email' => 'El email es inválido.',
+                        //'email.email' => 'El email es inválido.',
+                         'email.regex' => 'El email es inválido.',
                         'proyecto.required' => 'El proyecto es obligatorio.',
                        
                        
