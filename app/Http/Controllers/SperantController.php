@@ -104,7 +104,12 @@ class SperantController extends Controller
         
         
             $inputChannels = $this->listEntities('input_channels',3); //pagina web
-            $captationWays = $this->listEntities('captation_ways',8); //pagina web 
+
+            //si es robles tours setear 18
+
+            $idCap= ($request->formulario == 'robles-tour')?18:8;
+
+            $captationWays = $this->listEntities('captation_ways',$idCap); //pagina web 
             $interestTypes = $this->listEntities('interest_types',5); //por contactar
 
         
