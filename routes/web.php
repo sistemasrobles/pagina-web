@@ -85,7 +85,7 @@ Route::get('/reclamaciones/success','PromocionesController@successReclamaciones'
 
 
 
-Route::post('/add-tiktok','PromocionesController@addTiktok');
+Route::get('/add-tiktok','PromocionesController@addTiktok');
 
 
  Route::group(['prefix' => 'sperant'], function () {
