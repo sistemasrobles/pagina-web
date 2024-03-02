@@ -492,7 +492,10 @@ class PromocionesController extends Controller
       public function addTiktok(Request $request){
 
 
-        return var_dump($request->Email);
+        $todosLosDatos = $request->all();
+
+
+        return var_dump($todosLosDatos);
         
 
       }
