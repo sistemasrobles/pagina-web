@@ -495,7 +495,7 @@ class PromocionesController extends Controller
         $todosLosDatos = $request->all();
 
 
-        return var_dump($todosLosDatos);
+        return var_dump($request->apellidos);
         
 
       }
