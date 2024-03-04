@@ -266,7 +266,11 @@ class PromocionesController extends Controller
 
                             $sperant = new SperantController();
 
-                            $middleRpta = $sperant->saveLead($request);
+                            //formularios web u otros medios
+
+                            $source = 'pagina-web';
+
+                            $middleRpta = $sperant->saveLead($request,$source);
 
 
                         }else{
@@ -492,10 +496,36 @@ class PromocionesController extends Controller
       public function addTiktok(Request $request){
 
 
-        $todosLosDatos = $request->all();
+       
+    
+        $correo     = $request->correo;
+        $nombres    = $request->nombres;
+        $apellidos  = $request->apellidos;
+        $celular    = $request->celular;
 
 
-        return var_dump($request->apellidos);
+        
+
+        $sperant = new SperantController();
+
+        $requestNew = new Request();
+
+        $requestNew->merge([
+
+            'nombre' => $nombres,
+            'apellido'=> $apellidos,
+            'email' => $correo,
+            'movil' => $celular,
+            'proyecto' =>16, //proyecto 16 - fundo los robles
+            'mensaje' =>'Lead interesado en los proyectos de Robles & Yasikov',
+            'formulario' =>'formulario-tiktok'
+       
+        ]);
+
+        $middleRpta = $sperant->saveLead($requestNew,'tik-tok');
+
+
+        return $middleRpta;
         
 
       }

@@ -86,7 +86,7 @@ class SperantController extends Controller
 
 
 
-     public function saveLead($request){
+     public function saveLead($request,$source){
 
 
        
@@ -102,15 +102,27 @@ class SperantController extends Controller
             $url    = config('sperant.url').$entity;
 
         
-        
-            $inputChannels = $this->listEntities('input_channels',3); //pagina web
+           if ($source =='pagina-web'){
 
-            //si es robles tours setear 18
+                $channel_id = 3;
 
-            $idCap= ($request->formulario == 'robles-tour')?18:8;
+                 //si es robles tours setear 18
 
-            $captationWays = $this->listEntities('captation_ways',$idCap); //pagina web 
-            $interestTypes = $this->listEntities('interest_types',5); //por contactar
+                $idCap= ($request->formulario == 'robles-tour')?18:8;
+
+
+            }elseif ($source =='tik-tok'){
+
+                 $channel_id = 9;
+
+                 $idCap= 19;
+            }
+            
+
+
+            $inputChannels = $this->listEntities('input_channels',$channel_id); //pagina web o tiktok
+            $captationWays = $this->listEntities('captation_ways',$idCap); //pagina web o tiktok
+            $interestTypes = $this->listEntities('interest_types',5); //por contactar para todos los casos
 
         
        
