@@ -171,7 +171,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
         <div class="container-xl d-flex justify-content-center gap-3 text-center">
           <span class="py-4 w-25">Un asesor se pondrá en contacto contigo para atender tu solicitud.</span>
           <span class="py-4 w-25">Nuestro horario de atención es de lunes a viernes de 9 a 6pm</span>
-          <span class="py-4 w-25">Recibe hasta el 40% de dscto. en nuestros lotes</span>
+          <span class="py-4 w-25">Regístrate y recibe grandes Dsctos. en nuestros lotes</span>
         </div>
       </div>
 

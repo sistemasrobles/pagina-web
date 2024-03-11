@@ -225,7 +225,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
           </div>
           <div class="col-12 col-lg-5  text-dark  p-4 "  style="background: white;">
             
-               <h3 class="family-700-one color-green-2 contacto-span" style="padding:0px 20px">¡Regístrate y recibe hasta el 40% de dscto. en nuestros terrenos!</h3> 
+               <h3 class="family-700-one color-green-2 contacto-span" style="padding:0px 20px">¡Regístrate y recibe grandes Dsctos. en nuestros terrenos!</h3> 
                 <p style="padding:0px 20px" class="mt-2 "><small>Déjanos tus datos y un asesor se contactará contigo.</small></p>
 
 

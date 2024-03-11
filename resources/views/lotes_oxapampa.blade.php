@@ -367,9 +367,9 @@ Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la
     
           <div class="col-12 col-lg-5  text-dark  p-4 shadow box-form" >
             
-               <h3 class="family-700-one color-green-2 contacto-span d-none d-lg-block" style="padding:0px 20px">¡Regístrate y recibe hasta el 40% de dscto. en nuestros lotes!</h3> 
+               <h3 class="family-700-one color-green-2 contacto-span d-none d-lg-block" style="padding:0px 20px">¡Regístrate y recibe grandes Dsctos. en nuestros lotes!</h3> 
                
-               <h4 class="family-700-one titulo-movil contacto-span d-block d-lg-none" style="padding:0px 20px">¡Recibe hasta el 40% de dscto.!</h4>
+               <h4 class="family-700-one titulo-movil contacto-span d-block d-lg-none" style="padding:0px 20px">¡Recibe Dsctos. en nuestros lotes!</h4>
                
                
                 <p style="padding:0px 20px" class="mt-2 subtitulo-movil"><small>Déjanos tus datos y un asesor se contactará contigo.</small></p>
