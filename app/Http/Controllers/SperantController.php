@@ -73,7 +73,7 @@ class SperantController extends Controller
 
         $support = config('sperant.support_mail_1');
         //$support2 = config('sperant.support_mail_2');
-        $support2 = 'roblessistemas23@gmail.com';
+        $support2 = 'sistemasrobles23@gmail.com';
 
 
         Mail::to($support)->cc($support2)->send(new NotificacionSperant($e,$postData));
