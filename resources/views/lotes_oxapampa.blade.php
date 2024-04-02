@@ -356,7 +356,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
            <h1 class="family-700-one text-white" >Lotes en Oxapampa</h1> 
 
             <p style="font-size: 20px;">En Robles & Yasikov, contamos con lotes disponibles en la maravillosa ciudad de Oxapampa.
-Aquí encontraremos 4 de nuestros condominios, siendo cada uno diferente, con la finalidad que consigas esa casa de campo que tanto anhelas.</p> 
+Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la finalidad que consigas esa casa de campo que tanto anhelas.</p> 
 
           </div>
           
