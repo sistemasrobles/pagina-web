@@ -461,13 +461,61 @@ background:  #FBFBFB;
 <div class="loading-container">
     <div class="loading-gif"></div>
 </div>
+
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">  <img src="{{asset('nuevaweb_assets/assets/img/logo-color.svg')}}" alt="logo-robles">&emsp;&emsp;COMUNICADO IMPORTANTE</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Mediante la presente comunicación hacemos de conocimiento público que ha venido circulando una
+información publicitaria engañosa (flyer), la cual no ha sido elaborada ni publicitada por nuestra empresa.<br><br>
+En dicha publicidad engañosa (la cual se adjunta), se viene dando información falsa sobre la venta de 200
+lotes en un futuro proyecto inmobiliario, proyecto que no forma parte de nuestra cartera de productos.
+Adicionalmente, se viene haciendo uso no permitido de nuestro logo, página web, correo y números de
+contacto.<br><br>
+A través de este comunicado denunciamos y desmentimos esta falsa información, ya que nuestra empresa
+no viene publicitando ningún proyecto inmobiliario en el distrito de Santa María del Mar, y en caso de
+hacerlo, no lo haríamos con la intención de afectar el desarrollo urbano y/o paisajístico de dicho distrito;
+Ya que como se pude apreciar en nuestra página web, los proyectos que desarrollamos se caracterizan
+por mantener y realzar la naturaleza.<br><br>
+Agradecemos se haga caso omiso a dicha publicidad, además de tener en cuenta que todos los proyectos
+que desarrollamos y la información de los mismos se encuentran en nuestra página web:
+<a href="https://gruporobles.com.pe/" target="_blank">https://gruporobles.com.pe/</a>
+
+<br><br>
+
+Atentamente <br>
+Grupo Robles y Yasikov <br><br>
+<div class="w-100 d-flex justify-content-lg-end">Lima 03 de abril del 2024</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
 @endsection
 
 
 
 
 @section('js')
+<script type="text/javascript">
+  
 
+ window.addEventListener('DOMContentLoaded', (event) => {
+      var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+      myModal.show();
+    });
+
+</script>
 <script type="module" src="{{asset('nuevaweb_assets/js/mainWeb.js')}}"></script>
 <script type="module">
     import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
