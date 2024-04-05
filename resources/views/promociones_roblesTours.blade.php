@@ -219,7 +219,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 </header>
 
   <!-- Main -->
-  <img src="{{asset('assets/img/movil-robles-tours.webp')}}" class="w-100 img-fluid d-block d-lg-none" loading="lazy">
+  <img src="{{asset('assets/img/rt_movil.webp')}}" class="w-100 img-fluid d-block d-lg-none" loading="lazy">
   <main class="main top-head "  >
    
 
@@ -438,7 +438,7 @@ y donde vivirás una experiencia inolvidable con nuestra familia Robles & Yasiko
     
      <div class="text-center  video-container">
                 
-                             <iframe loading="lazy" width="100%" height="500" src="https://www.youtube.com/embed/WxciuBQsGco?autoplay=1" frameborder="0" allowfullscreen></iframe> 
+                             <iframe loading="lazy" width="100%" height="500" src="https://www.youtube.com/embed/MyHtu2TvMks?autoplay=1" frameborder="0" allowfullscreen></iframe> 
                         </div>   
   </section> 
 
@@ -455,7 +455,7 @@ y donde vivirás una experiencia inolvidable con nuestra familia Robles & Yasiko
       </div>
 
 
-       <div class="col-12 col-sm-6 col-lg-3 ">
+       <div class="col-12 col-sm-6 col-lg-4 ">
 
         <div class="bg-white p-5 text-center">
            
@@ -469,7 +469,7 @@ y donde vivirás una experiencia inolvidable con nuestra familia Robles & Yasiko
          
       </div>
 
-         <div class="col-12 col-sm-6 col-lg-3 ">
+         <div class="col-12 col-sm-6 col-lg-4 ">
 
             <div class="bg-white p-5 text-center">
               
@@ -485,7 +485,7 @@ y donde vivirás una experiencia inolvidable con nuestra familia Robles & Yasiko
          
       </div>
 
-         <div class="col-12 col-sm-6 col-lg-3  ">
+         <div class="col-12 col-sm-6 col-lg-4  ">
 
             <div class="bg-white p-5 text-center">
               
@@ -499,7 +499,7 @@ y donde vivirás una experiencia inolvidable con nuestra familia Robles & Yasiko
          
       </div>
 
-         <div class="col-12 col-sm-6 col-lg-3 ">
+         <div class="col-12 col-sm-6 col-lg-3 d-none">
 
           <div class="bg-white p-5 text-center">
             
