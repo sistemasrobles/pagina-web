@@ -508,7 +508,8 @@ Grupo Robles y Yasikov <br><br>
   <div class="modal-dialog modal-dialog-centered modal-xs"> 
     <div class="modal-content border-0"> 
       <div class="modal-body p-0"> 
-        <img src="{{asset('assets/img/popup_abril.webp')}}" class="img-fluid" alt="popup"> 
+        <a href="https://gruporobles.com.pe/eventos/robles-tours?utm_source=web&utm_medium=organic&utm_campaign=organic_campaign_web&utm_content=organic_campaign_web&utm_term=organic_campaign_web_pop_ad" target="_blank"><img src="{{asset('assets/img/popup_abril.webp')}}" class="img-fluid" alt="popup"> </a>
+        
       </div>
     </div>
   </div>
