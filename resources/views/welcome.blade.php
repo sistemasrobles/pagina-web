@@ -501,13 +501,26 @@ Grupo Robles y Yasikov <br><br>
     </div>
   </div>
 </div>
+
+
+
+<div class="modal fade" id="secondModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xs"> 
+    <div class="modal-content border-0"> 
+      <div class="modal-body p-0"> 
+        <img src="{{asset('assets/img/popup_abril.webp')}}" class="img-fluid" alt="popup"> 
+      </div>
+    </div>
+  </div>
+</div>
+
 @endsection
 
 
 
 
 @section('js')
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   
 
  window.addEventListener('DOMContentLoaded', (event) => {
@@ -515,7 +528,27 @@ Grupo Robles y Yasikov <br><br>
       myModal.show();
     });
 
-</script>
+</script> -->
+
+
+<script type="text/javascript">
+  
+
+ window.addEventListener('DOMContentLoaded', (event) => {
+    var firstModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+    var secondModal = new bootstrap.Modal(document.getElementById('secondModal'));
+
+    firstModal.show();
+
+    // Cuando se cierra la primera modal, abrimos la segunda
+    firstModal._element.addEventListener('hidden.bs.modal', function () {
+        secondModal.show();
+    });
+});
+
+</script> 
+
+
 <script type="module" src="{{asset('nuevaweb_assets/js/mainWeb.js')}}"></script>
 <script type="module">
     import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
