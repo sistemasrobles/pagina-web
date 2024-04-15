@@ -465,7 +465,7 @@ background:  #FBFBFB;
 
 
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
@@ -500,7 +500,7 @@ Grupo Robles y Yasikov <br><br>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 
@@ -536,15 +536,15 @@ Grupo Robles y Yasikov <br><br>
   
 
  window.addEventListener('DOMContentLoaded', (event) => {
-    var firstModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+    //var firstModal = new bootstrap.Modal(document.getElementById('exampleModal'));
     var secondModal = new bootstrap.Modal(document.getElementById('secondModal'));
 
-    firstModal.show();
+    //firstModal.show();
 
-    // Cuando se cierra la primera modal, abrimos la segunda
-    firstModal._element.addEventListener('hidden.bs.modal', function () {
-        secondModal.show();
-    });
+    secondModal.show();
+    // firstModal._element.addEventListener('hidden.bs.modal', function () {
+    //     secondModal.show();
+    // });
 });
 
 </script> 
