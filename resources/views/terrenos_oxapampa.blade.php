@@ -617,7 +617,108 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
 
 
 
+<section class="container p-5 shadow mb-5">
 
+    <div class="row ">
+        
+        <div class="col-lg-6">
+          
+          <div class=" swiper mySwiperBanner ">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_4.webp" alt="" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_5.webp" alt="" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_1.webp" alt="" class="img-fluid"></div>
+               
+               
+               
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="color-green-2 mt-3">Fundo Los Robles</h2>
+          <p class="mt-3 text-center">
+              
+              A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.Vive en un ambiente donde tú y la naturaleza serán uno.
+          </p>
+
+          <a  href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
+        </div>
+    </div>
+    
+  </section>
+
+
+  <section class="container p-5 shadow mb-5">
+
+    <div class="row ">
+        
+        <div class="col-lg-6">
+          
+          <div class=" swiper mySwiperBanner ">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="{{asset('assets/img/fundo.webp')}}" alt="" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/fv2.webp')}}" alt="" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/fv3.webp')}}" alt="" class="img-fluid"></div>
+               
+               
+               
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="color-green-2 mt-3">Fundo Valentina</h2>
+          <p class="mt-3 text-center">
+              ¡Vive frente a nuestra laguna en Oxapampa! <br>¡Reserva ahora tu lote en Oxapampa y vive una experiencia única!
+          </p>
+
+          <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
+        </div>
+    </div>
+    
+  </section>
+
+
+  <section class="container p-5 shadow">
+
+    <div class="row ">
+        
+        <div class="col-lg-6">
+          
+          <div class=" swiper mySwiperBanner ">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="{{asset('assets/img/primavera.webp')}}" alt="" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/bp2.webp')}}" alt="" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/bp3.webp')}}" alt="" class="img-fluid"></div>
+               
+               
+               
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="color-green-2 mt-3">Bella Primavera</h2>
+          <p class="mt-3 text-center">
+            ¡Nuevo condominio en Oxapampa! <br>Crea recuerdos inolvidables en familia junto a la bellaza natural que Oxapampa tiene para ofrecerte.
+          </p>
+
+          <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
+        </div>
+    </div>
+    
+  </section>
+  
   <section class="container p-5 shadow variados"  >
 
     <div class="row ">
@@ -653,38 +754,7 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
   </section>
 
 
-    <section class="container p-5 shadow">
-
-    <div class="row ">
-        
-        <div class="col-lg-6">
-          
-          <div class=" swiper mySwiperBanner ">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/primavera.webp')}}" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/bp2.webp')}}" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/bp3.webp')}}" alt="" class="img-fluid"></div>
-               
-               
-               
-              </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-          </div>
-
-        </div>
-
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
-          <h2 class="color-green-2 mt-3">Bella Primavera</h2>
-          <p class="mt-3 text-center">
-            ¡Nuevo condominio en Oxapampa! <br>Crea recuerdos inolvidables en familia junto a la bellaza natural que Oxapampa tiene para ofrecerte.
-          </p>
-
-          <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
-        </div>
-    </div>
     
-  </section>
 
     <section class="container p-5 shadow">
 
@@ -719,73 +789,10 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
     
   </section>
 
-    <section class="container p-5 shadow mb-5">
-
-    <div class="row ">
-        
-        <div class="col-lg-6">
-          
-          <div class=" swiper mySwiperBanner ">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/fundo.webp')}}" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/fv2.webp')}}" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/fv3.webp')}}" alt="" class="img-fluid"></div>
-               
-               
-               
-              </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-          </div>
-
-        </div>
-
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
-          <h2 class="color-green-2 mt-3">Fundo Valentina</h2>
-          <p class="mt-3 text-center">
-              ¡Vive frente a nuestra laguna en Oxapampa! <br>¡Reserva ahora tu lote en Oxapampa y vive una experiencia única!
-          </p>
-
-          <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
-        </div>
-    </div>
     
-  </section>
 
 
- <section class="container p-5 shadow mb-5">
-
-    <div class="row ">
-        
-        <div class="col-lg-6">
-          
-          <div class=" swiper mySwiperBanner ">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_4.webp" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_5.webp" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_1.webp" alt="" class="img-fluid"></div>
-               
-               
-               
-              </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-          </div>
-
-        </div>
-
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
-          <h2 class="color-green-2 mt-3">Fundo Los Robles</h2>
-          <p class="mt-3 text-center">
-              
-              A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.Vive en un ambiente donde tú y la naturaleza serán uno.
-          </p>
-
-          <a  href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
-        </div>
-    </div>
-    
-  </section>
+ 
   
   
   
