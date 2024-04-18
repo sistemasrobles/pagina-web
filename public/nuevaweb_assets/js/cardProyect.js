@@ -1,22 +1,22 @@
 const dataProyect = [
+
     {   
-        "id":1,
-        "title":"Bella Primavera",
-        "ubicacion": "Sector San Jorge Gramazu. Distrito de Chotabamba",
+        "id":4,
+        "title":"Fundo Los Robles",
+        "ubicacion": "Llamaquizu Tambo Maria I Etapa .Oxapampa",
         "precio": 500,
-        "metraje":'<small>Desde</small> 200',
+        "metraje":'<small>Desde</small> 300',
         "estado":"<small>Pre Venta</small>",
         "tipo": "Oxapampa",
         "tipoProyecto":"Lotes",
-        "image":"nuevaweb_assets/assets/img/proyectos/bella.webp",
-        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/bella-primavera?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
+        "image":"nuevaweb_assets/assets/img/proyectos/robles.webp",
+        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/fundo-los-robles?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
         "url_campana_terrenos":"#",
         "oxapampa":1,
-        "url_web":'proyectos/lotes/bella-primavera',
-        "financiamiento":1
-    
-    },
-    {   
+          "url_web":'proyectos/lotes/fundo-los-robles',
+        "financiamiento":0
+       
+    },{   
         "id":2,
         "title":"Fundo Valentina",
         "ubicacion": "Sector San Jorge Gramazu. Distrito de Chotabamba",
@@ -34,39 +34,23 @@ const dataProyect = [
       
     },
     {   
-        "id":3,
-        "title":"El Arco Dorado",
-        "ubicacion": "Gramazú - Carolina l Etapa. Distrito de Huancabamba",
+        "id":1,
+        "title":"Bella Primavera",
+        "ubicacion": "Sector San Jorge Gramazu. Distrito de Chotabamba",
         "precio": 500,
-        "metraje":'<small>Desde</small> 300',
-        "estado":"<small>Construcción</small>",
-        "tipo": "Oxapampa",
-        "tipoProyecto":"Cabaña",
-        "image":"nuevaweb_assets/assets/img/proyectos/arco.webp",
-        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/el-arco-dorado?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
-        "url_campana_terrenos":"#",
-        "oxapampa":1,
-        "url_web":'proyectos/lotes/el-arco-dorado',
-        "financiamiento":0
-        
-    },
-    {   
-        "id":4,
-        "title":"Fundo Los Robles",
-        "ubicacion": "Llamaquizu Tambo Maria I Etapa .Oxapampa",
-        "precio": 500,
-        "metraje":'<small>Desde</small> 300',
+        "metraje":'<small>Desde</small> 200',
         "estado":"<small>Pre Venta</small>",
         "tipo": "Oxapampa",
         "tipoProyecto":"Lotes",
-        "image":"nuevaweb_assets/assets/img/proyectos/robles.webp",
-        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/fundo-los-robles?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
+        "image":"nuevaweb_assets/assets/img/proyectos/bella.webp",
+        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/bella-primavera?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
         "url_campana_terrenos":"#",
         "oxapampa":1,
-          "url_web":'proyectos/lotes/fundo-los-robles',
-        "financiamiento":0
-       
+        "url_web":'proyectos/lotes/bella-primavera',
+        "financiamiento":1
+    
     },
+    
     
     {   
         "id":5,
@@ -84,6 +68,24 @@ const dataProyect = [
          "url_web":'proyectos/lotes/el-bosque-del-rey',
         "financiamiento":0
     
+    },
+    
+    {   
+        "id":3,
+        "title":"El Arco Dorado",
+        "ubicacion": "Gramazú - Carolina l Etapa. Distrito de Huancabamba",
+        "precio": 500,
+        "metraje":'<small>Desde</small> 300',
+        "estado":"<small>Construcción</small>",
+        "tipo": "Oxapampa",
+        "tipoProyecto":"Cabaña",
+        "image":"nuevaweb_assets/assets/img/proyectos/arco.webp",
+        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/el-arco-dorado?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
+        "url_campana_terrenos":"#",
+        "oxapampa":1,
+        "url_web":'proyectos/lotes/el-arco-dorado',
+        "financiamiento":0
+        
     },
     {   
         "id":6,
