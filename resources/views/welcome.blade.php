@@ -504,7 +504,7 @@ Grupo Robles y Yasikov <br><br>
 
 
 
-<div class="modal fade" id="secondModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="secondModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xs"> 
     <div class="modal-content border-0"> 
       <div class="modal-body p-0"> 
@@ -513,7 +513,7 @@ Grupo Robles y Yasikov <br><br>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 @endsection
 
