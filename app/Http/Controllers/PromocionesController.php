@@ -85,9 +85,19 @@ class PromocionesController extends Controller
 
     public function lotesOxapampa(){
         
-        $projects = Proyectos::where('estado_proyecto','=',1)->where('region','=','Oxapampa')->get();
+        //$projects = Proyectos::where('estado_proyecto','=',1)->where('region','=','Oxapampa')->get();
 
         
+
+        $orderedIds = [8, 6, 7, 5, 4]; 
+
+
+        $projects = Proyectos::where('estado_proyecto', '=', 1)
+    ->where('region', '=', 'Oxapampa')
+    ->whereIn('idproyecto', $orderedIds) 
+    ->orderByRaw(DB::raw("FIELD(idproyecto, " . implode(',', $orderedIds) . ")"))
+    ->get();
+
         return view('lotes_oxapampa',compact('projects'));
     }
 
@@ -95,9 +105,18 @@ class PromocionesController extends Controller
 
     public function terrenosOxapampa(){
         
-        $projects = Proyectos::where('estado_proyecto','=',1)->where('region','=','Oxapampa')->get();
+        //$projects = Proyectos::where('estado_proyecto','=',1)->where('region','=','Oxapampa')->get();
 
-        
+         $orderedIds = [8, 6, 7, 5, 4]; 
+
+
+        $projects = Proyectos::where('estado_proyecto', '=', 1)
+    ->where('region', '=', 'Oxapampa')
+    ->whereIn('idproyecto', $orderedIds) 
+    ->orderByRaw(DB::raw("FIELD(idproyecto, " . implode(',', $orderedIds) . ")"))
+    ->get();
+
+    
         return view('terrenos_oxapampa',compact('projects'));
     }
 
