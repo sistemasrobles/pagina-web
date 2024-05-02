@@ -54,6 +54,7 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
                             <option value="Ayacucho">Ayacucho</option>
                             <option value="Chanchamayo">Chanchamayo</option>
                              <option value="La Libertad">La Libertad</option>
+                             <option value="Piura">Piura</option>
                         </select>
                     </div>
                 </label>

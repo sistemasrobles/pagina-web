@@ -250,6 +250,10 @@ a {
     center center/cover no-repeat;
 }
 
+.bg-slider-9:hover::before {
+  background:  url('../img/logos/palmas.png')
+    center center/cover no-repeat;
+}
 
 @keyframes framer {
   from {

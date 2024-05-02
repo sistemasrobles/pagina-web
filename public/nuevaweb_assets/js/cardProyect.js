@@ -137,6 +137,23 @@ const dataProyect = [
           "url_web":'proyectos/lotes/valle-orquidea',
         "financiamiento":0
        
+    },
+    {   
+        "id":9,
+        "title":"Palmas del Caribe",
+        "ubicacion": "Playa El Amor - Máncora, Piura",
+        "precio": 500,
+        "metraje":'<small>Desde</small> 215',
+        "estado":"<small>Construcción</small>",
+        "tipo": "Piura",
+        "tipoProyecto":"Lotes",
+        "image":"nuevaweb_assets/assets/img/proyectos/palmas.webp",
+        "url_campana_lotes":"",
+        "url_campana_terrenos":"",
+        "oxapampa":0,
+          "url_web":'proyectos/lotes/palmas-del-caribe',
+        "financiamiento":0
+       
     }
 ]
 
