@@ -327,7 +327,7 @@ background:  #FBFBFB;
     <!-- Caracteristicas -->
 
 
-    @if($proyetoactual->idproyecto == 17)
+    @if($proyetoactual->idproyecto == 9)
 
 
          <section id="acerca" class="container-fluid py-5 px-3 bg-gris">
