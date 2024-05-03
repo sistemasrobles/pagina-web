@@ -325,7 +325,76 @@ background:  #FBFBFB;
     </section>
 
     <!-- Caracteristicas -->
-    <section id="acerca" class="container-fluid py-5 px-3 bg-gris">
+
+
+    @if($proyetoactual->idproyecto == 17)
+
+
+         <section id="acerca" class="container-fluid py-5 px-3 bg-gris">
+        <div class="container-xl">
+            <span>
+                <h2 class="family-700-one color-green-2" style="font-weight: 700;">Beneficios</h2>
+                <p class="sub-title-section">Ambientes ideales para ti en nuestro condominio</p>
+            </span>
+            <!-- iconos infon -->
+            <div class="row row-cols-2 row-cols-xl-3 row-cols-md-3 row-cols-sm-2 gy-3 width-max-proyect">
+
+                <div>
+                    <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
+                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/juego_nino_mancora.svg')}}" alt="" style="height:50px;width: 50px;">
+                        <p class="mb-0 fs-9 text-center">Juegos para niños</p>
+                    </div>
+                </div>
+
+                
+
+                <div>
+                    <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
+                         <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/local_comercial_mancora.svg')}}" alt="" style="height:50px;width: 50px;">
+                        <p class="mb-0 fs-9 text-center">Locales comerciales</p>
+                    </div>
+                </div>
+
+               
+                <!-- col2 -->
+                <div>
+                    <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
+                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/sauna_mancora.svg')}}" alt="" style="height:50px;width: 50px;">
+                        <p class="mb-0 fs-9 text-center">Sauna & Spa</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="d-flex h-100 flex-column gap-2 justify-content-center align-items-center bg-white py-3 rounded-2">
+                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/piscina_mancora.svg')}}" alt="" style="height:50px;width: 50px;">
+                        <p class="mb-0 fs-9 text-center">Piscina</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="d-flex h-100 flex-column gap-2 justify-content-center align-items-center bg-white py-3 rounded-2">
+                         <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/lgauna_privada_mancora.svg')}}" alt="" style="height:50px;width: 50px;">
+                        <p class="mb-0 fs-9 text-center">Laguna Privada</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
+                       <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/vista_playa_mancora.svg')}}" alt="" style="height:50px;width: 50px;">
+                        <p class="mb-0 fs-9 text-center">Acceso directo a playa</p>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    </section>
+
+
+    @else
+
+
+        <section id="acerca" class="container-fluid py-5 px-3 bg-gris">
         <div class="container-xl">
             <span>
                 <h2 class="family-700-one color-green-2" style="font-weight: 700;">Beneficios</h2>
@@ -384,6 +453,12 @@ background:  #FBFBFB;
             </div>
         </div>
     </section>
+
+
+    @endif
+
+
+   
     <!--Section Galeria  -->
     <section id="galería" class="container-xl py-5" style="margin:0px;padding: 0px;">
         <span>
