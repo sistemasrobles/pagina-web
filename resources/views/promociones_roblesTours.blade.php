@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  <meta name="description" content="Terrenos en Oxapampa de Robles & Yasikov. Regístrate y descubre las mejores ofertas y promociones en terrenos y cabañas." />
+  <meta name="description" content="Evento Inmobiliario donde podrás visitar nuestros proyectos totalmente gratis. Tu casa de Campo en Oxapampa." />
 
         <meta name="author" content="Robles & Yasikov" />
 
@@ -16,11 +16,11 @@
         <meta property="og:url" content="https://gruporobles.com.pe/nuestros-proyectos" />
 
         <meta property="og:title" content="Terrenos en Oxapampa Perú ¡En Robles & Yasikov!" />
-        <meta property="og:description" content="Terrenos en Oxapampa de Robles & Yasikov. Regístrate y descubre las mejores ofertas y promociones en terrenos y cabañas." />
+        <meta property="og:description" content="Evento Inmobiliario donde podrás visitar nuestros proyectos totalmente gratis. Tu casa de Campo en Oxapampa." />
 
 
 
-        <title>Nuestros Eventos | Robles & Yasikov</title>
+        <title>Robles Tours Eventos Inmobiliarios | Robles & Yasikov</title>
 
 
 
@@ -418,7 +418,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
       
       <div class="col-12 col-lg-12 ">
          <h1 class="text-left  title-proyect family-700-one margin-0" >¿Qué es el Robles Tours edición Oxapampa?</h1>
-         <p class="mt-3">Es un evento donde te llevaremos a visitar nuestro proyecto totalmente gratis desde la plaza de armas de Oxapampa
+         <p class="mt-3">Es un <strong>evento inmobiliario</strong> donde te llevaremos a visitar nuestro proyecto totalmente gratis desde la plaza de armas de Oxapampa
 y donde vivirás una experiencia inolvidable con nuestra familia Robles & Yasikov.</p>
       </div>
 
