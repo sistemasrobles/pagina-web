@@ -558,7 +558,7 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
   </main> 
 
 
-  <section class="container-fluid ">
+  <section class="container-fluid mt-3">
     
 
     <div class="col-12 col-lg-12  pt-2 pb-2 d-block d-lg-none " >
@@ -573,13 +573,7 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
 
   </section>
 
-<section class="container d-block d-lg-none my-3">
-    
-     <div class="text-center  video-container">
-                
-                             <iframe loading="lazy" width="100%" height="500" src="https://www.youtube.com/embed/S88n6GYjltU?autoplay=1" frameborder="0" allowfullscreen></iframe> 
-                        </div>   
-  </section> 
+
 
   <!-- Nuestros proyectos -->
 
