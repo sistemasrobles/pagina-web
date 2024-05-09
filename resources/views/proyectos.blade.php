@@ -40,9 +40,8 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
         <!-- <h1 class="text-center family-700-one color-green-2">Proyectos</h1> -->
         <!--container  filtrado  -->
         <div class="shadow-filter-proyect" style="">
-            <P class="d-flex mb-5 ">En &nbsp;<strong>Robles & Yasikov</strong> &nbsp; contamos con más de 8 &nbsp;<strong> proyectos inmobiliarios </strong> &nbsp;a lo largo de la costa, sierra y selva del Perú.  Conoce más sobre ellos a continuación.
-</P>
-            <div class="row row-cols-1  row-cols--xl-3 row-cols-lg-3 row-cols-md-2 g-4 align-items-center">
+            <span class=" mb-5 ">En <strong>Robles & Yasikov</strong> contamos con más de 8 <strong>proyectos inmobiliarios</strong> a lo largo de la costa, sierra y selva del Perú.  Conoce más sobre ellos a continuación.</span>
+            <div class="row row-cols-1  row-cols--xl-3 row-cols-lg-3 row-cols-md-2 g-4 align-items-center mt-3">
                 <label class="d-flex flex-column gap-1 border-lg-end px-4 ">
                     <strong class="color-green-2">¿Qué ubicación estás buscando?</strong>
                     <div class="d-flex gap-2 align-items-center">
