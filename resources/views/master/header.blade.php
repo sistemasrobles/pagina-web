@@ -1,7 +1,7 @@
 <header  class="header position-sticky    top-0  container-fluid w-100  d-flex flex-column justify-content-between align-items-center " style="background:rgba(255,255,255,1)">
 
   <div class="container-xl d-flex   justify-content-between align-items-center index-header ">
-    <a href="{{url('/')}}"><img src="{{asset('nuevaweb_assets/assets/img/logo-color.svg')}}" alt="logo-robles"></a>
+    <a href="{{url('/')}}"><img src="{{asset('nuevaweb_assets/assets/img/logo-color.svg')}}" alt="Grupo Robles & Yasikov"></a>
     <!-- btn hamburger -->
     <span type="button" id="btn-hamburger" class="d-xxl-none d-xl-none d-md-none d-sm-flex gap-3">
        <i class="fa-solid fa-bars fs-2"></i>
@@ -54,7 +54,7 @@
   
        <a href="{{url('/proyectos/lotes/el-arco-dorado')}}"> <div class="container-img-proyect position-relative " >
           <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
-          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/arco.webp')}}" alt="arco dorado">
+          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/arco.webp')}}" alt="proyecto el arco dorado">
 
         
 
@@ -104,7 +104,7 @@
   
        <a href="{{url('/proyectos/lotes/bella-primavera')}}"> <div class="container-img-proyect position-relative " >
           <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
-          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/bella.webp')}}" alt="arco dorado">
+          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/bella.webp')}}" alt="proyecto bella primavera">
 
         
 
@@ -154,7 +154,7 @@
   
        <a href="{{url('/proyectos/lotes/el-bosque-del-rey')}}"> <div class="container-img-proyect position-relative " >
           <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
-          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/bosque.webp')}}" alt="arco dorado">
+          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/bosque.webp')}}" alt="proyecto el bosque del rey">
 
         
 
@@ -204,7 +204,7 @@
   
        <a href="{{url('/proyectos/lotes/fundo-valentina')}}"> <div class="container-img-proyect position-relative " >
           <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
-          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/fundo.webp')}}" alt="arco dorado">
+          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/fundo.webp')}}" alt="proyecto fundo valentina">
 
         
 
@@ -254,7 +254,7 @@
   
        <a href="{{url('/proyectos/lotes/el-golf-de-poseidon')}}"> <div class="container-img-proyect position-relative " >
           <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
-          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/golf.webp')}}" alt="arco dorado">
+          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/golf.webp')}}" alt="proyecto el golf de poseidon">
 
         
 
@@ -301,7 +301,7 @@
   
        <a href="{{url('/proyectos/lotes/la-retama')}}"> <div class="container-img-proyect position-relative " >
           <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
-          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/retama.webp')}}" alt="arco dorado">
+          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/retama.webp')}}" alt="proyecto la retama">
 
         
 
@@ -350,7 +350,7 @@
   
        <a href="{{url('/proyectos/lotes/valle-orquidea')}}"> <div class="container-img-proyect position-relative " >
           <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
-          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/valle.webp')}}" alt="arco dorado">
+          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/valle.webp')}}" alt="proyecto valle Orquídea">
 
         
 
@@ -403,7 +403,7 @@
   
        <a href="{{url('/proyectos/lotes/fundo-los-robles')}}"> <div class="container-img-proyect position-relative " >
           <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
-          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/robles.webp')}}" alt="fundo los robles">
+          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/robles.webp')}}" alt="proyecto fundo los robles">
 
         
 
@@ -456,7 +456,7 @@
   
        <a href="{{url('/proyectos/lotes/palmas-del-caribe')}}"> <div class="container-img-proyect position-relative " >
           <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
-          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/palmas.webp')}}" alt="palmas del caribe">
+          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/palmas.webp')}}" alt="proyecto palmas del caribe">
 
         
 
