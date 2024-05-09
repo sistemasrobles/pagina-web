@@ -465,7 +465,7 @@ background:  #FBFBFB;
     <section id="galería" class="container-xl py-5" style="margin:0px;padding: 0px;">
         <span>
             <h2 style="font-weight: 700;" class="color-green-2">Fotos y videos</h2>
-            <p class="sub-title-section">Descubre la magia de la naturaleza en cada imagen</p>
+            <p class="sub-title-section">{!! $proyetoactual->des_fotos_videos !!}</p>
         </span>
 
         <div class="width-max-proyect shadow py-2 px-4">
