@@ -625,9 +625,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_4.webp" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_5.webp" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_1.webp" alt="" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_4.webp" alt="fundo los robles" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_5.webp" alt="fundo los robles" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_1.webp" alt="fundo los robles" class="img-fluid"></div>
                
                
                
@@ -660,9 +660,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/fundo.webp')}}" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/fv2.webp')}}" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/fv3.webp')}}" alt="" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/fundo.webp')}}" alt="fundo valentina" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/fv2.webp')}}" alt="fundo valentina" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/fv3.webp')}}" alt="fundo valentina" class="img-fluid"></div>
                
                
                
@@ -694,9 +694,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/primavera.webp')}}" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/bp2.webp')}}" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/bp3.webp')}}" alt="" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/primavera.webp')}}" alt="bella primavera" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/bp2.webp')}}" alt="bella primavera" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/bp3.webp')}}" alt="bella primavera" class="img-fluid"></div>
                
                
                
@@ -727,9 +727,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/brey.webp')}}" alt="" class="img-fluid" ></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/br2.webp')}}" alt="" class="img-fluid" ></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/br3.webp')}}" alt="" class="img-fluid" ></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/brey.webp')}}" alt="el bosque del rey" class="img-fluid" ></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/br2.webp')}}" alt="el bosque del rey" class="img-fluid" ></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/br3.webp')}}" alt="el bosque del rey" class="img-fluid" ></div>
                
                
                
@@ -764,9 +764,9 @@ Adquiere uno de nuestros terrenos y disfruta de aire fresco, hermosas vistas des
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado.webp')}}" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado2.webp')}}" alt="" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado3.webp')}}" alt="" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado.webp')}}" alt="el arco dorado" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado2.webp')}}" alt="el arco dorado" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado3.webp')}}" alt="el arco dorado" class="img-fluid"></div>
                
                
                
