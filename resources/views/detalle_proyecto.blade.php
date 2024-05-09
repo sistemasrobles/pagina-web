@@ -336,7 +336,7 @@ background:  #FBFBFB;
         <div class="container-xl">
             <span>
                 <h2 class="family-700-one color-green-2" style="font-weight: 700;">Beneficios</h2>
-                <p class="sub-title-section">Ambientes ideales para ti en nuestro condominio</p>
+                <p class="sub-title-section">Ambientes ideales para ti en nuestro condominio {{ $proyetoactual->descripcion}}</p>
             </span>
             <!-- iconos infon -->
             <div class="row row-cols-2 row-cols-xl-3 row-cols-md-3 row-cols-sm-2 gy-3 width-max-proyect">
@@ -400,7 +400,7 @@ background:  #FBFBFB;
         <div class="container-xl">
             <span>
                 <h2 class="family-700-one color-green-2" style="font-weight: 700;">Beneficios</h2>
-                <p class="sub-title-section">Ambientes ideales para ti en nuestro condominio</p>
+                <p class="sub-title-section">Ambientes ideales para ti en nuestro condominio  {{ $proyetoactual->descripcion}}</p>
             </span>
             <!-- iconos infon -->
             <div class="row row-cols-2 row-cols-xl-3 row-cols-md-3 row-cols-sm-2 gy-3 width-max-proyect">
