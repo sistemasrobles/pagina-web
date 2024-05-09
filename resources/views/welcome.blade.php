@@ -205,7 +205,7 @@ background:  #FBFBFB;
   <section class="container-xl container-experiencia px-4  ">
     <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 justify-content-between g-4 align-items-center">
       <div class=" d-flex flex-column gap-3">
-        <h2 class="family-700-one color-green-2">Grupo Robles & Yasikov: Haciendo feliz a más de 500 familias</h2>
+        <h1 class="family-700-one color-green-2">Grupo Robles & Yasikov: Haciendo feliz a más de 500 familias</h1>
         <p>Buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios.
 
         </p>

@@ -32,11 +32,11 @@ class PoryectoController extends Controller
        
 
         SEOMeta::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
-        SEOMeta::setDescription('En el Grupo Robles & Yasikov buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios que contarán con una zona de club house.');
+        SEOMeta::setDescription('En el Grupo Robles & Yasikov buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios.');
         SEOMeta::setCanonical('https://gruporobles.com.pe/proyectos');
         SEOMeta::addKeyword(['grupo robles', 'proyectos', 'grupo robles']);
 
-        OpenGraph::setDescription('En el Grupo Robles & Yasikov buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios que contarán con una zona de club house.');
+        OpenGraph::setDescription('En el Grupo Robles & Yasikov buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios.');
         OpenGraph::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
         OpenGraph::setUrl('https://gruporobles.com.pe/proyectos');
         OpenGraph::addProperty('type', 'website');
@@ -48,14 +48,14 @@ class PoryectoController extends Controller
         OpenGraph::addImage('https://gruporobles.com.pe/img/banner/banner3.jpg', ['height' => 300, 'width' => 300]);
 
         JsonLdMulti::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
-        JsonLdMulti::setDescription('En el Grupo Robles & Yasikov buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios que contarán con una zona de club house.');
+        JsonLdMulti::setDescription('En el Grupo Robles & Yasikov buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios.');
         JsonLdMulti::setType('Article');
         JsonLdMulti::addImage('https://gruporobles.com.pe/img/banner/banner3.jpg');
         if(! JsonLdMulti::isEmpty()) {
             JsonLdMulti::newJsonLd();
             JsonLdMulti::setType('WebPage');
             JsonLdMulti::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
-            JsonLdMulti::setDescription('En el Grupo Robles & Yasikov buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios que contarán con una zona de club house.');
+            JsonLdMulti::setDescription('En el Grupo Robles & Yasikov buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios.');
             JsonLdMulti::setType('Article');
             JsonLdMulti::addImage('https://gruporobles.com.pe/img/banner/banner3.jpg');
         }
