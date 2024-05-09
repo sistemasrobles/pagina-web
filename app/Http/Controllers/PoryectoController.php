@@ -31,13 +31,15 @@ class PoryectoController extends Controller
         $tipo=array('','inmobiliario','construccion y agregados','agencia digital y prensa','logistica y trasnsporte pesado','responsabilidad social');
        
 
-        SEOMeta::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
-        SEOMeta::setDescription('Somos Robles & Yasikov, una inmobiliaria con terrenos en la costa, sierra y selva del Perú. Nuestros proyectos inmobiliarios de alta calidad son ecoamigables.');
+        //SEOMeta::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
+        SEOMeta::setTitle('Grupo Robles & Yasikov - Nuestros proyectos inmobiliarios');
+
+        SEOMeta::setDescription('Conoce los proyectos inmobiliarios ecoamigables de Robles & Yasikov en Oxapampa, Chanchamayo, Máncora y La Libertad y cómo puedes financiar tu lote soñado');
         SEOMeta::setCanonical('https://gruporobles.com.pe/proyectos');
         SEOMeta::addKeyword(['grupo robles', 'proyectos', 'grupo robles']);
 
-        OpenGraph::setDescription('Somos Robles & Yasikov, una inmobiliaria con terrenos en la costa, sierra y selva del Perú. Nuestros proyectos inmobiliarios de alta calidad son ecoamigables.');
-        OpenGraph::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
+        OpenGraph::setDescription('Conoce los proyectos inmobiliarios ecoamigables de Robles & Yasikov en Oxapampa, Chanchamayo, Máncora y La Libertad y cómo puedes financiar tu lote soñado.');
+        OpenGraph::setTitle('Grupo Robles & Yasikov - Nuestros proyectos inmobiliarios');
         OpenGraph::setUrl('https://gruporobles.com.pe/proyectos');
         OpenGraph::addProperty('type', 'website');
         OpenGraph::addProperty('locale', 'es_ES');
@@ -47,15 +49,15 @@ class PoryectoController extends Controller
         OpenGraph::addImage(['url' => 'https://gruporobles.com.pe/img/banner/banner3.jpg', 'size' => 300]);
         OpenGraph::addImage('https://gruporobles.com.pe/img/banner/banner3.jpg', ['height' => 300, 'width' => 300]);
 
-        JsonLdMulti::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
-        JsonLdMulti::setDescription('Somos Robles & Yasikov, una inmobiliaria con terrenos en la costa, sierra y selva del Perú. Nuestros proyectos inmobiliarios de alta calidad son ecoamigables.');
+        JsonLdMulti::setTitle('Grupo Robles & Yasikov - Nuestros proyectos inmobiliarios');
+        JsonLdMulti::setDescription('Conoce los proyectos inmobiliarios ecoamigables de Robles & Yasikov en Oxapampa, Chanchamayo, Máncora y La Libertad y cómo puedes financiar tu lote soñado.');
         JsonLdMulti::setType('Article');
         JsonLdMulti::addImage('https://gruporobles.com.pe/img/banner/banner3.jpg');
         if(! JsonLdMulti::isEmpty()) {
             JsonLdMulti::newJsonLd();
             JsonLdMulti::setType('WebPage');
-            JsonLdMulti::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
-            JsonLdMulti::setDescription('Somos Robles & Yasikov, una inmobiliaria con terrenos en la costa, sierra y selva del Perú. Nuestros proyectos inmobiliarios de alta calidad son ecoamigables.');
+            JsonLdMulti::setTitle('Grupo Robles & Yasikov - Nuestros proyectos inmobiliarios');
+            JsonLdMulti::setDescription('Conoce los proyectos inmobiliarios ecoamigables de Robles & Yasikov en Oxapampa, Chanchamayo, Máncora y La Libertad y cómo puedes financiar tu lote soñado.');
             JsonLdMulti::setType('Article');
             JsonLdMulti::addImage('https://gruporobles.com.pe/img/banner/banner3.jpg');
         }

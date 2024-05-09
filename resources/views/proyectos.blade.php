@@ -19,8 +19,8 @@
  
     <div class="d-flex  justify-content-center align-items-center" style=" position: relative;">
                 
-               <img src="{{asset('nuevaweb_assets/assets/img/paisa.webp')}}" class="w-100 img-fluid  d-none d-sm-block"  >
-                <img src="{{asset('nuevaweb_assets/assets/img/valores.webp')}}" class="w-100 img-fluid d-block d-sm-none"  >
+               <img src="{{asset('nuevaweb_assets/assets/img/paisa.webp')}}" alt="Vista del paisaje de Oxapampa" class="w-100 img-fluid  d-none d-sm-block"  >
+                <img src="{{asset('nuevaweb_assets/assets/img/valores.webp')}}" alt="Vista del paisaje de Oxapampa" class="w-100 img-fluid d-block d-sm-none"  >
                  <div class="container  d-flex justify-content-center justify-content-lg-start align-items-center  h-100 w-100 " style="position:absolute;top: 0;z-index: 1;">
                     <h1 class="text-center family-700-one text-white ">Proyectos</h1>
                     
@@ -40,7 +40,8 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
         <!-- <h1 class="text-center family-700-one color-green-2">Proyectos</h1> -->
         <!--container  filtrado  -->
         <div class="shadow-filter-proyect" style="">
-            <span class="d-flex mb-3 ">Tenemos más de 8 proyectos inmobiliarios a lo largo de país</span>
+            <P class="d-flex mb-5 ">En &nbsp;<strong>Robles & Yasikov</strong> &nbsp; contamos con más de 8 &nbsp;<strong> proyectos inmobiliarios </strong> &nbsp;a lo largo de la costa, sierra y selva del Perú.  Conoce más sobre ellos a continuación.
+</P>
             <div class="row row-cols-1  row-cols--xl-3 row-cols-lg-3 row-cols-md-2 g-4 align-items-center">
                 <label class="d-flex flex-column gap-1 border-lg-end px-4 ">
                     <strong class="color-green-2">¿Qué ubicación estás buscando?</strong>

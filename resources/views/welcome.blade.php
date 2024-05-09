@@ -174,7 +174,7 @@ background:  #FBFBFB;
       
       <div class="col-12 col-lg-8 ">
          <h2 class="text-left  title-proyect family-700-one margin-0" >Nuestros Proyectos</h2>
-         <p class="mt-2">Conoce más a detalle nuestros proyectos que tenemos al interior del país</p>
+         <p class="mt-2">Conoce más a detalle nuestros <strong>proyectos inmobiliarios<strong> que tenemos al interior del país</p>
       </div>
 
       <div class="col-12 col-lg-4  text-end d-none d-lg-block">
@@ -206,17 +206,17 @@ background:  #FBFBFB;
     <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 justify-content-between g-4 align-items-center">
       <div class=" d-flex flex-column gap-3">
         <h1 class="family-700-one color-green-2">Grupo Robles & Yasikov: Haciendo feliz a más de 500 familias</h1>
-        <p>Buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios.
+        <p>Te brindamos <strong>proyectos inmobiliarios</strong> ecoamigables de alta calidad, con lotes y cabañas dentro de nuestros exclusivos condominios en zonas estratégicas del país como <strong>Oxapampa, Chanchamayo, La Libertad y Máncora</strong>.
 
         </p>
         <ul class="list-group">
            <li class="d-flex gap-2 align-items-center raleway-medium my-1">
            <i class="fa-solid fa  fa-check me-2 bg-terce text-white   p-1 rounded-2"style="font-size: 1.5rem;"></i>
-           Contamos con proyectos en la costa,sierra y selva.
+           Proyectos inmobiliarios en la costa, sierra y selva del Perú.
           </li>
           <li class="d-flex gap-2 align-items-center raleway-medium  my-1">
             <i class="fa-solid fa  fa-check me-2 bg-terce text-white   p-1 rounded-2"style="font-size: 1.5rem;"></i>
-            Condominios que contarán con una zona de club house.
+            Condominios con zona de club house.
           </li>
           <li class="d-flex gap-2 align-items-center raleway-medium  my-1"><i class="fa-solid fa  fa-check me-2 bg-terce text-white   p-1 rounded-2"style="font-size: 1.5rem;"></i> En Grupo Robles & Yasikov, tu inversión está en manos seguras.</li>
         </ul>
