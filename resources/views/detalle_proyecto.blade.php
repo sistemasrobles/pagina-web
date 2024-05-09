@@ -281,7 +281,7 @@ background:  #FBFBFB;
                   
 
 
-                     <img src="{{asset('nuevaweb_assets/assets/img/clock.svg')}}" alt="" class="bg bg-terce rounded-circle avatar-lg p-2" style="height: 60px;width: 60px;">
+                     <img src="{{asset('nuevaweb_assets/assets/img/clock.svg')}}" alt="ubicación del proyecto {{ $proyetoactual->descripcion }}" class="bg bg-terce rounded-circle avatar-lg p-2" style="height: 60px;width: 60px;">
 
 
 
@@ -291,12 +291,12 @@ background:  #FBFBFB;
 
                 </div>
                 <div class="d-flex gap-3 align-items-center">
-                    <img src="{{asset('nuevaweb_assets/assets/img/compass.svg')}}" alt="" class="bg bg-terce rounded-circle avatar-lg p-2 " style="height: 60px;width: 60px;">
+                    <img src="{{asset('nuevaweb_assets/assets/img/compass.svg')}}" alt="ubicación del proyecto {{ $proyetoactual->descripcion }}" class="bg bg-terce rounded-circle avatar-lg p-2 " style="height: 60px;width: 60px;">
                     <p class="mb-0 d-none d-lg-block" ><small>{!! $proyetoactual->referencia_2 !!}</small></p>
                     <p class="mb-0 d-block d-lg-none"><small>{{ $proyetoactual->referencia_2_movil }}</small></p>
                 </div>
                 <div class="d-flex gap-3 align-items-center">
-                    <img src="{{asset('nuevaweb_assets/assets/img/map-pin.svg')}}" alt="" class="bg bg-terce rounded-circle avatar-lg p-2" style="height: 60px;width: 60px;">
+                    <img src="{{asset('nuevaweb_assets/assets/img/map-pin.svg')}}" alt="ubicación del proyecto {{ $proyetoactual->descripcion }}" class="bg bg-terce rounded-circle avatar-lg p-2" style="height: 60px;width: 60px;">
                     <p class="mb-0"><small>{!! $proyetoactual->referencia_3 !!}</small></p>
                 </div>
                 
@@ -306,14 +306,14 @@ background:  #FBFBFB;
 
 
 
-                  <img class="img-fluid " src='{{ asset("/storage/$proyetoactual->img_mapa") }}' alt="mapa ubicación proyecto {{$proyetoactual->descripcion}} | Robles & Yasikov" >
+                  <img class="img-fluid " src='{{ asset("/storage/$proyetoactual->img_mapa") }}' alt="mapa de ubicación proyecto {{$proyetoactual->descripcion}} | Robles & Yasikov" >
 
                
                 <div class="d-flex gap-3 position-absolutex bottom-0 w-100 align-items-center justify-content-center px-3 py-2 bg-gris">
 
-                    <a class="w-100 bg-white py-3 px-3 rounded-2 text-center" href="https://www.waze.com/ul?ll={{$proyetoactual->lat}}%2C{{$proyetoactual->long}}&navigate=yes" target="_blank" ><img src="{{asset('nuevaweb_assets/assets/img/waze.svg')}}" alt=""> Ver en Waze</a>
+                    <a class="w-100 bg-white py-3 px-3 rounded-2 text-center" href="https://www.waze.com/ul?ll={{$proyetoactual->lat}}%2C{{$proyetoactual->long}}&navigate=yes" target="_blank" ><img src="{{asset('nuevaweb_assets/assets/img/waze.svg')}}" alt="ubicación del proyecto {{ $proyetoactual->descripcion }} en waze"> Ver en Waze</a>
 
-                    <a class="w-100 bg-white py-3 px-3 rounded-2 text-center" href="https://www.google.com/maps/dir/?api=1&destination={{$proyetoactual->lat}}%2C{{$proyetoactual->long}}" target="_blank"><img src="{{asset('nuevaweb_assets/assets/img/maps.svg')}}" alt=""> Ver en Maps</a>
+                    <a class="w-100 bg-white py-3 px-3 rounded-2 text-center" href="https://www.google.com/maps/dir/?api=1&destination={{$proyetoactual->lat}}%2C{{$proyetoactual->long}}" target="_blank"><img src="{{asset('nuevaweb_assets/assets/img/maps.svg')}}" alt="ubicación del proyecto {{ $proyetoactual->descripcion }} en google maps"> Ver en Maps</a>
 
                    
                 </div>
@@ -343,7 +343,7 @@ background:  #FBFBFB;
 
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
-                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/juego_nino_mancora.svg')}}" alt="" style="height:50px;width: 50px;">
+                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/juego_nino_mancora.svg')}}" alt="juegos para niños en el proyecto {{ $proyetoactual->descripcion }} " style="height:50px;width: 50px;">
                         <p class="mb-0 fs-9 text-center">Juegos para niños</p>
                     </div>
                 </div>
@@ -352,7 +352,7 @@ background:  #FBFBFB;
 
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
-                         <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/local_comercial_mancora.svg')}}" alt="" style="height:50px;width: 50px;">
+                         <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/local_comercial_mancora.svg')}}" alt="locales comerciales en el proyecto {{ $proyetoactual->descripcion }}" style="height:50px;width: 50px;">
                         <p class="mb-0 fs-9 text-center">Locales comerciales</p>
                     </div>
                 </div>
@@ -361,28 +361,28 @@ background:  #FBFBFB;
                 <!-- col2 -->
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
-                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/sauna_mancora.svg')}}" alt="" style="height:50px;width: 50px;">
+                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/sauna_mancora.svg')}}" alt="saunas en el proyecto {{ $proyetoactual->descripcion }}" style="height:50px;width: 50px;">
                         <p class="mb-0 fs-9 text-center">Sauna & Spa</p>
                     </div>
                 </div>
 
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 justify-content-center align-items-center bg-white py-3 rounded-2">
-                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/piscina_mancora.svg')}}" alt="" style="height:50px;width: 50px;">
+                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/piscina_mancora.svg')}}" alt="piscinas en el proyecto {{ $proyetoactual->descripcion }}" style="height:50px;width: 50px;">
                         <p class="mb-0 fs-9 text-center">Piscina</p>
                     </div>
                 </div>
 
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 justify-content-center align-items-center bg-white py-3 rounded-2">
-                         <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/lgauna_privada_mancora.svg')}}" alt="" style="height:50px;width: 50px;">
+                         <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/lgauna_privada_mancora.svg')}}" alt="laguna privada en el proyecto {{ $proyetoactual->descripcion }}" style="height:50px;width: 50px;">
                         <p class="mb-0 fs-9 text-center">Laguna Privada</p>
                     </div>
                 </div>
 
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
-                       <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/vista_playa_mancora.svg')}}" alt="" style="height:50px;width: 50px;">
+                       <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/vista_playa_mancora.svg')}}" alt="acceso a las playas en el proyecto {{ $proyetoactual->descripcion }}" style="height:50px;width: 50px;">
                         <p class="mb-0 fs-9 text-center">Acceso directo a playa</p>
                     </div>
                 </div>
@@ -407,7 +407,7 @@ background:  #FBFBFB;
 
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
-                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/servicios.svg')}}" alt="" style="height:50px;width: 50px;">
+                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/servicios.svg')}}" alt="servicios basicos en el proyecto {{ $proyetoactual->descripcion }}" style="height:50px;width: 50px;">
                         <p class="mb-0 fs-9 text-center">Servicios Básicos</p>
                     </div>
                 </div>
@@ -416,7 +416,7 @@ background:  #FBFBFB;
 
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
-                         <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/pistas.svg')}}" alt="" style="height:50px;width: 50px;">
+                         <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/pistas.svg')}}" alt="vias de acceso en el proyecto {{ $proyetoactual->descripcion }}" style="height:50px;width: 50px;">
                         <p class="mb-0 fs-9 text-center">Vías de acceso</p>
                     </div>
                 </div>
@@ -425,28 +425,28 @@ background:  #FBFBFB;
                 <!-- col2 -->
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
-                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/portico.svg')}}" alt="" style="height:50px;width: 50px;">
+                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/portico.svg')}}" alt="porticos de ingreso en el proyecto {{ $proyetoactual->descripcion }}" style="height:50px;width: 50px;">
                         <p class="mb-0 fs-9 text-center">Pórtico de ingreso</p>
                     </div>
                 </div>
 
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 justify-content-center align-items-center bg-white py-3 rounded-2">
-                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/club.svg')}}" alt="" style="height:50px;width: 50px;">
+                        <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/club.svg')}}" alt="oportunidad de inversión en el proyecto {{ $proyetoactual->descripcion }}" style="height:50px;width: 50px;">
                         <p class="mb-0 fs-9 text-center">Oportunidad de inversión</p>
                     </div>
                 </div>
 
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 justify-content-center align-items-center bg-white py-3 rounded-2">
-                         <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/cerco-perimetrico.svg')}}" alt="" style="height:50px;width: 50px;">
+                         <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/cerco-perimetrico.svg')}}" alt="cerco vivo en el proyecto {{ $proyetoactual->descripcion }}" style="height:50px;width: 50px;">
                         <p class="mb-0 fs-9 text-center">Cerco vivo (entre lotes y perimétrico)</p>
                     </div>
                 </div>
 
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
-                       <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/vigilancia.svg')}}" alt="" style="height:50px;width: 50px;">
+                       <img src="{{asset('nuevaweb_assets/assets/img/iconos-proyectos/vigilancia.svg')}}" alt="vigilancia 24 horas en el proyecto {{ $proyetoactual->descripcion }}" style="height:50px;width: 50px;">
                         <p class="mb-0 fs-9 text-center">Caseta de vigilancia las 24 horas</p>
                     </div>
                 </div>
@@ -502,7 +502,7 @@ background:  #FBFBFB;
                
             
 
-                <img id="image-video-proyect" class="img-fluid d-block" src="{{ asset("/storage/$proyetoactual->link_video_bg") }}"alt="">
+                <img id="image-video-proyect" class="img-fluid d-block" src="{{ asset("/storage/$proyetoactual->link_video_bg") }}"alt="renders del proyecto">
 
 
 
@@ -530,14 +530,14 @@ background:  #FBFBFB;
 
                     <!-- image direction 3d -->
                     <div class="width-max-proyect " style="position:relative;" >
-                        <img class="img-fluid w-100 rounded-2"  src='{{ asset("/storage/$proyetoactual->img_360") }}' alt="">
+                        <img class="img-fluid w-100 rounded-2"  src='{{ asset("/storage/$proyetoactual->img_360") }}' alt="imagen panoramica del proyecto {{$proyetoactual->descripcion}}">
 
                         <div style="position:absolute;top: 0;height: 100%;width: 100%;background: rgba(0, 0, 0, 0.4);"></div>
                         <div style="position:absolute;top:0;color:white;height: 100%;width: 100%;" class="d-flex flex-column justify-content-center align-items-center text-center">
 
                              @if(!in_array($proyetoactual->idproyecto, [6, 7 ,8,9]))
                              
-                            <img class="" src="{{asset('nuevaweb_assets/assets/img/tour_virtual_icon.svg')}}" alt="">
+                            <img class="" src="{{asset('nuevaweb_assets/assets/img/tour_virtual_icon.svg')}}" alt="imagen panoramica del proyecto {{$proyetoactual->descripcion}}">
                             
                            
                            <button id="rendereiza-360" type="button" class="border btn  btn-white  py-2 raleway-medium fs-6 text-white shadow mt-4" style="height: max-content; width:max-content">Iniciar Tour</button>
@@ -597,7 +597,7 @@ background:  #FBFBFB;
 
 
                 <div class="image{{($key+1)}} slider-bento">
-                    <img class="img-bento rounded-2" src='{{ asset("/storage/$list->img") }}' alt="">
+                    <img class="img-bento rounded-2" src='{{ asset("/storage/$list->img") }}' alt="zontas turisticas del proyecto {{$proyetoactual->descripcion}}">
                 </div>
 
 
