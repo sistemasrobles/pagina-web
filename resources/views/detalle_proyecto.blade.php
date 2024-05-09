@@ -270,8 +270,10 @@ background:  #FBFBFB;
                  <section id="ubicación" class="container-xl bg-white py-5 " style="margin:0px;padding: 0px;">
         <div class="container-xl"  style="margin:0px;padding: 0px;">
             <span>
-                <h2 style="font-weight: 700;" class="color-green-2">Ubicación</h2>
-                <p class="sub-title-section">La mejor zona para comprar tu lote</p>
+                <h2 style="font-weight: 700;" class="color-green-2">Ubicación de nuestro proyecto
+</h2>
+                <p class="sub-title-section">Contamos con la mejor zona para <strong>comprar tu lote</strong>, estamos ubicados en el corazón de <strong>{{ $proyetoactual->ubicacion }}</strong>.
+        </p>
             </span>
             <!-- iconos infon -->
             <div class="row row-cols-lg-3  py-2 mb-4 gy-4 width-max-proyect align-items-center justify-content-center">
@@ -304,7 +306,7 @@ background:  #FBFBFB;
 
 
 
-                  <img class="img-fluid " src='{{ asset("/storage/$proyetoactual->img_mapa") }}' alt="" >
+                  <img class="img-fluid " src='{{ asset("/storage/$proyetoactual->img_mapa") }}' alt="mapa ubicación proyecto {{$proyetoactual->descripcion}} | Robles & Yasikov" >
 
                
                 <div class="d-flex gap-3 position-absolutex bottom-0 w-100 align-items-center justify-content-center px-3 py-2 bg-gris">
@@ -480,7 +482,7 @@ background:  #FBFBFB;
                     @foreach($renders as $list)
 
 
-                        <div class="swiper-slide"><img class="img-fluid w-100 img-detalle-view" src='{{ asset("/storage/$list->img") }}' alt="" style="height:auto"></div>
+                        <div class="swiper-slide"><img class="img-fluid w-100 img-detalle-view" src='{{ asset("/storage/$list->img") }}' alt="imagenes del proyecto {{$proyetoactual->descripcion}} | Robles & Yasikov" style="height:auto"></div>
 
 
                     @endforeach
@@ -521,8 +523,11 @@ background:  #FBFBFB;
                     <span>
                         <h2 style="font-weight: 700;" class="color-green-2">Mira nuestro proyecto</h2>
                         <p class="sub-title-section">{{$proyetoactual->turismo_conocido}}</p>
-                        <p class="width-max-proyect">{{$proyetoactual->descripcion_lotes}} ¡Disfrute de su propiedad sin preocupaciones!</p>
+                        <p class="width-max-proyect"> {!! $proyetoactual->descripcion_lotes !!}</p>
                     </span>
+
+                   
+
                     <!-- image direction 3d -->
                     <div class="width-max-proyect " style="position:relative;" >
                         <img class="img-fluid w-100 rounded-2"  src='{{ asset("/storage/$proyetoactual->img_360") }}' alt="">
@@ -577,8 +582,11 @@ background:  #FBFBFB;
         <span>
             <h2 style="font-weight: 700;" class="color-green-2">¡Conoce  {{$proyetoactual->region}} !</h2>
             <p class="sub-title-section">{{$proyetoactual->turismo_conocido}}</p>
-            <p class="width-max-proyect">{{$proyetoactual->descripcion_turismo}} </p>
+            <p class="width-max-proyect"> {!! $proyetoactual->descripcion_turismo !!}</p>
         </span>
+
+
+
 
         <div class="width-max-proyect">
 

@@ -67,7 +67,7 @@ class PoryectoController extends Controller
         $proyetoactual=proyectos::where('rewrite','=',$slug)->first();
        
 
-        SEOMeta::setTitle($proyetoactual->descripcion);
+        SEOMeta::setTitle($proyetoactual->descripcion.' | Grupo Robles & Yasikov');
         SEOMeta::setDescription($proyetoactual->descripcion_banner);
         SEOMeta::addKeyword([$proyetoactual->descripcion,'Grupo Robles & Yasikov']);
         /*  SEOMeta::addMeta('article:published_time', $post->published_date->toW3CString(), 'property');
@@ -75,7 +75,7 @@ class PoryectoController extends Controller
         /*         SEOMeta::addKeyword(['key1', 'key2', 'key3']); */
 
         OpenGraph::setDescription($proyetoactual->descripcion_banner);
-        OpenGraph::setTitle($proyetoactual->descripcion);
+        OpenGraph::setTitle($proyetoactual->descripcion.' | Grupo Robles & Yasikov');
         OpenGraph::setUrl('https://gruporobles.com.pe/proyecto/'.$proyetoactual->rewrite);
         OpenGraph::addProperty('type', 'article');
         OpenGraph::addProperty('locale', 'es_ES');
@@ -86,21 +86,21 @@ class PoryectoController extends Controller
         OpenGraph::addImage(['url' => 'https://gruporobles.com.pe/storage/'.$proyetoactual->img_banner, 'size' => 300]);
         OpenGraph::addImage('https://gruporobles.com.pe/storage/'.$proyetoactual->img_banner, ['height' => 300, 'width' => 300]);
 
-        JsonLd::setTitle($proyetoactual->descripcion);
+        JsonLd::setTitle($proyetoactual->descripcion.' | Grupo Robles & Yasikov');
         JsonLd::setDescription($proyetoactual->descripcion_banner);
         JsonLd::setType('Article');
         JsonLd::addImage('https://gruporobles.com.pe/storage/'.$proyetoactual->img_banner);
 
         // OR with multi
 
-        JsonLdMulti::setTitle($proyetoactual->descripcion);
+        JsonLdMulti::setTitle($proyetoactual->descripcion.' | Grupo Robles & Yasikov');
         JsonLdMulti::setDescription($proyetoactual->descripcion_banner);
         JsonLdMulti::setType('Article');
         JsonLdMulti::addImage('https://gruporobles.com.pe/storage/'.$proyetoactual->img_banner);
         if(! JsonLdMulti::isEmpty()) {
             JsonLdMulti::newJsonLd();
             JsonLdMulti::setType('WebPage');
-            JsonLdMulti::setTitle('Eco Plaza - '.$proyetoactual->descripcion);
+            JsonLdMulti::setTitle('Grupo Robles & Yasikov - '.$proyetoactual->descripcion);
             JsonLdMulti::setDescription($proyetoactual->descripcion_banner);
             JsonLdMulti::setType('Article');
             JsonLdMulti::addImage('https://gruporobles.com.pe/storage/'.$proyetoactual->img_banner);
