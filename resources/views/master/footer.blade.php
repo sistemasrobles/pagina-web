@@ -16,14 +16,14 @@
         <div class="d-flex gap-3">
           <ul class="d-flex flex-column gap-2">
             <li class="py-1"><a href="{{url('/')}}">Inicio</a></li>
-            <li class="py-1"><a href="{{url('/nosotros')}}"> Quienes Somos</a></li>
+            <li class="py-1"><a href="{{url('/nosotros')}}"> Quiénes Somos</a></li>
             <li class="py-1"><a href="{{url('/contactanos')}}">Contacto</a></li>
-            <li class="py-1"><a href="{{url('/politicas')}}">Politica y privacidad</a></li>
+            <li class="py-1"><a href="{{url('/politicas')}}">Política y privacidad</a></li>
           </ul>
           <ul class="d-flex flex-column gap-2 ">
             <li class="py-1"><a href="{{url('/proyectos')}}"> Proyectos</a></li>
             <li class="py-1"><a href="{{url('/blog')}}"> Blog</a></li>
-            <li class="py-1"><a href="{{url('/terminos')}}">Terminos y condiciones</a></li>
+            <li class="py-1"><a href="{{url('/terminos')}}">Términos y condiciones</a></li>
             <li class="py-1"><a href="{{url('/reclamaciones')}}">Libro de reclamaciones</a></li>
           </ul>
 

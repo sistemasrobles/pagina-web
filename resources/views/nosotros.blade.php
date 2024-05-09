@@ -162,7 +162,7 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
 
                      <div id="video-proyect" class=" video-proyect position-relative">
                 <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
-                <img id="image-video-proyect" class="img-fluid w-100" src='{{ asset("nuevaweb_assets/assets/img/banner-nosotros.webp") }}' alt="">
+                <img id="image-video-proyect" class="img-fluid w-100" src='{{ asset("nuevaweb_assets/assets/img/banner-nosotros.webp") }}' alt="Foto del equipo de asesores inmobiliarios y personal administrativo del Grupo Robles & Yasikov">
                 <div id="video-youtube-galery" class="d-none">
                     <div id="youtube-frame-proyect"></div>
                 </div>

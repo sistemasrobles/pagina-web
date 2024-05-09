@@ -24,13 +24,13 @@ class WebController extends Controller
 
 
     public function nosotros(){
-        SEOMeta::setTitle('Grupo Robles & Yasikov Nosotros');
-        SEOMeta::setDescription('Somos un grupo inmobiliario con 7 años de experiencia, desarrollando proyectos inmobiliarios a nivel nacional, contando con proyectos en la Costa, Sierra y Selva del Perú. Hoy buscamos brindar los mejores beneficios y la seguridad a nuestros clientes al adquirir su lote con el fin de crecer con ellos. Además de brindarles un excelente condominio eco amigable que armonice con la naturaleza.');
+        SEOMeta::setTitle('Grupo Robles & Yasikov - Nosotros');
+        SEOMeta::setDescription('Somos Robles & Yasikov, grupo inmobiliario con más de 7 años de experiencia desarrollando proyectos inmobiliarios ecoamigables de alta calidad en Perú.');
         SEOMeta::setCanonical('https://gruporobles.com.pe/nosotros');
         SEOMeta::addKeyword(['Grupo Robles & Yasikov', 'desarrolladora de proyectos']);
 
-        OpenGraph::setDescription('Somos un grupo inmobiliario con 7 años de experiencia, desarrollando proyectos inmobiliarios a nivel nacional, contando con proyectos en la Costa, Sierra y Selva del Perú. Hoy buscamos brindar los mejores beneficios y la seguridad a nuestros clientes al adquirir su lote con el fin de crecer con ellos. Además de brindarles un excelente condominio eco amigable que armonice con la naturaleza.');
-        OpenGraph::setTitle('Grupo Robles & Yasikov Nosotros');
+        OpenGraph::setDescription('Somos Robles & Yasikov, grupo inmobiliario con más de 7 años de experiencia desarrollando proyectos inmobiliarios ecoamigables de alta calidad en Perú.');
+        OpenGraph::setTitle('Grupo Robles & Yasikov - Nosotros');
         OpenGraph::setUrl('https://gruporobles.com.pe/nosotros');
         OpenGraph::addProperty('type', 'website');
         OpenGraph::addProperty('locale', 'es_ES');
@@ -40,15 +40,15 @@ class WebController extends Controller
         OpenGraph::addImage(['url' => 'https://gruporobles.com.pe/ecoplazaclub.png', 'size' => 300]);
         OpenGraph::addImage('https://gruporobles.com.pe/ecoplazaclub.png', ['height' => 300, 'width' => 300]);
 
-        JsonLdMulti::setTitle('Grupo Robles & Yasikov Nosotros');
-        JsonLdMulti::setDescription('Somos un grupo inmobiliario con 7 años de experiencia, desarrollando proyectos inmobiliarios a nivel nacional, contando con proyectos en la Costa, Sierra y Selva del Perú. Hoy buscamos brindar los mejores beneficios y la seguridad a nuestros clientes al adquirir su lote con el fin de crecer con ellos. Además de brindarles un excelente condominio eco amigable que armonice con la naturaleza.');
+        JsonLdMulti::setTitle('Grupo Robles & Yasikov - Nosotros');
+        JsonLdMulti::setDescription('Somos Robles & Yasikov, grupo inmobiliario con más de 7 años de experiencia desarrollando proyectos inmobiliarios ecoamigables de alta calidad en Perú.');
         JsonLdMulti::setType('Article');
         JsonLdMulti::addImage('https://gruporobles.com.pe/ecoplazaclub.png');
         if(! JsonLdMulti::isEmpty()) {
             JsonLdMulti::newJsonLd();
             JsonLdMulti::setType('WebPage');
-            JsonLdMulti::setTitle('Grupo Robles & Yasikov Nosotros');
-            JsonLdMulti::setDescription('Somos un grupo inmobiliario con 7 años de experiencia, desarrollando proyectos inmobiliarios a nivel nacional, contando con proyectos en la Costa, Sierra y Selva del Perú. Hoy buscamos brindar los mejores beneficios y la seguridad a nuestros clientes al adquirir su lote con el fin de crecer con ellos. Además de brindarles un excelente condominio eco amigable que armonice con la naturaleza.');
+            JsonLdMulti::setTitle('Grupo Robles & Yasikov - Nosotros');
+            JsonLdMulti::setDescription('Somos Robles & Yasikov, grupo inmobiliario con más de 7 años de experiencia desarrollando proyectos inmobiliarios ecoamigables de alta calidad en Perú.');
             JsonLdMulti::setType('Article');
             JsonLdMulti::addImage('https://gruporobles.com.pe/ecoplazaclub.png');
         }
