@@ -32,11 +32,11 @@ class PoryectoController extends Controller
        
 
         SEOMeta::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
-        SEOMeta::setDescription('En el Grupo Robles & Yasikov buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios.');
+        SEOMeta::setDescription('Somos Robles & Yasikov, una inmobiliaria con terrenos en la costa, sierra y selva del Perú. Nuestros proyectos inmobiliarios de alta calidad son ecoamigables.');
         SEOMeta::setCanonical('https://gruporobles.com.pe/proyectos');
         SEOMeta::addKeyword(['grupo robles', 'proyectos', 'grupo robles']);
 
-        OpenGraph::setDescription('En el Grupo Robles & Yasikov buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios.');
+        OpenGraph::setDescription('Somos Robles & Yasikov, una inmobiliaria con terrenos en la costa, sierra y selva del Perú. Nuestros proyectos inmobiliarios de alta calidad son ecoamigables.');
         OpenGraph::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
         OpenGraph::setUrl('https://gruporobles.com.pe/proyectos');
         OpenGraph::addProperty('type', 'website');
@@ -48,14 +48,14 @@ class PoryectoController extends Controller
         OpenGraph::addImage('https://gruporobles.com.pe/img/banner/banner3.jpg', ['height' => 300, 'width' => 300]);
 
         JsonLdMulti::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
-        JsonLdMulti::setDescription('En el Grupo Robles & Yasikov buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios.');
+        JsonLdMulti::setDescription('Somos Robles & Yasikov, una inmobiliaria con terrenos en la costa, sierra y selva del Perú. Nuestros proyectos inmobiliarios de alta calidad son ecoamigables.');
         JsonLdMulti::setType('Article');
         JsonLdMulti::addImage('https://gruporobles.com.pe/img/banner/banner3.jpg');
         if(! JsonLdMulti::isEmpty()) {
             JsonLdMulti::newJsonLd();
             JsonLdMulti::setType('WebPage');
             JsonLdMulti::setTitle('Grupo Robles & Yasikov - '.$tipo[$id]);
-            JsonLdMulti::setDescription('En el Grupo Robles & Yasikov buscamos brindarte proyectos inmobiliarios de calidad, ofreciéndote lotes y cabañas dentro de nuestros exclusivos condominios.');
+            JsonLdMulti::setDescription('Somos Robles & Yasikov, una inmobiliaria con terrenos en la costa, sierra y selva del Perú. Nuestros proyectos inmobiliarios de alta calidad son ecoamigables.');
             JsonLdMulti::setType('Article');
             JsonLdMulti::addImage('https://gruporobles.com.pe/img/banner/banner3.jpg');
         }
