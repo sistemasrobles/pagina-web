@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  <meta name="description" content="lotes en Oxapampa de Robles & Yasikov. Regístrate y descubre las mejores ofertas y promociones en lotes y cabañas." />
+  <meta name="description" content="Venta de Lotes y Terrenos en Oxapampa de Robles & Yasikov. Regístrate y descubre las mejores ofertas y promociones en terrenos y cabañas en Oxapampa" />
 
         <meta name="author" content="Robles & Yasikov" />
 
@@ -16,7 +16,7 @@
         <meta property="og:url" content="https://gruporobles.com.pe/lotes-en-oxapampa" />
 
         <meta property="og:title" content="lotes en Oxapampa Perú ¡En Robles & Yasikov!" />
-        <meta property="og:description" content="lotes en Oxapampa de Robles & Yasikov. Regístrate y descubre las mejores ofertas y promociones en lotes y cabañas." />
+        <meta property="og:description" content="Venta de Lotes y Terrenos en Oxapampa de Robles & Yasikov. Regístrate y descubre las mejores ofertas y promociones en terrenos y cabañas en Oxapampa" />
 
 
 
@@ -324,7 +324,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
          <div style="width: max-content;background: #005c5366;
   backdrop-filter: blur(2px);" class="text-white text-start py-2 px-4 rounded-3">
                     <p style="font-weight: 300;" class="mb-0">¡ Vive rodeado de la naturaleza !</p>
-                    <h1 style="font-weight: 500;" class="family-700-one">Lotes en Oxapampa</h1>
+                    <h2 style="font-weight: 500;" class="family-700-one">Lotes en Oxapampa</h2>
                 </div>
                 
                 
@@ -355,7 +355,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
           
            <h1 class="family-700-one text-white" >Lotes en Oxapampa</h1> 
 
-            <p style="font-size: 20px;">En Robles & Yasikov, contamos con lotes disponibles en la maravillosa ciudad de Oxapampa.
+            <p style="font-size: 20px;">En Robles & Yasikov, contamos con lotes disponibles en la maravillosa <strong>ciudad de Oxapampa</strong>.
 Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la finalidad que consigas esa casa de campo que tanto anhelas.</p> 
 
           </div>
@@ -564,9 +564,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
     <div class="col-12 col-lg-12  pt-2 pb-2 d-block d-lg-none " >
             
           
-           <h1 class="family-700-one color-green-2 d-none" >Lotes en Oxapampa</h1> 
+           <h2 class="family-700-one color-green-2 d-none" >Lotes en Oxapampa</h2> 
 
-            <p style="font-size: 20px;" class="mt-1">En Robles & Yasikov, contamos con lotes disponibles en la maravillosa ciudad de Oxapampa.<br>
+            <p style="font-size: 20px;" class="mt-1">En Robles & Yasikov, contamos con lotes disponibles en la maravillosa <strong>ciudad de Oxapampa.</strong><br>
 Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la finalidad que consigas esa casa de campo que tanto anhelas.</p> 
 
           </div>
@@ -590,8 +590,8 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
     <div class="row  d-flex justify-content-center align-items-center py-3  ">
       
       <div class="col-12 col-lg-12 ">
-         <h2 class="text-left  title-proyect family-700-one margin-0" >Nuestros Proyectos</h2>
-         <p class="mt-2">Conoce más a detalle nuestros proyectos en oxapampa</p>
+         <h2 class="text-left  title-proyect family-700-one margin-0" >Proyectos Inmobiliarios en Oxapampa</h2>
+         <p class="mt-2">Conoce más a detalle nuestros <strong>proyectos inmobiliarios en Oxapampa</strong></p>
       </div>
 
    
@@ -625,9 +625,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_4.webp" alt="pórtico del proyecto fundo los robles" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_5.webp" alt="áreas recreativas del proyecto fundo los robles" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_1.webp" alt="áreas recreativas del proyecto fundo los robles" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_4.webp" alt="pórtico del proyecto fundo los robles | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_5.webp" alt="áreas recreativas del proyecto fundo los robles | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_1.webp" alt="áreas recreativas del proyecto fundo los robles | Robles & Yasikov" class="img-fluid"></div>
                
                
                
@@ -642,7 +642,7 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           <h2 class="color-green-2 mt-3">Fundo Los Robles</h2>
           <p class="mt-3 text-center">
               
-              A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.Vive en un ambiente donde tú y la naturaleza serán uno.
+              A solo 10 minutos de la plaza de armas de <strong>Oxapampa</strong> encontrarás este magnífico condominio.Vive en un ambiente donde tú y la naturaleza serán uno.
           </p>
 
           <a  href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
@@ -660,9 +660,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/fundo.webp')}}" alt="pórtico del proyecto fundo valentina" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/fv2.webp')}}" alt="pórtico del proyecto fundo valentina" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/fv3.webp')}}" alt="lotes en el proyecto fundo valentina" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/fundo.webp')}}" alt="pórtico del proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/fv2.webp')}}" alt="pórtico del proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/fv3.webp')}}" alt="lotes en el proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></div>
                
                
                
@@ -676,7 +676,7 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <h2 class="color-green-2 mt-3">Fundo Valentina</h2>
           <p class="mt-3 text-center">
-              ¡Vive frente a nuestra laguna en Oxapampa! <br>¡Reserva ahora tu lote en Oxapampa y vive una experiencia única!
+              ¡Vive frente a nuestra laguna en <strong>Oxapampa!</strong> <br>¡Reserva ahora tu lote en <strong>Oxapampa</strong> y vive una experiencia única!
           </p>
 
           <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
@@ -693,9 +693,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/primavera.webp')}}" alt="laguna en el proyecto bella primavera" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/bp2.webp')}}" alt="lotes en el proyecto bella primavera" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/bp3.webp')}}" alt="lotes en el proyecto bella primavera" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/primavera.webp')}}" alt="laguna en el proyecto bella primavera | Robles & Yasikov"  class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/bp2.webp')}}" alt="lotes en el proyecto bella primavera | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/bp3.webp')}}" alt="lotes en el proyecto bella primavera | Robles & Yasikov" class="img-fluid"></div>
                
                
                
@@ -709,7 +709,7 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <h2 class="color-green-2 mt-3">Bella Primavera</h2>
           <p class="mt-3 text-center">
-            ¡Nuevo condominio en Oxapampa! <br>Crea recuerdos inolvidables en familia junto a la bellaza natural que Oxapampa tiene para ofrecerte.
+            ¡Nuevo <strong> condominio en Oxapampa</strong> !<br>Crea recuerdos inolvidables en familia junto a la belleza natural que <strong>Oxapampa</strong> tiene para ofrecerte.
           </p>
 
           <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
@@ -727,9 +727,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/brey.webp')}}" alt="pórtico en el proyecto el bosque del rey" class="img-fluid" ></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/br2.webp')}}" alt="lotes en el proyecto el bosque del rey" class="img-fluid" ></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/br3.webp')}}" alt="lotes en el proyecto el bosque del rey" class="img-fluid" ></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/brey.webp')}}" alt="pórtico en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/br2.webp')}}" alt="lotes en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/br3.webp')}}" alt="lotes en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></div>
                
                
                
@@ -743,8 +743,8 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <h2 class="color-green-2 mt-3">El Bosque del Rey</h2>
           <p class="mt-3 text-center">
-            ¡Tu futuro hogar te espera en Oxapampa!
-Adquiere uno de nuestros lotes y disfruta de aire fresco, hermosas vistas desde nuestra colina y tranquilidad sin igual.
+            ¡Tu futuro hogar te espera! Adquiere uno de nuestros <strong>terrenos en Oxapampa</strong> y disfruta de aire fresco, hermosas vistas desde nuestra colina y tranquilidad sin igual.
+
           </p>
 
           <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
@@ -764,9 +764,9 @@ Adquiere uno de nuestros lotes y disfruta de aire fresco, hermosas vistas desde 
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado.webp')}}" alt="pórtico en el proyecto el arco dorado" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado2.webp')}}" alt="lotes en el proyecto el arco dorado" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado3.webp')}}" alt="lotes en el proyecto el arco dorado" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado.webp')}}" alt="pórtico en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado2.webp')}}" alt="lotes en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado3.webp')}}" alt="lotes en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></div>
                
                
                
@@ -780,7 +780,7 @@ Adquiere uno de nuestros lotes y disfruta de aire fresco, hermosas vistas desde 
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <h2 class="color-green-2 mt-3">El Arco Dorado</h2>
           <p class="mt-3 text-center">
-              A solo 35 minutos de la plaza de Armas de Oxapampa, encontrarás lotes de 300m2 y 500m2 con las mejores vistas panorámicas de la naturaleza.
+              A solo 35 minutos de la plaza de Armas de <strong>Oxapampa</strong>, encontrarás lotes de 300m2 y 500m2 con las mejores vistas panorámicas de la naturaleza.
           </p>
 
           <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
@@ -805,7 +805,7 @@ Adquiere uno de nuestros lotes y disfruta de aire fresco, hermosas vistas desde 
       
       <div class="col-12 col-lg-12 ">
          <h2 class="text-left  title-proyect family-700-one margin-0" >Nuestros Clientes</h2>
-         <p class="mt-3">¡Haz de Oxapampa tu hogar y forma parte de nuestra familia Robles & Yasikov!"</p>
+         <p class="mt-3">¡Haz de <strong>Oxapampa</strong> tu hogar y forma parte de nuestra familia Robles & Yasikov!"</p>
       </div>
 
    
