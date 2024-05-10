@@ -167,17 +167,17 @@ background:  #FBFBFB;
   </main>
 
   <!-- Nuestros proyectos -->
-  <section class="container-xl  py-5 ">
+  <section class=" container-xl  py-5 ">
 
-    
-    <div class="row  d-flex justify-content-center align-items-center py-3  ">
+
+    <div class="row  d-flex justify-content-center align-items-center  py-3  ">
       
       <div class="col-12 col-lg-8 ">
          <h2 class="text-left  title-proyect family-700-one margin-0" >Nuestros Proyectos</h2>
-         <p class="mt-2">Conoce más a detalle nuestros <strong>proyectos inmobiliarios<strong> que tenemos al interior del país</p>
+         <p class="mt-2">Conoce más a detalle nuestros <strong>proyectos inmobiliarios</strong> que tenemos al interior del país</p>
       </div>
 
-      <div class="col-12 col-lg-4  text-end d-none d-lg-block">
+      <div class="col-12 col-lg-4  text-end d-none d-lg-block ">
           <a type="button"  href="{{url('/proyectos')}}"class="btn bg-terce border-white py-2  px-5 raleway-medium text-white" style="">Ver Todos</a>
       </div>
     </div>
