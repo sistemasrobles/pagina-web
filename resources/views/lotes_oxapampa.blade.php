@@ -619,9 +619,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_4.webp" alt="pórtico del proyecto fundo los robles | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_5.webp" alt="áreas recreativas del proyecto fundo los robles | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_1.webp" alt="áreas recreativas del proyecto fundo los robles | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_4.webp" alt="pórtico fundo los robles | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_5.webp" alt="zonas recreativas fundo los robles | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_1.webp" alt="zonas recreativas fundo los robles | Robles & Yasikov" class="img-fluid"></picture></div>
                
                
                
@@ -654,9 +654,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/fundo.webp')}}" alt="pórtico del proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/fv2.webp')}}" alt="pórtico del proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/fv3.webp')}}" alt="lotes en el proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/fundo.webp')}}" alt="pórticos del proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/fv2.webp')}}" alt="lotes en el proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/fv3.webp')}}" alt="lotes en el proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></picture></div>
                
                
                
@@ -670,7 +670,7 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <h2 class="color-green-2 mt-3">Fundo Valentina</h2>
           <p class="mt-3 text-center">
-              ¡Vive frente a nuestra laguna en <strong>Oxapampa!</strong> <br>¡Reserva ahora tu lote en <strong>Oxapampa</strong> y vive una experiencia única!
+              ¡Vive frente a nuestra laguna en <strong>Oxapampa</strong>! <br>¡Reserva ahora tu lote en <strong>Oxapampa</strong> y vive una experiencia única!
           </p>
 
           <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
@@ -678,6 +678,7 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
     </div>
     
   </section>
+
 
   <section class="container p-5 shadow">
 
@@ -687,9 +688,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/primavera.webp')}}" alt="laguna en el proyecto bella primavera | Robles & Yasikov"  class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/bp2.webp')}}" alt="lotes en el proyecto bella primavera | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/bp3.webp')}}" alt="lotes en el proyecto bella primavera | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/primavera.webp')}}" alt="laguna del proyecto bella primavera | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/bp2.webp')}}" alt="lotes en el proyecto bella primavera | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/bp3.webp')}}" alt="lotes en el proyecto bella primavera | Robles & Yasikov" class="img-fluid"></picture></div>
                
                
                
@@ -703,7 +704,7 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <h2 class="color-green-2 mt-3">Bella Primavera</h2>
           <p class="mt-3 text-center">
-            ¡Nuevo <strong> condominio en Oxapampa</strong> !<br>Crea recuerdos inolvidables en familia junto a la belleza natural que <strong>Oxapampa</strong> tiene para ofrecerte.
+            ¡Nuevo <strong> condominio en Oxapampa</strong>! <br>Crea recuerdos inolvidables en familia junto a la belleza natural que <strong>Oxapampa</strong> tiene para ofrecerte.
           </p>
 
           <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
@@ -711,7 +712,6 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
     </div>
     
   </section>
-
   
   <section class="container p-5 shadow variados"  >
 
@@ -721,9 +721,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/brey.webp')}}" alt="pórtico en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/br2.webp')}}" alt="lotes en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/br3.webp')}}" alt="lotes en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/brey.webp')}}" alt="pórtico en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/br2.webp')}}" alt="lotes en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/br3.webp')}}" alt="lotes en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></picture></div>
                
                
                
@@ -758,9 +758,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado.webp')}}" alt="pórtico en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado2.webp')}}" alt="lotes en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img src="{{asset('assets/img/adorado3.webp')}}" alt="lotes en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/adorado.webp')}}" alt="pórtico en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/adorado2.webp')}}" alt="lotes en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/adorado3.webp')}}" alt="lotes en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></picture></div>
                
                
                
@@ -774,7 +774,7 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <h2 class="color-green-2 mt-3">El Arco Dorado</h2>
           <p class="mt-3 text-center">
-              A solo 35 minutos de la plaza de Armas de <strong>Oxapampa</strong>, encontrarás lotes de 300m2 y 500m2 con las mejores vistas panorámicas de la naturaleza.
+              A solo 35 minutos de la plaza de Armas de <strong>Oxapampa</strong>, encontrarás terrenos de 300m2 y 500m2 con las mejores vistas panorámicas de la naturaleza.
           </p>
 
           <a href="#" onclick="scrollToDiv(event,'miDiv1')" target="_blank" type="button" class="btn bg-terce border-white py-2  px-5 raleway-medium text-white mt-3" style="">Conocer</a>
@@ -782,7 +782,6 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
     </div>
     
   </section>
-
     
 
 
@@ -811,22 +810,22 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
      <div class="swiper mySwiperText" id="tetis-sw">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="{{asset('assets/img/BELLA-1.webp')}}" alt="imagen promocional de nuestros eventos "  loading="lazy" />
+        <img  src="{{asset('assets/img/BELLA-1.webp')}}" alt="imagen promocional de nuestros eventos "  loading="lazy" />
       </div>
       <div class="swiper-slide">
-        <img src="{{asset('assets/img/BELLA-2.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
+        <img  src="{{asset('assets/img/BELLA-2.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
-       <img src="{{asset('assets/img/BELLA-3.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
+       <img  src="{{asset('assets/img/BELLA-3.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
         <img src="{{asset('assets/img/BELLA-4.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
-        <img src="{{asset('assets/img/BELLA-5.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
+        <img  src="{{asset('assets/img/BELLA-5.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
-        <img src="{{asset('assets/img/BELLA-6.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
+        <img  src="{{asset('assets/img/BELLA-6.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
         <img src="{{asset('assets/img/FUNDO-1.webp')}}"  alt="imagen promocional de nuestros eventos "  loading="lazy" />
@@ -835,7 +834,7 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
         <img src="{{asset('assets/img/FUNDO-2.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
-        <img src="{{asset('assets/img/FUNDO-3.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
+        <img  src="{{asset('assets/img/FUNDO-3.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
     </div>
     <br>
