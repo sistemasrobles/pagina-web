@@ -622,9 +622,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img loading="lazy" src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_4.webp" alt="pórtico fundo los robles | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img loading="lazy" src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_5.webp" alt="zonas recreativas fundo los robles | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img loading="lazy" src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_1.webp" alt="zonas recreativas fundo los robles | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_4.webp" alt="pórtico fundo los robles | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_5.webp" alt="zonas recreativas fundo los robles | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="https://gruporobles.com.pe/storage/proyectos/fundo-los-robles/render_1.webp" alt="zonas recreativas fundo los robles | Robles & Yasikov" class="img-fluid"></picture></div>
                
                
                
@@ -657,9 +657,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img loading="lazy" src="{{asset('assets/img/fundo.webp')}}" alt="pórticos del proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img loading="lazy" src="{{asset('assets/img/fv2.webp')}}" alt="lotes en el proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img loading="lazy" src="{{asset('assets/img/fv3.webp')}}" alt="lotes en el proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/fundo.webp')}}" alt="pórticos del proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/fv2.webp')}}" alt="lotes en el proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/fv3.webp')}}" alt="lotes en el proyecto fundo valentina | Robles & Yasikov" class="img-fluid"></picture></div>
                
                
                
@@ -691,9 +691,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img loading="lazy" src="{{asset('assets/img/primavera.webp')}}" alt="laguna del proyecto bella primavera | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img loading="lazy" src="{{asset('assets/img/bp2.webp')}}" alt="lotes en el proyecto bella primavera | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img loading="lazy" src="{{asset('assets/img/bp3.webp')}}" alt="lotes en el proyecto bella primavera | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/primavera.webp')}}" alt="laguna del proyecto bella primavera | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/bp2.webp')}}" alt="lotes en el proyecto bella primavera | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/bp3.webp')}}" alt="lotes en el proyecto bella primavera | Robles & Yasikov" class="img-fluid"></picture></div>
                
                
                
@@ -724,9 +724,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img loading="lazy" src="{{asset('assets/img/brey.webp')}}" alt="pórtico en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></div>
-                <div class="swiper-slide"> <img loading="lazy" src="{{asset('assets/img/br2.webp')}}" alt="lotes en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></div>
-                <div class="swiper-slide"> <img loading="lazy" src="{{asset('assets/img/br3.webp')}}" alt="lotes en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/brey.webp')}}" alt="pórtico en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/br2.webp')}}" alt="lotes en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/br3.webp')}}" alt="lotes en el proyecto el bosque del rey | Robles & Yasikov" class="img-fluid" ></picture></div>
                
                
                
@@ -761,9 +761,9 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
           
           <div class=" swiper mySwiperBanner ">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"> <img loading="lazy" src="{{asset('assets/img/adorado.webp')}}" alt="pórtico en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img loading="lazy" src="{{asset('assets/img/adorado2.webp')}}" alt="lotes en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></div>
-                <div class="swiper-slide"> <img loading="lazy" src="{{asset('assets/img/adorado3.webp')}}" alt="lotes en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/adorado.webp')}}" alt="pórtico en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/adorado2.webp')}}" alt="lotes en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></picture></div>
+                <div class="swiper-slide"> <picture><img loading="lazy" src="{{asset('assets/img/adorado3.webp')}}" alt="lotes en el proyecto el arco dorado | Robles & Yasikov" class="img-fluid"></picture></div>
                
                
                
@@ -814,31 +814,31 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
      <div class="swiper mySwiperText" id="tetis-sw">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img loading="lazy" src="{{asset('assets/img/BELLA-1.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" />
+        <picture><img loading="lazy" src="{{asset('assets/img/BELLA-1.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
       </div>
       <div class="swiper-slide">
-        <img loading="lazy" src="{{asset('assets/img/BELLA-2.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" />
+        <picture><img loading="lazy" src="{{asset('assets/img/BELLA-2.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
       </div>
       <div class="swiper-slide">
-       <img loading="lazy" src="{{asset('assets/img/BELLA-3.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
+       <picture><img loading="lazy" src="{{asset('assets/img/BELLA-3.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
       </div>
       <div class="swiper-slide">
-        <img loading="lazy" src="{{asset('assets/img/BELLA-4.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
+        <picture><img loading="lazy" src="{{asset('assets/img/BELLA-4.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
       </div>
       <div class="swiper-slide">
-        <img loading="lazy" src="{{asset('assets/img/BELLA-5.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
+        <picture><img loading="lazy" src="{{asset('assets/img/BELLA-5.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
       </div>
       <div class="swiper-slide">
-        <img loading="lazy" src="{{asset('assets/img/BELLA-6.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" />
+        <picture><img loading="lazy" src="{{asset('assets/img/BELLA-6.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
       </div>
       <div class="swiper-slide">
-        <img loading="lazy" src="{{asset('assets/img/FUNDO-1.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" />
+        <picture><img loading="lazy" src="{{asset('assets/img/FUNDO-1.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
       </div>
       <div class="swiper-slide">
-        <img loading="lazy" src="{{asset('assets/img/FUNDO-2.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
+       <picture> <img loading="lazy" src="{{asset('assets/img/FUNDO-2.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
       </div>
       <div class="swiper-slide">
-        <img loading="lazy" src="{{asset('assets/img/FUNDO-3.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
+        <picture><img loading="lazy" src="{{asset('assets/img/FUNDO-3.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
       </div>
     </div>
     <br>
