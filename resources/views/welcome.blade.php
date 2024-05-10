@@ -145,8 +145,8 @@ background:  #FBFBFB;
 
         <a href="{{$values->link}}" class="w-100">
 
-          <img src="/storage/{{$values->img}}" alt="{{$values->alt}}" class=" img-fluid d-none d-sm-block">
-          <img src="/storage/{{$values->banner_movil}}" alt="{{$values->alt}}" class=" img-fluid d-block d-sm-none">
+          <img loading="lazy" src="/storage/{{$values->img}}" alt="{{$values->alt}}" class=" img-fluid d-none d-sm-block">
+          <img loading="lazy" src="/storage/{{$values->banner_movil}}" alt="{{$values->alt}}" class=" img-fluid d-block d-sm-none">
 
         </a>
 
@@ -222,7 +222,7 @@ background:  #FBFBFB;
         </ul>
       </div>
       <div class=" d-flex justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-center">
-        <img src="{{asset('nuevaweb_assets/assets/img/nosotros.webp')}}" alt="Equipo de asesores inmobiliarios de Robles & Yasikov saludando a la cámara junto a Alexandra Graña">
+        <img loading="lazy" src="{{asset('nuevaweb_assets/assets/img/nosotros.webp')}}" alt="Equipo de asesores inmobiliarios de Robles & Yasikov saludando a la cámara junto a Alexandra Graña">
       </div>
     </div>
   </section>
@@ -250,7 +250,7 @@ background:  #FBFBFB;
               
 
                <div class="row container-card-noticias">
-                <div class="col-12"><img src="/storage/blog/{{$list->img}}" alt="{{$list->alt}}"></div>
+                <div class="col-12"><img loading="lazy" src="/storage/blog/{{$list->img}}" alt="{{$list->alt}}"></div>
                 <div class="p-4">
                     <h5 class="family-700-one fs-5 color-green-2">{{$list->titulo}}</h5>
                     <p>{{$list->descripcion_min}}</p>
@@ -289,7 +289,7 @@ background:  #FBFBFB;
     <div class="row d-flex justify-content-center align-items-center">
       
       <div class="col-lg-6 d-none d-lg-block  text-center" >
-       <img src="{{asset('nuevaweb_assets/assets/img/img-form.webp')}}" alt="Vistas del paisaje de dos proyectos inmobiliarios de Robles & Yakisov en Oxapampa con el texto Financia tu Hogar Ideal e Invierte Seguro" class="img-fluid" >  
+       <img loading="lazy" src="{{asset('nuevaweb_assets/assets/img/img-form.webp')}}" alt="Vistas del paisaje de dos proyectos inmobiliarios de Robles & Yakisov en Oxapampa con el texto Financia tu Hogar Ideal e Invierte Seguro" class="img-fluid" >  
 
         
       </div>
