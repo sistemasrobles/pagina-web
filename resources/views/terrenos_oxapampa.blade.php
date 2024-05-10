@@ -337,6 +337,8 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             height: 100%;
             ">
         <source src="{{asset('nuevaweb_assets/assets/img/9mbz.mp4')}}" type="video/mp4">
+
+            </video> 
     </div>
     
     
