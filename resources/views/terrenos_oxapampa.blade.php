@@ -814,31 +814,31 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
      <div class="swiper mySwiperText" id="tetis-sw">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <picture><img loading="lazy" src="{{asset('assets/img/BELLA-1.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
+        <img loading="lazy" src="{{asset('assets/img/BELLA-1.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
-        <picture><img loading="lazy" src="{{asset('assets/img/BELLA-2.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
+       <img loading="lazy" src="{{asset('assets/img/BELLA-2.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
-       <picture><img loading="lazy" src="{{asset('assets/img/BELLA-3.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
+      <img loading="lazy" src="{{asset('assets/img/BELLA-3.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
-        <picture><img loading="lazy" src="{{asset('assets/img/BELLA-4.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
+       <img loading="lazy" src="{{asset('assets/img/BELLA-4.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
-        <picture><img loading="lazy" src="{{asset('assets/img/BELLA-5.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
+       <img loading="lazy" src="{{asset('assets/img/BELLA-5.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
-        <picture><img loading="lazy" src="{{asset('assets/img/BELLA-6.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
+        <img loading="lazy" src="{{asset('assets/img/BELLA-6.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
-        <picture><img loading="lazy" src="{{asset('assets/img/FUNDO-1.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
+        <img loading="lazy" src="{{asset('assets/img/FUNDO-1.webp')}}" alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
-       <picture> <img loading="lazy" src="{{asset('assets/img/FUNDO-2.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
+       <img loading="lazy" src="{{asset('assets/img/FUNDO-2.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
       <div class="swiper-slide">
-        <picture><img loading="lazy" src="{{asset('assets/img/FUNDO-3.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" /></picture>
+        <img loading="lazy" src="{{asset('assets/img/FUNDO-3.webp')}}"  alt="imagen promocional de nuestros eventos " loading="lazy" />
       </div>
     </div>
     <br>
