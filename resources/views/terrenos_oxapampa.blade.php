@@ -331,14 +331,14 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               
          
          </div>
-        <video autoplay muted loop  style="
+        <!-- <video autoplay muted loop  style="
           
             width: 100%;
             height: 100%;
             ">
         <source src="{{asset('nuevaweb_assets/assets/img/9mbz.mp4')}}" type="video/mp4">
 
-            </video> 
+            </video>  -->
     </div>
     
     
@@ -551,11 +551,11 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
 
    
 
-      <video autoplay muted loop class="d-none d-lg-block" id="mi-video">
+      <!-- <video autoplay muted loop class="d-none d-lg-block" id="mi-video">
         <source src="{{asset('nuevaweb_assets/assets/img/9mbz.mp4')}}" type="video/mp4">
        
     </video> 
-
+ -->
 
   </main> 
 
