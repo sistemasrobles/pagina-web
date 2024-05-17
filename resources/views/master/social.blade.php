@@ -8,7 +8,7 @@
         <li style="display:none" class="p-2 only-detalle-proyect "  style="margin-right: 10px !important;"><a id="enlace-reunion"  href="#formulario-contacto" type="button" >  <img class=" " src="{{asset('nuevaweb_assets/assets/svg/asd.png')}}" alt="" style="height:40px;width: 40px;"></a></li>
 
 
-        <li class="p-2 "id="pulsa-wsp" style="margin-right: 10px !important;"><a href="https://bit.ly/ContactoRobWeb"  target="_blank" >  <img src="{{asset('nuevaweb_assets/assets/svg/whatsapp.svg')}}" alt="" style="height:40px;width: 40px;"></a></li>
+        <li class="p-2 "id="pulsa-wsp" style="margin-right: 10px !important;"><a href="https://bit.ly/4dMttaY"  target="_blank" >  <img src="{{asset('nuevaweb_assets/assets/svg/whatsapp.svg')}}" alt="" style="height:40px;width: 40px;"></a></li>
     </ul>
 
 </div>
