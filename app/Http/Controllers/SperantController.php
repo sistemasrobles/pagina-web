@@ -137,10 +137,15 @@ class SperantController extends Controller
             $observation = $request->mensaje." ".$horario_llamada;
 
 
+            $email = $request->email;
+            
+            $email_sin_espacios = str_replace(' ', '', $email);
+
+
             $postData = [
                 'fname' => $request->nombre,
                 'lname' => $request->apellido,
-                'email' => $request->email,
+                'email' => $email_sin_espacios,
                 'phone' => $request->movil,
                 'utm_source' => $request->utm_source,
                 'utm_medium' => $request->utm_medium,
