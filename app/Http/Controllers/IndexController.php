@@ -54,7 +54,7 @@ class IndexController extends Controller
         $sliders=slider::where('estado_slider','=','1')->orderBy('posicion','asc')->get();
 
 
-        $blog=blog::where('slug','<>','robles-tours-encuentra-el-lote-de-tus-suenos-en-oxapampa')->orderBy('id','desc')->paginate(4);
+        $blog=blog::where('activo','=',1)->where('slug','<>','robles-tours-encuentra-el-lote-de-tus-suenos-en-oxapampa')->orderBy('id','desc')->paginate(4);
         
         $proyectos = proyectos::where('estado_proyecto','=','1')->get();
         
