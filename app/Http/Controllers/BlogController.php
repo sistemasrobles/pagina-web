@@ -14,7 +14,7 @@ use Artesaos\SEOTools\Facades\JsonLdMulti;
 class BlogController extends Controller
 {
     public function blog(){
-        $blog=blog::where('activo','=',1)->orderBy('created_at','desc')
+        $blog=blog::orderBy('created_at','desc')
         ->paginate(8);
     
 
