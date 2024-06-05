@@ -42,7 +42,14 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
                 
                   @foreach ($blog as $list)
                  <div class="d-flex  align-items-center   gap-3 flex-column">
-                  <div class="overflow-hidden container-img-block h-100"><img class="img-blog rounded-0 "  src="/storage/blog/{{$list->img}}"  alt=""></div>
+                  <div class="overflow-hidden container-img-block h-100">
+
+
+                    <a href="detalle_blog/{{$list->slug}}" ><img class="img-blog rounded-0 "  src="/storage/blog/{{$list->img}}"  alt=""></a>
+
+
+
+                    </div>
                   <div class="d-flex gap-1 flex-column ">
                   <blockquote class="mb-0 text-gris">{{$list->publicacion}}</blockquote>
                   <h5 class="mb-0 family-700-one color-green-2">{{$list->titulo}}</h5>
