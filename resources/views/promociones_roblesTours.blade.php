@@ -592,7 +592,7 @@ y donde vivirás una experiencia inolvidable con nuestra familia Robles & Yasiko
       <div style="width: max-content;"  class="container-contact px-5">
         <h4 class="mb-4">Contáctanos</h4>
         <div class="d-flex gap-4 flex-column">
-          <span class="d-flex gap-2  align-items-center"><i class="fa-solid fa-phone"></i> +51 936 877 682</span>
+          <span class="d-flex gap-2  align-items-center"><i class="fa-solid fa-phone"></i> +51 983 479 617</span>
           <span class="d-flex gap-2 align-items-center"><i class="fa-regular fa-envelope"></i>ventas@gruporobles.com.pe</span>
         </div>
       </div>
