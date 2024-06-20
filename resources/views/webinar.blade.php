@@ -381,11 +381,11 @@
           >
             <h5 class="mb-4">Síguenos</h5>
             <div class="d-flex gap-4 flex-wrap">
-              <span class="bg bg-dark"><i class="fa-brands fa-facebook-f text-white"></i></span>
-              <span class="bg bg-dark"><i class="fa-brands fa-youtube text-white"></i></span>
-              <span class="bg bg-dark"><i class="fa-brands fa-instagram text-white"></i></span>
-              <span class="bg bg-dark"><i class="fa-brands fa-linkedin-in text-white"></i></span>
-              <span class="bg bg-dark"><i class="fa-brands fa-tiktok text-white"></i></span>
+              <span class="bg bg-ligth"><i class="fa-brands fa-facebook-f color-primary"></i></span>
+              <span class="bg bg-ligth"><i class="fa-brands fa-youtube color-primary"></i></span>
+              <span class="bg bg-ligth"><i class="fa-brands fa-instagram color-primary"></i></span>
+              <span class="bg bg-ligth"><i class="fa-brands fa-linkedin-in color-primary"></i></span>
+              <span class="bg bg-ligth"><i class="fa-brands fa-tiktok color-primary"></i></span>
             </div>
           </div>
         </div>
