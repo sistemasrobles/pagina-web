@@ -99,3 +99,5 @@ Route::post('/add-tiktok','PromocionesController@addTiktok');
 
 
 
+
+Route::get('/webinar','PromocionesController@webinar');

@@ -27,7 +27,16 @@ use App\proyectos;
 class PromocionesController extends Controller
 {
   
- 
+    
+    public function webinar(){
+
+
+    return view('webinar');
+
+
+  }
+
+  
   public function successReclamaciones(){
 
 
