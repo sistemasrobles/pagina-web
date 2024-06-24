@@ -104,4 +104,4 @@ Route::get('/webinar','PromocionesController@webinar');
 
 Route::get('/landing-color','PromocionesController@color');
 
-Route::get('/landing-color-2','PromocionesController@color2');
+Route::get('/landing-color2','PromocionesController@color2');
