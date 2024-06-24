@@ -47,6 +47,15 @@ class PromocionesController extends Controller
   }
 
 
+   public function color2(){
+
+
+    return view('landing_color_2');
+
+
+  }
+
+
 
   public function successReclamaciones(){
 
