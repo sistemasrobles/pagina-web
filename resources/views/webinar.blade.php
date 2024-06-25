@@ -238,7 +238,7 @@
     <!-- section proyectos -->
     <section class="bg-white">
       <div
-        class="flex-proyectos container-xl container-lg container-md container-sm py-5"
+        class="flex-proyectos container-xl container-lg container-md container-sm pt-5 pb-3"
       >
         <div class="info-proyectos">
           <h2 class="color-primary out-Extrabold"><u>Nustros Proyectos</u></h2>
@@ -270,11 +270,13 @@
                   <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/arco.webp" alt="" />
                   <span class="title-span shadow px-4"><small>oxapampa</small></span>
                   <div class="bottom-card">
-                    <span class="etiqueta-green">
+                    <span class="etiqueta-green py-2">
                       <h6 class="out-semibold color-primarxy">
                         Fundo Valentina
                       </h6>
                     </span>
+                    <span ><i class="fas fa-box me-2"></i>Desde 300 m<sup>2</sup></span>
+                     <span style="margin-top:-10px" ><i class="fas fa-map-marker-alt me-2"></i>Entrega inmediata</span>
                     <a class=""href="/" style="font-size:0.6rem ;letter-spacing: 1px;">VER MÁS</a>
                   </div>
                 </div>
@@ -285,11 +287,14 @@
                   <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/golf.webp" alt="" />
                  <span class="title-span shadow px-4"><small>oxapampa</small></span>
                   <div class="bottom-card">
-                    <span class="etiqueta-green">
+                    <span class="etiqueta-green py-2">
                       <h4 class="out-semibold color-primaryx">
                         Fundo Valentina
                       </h4>
                     </span>
+                     <span ><i class="fas fa-box me-2"></i>Desde 300 m<sup>2</sup></span>
+
+                     <span style="margin-top:-10px"><i class="fas fa-map-marker-alt me-2"></i>Entrega inmediata</span>
                      <a href="/" style="font-size:0.6rem;letter-spacing: 1px;">VER MÁS</a>
                   </div>
                 </div>
@@ -300,11 +305,13 @@
                   <img src="./assets_landings/proyecto/proyecto.png" alt="" />
                   <span class="title-span shadow px-4"><small>oxapampa</small></span>
                   <div class="bottom-card">
-                    <span class="etiqueta-green">
+                    <span class="etiqueta-green py-2">
                       <h4 class="out-semibold color-primaryx">
                         Bella Primavera
                       </h4>
                     </span>
+                     <span ><i class="fas fa-box me-2"></i>Desde 300 m<sup>2</sup></span>
+                     <span style="margin-top:-10px"><i class="fas fa-map-marker-alt me-2"></i>Entrega inmediata</span>
                       <a href="/" style="font-size:0.6rem;letter-spacing: 1px;">VER MÁS</a>
                   </div>
                 </div>
@@ -315,11 +322,13 @@
                   <img src="./assets_landings/proyecto/proyecto.png" alt="" />
                   <span class="title-span shadow px-4"><small>oxapampa</small></span>
                   <div class="bottom-card">
-                    <span class="etiqueta-green">
+                    <span class="etiqueta-green py-2">
                       <h4 class="out-semibold color-primarxy">
                         El Arco Dorado
                       </h4>
                     </span>
+                     <span ><i class="fas fa-box me-2"></i>Desde 300 m<sup>2</sup></span>
+                     <span style="margin-top:-10px"><i class="fas fa-map-marker-alt me-2"></i>Entrega inmediata</span>
                       <a href="/" style="font-size:0.6rem;letter-spacing: 1px;">VER MÁS</a>
                   </div>
                 </div>
@@ -335,16 +344,18 @@
 
 
 
-     <section class="bg-white">
+     <section class="bg-white ">
       <div
-        class="container-xl container-lg container-md container-sm py-4 px-4"
-      >
+        class="container-xl container-lg container-md container-sm pb-4 px-4 "
+      > 
+
+        
         <div
-          class="row row-cols-1 row-cols-lg-3 row-cols-md-3 g-4 justify-content-center  pb-4 " style="border-radius: 20px;background: #f2f2f2;"
+          class="row row-cols-1 row-cols-lg-3 row-cols-md-3  justify-content-center  pb-2 " style="border-radius: 20px;background: #f2f2f2;"
         >	
+        <h4 class="out-semibold w-100 text-center color-primary  py-3 mt-3" ><u>Vive Rodeado de la Naturaleza de Oxapampa</u></h4>
 
-
-
+          <p style="display: block;width: 100%;" class="color-plomo text-center">Ubicación privilegiada para apreciar la belleza en su máximo esplendor</p>
           <div class="">
             <div
               class="d-flex  flex-column  justify-content-center align-items-center gap-3 p-4 " style="border-radius: 20px ;"
