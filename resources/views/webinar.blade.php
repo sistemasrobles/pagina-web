@@ -120,7 +120,7 @@
     <!-- section impulsar ventar -->
     <section class="container-xl container-lg container-md container-sm ">
       <!-- grid -->
-      <div class="row row-cols-1 row-cols-lg-2 row-cols-md-2 align-items-center " style="position:relative;">
+      <div class="row row-cols-1 row-cols-lg-2  align-items-center " style="position:relative;">
         <div class="py-5">
           <div class="d-flex flex-column gap-3 bg-white p-3 radius-section">
             <h1 class="color-primary out-Extrabold mb-0">
@@ -146,7 +146,7 @@
           </div>
         </div>
         <!-- image rigth -->
-        <div class="d-flex align-items-end " style="position:absolute;bottom: 0;right: 0;">
+        <div class="d-none d-lg-block " style="position:absolute;bottom: 0;right: 0;">
           <img
             class="family"
             src="./assets_landings/family.png"
@@ -337,7 +337,7 @@
 
      <section class="bg-white">
       <div
-        class="container-xl container-lg container-md container-sm py-4 "
+        class="container-xl container-lg container-md container-sm py-4 px-4"
       >
         <div
           class="row row-cols-1 row-cols-lg-3 row-cols-md-3 g-4 justify-content-center  pb-4 " style="border-radius: 20px;background: #f2f2f2;"
@@ -399,7 +399,7 @@
       <div class="container-xl text-white mb-5">
         <!-- grid footer -->
         <div
-          class="row row-cols-xl-3 row-cols-lg-1 row-cols-md-1 g-5 justify-content-xl-between justify-content-lg-center"
+          class="row row-cols-xl-3 row-cols-lg-1 row-cols-md-1 gx-2 gy-5 g-lg-5 justify-content-xl-between justify-content-lg-center"
         >
           <!-- contactanos -->
           <div style="width: max-content" class="container-contact px-5">
