@@ -264,23 +264,27 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide">
+              
+               <div class="swiper-slide">
                 <!-- card -->
                 <div class="card-proyect position-relative">
-                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/arco.webp" alt="" />
-                  <span class="title-span shadow px-4"><small>oxapampa</small></span>
+                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/golf.webp" alt="" />
+                 <span class="title-span shadow px-4"><small>oxapampa</small></span>
                   <div class="bottom-card">
                     <span class="etiqueta-green py-2">
-                      <h6 class="out-semibold color-primarxy">
+                      <h4 class="out-semibold color-primaryx">
                         Fundo Valentina
-                      </h6>
+                      </h4>
+
+
                     </span>
-                    <span ><i class="fas fa-box me-2"></i>Desde 300 m<sup>2</sup></span>
-                     <span style="margin-top:-10px" ><i class="fas fa-map-marker-alt me-2"></i>Entrega inmediata</span>
-                    <a class=""href="/" style="font-size:0.6rem ;letter-spacing: 1px;">VER MÁS</a>
+                    
+                    
                   </div>
                 </div>
               </div>
+
+
               <div class="swiper-slide">
                 <!-- card -->
                 <div class="card-proyect position-relative">
@@ -291,11 +295,11 @@
                       <h4 class="out-semibold color-primaryx">
                         Fundo Valentina
                       </h4>
-                    </span>
-                     <span ><i class="fas fa-box me-2"></i>Desde 300 m<sup>2</sup></span>
 
-                     <span style="margin-top:-10px"><i class="fas fa-map-marker-alt me-2"></i>Entrega inmediata</span>
-                     <a href="/" style="font-size:0.6rem;letter-spacing: 1px;">VER MÁS</a>
+
+                    </span>
+                    
+                    
                   </div>
                 </div>
               </div>
@@ -310,9 +314,8 @@
                         Bella Primavera
                       </h4>
                     </span>
-                     <span ><i class="fas fa-box me-2"></i>Desde 300 m<sup>2</sup></span>
-                     <span style="margin-top:-10px"><i class="fas fa-map-marker-alt me-2"></i>Entrega inmediata</span>
-                      <a href="/" style="font-size:0.6rem;letter-spacing: 1px;">VER MÁS</a>
+                    
+                     
                   </div>
                 </div>
               </div>
@@ -327,9 +330,8 @@
                         El Arco Dorado
                       </h4>
                     </span>
-                     <span ><i class="fas fa-box me-2"></i>Desde 300 m<sup>2</sup></span>
-                     <span style="margin-top:-10px"><i class="fas fa-map-marker-alt me-2"></i>Entrega inmediata</span>
-                      <a href="/" style="font-size:0.6rem;letter-spacing: 1px;">VER MÁS</a>
+                   
+                      
                   </div>
                 </div>
               </div>
@@ -353,48 +355,78 @@
         <div
           class="row row-cols-1 row-cols-lg-3 row-cols-md-3  justify-content-center  pb-2 " style="border-radius: 20px;background: #f2f2f2;"
         >	
-        <h4 class="out-semibold w-100 text-center color-primary  py-3 mt-3" ><u>Vive Rodeado de la Naturaleza de Oxapampa</u></h4>
+        <h2 class="out-semibold w-100 text-center color-primary  py-3 mt-3" ><u>Vive Rodeado de la Naturaleza de Oxapampa</u></h2>
 
           <p style="display: block;width: 100%;" class="color-plomo text-center">Ubicación privilegiada para apreciar la belleza en su máximo esplendor</p>
+          
+
           <div class="">
             <div
-              class="d-flex  flex-column  justify-content-center align-items-center gap-3 p-4 " style="border-radius: 20px ;"
+              class="my-4 shadow d-flex  flex-column  justify-content-center align-items-center gap-3 p-4"  style="border-radius: 20px ;background: #fff "
             >
-              <img src="https://lordinmobiliaria.pe/wp-content/uploads/2023/11/cliente3.jpg" alt="hoja"  class="img-fluid " style="border-radius: 20px;height: 200px;" />
+              <div class=" w-100  ">
 
-              <h6 class="mt-3 color-primary"><u>Helena Soto</u></h6>
-              <p class="mb-0 text-center text-lg-start color-plomo">
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. 
+                <div class=" px-3 " style="display:inline-block;background: #005c53;color:white;border-radius: 10px;">
+               <strong>Paso 1</strong>
+
+            </div> 
+
+
+            </div>
+              
+                  <h6 class="mt-1 color-primary">Separalo solo con ¡S/ 500 soles !</h6>
+
+
+             <p class="mb-0 text-center text-lg-start color-plomo">
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de 
               </p>
             </div>
           </div>
+
+
          
           <div class="">
             <div
-              class="d-flex  flex-column  justify-content-center align-items-center gap-3 p-4"  style="border-radius: 20px ;"
+              class="my-4 shadow d-flex  flex-column  justify-content-center align-items-center gap-3 p-4"  style="border-radius: 20px  ;background: #fff"
             >
-              <img src="https://lordinmobiliaria.pe/wp-content/uploads/2023/11/cliente3.jpg" alt="hoja"  class="img-fluid "style="border-radius: 20px;height: 200px;" />
+              <div class=" w-100  ">
 
-               <h6 class="mt-3 color-primary"><u>Helena Soto</u></h6>
+                <div class=" px-3 " style="display:inline-block;background: #005c53;color:white;border-radius: 10px;">
+               <strong>Paso 1</strong>
+
+            </div> 
+
+
+            </div>
+              
+                  <h6 class="mt-1 color-primary">Separalo solo con ¡S/ 500 soles !</h6>
 
 
              <p class="mb-0 text-center text-lg-start color-plomo">
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. 
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de 
               </p>
             </div>
           </div>
 
-           <div class="">
+          <div class="">
             <div
-              class="d-flex  flex-column  justify-content-center align-items-center gap-3 p-4"  style="border-radius: 20px "
+              class="my-4 shadow d-flex  flex-column  justify-content-center align-items-center gap-3 p-4"  style="border-radius: 20px ;background: #fff; "
             >
-              <img src="https://lordinmobiliaria.pe/wp-content/uploads/2023/11/cliente3.jpg" alt="hoja"  class="img-fluid " style="border-radius: 20px;height: 200px;"/>
+              <div class=" w-100  ">
 
-                 <h6 class="mt-3 color-primary"><u>Helena Soto</u></h6>
+                <div class=" px-3 " style="display:inline-block;background: #005c53;color:white;border-radius: 10px;">
+               <strong>Paso 1</strong>
+
+            </div> 
+
+
+            </div>
+              
+                  <h6 class="mt-1 color-primary">Separalo solo con ¡S/ 500 soles !</h6>
 
 
              <p class="mb-0 text-center text-lg-start color-plomo">
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. 
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de 
               </p>
             </div>
           </div>
