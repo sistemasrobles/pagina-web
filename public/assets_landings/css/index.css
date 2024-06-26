@@ -33,7 +33,7 @@ input::placeholder {
   font-size: 0.8rem !important;
 }
 .form-participacion > button {
-   
+
   width: 100%;
   font-family: var(--font-title);
   font-size: 18px;
@@ -236,6 +236,7 @@ input::placeholder {
   border-bottom-right-radius: 10px;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-right:10px;

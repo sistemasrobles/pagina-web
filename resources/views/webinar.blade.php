@@ -269,13 +269,20 @@
                 <!-- card -->
                 <div class="card-proyect position-relative">
                   <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/golf.webp" alt="" />
-                 <span class="title-span shadow px-4"><small>oxapampa</small></span>
+                 <span class="title-span shadow px-4"><small>oxapampax</small></span>
+                  
+
+                  
+
+
+
+
                   <div class="bottom-card">
-                    <span class="etiqueta-green py-2">
+                    <span class="etiqueta-green pt-2">
                       <h4 class="out-semibold color-primaryx">
                         Fundo Valentina
                       </h4>
-
+                      <p class=""><i class="fas fa-map me-2" style=" color: white;"></i> Desde 400 m<sup>2</sup></p>
 
                     </span>
                     
@@ -291,11 +298,11 @@
                   <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/golf.webp" alt="" />
                  <span class="title-span shadow px-4"><small>oxapampa</small></span>
                   <div class="bottom-card">
-                    <span class="etiqueta-green py-2">
+                    <span class="etiqueta-green pt-2">
                       <h4 class="out-semibold color-primaryx">
                         Fundo Valentina
                       </h4>
-
+                       <p class=""><i class="fas fa-map me-2" style=" color: white;"></i> Desde 400 m<sup>2</sup></p>
 
                     </span>
                     
@@ -308,14 +315,21 @@
                 <div class="card-proyect position-relative">
                   <img src="./assets_landings/proyecto/proyecto.png" alt="" />
                   <span class="title-span shadow px-4"><small>oxapampa</small></span>
-                  <div class="bottom-card">
-                    <span class="etiqueta-green py-2">
+
+                  
+
+
+
+                <div class="bottom-card">
+                    <span class="etiqueta-green pt-2">
                       <h4 class="out-semibold color-primaryx">
-                        Bella Primavera
+                        Fundo Valentina
                       </h4>
+                       <p class=""><i class="fas fa-map me-2" style=" color: white;"></i> Desde 400 m<sup>2</sup></p>
+
                     </span>
                     
-                     
+                    
                   </div>
                 </div>
               </div>
@@ -325,13 +339,15 @@
                   <img src="./assets_landings/proyecto/proyecto.png" alt="" />
                   <span class="title-span shadow px-4"><small>oxapampa</small></span>
                   <div class="bottom-card">
-                    <span class="etiqueta-green py-2">
-                      <h4 class="out-semibold color-primarxy">
-                        El Arco Dorado
+                    <span class="etiqueta-green pt-2">
+                      <h4 class="out-semibold color-primaryx">
+                        Fundo Valentina
                       </h4>
+                       <p class=""><i class="fas fa-map me-2" style=" color: white;"></i> Desde 400 m<sup>2</sup></p>
+
                     </span>
-                   
-                      
+                    
+                    
                   </div>
                 </div>
               </div>
