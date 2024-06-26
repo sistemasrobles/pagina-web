@@ -23,12 +23,12 @@
     <!-- main landing -->
     <main class="container-fluid bg-main-img">
       <div
-        class="container-xl container-lg container-md container-sm d-flex justify-content-end"
+        class="container-xl container-lg container-md container-sm d-flex justify-content-end "
       >
         <form
           id="form-proyect"
           style="max-width: 480px"
-          class="shadow d-flex gap-2 flex-column justify-content-center bg-white px-4 py-4 radius-section text-black"
+          class="shadow d-flex gap-2 flex-column justify-content-center bg-white px-4 py-4 radius-section text-black w-100"
         >
           <div class="mb-2">
             <h3 class="fs-5 mb-2 font-form color-primary submit">
