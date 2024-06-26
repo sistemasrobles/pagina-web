@@ -7,7 +7,7 @@
     />
     <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="./assets_landings/css/index.css?v=344" />
+    <link rel="stylesheet" href="./assets_landings/css/index.css?v=3444" />
     <link rel="stylesheet" href="./assets_landings/css/font.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -355,7 +355,7 @@
         <div
           class="row row-cols-1 row-cols-lg-3 row-cols-md-3  justify-content-center  pb-2 " style="border-radius: 20px;background: #f2f2f2;"
         >	
-        <h2 class="out-semibold w-100 text-center color-primary  py-3 mt-3" ><u>Vive Rodeado de la Naturaleza de Oxapampa</u></h2>
+        <h2 class="out-semibold w-100 text-center color-primary  py-3 mt-3" style="font-size: 1.6rem !important;" ><u>Vive Rodeado de la Naturaleza de Oxapampa</u></h2>
 
           <p style="display: block;width: 100%;" class="color-plomo text-center">Ubicación privilegiada para apreciar la belleza en su máximo esplendor</p>
           
@@ -366,7 +366,7 @@
             >
               <div class=" w-100  ">
 
-                <div class=" px-3 " style="display:inline-block;background: #005c53;color:white;border-radius: 10px;">
+                <div class=" px-3 " style="display:inline-block;background: #00968b;color:white;border-radius: 10px;">
                <strong>Paso 1</strong>
 
             </div> 
@@ -377,8 +377,8 @@
                   <h6 class="mt-1 color-primary">Separalo solo con ¡S/ 500 soles !</h6>
 
 
-             <p class="mb-0 text-center text-lg-start color-plomo">
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de 
+               <p class="mb-0 text-center text-lg-start color-plomo">
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el de relleno estándar de 
               </p>
             </div>
           </div>
@@ -391,7 +391,7 @@
             >
               <div class=" w-100  ">
 
-                <div class=" px-3 " style="display:inline-block;background: #005c53;color:white;border-radius: 10px;">
+                <div class=" px-3 " style="display:inline-block;background: #00968b;color:white;border-radius: 10px;">
                <strong>Paso 1</strong>
 
             </div> 
@@ -402,8 +402,8 @@
                   <h6 class="mt-1 color-primary">Separalo solo con ¡S/ 500 soles !</h6>
 
 
-             <p class="mb-0 text-center text-lg-start color-plomo">
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de 
+               <p class="mb-0 text-center text-lg-start color-plomo">
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el de relleno estándar de 
               </p>
             </div>
           </div>
@@ -414,7 +414,7 @@
             >
               <div class=" w-100  ">
 
-                <div class=" px-3 " style="display:inline-block;background: #005c53;color:white;border-radius: 10px;">
+                <div class=" px-3 " style="display:inline-block;background: #00968b;color:white;border-radius: 10px;">
                <strong>Paso 1</strong>
 
             </div> 
@@ -426,7 +426,7 @@
 
 
              <p class="mb-0 text-center text-lg-start color-plomo">
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de 
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el de relleno estándar de 
               </p>
             </div>
           </div>
