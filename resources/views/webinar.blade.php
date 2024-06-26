@@ -236,7 +236,7 @@
     </section>
 
     <!-- section proyectos -->
-    <section class="bg-white">
+    <section class="bg-white px-3 p-md-0">
       <div
         class="flex-proyectos container-xl container-lg container-md container-sm pt-5 pb-3"
       >
@@ -374,10 +374,10 @@
 
             </div>
               
-                  <h6 class="mt-1 color-primary">Separalo solo con ¡S/ 500 soles !</h6>
+                  <h6 class="mt-1 ">Separalo solo con ¡S/ 500 soles !</h6>
 
 
-               <p class="mb-0 text-center text-lg-start color-plomo">
+               <p class="mb-0 text-center text-lg-start color-plomo" style="font-size:0.9rem">
                 Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el de relleno estándar de 
               </p>
             </div>
@@ -399,10 +399,10 @@
 
             </div>
               
-                  <h6 class="mt-1 color-primary">Separalo solo con ¡S/ 500 soles !</h6>
+                  <h6 class="mt-1 ">Separalo solo con ¡S/ 500 soles !</h6>
 
 
-               <p class="mb-0 text-center text-lg-start color-plomo">
+               <p class="mb-0 text-center text-lg-start color-plomo"  style="font-size:0.9rem">
                 Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el de relleno estándar de 
               </p>
             </div>
@@ -422,10 +422,10 @@
 
             </div>
               
-                  <h6 class="mt-1 color-primary">Separalo solo con ¡S/ 500 soles !</h6>
+                  <h6 class="mt-1 ">Separalo solo con ¡S/ 500 soles !</h6>
 
 
-             <p class="mb-0 text-center text-lg-start color-plomo">
+             <p class="mb-0 text-center text-lg-start color-plomo"  style="font-size:0.9rem">
                 Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el de relleno estándar de 
               </p>
             </div>
@@ -436,7 +436,7 @@
     </section>
 
 
-     <section class="bg-white pb-5">
+     <section class="bg-white pb-5 px-2 p-md-0">
       <div
         class="container-xl container-lg container-md container-sm py-4 "
       >
@@ -448,7 +448,7 @@
                 
               
               <p class="mb-0 text-center color-plomo">
-                RÍO DEL SOL se destaca como el primer proyecto en Perú con el sello distintivo de Maat Handasa y JSA Arquitectos. Este condominio fusiona nuestro rico legado cultural con diversas formas de entretenimiento y una vida en armonía con la naturaleza.<br>
+                RÍO DEL SOL se destaca como el primer proyecto en Perú con el sello distintivo de Maat <strong>Handasa y JSA Arquitectos. Este condominio fusiona</strong> nuestro rico legado cultural con diversas formas de entretenimiento y una vida en armonía con la naturaleza.<br>
 Descubre el parque Ruina Arqueológica, explora senderos de trekking y disfruta de impresionantes vistas desde nuestros miradores.
               </p>
               
@@ -464,7 +464,7 @@ Descubre el parque Ruina Arqueológica, explora senderos de trekking y disfruta 
 
 
     <!-- Footer -->
-    <footer class="cotainer-fluid position-relative">
+    <footer class="cotainer-fluid position-relative d-none">
       <div class="container-xl text-white mb-5">
         <!-- grid footer -->
         <div
