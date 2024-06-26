@@ -93,7 +93,7 @@
           <span
             class="form-participacion w-100 d-flex justify-content-center align-items-center"
           >
-            <button>
+            <button class="">
               <div class="svg-wrapper-1">
                 <div class="svg-wrapper">
                   <svg

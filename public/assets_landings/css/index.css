@@ -23,7 +23,7 @@ color: #595454;
 }
 /**styled formulario*/
 .form-participacion {
-  min-width: 350px;
+
   /* max-width: 400px;*/
 }
 input::placeholder {
@@ -33,6 +33,7 @@ input::placeholder {
   font-size: 0.8rem !important;
 }
 .form-participacion > button {
+   
   width: 100%;
   font-family: var(--font-title);
   font-size: 18px;
