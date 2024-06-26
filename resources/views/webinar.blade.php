@@ -207,28 +207,28 @@
     >
       <div class="grid-bento-galery">
         <div class="bento1">
-          <img src="./assets_landings/bento/bento1.png" alt="" srcset="" />
+          <img src="./assets_landings/bento/bento1.webp" alt="" srcset="" />
         </div>
         <div class="bento2">
-          <img src="./assets_landings/bento/bento2.png" alt="" srcset="" />
+          <img src="./assets_landings/bento/bento5.webp" alt="" srcset="" />
         </div>
         <div class="bento3">
-          <img src="./assets_landings/bento/bento3.png" alt="" srcset="" />
+          <img src="./assets_landings/bento/bento3.webp" alt="" srcset="" />
         </div>
         <div class="bento4">
-          <img src="./assets_landings/bento/bento4.png" alt="" srcset="" />
+          <img src="./assets_landings/bento/bento4.webp" alt="" srcset="" />
         </div>
         <div class="bento5">
-          <img src="./assets_landings/bento/bento5.png" alt="" srcset="" />
+          <img src="./assets_landings/bento/bento2.webp" alt="" srcset="" />
         </div>
         <div class="bento6">
-          <img src="./assets_landings/bento/bento6.png" alt="" srcset="" />
+          <img src="./assets_landings/bento/bento6.webp" alt="" srcset="" />
         </div>
         <div class="bento7">
-          <img src="./assets_landings/bento/bento7.png" alt="" srcset="" />
+          <img src="./assets_landings/bento/bento7.webp" alt="" srcset="" />
         </div>
         <div class="bento8">
-          <img src="./assets_landings/bento/bento8.png" alt="" srcset="" />
+          <img src="./assets_landings/bento/bento1.webp" alt="" srcset="" />
         </div>
 
 
@@ -348,7 +348,7 @@
 
      <section class="bg-white ">
       <div
-        class="container-xl container-lg container-md container-sm pb-4 px-4 "
+        class="container-xl container-lg container-md container-sm  px-4 "
       > 
 
         
@@ -431,6 +431,32 @@
             </div>
           </div>
 
+        </div>
+      </div>
+    </section>
+
+
+     <section class="bg-white pb-5">
+      <div
+        class="container-xl container-lg container-md container-sm py-4 "
+      >
+        <div
+          class="row row-cols-1 row-cols-lg-1 row-cols-md-1 g-4 justify-content-center"
+        >
+          <div class="text-center">
+           
+                
+              
+              <p class="mb-0 text-center color-plomo">
+                RÍO DEL SOL se destaca como el primer proyecto en Perú con el sello distintivo de Maat Handasa y JSA Arquitectos. Este condominio fusiona nuestro rico legado cultural con diversas formas de entretenimiento y una vida en armonía con la naturaleza.<br>
+Descubre el parque Ruina Arqueológica, explora senderos de trekking y disfruta de impresionantes vistas desde nuestros miradores.
+              </p>
+              
+
+              <button class="  mt-5 shadow" style=" background: linear-gradient(to bottom, #005c53 0%, #00968b 100%);padding: 10px 30px;border-radius: 10px;border:none;color:white"><strong>¡Haz Clic Aquí Para Ser Parte De la Presentación Zoom!</strong></button>
+          </div>
+          
+          
         </div>
       </div>
     </section>
