@@ -483,7 +483,7 @@ Descubre el parque Ruina Arqueológica, explora senderos de trekking y disfruta 
 
 
     <footer class=" py-3 text-center" style="background:#F3F3F3 !important ;">
-      <p class="mb-0 color-plomo" style="font-size:0.8rem">
+      <p class="mb-0 " style="font-size:0.8rem ;color :#DADADA">
           Copyright© 2024 - Robles & Yasikov. Todos los derechos reservados.
         </p>
     </footer>
