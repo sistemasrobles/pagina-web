@@ -120,8 +120,8 @@
     <!-- section impulsar ventar -->
     <section class="container-xl container-lg container-md container-sm ">
       <!-- grid -->
-      <div class="row row-cols-1 row-cols-lg-2  align-items-center " style="position:relative;">
-        <div class="py-5">
+      <div class="row row-cols-1 row-cols-lg-2  align-items-center " >
+        <div class="pt-4 pb-2">
           <div class="d-flex flex-column gap-3 bg-white p-3 radius-section">
             <h1 class="color-primary out-Extrabold mb-0">
               <u>Impulsa Las Ventas De Tu Negocio</u>
@@ -145,11 +145,14 @@
             </ul>
           </div>
         </div>
+
+      
+
         <!-- image rigth -->
-        <div class="d-none d-lg-block " style="position:absolute;bottom: 0;right: 0;">
-          <img
-            class="family"
-            src="./assets_landings/family.png"
+        <div class="pt-4 pb-2  " style="">
+          <img style="border-radius: 20px;" 
+            class="w-100  "
+            src="https://www.lares.pe/cdn/shop/files/Foto_acompanante_de_texto.jpg?v=1700882502&width=600"
             alt="IMPULSA LAS VENTAS DE TU NEGOCIO"
             srcset=""
           />
@@ -157,9 +160,9 @@
       </div>
     </section>
     <!-- card hojas 3  -->
-    <section class="bg-white">
+    <section class="">
       <div
-        class="container-xl container-lg container-md container-sm py-4 mb-4"
+        class="container-xl container-lg container-md container-sm pt-3  mb-4"
       >
         <div
           class="row row-cols-1 row-cols-lg-3 row-cols-md-3 g-4 justify-content-center"
@@ -203,8 +206,9 @@
 
     <!-- bento galery -->
     <section
-      class="bg-white mb-5 container-xl container-lg container-md container-sm p-3 radius-section"
-    >
+      class=" bg-white mb-5 container-xl container-lg container-md container-sm p-3 radius-section"
+    > 
+      <h6 class=" text-white px-3 py-2 text-center" style="border-radius:10px;background:#00968b">Mira Nuestros Avances de Obras</h6>
       <div class="grid-bento-galery">
         <div class="bento1">
           <img src="./assets_landings/bento/bento1.webp" alt="" srcset="" />
@@ -228,7 +232,7 @@
           <img src="./assets_landings/bento/bento7.webp" alt="" srcset="" />
         </div>
         <div class="bento8">
-          <img src="./assets_landings/bento/bento1.webp" alt="" srcset="" />
+          <img src="./assets_landings/bento/bento8.webp" alt="" srcset="" />
         </div>
 
 
@@ -269,7 +273,7 @@
                 <!-- card -->
                 <div class="card-proyect position-relative">
                   <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/golf.webp" alt="" />
-                 <span class="title-span shadow px-4"><small>oxapampax</small></span>
+                 <span class="title-span shadow px-4"><strong>Fundo Valentina</strong></span>
                   
 
                   
@@ -278,11 +282,11 @@
 
 
                   <div class="bottom-card">
-                    <span class="etiqueta-green pt-2">
-                      <h4 class="out-semibold color-primaryx">
-                        Fundo Valentina
-                      </h4>
-                      <p class=""><i class="fas fa-map me-2" style=" color: white;"></i> Desde 400 m<sup>2</sup></p>
+                    <span class="etiqueta-green py-2">
+                      
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 400 m<sup>2</sup></p>
+
+                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
 
                     </span>
                     
@@ -296,13 +300,13 @@
                 <!-- card -->
                 <div class="card-proyect position-relative">
                   <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/golf.webp" alt="" />
-                 <span class="title-span shadow px-4"><small>oxapampa</small></span>
-                  <div class="bottom-card">
-                    <span class="etiqueta-green pt-2">
-                      <h4 class="out-semibold color-primaryx">
-                        Fundo Valentina
-                      </h4>
-                       <p class=""><i class="fas fa-map me-2" style=" color: white;"></i> Desde 400 m<sup>2</sup></p>
+               <span class="title-span shadow px-4"><strong>Fundo Valentina</strong></span>
+                   <div class="bottom-card">
+                    <span class="etiqueta-green py-2">
+                      
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 400 m<sup>2</sup></p>
+
+                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
 
                     </span>
                     
@@ -314,18 +318,18 @@
                 <!-- card -->
                 <div class="card-proyect position-relative">
                   <img src="./assets_landings/proyecto/proyecto.png" alt="" />
-                  <span class="title-span shadow px-4"><small>oxapampa</small></span>
+                  <span class="title-span shadow px-4"><strong>Fundo Valentina</strong></span>
 
                   
 
 
 
                 <div class="bottom-card">
-                    <span class="etiqueta-green pt-2">
-                      <h4 class="out-semibold color-primaryx">
-                        Fundo Valentina
-                      </h4>
-                       <p class=""><i class="fas fa-map me-2" style=" color: white;"></i> Desde 400 m<sup>2</sup></p>
+                    <span class="etiqueta-green py-2">
+                      
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 400 m<sup>2</sup></p>
+
+                     <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
 
                     </span>
                     
@@ -337,13 +341,13 @@
                 <!-- card -->
                 <div class="card-proyect position-relative">
                   <img src="./assets_landings/proyecto/proyecto.png" alt="" />
-                  <span class="title-span shadow px-4"><small>oxapampa</small></span>
-                  <div class="bottom-card">
-                    <span class="etiqueta-green pt-2">
-                      <h4 class="out-semibold color-primaryx">
-                        Fundo Valentina
-                      </h4>
-                       <p class=""><i class="fas fa-map me-2" style=" color: white;"></i> Desde 400 m<sup>2</sup></p>
+                  <span class="title-span shadow px-4"><strong>Fundo Valentina</strong></span>
+                   <div class="bottom-card">
+                    <span class="etiqueta-green py-2">
+                      
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 400 m<sup>2</sup></p>
+
+                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
 
                     </span>
                     
@@ -362,7 +366,7 @@
 
 
 
-     <section class="bg-white ">
+     <section class="bg-white  ">
       <div
         class="container-xl container-lg container-md container-sm  px-4 "
       > 

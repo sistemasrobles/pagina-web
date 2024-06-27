@@ -15,7 +15,9 @@ color: #595454;
 /** styles de main */
 .bg-main-img {
   padding: 40px 0;
-  background: url(/assets_landings/VENTAS_DE_TU_NEGOCIO.png) center center/cover
+
+/*    background: url(/assets_landings/VENTAS_DE_TU_NEGOCIO.png) center center/cover*/
+  background: url("https://static.wixstatic.com/media/a9ef1e_ecfd4f1076d54c3c8f93337bf5d0ecac~mv2.png/v1/fill/w_1349,h_740,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/a9ef1e_ecfd4f1076d54c3c8f93337bf5d0ecac~mv2.png") center center/cover
     no-repeat;
 }
 .radius-section {
@@ -126,8 +128,9 @@ input::placeholder {
 /**style card 3 hojas */
 .card-hoja {
   /* max-width: 350px !important; */
-  background: #f2f2f2;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/*  background: #f2f2f2;*/
+  background: #fff;
+/*  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
   border-radius: 30px;
 }
 .card-hoja p {
@@ -237,11 +240,10 @@ input::placeholder {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
   padding-right:10px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+
   position: absolute;
   bottom: 0;
   left: 0;
@@ -262,9 +264,9 @@ color:white !important;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  gap: 10px;
+  gap: 0px;
   color: white;
-  padding: 10px 0;
+  padding: 0px 0;
 }
 .card-proyect > .bottom-card > a {
   z-index: 2;
