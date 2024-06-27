@@ -7,7 +7,7 @@
     />
     <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="./assets_landings/css/index.css?v=3444" />
+    <link rel="stylesheet" href="./assets_landings/css/index.css?v=34444" />
     <link rel="stylesheet" href="./assets_landings/css/font.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -206,7 +206,7 @@
 
     <!-- bento galery -->
     <section
-      class=" bg-white mb-5 container-xl container-lg container-md container-sm p-3 radius-section"
+      class=" bg-white mb-3 container-xl container-lg container-md container-sm p-3 radius-section"
     > 
       <h6 class=" text-white px-3 py-2 text-center" style="border-radius:10px;background:#00968b">Mira Nuestros Avances de Obras</h6>
       <div class="grid-bento-galery">
@@ -240,12 +240,12 @@
     </section>
 
     <!-- section proyectos -->
-    <section class="bg-white px-3 p-md-0">
+    <section class="bg-white px-3 p-md-0 ">
       <div
-        class="flex-proyectos container-xl container-lg container-md container-sm pt-5 pb-3"
+        class="flex-proyectos container-xl container-lg container-md container-sm pt-3 pb-1"
       >
         <div class="info-proyectos">
-          <h2 class="color-primary out-Extrabold"><u>Nustros Proyectos</u></h2>
+          <h2 class="color-primary out-Extrabold"><u>Los Proyectos</u></h2>
           <p class="color-plomo">
             Si algo he aprendido en mi caso de emprendedora a CEO es que el
             éxito o fracaso de un negocio
@@ -456,7 +456,7 @@
     </section>
 
 
-     <section class="bg-white pb-5 px-2 p-md-0">
+     <section class="bg-white pb-5 px-2 p-md-0 ">
       <div
         class="container-xl container-lg container-md container-sm py-4 "
       >
@@ -473,7 +473,7 @@ Descubre el parque Ruina Arqueológica, explora senderos de trekking y disfruta 
               </p>
               
 
-              <button class="  mt-5 shadow" style=" background: linear-gradient(to bottom, #005c53 0%, #00968b 100%);padding: 10px 30px;border-radius: 10px;border:none;color:white"><strong>¡Haz Clic Aquí Para Ser Parte De la Presentación Zoom!</strong></button>
+              <button class="  my-5 shadow" style=" background: linear-gradient(to bottom, #005c53 0%, #00968b 100%);padding: 10px 30px;border-radius: 10px;border:none;color:white"><strong>¡Haz Clic Aquí Para Ser Parte De la Presentación Zoom!</strong></button>
           </div>
           
           
@@ -482,7 +482,11 @@ Descubre el parque Ruina Arqueológica, explora senderos de trekking y disfruta 
     </section>
 
 
-
+    <footer class=" py-3 text-center" style="background:#F3F3F3 !important ;">
+      <p class="mb-0 color-plomo" style="font-size:0.8rem">
+          Copyright© 2024 - Robles & Yasikov. Todos los derechos reservados.
+        </p>
+    </footer>
     <!-- Footer -->
     <footer class="cotainer-fluid position-relative d-none">
       <div class="container-xl text-white mb-5">
