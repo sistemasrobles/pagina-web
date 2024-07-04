@@ -229,36 +229,94 @@
           <img src="./assets_landings/bento/bento1.webp" alt="" srcset="" />
           <div class="overlay">
             
+            <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
+              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+            </div>
           </div>
         </div>
         <div class="bento2 bento-main">
           <img src="./assets_landings/bento/bento5.webp" alt="" srcset="" />
-          <div class="overlay"></div>
+          <div class="overlay">
+            
+
+               <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
+
+              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+            </div>
+
+          </div>
         </div>
         <div class="bento3 bento-main">
           <img src="./assets_landings/bento/bento3.webp" alt="" srcset="" />
-          <div class="overlay"></div>
+          <div class="overlay">
+            
+             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
+
+              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+            </div>
+
+          </div>
         </div>
         <div class="bento4 bento-main">
           <img src="./assets_landings/bento/bento4.webp" alt="" srcset="" />
-          <div class="overlay"></div>
+          <div class="overlay">
+            
+            <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
+
+              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+            </div>
+
+          </div>
         </div>
         <div class="bento5 bento-main">
           <img src="./assets_landings/bento/bento2.webp" alt="" srcset="" />
-          <div class="overlay"></div>
+          <div class="overlay">
+            
+            <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
+
+              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+            </div>
+          </div>
         </div>
         <div class="bento6 bento-main">
           <img src="./assets_landings/bento/bento6.webp" alt="" srcset="" />
-          <div class="overlay"></div>
+          <div class="overlay">
+            
+            <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
+
+              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+            </div>
+
+          </div>
         </div>
         <div class="bento7 bento-main">
           <img src="./assets_landings/bento/bento7.webp" alt="" srcset="" />
-          <div class="overlay"></div>
+          <div class="overlay">
+            <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
+
+              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+            </div>
+
+          </div>
         </div>
         <div class="bento8 bento-main">
           <img src="./assets_landings/bento/bento8.webp" alt="" srcset="" />
-          <div class="overlay"></div>
+          <div class="overlay">
+            
+            <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
+
+              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+            </div>
+          </div>
         </div>
 
 
@@ -298,7 +356,7 @@
                <div class="swiper-slide">
                 <!-- card -->
                 <div class="card-proyect position-relative">
-                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/golf.webp" alt="" />
+                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/robles.webp" alt="" />
                  <span class="title-span shadow px-4"><strong>Fundo Los Robles</strong></span>
                   
 
@@ -310,7 +368,7 @@
                   <div class="bottom-card">
                     <span class="etiqueta-green py-2">
                       
-                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 400 m<sup>2</sup></p>
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 300 m<sup>2</sup></p>
 
                       <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
 
@@ -325,7 +383,7 @@
               <div class="swiper-slide">
                 <!-- card -->
                 <div class="card-proyect position-relative">
-                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/golf.webp" alt="" />
+                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/fundo.webp" alt="" />
                <span class="title-span shadow px-4"><strong>Fundo Valentina</strong></span>
                    <div class="bottom-card">
                     <span class="etiqueta-green py-2">
@@ -343,7 +401,7 @@
               <div class="swiper-slide">
                 <!-- card -->
                 <div class="card-proyect position-relative">
-                  <img src="./assets_landings/proyecto/proyecto.png" alt="" />
+                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/bella.webp" alt="" />
                   <span class="title-span shadow px-4"><strong>Bella Primavera</strong></span>
 
                   
@@ -353,7 +411,7 @@
                 <div class="bottom-card">
                     <span class="etiqueta-green py-2">
                       
-                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 400 m<sup>2</sup></p>
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 200 m<sup>2</sup></p>
 
                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
 
@@ -366,12 +424,12 @@
               <div class="swiper-slide">
                 <!-- card -->
                 <div class="card-proyect position-relative">
-                  <img src="./assets_landings/proyecto/proyecto.png" alt="" />
-                  <span class="title-span shadow px-4"><strong>Fundo Valentina</strong></span>
+                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/arco.webp" alt="" />
+                  <span class="title-span shadow px-4"><strong>El Arco Dorado</strong></span>
                    <div class="bottom-card">
                     <span class="etiqueta-green py-2">
                       
-                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 400 m<sup>2</sup></p>
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 300 m<sup>2</sup></p>
 
                       <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
 
@@ -381,6 +439,106 @@
                   </div>
                 </div>
               </div>
+
+
+              <div class="swiper-slide">
+                <!-- card -->
+                <div class="card-proyect position-relative">
+                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/bosque.webp" alt="" />
+                  <span class="title-span shadow px-4"><strong>El Bosque del Rey</strong></span>
+                   <div class="bottom-card">
+                    <span class="etiqueta-green py-2">
+                      
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 300 m<sup>2</sup></p>
+
+                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
+
+                    </span>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+
+
+               <div class="swiper-slide">
+                <!-- card -->
+                <div class="card-proyect position-relative">
+                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/valle.webp" alt="" />
+                  <span class="title-span shadow px-4"><strong>Valle Orquídea</strong></span>
+                   <div class="bottom-card">
+                    <span class="etiqueta-green py-2">
+                      
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 300 m<sup>2</sup></p>
+
+                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Chanchamayo</p>
+
+                    </span>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+
+
+                <div class="swiper-slide">
+                <!-- card -->
+                <div class="card-proyect position-relative">
+                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/golf.webp" alt="" />
+                  <span class="title-span shadow px-4"><strong>El Golf de Poseidón</strong></span>
+                   <div class="bottom-card">
+                    <span class="etiqueta-green py-2">
+                      
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 180 m<sup>2</sup></p>
+
+                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>La Libertad</p>
+
+                    </span>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="swiper-slide">
+                <!-- card -->
+                <div class="card-proyect position-relative">
+                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/retama.webp" alt="" />
+                  <span class="title-span shadow px-4"><strong>La Retama</strong></span>
+                   <div class="bottom-card">
+                    <span class="etiqueta-green py-2">
+                      
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 300 m<sup>2</sup></p>
+
+                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Ayacucho</p>
+
+                    </span>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <!-- card -->
+                <div class="card-proyect position-relative">
+                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/palmas.webp" alt="" />
+                  <span class="title-span shadow px-4"><strong>Palmas del Caribe</strong></span>
+                   <div class="bottom-card">
+                    <span class="etiqueta-green py-2">
+                      
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 215 m<sup>2</sup></p>
+
+                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Máncora</p>
+
+                    </span>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
