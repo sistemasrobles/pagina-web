@@ -7,7 +7,7 @@
     />
     <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="./assets_landings/css/index.css?v=34444" />
+    <link rel="stylesheet" href="./assets_landings/css/index.css?v=344444" />
     <link rel="stylesheet" href="./assets_landings/css/font.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -17,18 +17,30 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Webinar Robles</title>
   </head>
   <body>
     <!-- main landing -->
-    <main class="container-fluid bg-main-img">
+    <main class=" container-fluid bg-main-img" >
+
+
+         <img style="" 
+            class=" w-100 img-fluid d-block d-sm-none"
+            src="https://gruporobles.com.pe/storage/banners/banner_dia_padre_cel.webp"
+            alt="IMPULSA LAS VENTAS DE TU NEGOCIO"
+            srcset=""
+          />
+
       <div
         class="container-xl container-lg container-md container-sm d-flex justify-content-end "
       >
+
+
+
         <form
           id="form-proyect"
-          style="max-width: 480px"
-          class="shadow d-flex gap-2 flex-column justify-content-center bg-white px-4 py-4 radius-section text-black w-100"
+          style="max-width: 480px;"
+          class=" shadow d-flex gap-2 flex-column justify-content-center bg-white px-4 py-4 radius-section text-black w-100 my-3 my-sm-0"
         >
           <div class="mb-2">
             <h3 class="fs-5 mb-2 font-form color-primary submit">
@@ -116,6 +128,9 @@
         </form>
       </div>
     </main>
+
+   
+
 
     <!-- section impulsar ventar -->
     <section class="container-xl container-lg container-md container-sm ">
@@ -208,31 +223,42 @@
     <section
       class=" bg-white mb-3 container-xl container-lg container-md container-sm p-3 radius-section"
     > 
-      <h6 class=" text-white px-3 py-2 text-center" style="border-radius:10px;background:#00968b">Mira Nuestros Avances de Obras</h6>
+      <!-- <h6 class=" text-white px-3 py-2 text-center" style="border-radius:10px;background:#00A593;font-size: 1.2rem;">Mira el Avance de Obra</h6> -->
       <div class="grid-bento-galery">
-        <div class="bento1">
+        <div class="bento1 bento-main">
           <img src="./assets_landings/bento/bento1.webp" alt="" srcset="" />
+          <div class="overlay">
+            
+
+          </div>
         </div>
-        <div class="bento2">
+        <div class="bento2 bento-main">
           <img src="./assets_landings/bento/bento5.webp" alt="" srcset="" />
+          <div class="overlay"></div>
         </div>
-        <div class="bento3">
+        <div class="bento3 bento-main">
           <img src="./assets_landings/bento/bento3.webp" alt="" srcset="" />
+          <div class="overlay"></div>
         </div>
-        <div class="bento4">
+        <div class="bento4 bento-main">
           <img src="./assets_landings/bento/bento4.webp" alt="" srcset="" />
+          <div class="overlay"></div>
         </div>
-        <div class="bento5">
+        <div class="bento5 bento-main">
           <img src="./assets_landings/bento/bento2.webp" alt="" srcset="" />
+          <div class="overlay"></div>
         </div>
-        <div class="bento6">
+        <div class="bento6 bento-main">
           <img src="./assets_landings/bento/bento6.webp" alt="" srcset="" />
+          <div class="overlay"></div>
         </div>
-        <div class="bento7">
+        <div class="bento7 bento-main">
           <img src="./assets_landings/bento/bento7.webp" alt="" srcset="" />
+          <div class="overlay"></div>
         </div>
-        <div class="bento8">
+        <div class="bento8 bento-main">
           <img src="./assets_landings/bento/bento8.webp" alt="" srcset="" />
+          <div class="overlay"></div>
         </div>
 
 
@@ -273,7 +299,7 @@
                 <!-- card -->
                 <div class="card-proyect position-relative">
                   <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/golf.webp" alt="" />
-                 <span class="title-span shadow px-4"><strong>Fundo Valentina</strong></span>
+                 <span class="title-span shadow px-4"><strong>Fundo Los Robles</strong></span>
                   
 
                   
@@ -318,7 +344,7 @@
                 <!-- card -->
                 <div class="card-proyect position-relative">
                   <img src="./assets_landings/proyecto/proyecto.png" alt="" />
-                  <span class="title-span shadow px-4"><strong>Fundo Valentina</strong></span>
+                  <span class="title-span shadow px-4"><strong>Bella Primavera</strong></span>
 
                   
 

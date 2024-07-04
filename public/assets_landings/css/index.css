@@ -20,6 +20,18 @@ color: #595454;
   background: url("https://static.wixstatic.com/media/a9ef1e_ecfd4f1076d54c3c8f93337bf5d0ecac~mv2.png/v1/fill/w_1349,h_740,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/a9ef1e_ecfd4f1076d54c3c8f93337bf5d0ecac~mv2.png") center center/cover
     no-repeat;
 }
+
+
+@media (max-width: 575.98px) {
+    
+
+  .bg-main-img {
+    background:#fff;
+    margin: 0px !important;padding: 0px !important;
+  }
+}
+
+
 .radius-section {
   border-radius: 20px;
 }
@@ -161,29 +173,83 @@ input::placeholder {
   margin: 0 auto;
 }
 
+
+
+
+
 .bento1 {
   grid-area: "bento1";
+   position: relative;
 }
+
+.bento-main .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+ 
+  transition: background-color 0.2s ease;
+
+
+
+
+}
+
+.overlay:hover {
+
+
+
+
+  background-color: rgba(0, 0, 0, 0.4);
+
+
+
+}
+
+
+.bento-main:hover::after {
+  content: "";
+  position: absolute;
+   border-radius: 10px;
+   border :2px solid white;
+  top: 10px; 
+  left: 10px; 
+  right: 10px; 
+  bottom: 10px;
+ 
+  pointer-events: none;
+}
+
+
 .bento2 {
   grid-area: "bento2";
+  position: relative;
 }
 .bento3 {
   grid-area: "bento3";
+  position: relative;
 }
 .bento4 {
   grid-area: 2 / 1 / span 1 / span 1;
+  position: relative;
 }
 .bento5 {
   grid-area: 2 / 2 / span 1 / span 2;
+  position: relative;
 }
 .bento6 {
   grid-area: "bento6";
+  position: relative;
 }
 .bento7 {
   grid-area: "bento7";
+  position: relative;
 }
 .bento8 {
   grid-area: "bento8";
+  position: relative;
 }
 
 /**Style nuestros proyectos*/
@@ -221,7 +287,7 @@ input::placeholder {
   top: -5px;
   border-radius: 20px;
   padding: 2px 10px;
-  color: #747474;
+  color: #000;
 }
 
 .card-proyect img{
