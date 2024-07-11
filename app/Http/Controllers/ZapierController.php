@@ -52,6 +52,13 @@ class ZapierController extends Controller
 
 
 
+            if($form =='landing-visitas-guiadas'){
+
+                //hoja de google 11 de julio
+
+                $url='https://hooks.zapier.com/hooks/catch/13923540/23juxdx/';
+            }
+
             
 
 

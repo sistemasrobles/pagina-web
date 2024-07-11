@@ -108,3 +108,4 @@ Route::get('/landing-color2','PromocionesController@color2');
 
 
 Route::get('/visitas-guiadas','PromocionesController@visitasGuiadas');
+Route::post('/promociones/visitas','PromocionesController@saveVisitas');

@@ -37,6 +37,88 @@ class PromocionesController extends Controller
     }
 
 
+     public function saveVisitas(Request $request){
+       
+
+        
+         $data = $request->only('nombre','apellido','movil','email','proyecto','mensaje','horario','formulario','utm_source','utm_medium','utm_campaign','utm_term','utm_content');
+
+
+
+            $rules = [
+            
+ 
+                        'nombre' => 'required',
+                        'apellido' => 'required',
+                        'movil' => 'required|string|min:9|max:20',
+                        'email' => 'required|email',
+                        'proyecto' => 'required',                
+                        'mensaje' => 'nullable',
+                        'horario' => 'nullable',
+                        'formulario' => 'required',
+
+                        'utm_source' => 'nullable',
+                        'utm_medium' => 'nullable',
+                        'utm_campaign' => 'nullable',
+                        'utm_term' => 'nullable',
+                        'utm_content' => 'nullable',
+                        
+                        
+                       
+                     
+            
+                    ];
+
+                    $customMessages = [
+                       
+                        'nombre.required' => 'El nombre es obligatorio.',
+                        'apellido.required' => 'El apellido es obligatorio.',
+                        'movil.required' => 'El teléfono es obligatorio.',
+                        'movil.min' => 'El teléfono debe tener al menos 9 dígitos.',
+                        'movil.max' => 'El teléfono debe tener como maximo 20 dígitos.',
+                        'email.required' => 'El email es obligatorio.',
+                        'email.email' => 'El email es inválido.',
+                       
+                        'proyecto.required' => 'El proyecto es obligatorio.',
+                       
+                       
+                        
+                       
+                    ];
+
+
+                    $validator = Validator::make($data,$rules,$customMessages);
+                    
+
+                    if ($validator->fails()) {
+
+
+                        $errors = $validator->messages()->all();
+
+                        $rpta = array('status'=>'warning','description'=>'Completar los inputs solicitados','data'=>$errors);
+
+                        return response()->json($rpta); 
+
+
+
+                        
+                    }else{
+
+                        $middleRpta =  $this->savePromotion($request);
+
+
+
+                         return $middleRpta;
+                        
+
+                       
+                            
+                    }
+
+    }
+
+
+
     public function webinar(){
 
 

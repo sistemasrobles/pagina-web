@@ -170,7 +170,7 @@
 					</p>
 					<hr >
  				<form
-		          id="form-proyect"
+		          id="promocion-form"  method="POST" action="{{ route('/promociones/registrar') }}"
 		          style="max-width: 480px;"
 		          class="  d-flex gap-2 flex-column justify-content-center bg-white py-2 radius-section text-black w-100 my-3 my-sm-0"
        				 >
@@ -181,8 +181,8 @@
             <label class="form-control d-flex flex-column">
               <span class="fs-8">Nombre</span>
               <input
-                id="basic_name"
-                name="nombre"
+                id="nombre" name="nombre"
+                
                 type="text"
                 placeholder=""
               />
@@ -191,8 +191,8 @@
             <label class="form-control d-flex flex-column">
               <span class="fs-8">Apellidos</span>
               <input
-                id="basic_apellido"
-                name="apellidos"
+                id="apellido" name="apellido"
+               
                 type="text"
                 placeholder=""
               />
@@ -203,8 +203,8 @@
             <label class="form-control d-flex flex-column">
               <span class="fs-8">Telefono</span>
               <input
-                id="basic_telefono"
-                name="telefono"
+                id="movil"
+                name="movil"
                 size="10"
                 type="text"
                 placeholder=""
@@ -229,7 +229,31 @@
               <span class="fs-8">Proyecto</span>
              
             
+               <input
+              
+                type="hidden"
+                id="mensaje"
+                name="mensaje"
+                value=""
+              />
 
+
+               <input
+              
+                type="hidden"
+                id="horario"
+                name="horario"
+                value=""
+              />
+
+
+               <input
+              
+                type="hidden"
+                id="formulario"
+                name="formulario"
+                value="landing-visitas-guiadas"
+              />
 
             <select class="form-control" id="proyecto" name="proyecto">
 
@@ -260,7 +284,7 @@
           <span
             class="form-participacion w-100 d-flex justify-content-center align-items-center"
           >
-            <button class="">
+            <button class="" id="btn-enviar-promo">
               <div class="svg-wrapper-1">
                 <div class="svg-wrapper">
                   <svg
@@ -288,5 +312,131 @@
 	</div>
 </header>
 
+
+ <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+  
+<script src="{{ asset('sweetalert2/sweetalert2.all.min.js') }}"></script>
+  <script>
+    var assetUrl = "{{ url('promociones/visitas') }}";
+    var token_="{{ csrf_token() }}";
+</script>
+
+
+<script type="text/javascript">
+  $("#btn-enviar-promo").on('click',(event)=>{
+
+ event.preventDefault()
+    let data =   new FormData($("#promocion-form")[0])
+    data.append( "_token",token_)
+
+
+
+    var urlActual = window.location.href;
+
+
+    var url = new URL(urlActual);
+    var utm_source = url.searchParams.get("utm_source");
+    var utm_medium = url.searchParams.get("utm_medium");
+    var utm_campaign = url.searchParams.get("utm_campaign");
+    var utm_term = url.searchParams.get("utm_term");
+    var utm_content = url.searchParams.get("utm_content");
+
+
+
+      data.append("utm_source",utm_source)
+      data.append("utm_medium",utm_medium)
+      data.append("utm_campaign",utm_campaign)
+      data.append("utm_term",utm_term)
+      data.append("utm_content",utm_content)
+
+
+      
+    $.ajax({
+        "url":assetUrl,
+        data: data,
+        cache: false,
+        contentType: false,
+        processData: false,
+        method: 'POST',
+        'success': function(response){
+         
+          $("#errores").text('');
+
+            if(response.status=='ok'){
+
+               
+
+                $("#promocion-form")[0].reset()
+
+
+                  Swal.fire({
+
+                  icon: 'success',
+                  title: 'Datos Guardados correctamente',
+                  showConfirmButton: false,
+                  timer: 1500
+
+                })
+
+
+                
+                  
+
+                     setTimeout(function() {
+                    window.location.href = "/terrenos-en-oxapampa/gracias";
+                  }, 3000); 
+
+            }else{
+
+
+                if(response.status=='error'){
+
+
+                    Swal.fire({
+
+                   icon: 'error',
+                    title: response.description,
+                    showConfirmButton: false,
+                    timer: 1500
+
+                  })
+
+
+                }
+
+                
+                var data = response.data;
+
+                var str = '';
+
+                for(let i=0;i<data.length;i++){
+                  str += data[i]+'<br>';
+                  
+                }
+
+                $("#errores").html(str);
+
+              
+
+
+
+            }
+        },
+        'error':(response)=>{
+
+           console.log(response)
+
+
+        }
+    })
+})
+
+
+</script>
 </body>
 </html>
