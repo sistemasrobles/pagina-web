@@ -15,9 +15,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guias Robles</title>
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <style type="text/css">
     	*{
-    	
+    	  font-family: "Montserrat", sans-serif;
     	}
 
     	
@@ -33,7 +38,8 @@
 		  font-size: 0.8rem;
 		}
 		.fs-8 {
-		  font-size: 0.8rem !important;
+		  font-size: 0.7rem !important;
+		  color :#858585;
 		}
 		.form-participacion > button {
 
@@ -113,7 +119,7 @@
 
 		h1{
 
-    		font-size:1.5rem;
+    		font-size:1.3rem;
     		font-weight: 700;
     	}
 
@@ -123,7 +129,21 @@
     		
 
     	}
+    	select{
 
+    		border:none !important;
+
+    	}
+
+    	.form-control:focus {
+    		outline: none !important;
+    		box-shadow: none !important;
+		}
+
+    	option{
+    		font-size: 0.9rem;
+
+    	}
     </style>
   </head>
 <body>
@@ -134,19 +154,19 @@
 		
 		<div class="row " >
 				
-			<div class="col-lg-8 ">
-				<img src="https://tarjetaoh.pe/afiliacion-digital/assets/images/landing-final.jpg" class="img-fluid w-100" />
+			<div class="col-lg-8 " style="padding: 0px !important;margin:0px !important">
+				<img src="https://tarjetaoh.pe/afiliacion-digital/assets/images/landing-final.jpg" class="img-fluid w-100"  />
 			</div>
 
 			<div class="col-lg-4 p-5">
 				
 				<div class="">
 					
-					<h1>¡ Agenda Una Visita Guiada !</h1>
+					<h1>¡ Agenda Una Visita Guiada a cualquiera de nuestros proyectos !</h1>
 
 
-					<p class="mt-3 mb-4 color-plomo" >
-						Agenda una Visita guiada y conoce todos los beneficios que este hermoso proyecto ofrece.
+					<p class="mt-3 mb-4 color-plomo"  style="font-size:0.9rem">
+						Agenda una Visita guiada y conoce todos los beneficios que grupo Robles & Yasikov te ofrece.
 					</p>
 					<hr >
  				<form
@@ -164,7 +184,7 @@
                 id="basic_name"
                 name="nombre"
                 type="text"
-                placeholder="Ejemplo: Juan Pérez"
+                placeholder=""
               />
             </label>
 
@@ -174,7 +194,7 @@
                 id="basic_apellido"
                 name="apellidos"
                 type="text"
-                placeholder="Ejemplo: Sanchez Montes"
+                placeholder=""
               />
             </label>
           </div>
@@ -187,7 +207,7 @@
                 name="telefono"
                 size="10"
                 type="text"
-                placeholder="999 999 999"
+                placeholder=""
               />
             </label>
 
@@ -199,9 +219,39 @@
                 type="email"
                 id="email"
                 name="email"
-                placeholder="Ingresa tu email"
+                placeholder=""
               />
             </label>
+
+
+            <!-- Gmail form -->
+            <label class="form-control d-flex flex-column">
+              <span class="fs-8">Proyecto</span>
+             
+            
+
+
+            <select class="form-control" id="proyecto" name="proyecto">
+
+                                      <option value="">*Elige el proyecto</option>
+
+
+                                      
+
+
+
+                                       @foreach($projects as $list)
+
+                                        <option value="{{$list->idproyecto}}">
+                                            {{$list->region}} - {{$list->descripcion}}
+                                        </option>
+
+                                      @endforeach
+                                      
+                                  </select>
+
+                                  </label>
+
           </div>
 
         <p class="font-raleway-medium fs-8 color-plomo mt-3">
@@ -227,7 +277,7 @@
                   </svg>
                 </div>
               </div>
-              <span class="submit">Enviar Datos</span>
+              <span class="submit py-1"><strong>Enviar Datos</strong></span>
             </button>
           </span>
         </form>

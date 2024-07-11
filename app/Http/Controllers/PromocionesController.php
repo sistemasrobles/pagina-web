@@ -30,8 +30,10 @@ class PromocionesController extends Controller
     
     public function visitasGuiadas(){
 
+        $projects = Proyectos::where('estado_proyecto','=',1)->get();
 
-        return view('visitas_guiadas');
+
+        return view('visitas_guiadas',compact('projects'));
     }
 
 
