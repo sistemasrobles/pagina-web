@@ -28,6 +28,13 @@ class PromocionesController extends Controller
 {
   
     
+    public function visitasGuiadas(){
+
+
+        return view('visitas_guiadas');
+    }
+
+
     public function webinar(){
 
 

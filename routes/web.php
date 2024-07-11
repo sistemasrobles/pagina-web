@@ -105,3 +105,6 @@ Route::get('/webinar','PromocionesController@webinar');
 Route::get('/landing-color','PromocionesController@color');
 
 Route::get('/landing-color2','PromocionesController@color2');
+
+
+Route::get('/visitas-guiadas','PromocionesController@visitasGuiadas');

@@ -665,6 +665,48 @@ Descubre el parque Ruina Arqueológica, explora senderos de trekking y disfruta 
       </div>
     </section>
 
+    <section class="bg bg-white border py-3 d-none">
+      
+       <button id="openModalBtn">Open Modal</button>
+
+
+      <div class="container">
+          
+          <div class="row">
+            
+            <div class="col-lg-4 ">
+                
+
+                <div id="video-proyect" class=" shadow video-proyect position-relative">
+                    <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
+                    <img id="image-video-proyect" class="img-fluid w-100" src='{{ asset("nuevaweb_assets/assets/img/banner-nosotros.webp") }}' alt="Foto del equipo de asesores inmobiliarios y personal administrativo del Grupo Robles & Yasikov">
+                    <div id="video-youtube-galery" class="d-none">
+                        <div id="youtube-frame-proyect"></div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+          </div>  
+      </div>
+      
+    </section>
+
+
+
+     <div id="myModal" class="modal">
+        <!-- Contenido del modal -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="video-container">
+                <iframe id="youtubeVideo" src="https://www.youtube.com/embed/g33P5OgksUQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+
 
     <footer class=" py-3 text-center" style="background:#F3F3F3 !important ;">
       <p class="mb-0 " style="font-size:0.75rem ;color :#7A7777">
@@ -770,4 +812,85 @@ Descubre el parque Ruina Arqueológica, explora senderos de trekking y disfruta 
       }
     });
   </script>
+
+
+  <!-- <script src="https://www.youtube.com/iframe_api"></script>
+
+
+
+<script type="text/javascript">
+  
+
+
+
+let player = null;
+let video_unico_proyecto = "NifrqANEiHg";
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player("youtube-frame-proyect", {
+    height: "360",
+    width: "100%",
+    videoId: video_unico_proyecto,
+    playerVars: {
+      autoplay: 0, 
+      controls: 1,
+    },
+    events: {
+      onReady: onPlayerReady,
+      onStateChange: onPlayerStateChange,
+    },
+  });
+}
+
+
+function onPlayerReady(event) {
+  player.stopVideo();
+}
+
+var done = false;
+
+
+const btnPlay = document.getElementById("play-video-galery");
+const videoYoutube = document.getElementById("video-youtube-galery");
+const imageVideo = document.getElementById("image-video-proyect");
+
+btnPlay.addEventListener("click", function (e) {
+  videoYoutube.classList.remove("d-none");
+  imageVideo.classList.add("d-none");
+  btnPlay.classList.add("d-none");
+  player.playVideo();
+});
+
+function onPlayerStateChange(event) {
+}
+
+
+</script> -->
+
+<script type="text/javascript">
+ // Obtener el modal
+var modal = document.getElementById("myModal");
+
+// Obtener el botón que abre el modal
+var btn = document.getElementById("openModalBtn");
+
+// Obtener el elemento <span> que cierra el modal
+var span = document.getElementsByClassName("close")[0];
+
+// Cuando el usuario hace clic en el botón, se abre el modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// Cuando el usuario hace clic en <span> (x), se cierra el modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Cuando el usuario hace clic en cualquier lugar fuera del modal, se cierra el modal
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 </html>
