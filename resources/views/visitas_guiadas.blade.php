@@ -165,7 +165,7 @@
 					<h1>¡ Agenda Una Visita Guiada a cualquiera de nuestros proyectos !</h1>
 
 
-					<p class="mt-3 mb-4 color-plomo"  style="font-size:0.9rem">
+					<p class="mt-4 mb-4 color-plomo"  style="font-size:0.9rem">
 						Agenda una Visita guiada y conoce todos los beneficios que grupo Robles & Yasikov te ofrece.
 					</p>
 					<hr >
