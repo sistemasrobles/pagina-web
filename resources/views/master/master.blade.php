@@ -134,6 +134,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <body>
 
+@inject('telefono_footer', 'App\Http\Controllers\PoryectoController');
+
+
+
+
+
 @yield('content')
 
 

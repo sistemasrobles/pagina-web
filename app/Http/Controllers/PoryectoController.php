@@ -21,6 +21,46 @@ class PoryectoController extends Controller
 
 
 
+     public function getPhoneProyect($type){
+
+        $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+
+    
+        $host = $_SERVER['HTTP_HOST'];
+
+    
+        $requestUri = $_SERVER['REQUEST_URI'];
+
+
+        $url = $scheme . $host . $requestUri;
+
+        $parsed_url = parse_url($url, PHP_URL_PATH);
+
+   
+        $segments = explode('/', rtrim($parsed_url, '/'));
+
+        $segments = end($segments);
+
+        $proyetoactual = proyectos::where('rewrite','=',$segments)->first();
+
+
+        if($type == 1){
+
+
+            return (isset($proyetoactual->celular_proyecto))?$proyetoactual->celular_proyecto:'983 479 617';
+
+        }else{
+
+            return (isset($proyetoactual->wsp_bit))?$proyetoactual->wsp_bit:'https://bit.ly/RoblesYyasikov';
+
+        }
+        
+
+        
+
+
+    }
+
 
     public function proyectos(){
 
