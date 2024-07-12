@@ -144,6 +144,39 @@
     		font-size: 0.9rem;
 
     	}
+
+
+
+    	.loading-container {
+        visibility: hidden;
+    display: none ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.loading-gif {
+    border: 4px solid #fff;
+    border-top: 4px solid  var(--color-primary-oscuro);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
     </style>
   </head>
 <body>
@@ -281,9 +314,24 @@
         <p class="font-raleway-medium fs-8 color-plomo mt-3">
               Al enviar este formulario estás aceptando nuestros <a href="https://gruporobles.com.pe/terminos" target="_blank" class="color-primary no-hover">términos y condiciones</a> y las <a href="https://gruporobles.com.pe/politicas" class="color-primary no-hover" target="_blank">políticas de protección de datos</a>.
             </p>
+
+
+            <div class="text-danger w-100">
+                                  
+                                 <span id="errores" style="font-size:11px">
+                                   
+                                 </span>
+                              </div>
+
+
           <span
             class="form-participacion w-100 d-flex justify-content-center align-items-center"
-          >
+          >	
+
+
+            
+
+
             <button class="" id="btn-enviar-promo">
               <div class="svg-wrapper-1">
                 <div class="svg-wrapper">
@@ -312,6 +360,11 @@
 	</div>
 </header>
 
+<div class="loading-container">
+    <div class="loading-gif"></div>
+</div>
+
+
 
  <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -331,6 +384,10 @@
   $("#btn-enviar-promo").on('click',(event)=>{
 
  event.preventDefault()
+
+  var loadingContainer = document.querySelector(".loading-container");
+
+
     let data =   new FormData($("#promocion-form")[0])
     data.append( "_token",token_)
 
@@ -363,8 +420,21 @@
         contentType: false,
         processData: false,
         method: 'POST',
-        'success': function(response){
+           beforeSend: function() {
+
+
          
+              loadingContainer.style.display = "flex"; 
+              loadingContainer.style.visibility = "visible";
+        },
+
+        'success': function(response){
+         	
+         	  loadingContainer.style.display = "none";
+          loadingContainer.style.visibility = "hidden";
+
+
+
           $("#errores").text('');
 
             if(response.status=='ok'){
@@ -388,7 +458,7 @@
                   
 
                      setTimeout(function() {
-                    window.location.href = "/terrenos-en-oxapampa/gracias";
+                    window.location.href = "/visitas-guiadas/gracias";
                   }, 3000); 
 
             }else{
