@@ -517,7 +517,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
   <script type="module" >
     
 
-import dataProyect from "./nuevaweb_assets/js/cardProyect.js";
+import dataProyect from "./nuevaweb_assets/js/cardProyect.js?v=2";
 import renderCardProyect from "./nuevaweb_assets/js/renderCard3.js";
 
 const SwiperPadre = document.getElementById("swiper-padre");
