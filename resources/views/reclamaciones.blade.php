@@ -1259,7 +1259,7 @@ function guardar_datos_formulario(){
 
             $("#ruc").val("20611296925");
             $("#razon").val("FUNDO VALENTINA S.A.C");
-            $("#direccion").val("PJ. BUTTGEMBACH 09 A NRO. . URB. OXAPAMPA (ALT COLISEO MUNICIPAL -BODEGA BUTTGEMBAC) PASCO - OXAPAMPA - OXAPAMPA");
+            $("#direccion").val("AV. CIRCUNVALACION DEL GOLF LOS INCAS NRO. 154 INT. 602 (EDIFICIO CAPITAL GOLF) LIMA - LIMA - SANTIAGO DE SURCO");
 
         }else if(id_proyecto == 8 || id_proyecto == 9){
 
