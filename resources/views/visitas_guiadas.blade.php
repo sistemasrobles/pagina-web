@@ -13,7 +13,25 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guias Robles</title>
+
+
+   <meta name="description" content="Explora proyectos inmobiliarios con nuestras visitas guiadas personalizadas. Programa recorridos virtuales o presenciales y obtén información detallada sobre propiedades, precios y financiamiento.">
+
+
+
+
+        <meta name="author" content="Robles & Yasikov" />
+
+        <meta name="keywords" content="terrenos,cabañas,inmobiliaria,proyectos,terrenos,casas,oxapampa">
+
+
+        <meta property="og:url" content="https://gruporobles.com.pe/visitas-guiadas" />
+
+        <meta property="og:title" content="Visitas Guiadas Robles & Yasikov" />
+        
+        <meta property="og:description" content="Explora proyectos inmobiliarios con nuestras visitas guiadas personalizadas. Programa recorridos virtuales o presenciales y obtén información detallada sobre propiedades, precios y financiamiento." />
+
+    <title>Visitas Guiadas Robles & Yasikov</title>
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
