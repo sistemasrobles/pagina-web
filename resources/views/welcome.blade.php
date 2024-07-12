@@ -550,7 +550,7 @@ Grupo Robles y Yasikov <br><br>
 </script> 
 
 
-<script type="module" src="{{asset('nuevaweb_assets/js/mainWeb.js')}}"></script>
+<script type="module" src="{{asset('nuevaweb_assets/js/mainWeb.js?v=2')}}"></script>
 <script type="module">
     import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
 
