@@ -194,6 +194,9 @@
     100% { transform: rotate(360deg); }
 }
 
+.color-primary {
+  color: #005c53 !important;
+}
 
     </style>
 
@@ -269,14 +272,17 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 		<div class="row " >
 				
 			<div class="col-lg-8 " style="padding: 0px !important;margin:0px !important">
-				<img src="https://tarjetaoh.pe/afiliacion-digital/assets/images/landing-final.jpg" class="img-fluid w-100"  />
+				<img src="https://gruporobles.com.pe/storage/banners/visitas_guiadas_portada.jpg" class="img-fluid w-100 d-block d-md-none"  />
+
+
+        <img style="border-radius: 0px 0px 50px 0px;"src="https://gruporobles.com.pe/storage/banners/visitas_guiadas_portada_desktop.webp" class="img-fluid w-100 d-none d-md-block"  />
 			</div>
 
 			<div class="col-lg-4 p-5">
 				
 				<div class="">
 					
-					<h1>¡ Agenda Una Visita Guiada a cualquiera de nuestros proyectos !</h1>
+					<h1 class="color-primary">¡ Agenda Una Visita Guiada a cualquiera de nuestros proyectos !</h1>
 
 
 					<p class="mt-4 mb-4 color-plomo"  style="font-size:0.9rem">

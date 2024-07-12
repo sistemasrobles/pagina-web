@@ -7,7 +7,7 @@
     />
     <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="./assets_landings/css/index.css?v=344444" />
+    <link rel="stylesheet" href="./assets_landings/css/index.css?v=3444444" />
     <link rel="stylesheet" href="./assets_landings/css/font.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -26,7 +26,7 @@
 
          <img style="" 
             class=" w-100 img-fluid d-block d-sm-none"
-            src="https://gruporobles.com.pe/storage/banners/banner_dia_padre_cel.webp"
+            src="https://gruporobles.com.pe/storage/banners/webinar_robles.webp"
             alt="IMPULSA LAS VENTAS DE TU NEGOCIO"
             srcset=""
           />
@@ -40,14 +40,15 @@
         <form
           id="form-proyect"
           style="max-width: 480px;"
-          class=" shadow d-flex gap-2 flex-column justify-content-center bg-white px-4 py-4 radius-section text-black w-100 my-3 my-sm-0"
+          class=" shadow d-flex gap-2 flex-column justify-content-center bg-white px-4 py-4 radius-section  w-100 my-3 my-sm-0 out-regular"
         >
           <div class="mb-2">
-            <h3 class="fs-5 mb-2 font-form color-primary submit">
-              Impulsa Las Ventas De Tu Negocio
+            <h3 class="fs-5 mb-2 font-form color-primary submit ">
+              Cotiza tu lote ideal ahora
+
             </h3>
-            <p class="mb-0 fs-8 ">
-              Estás en el lugar correcto para aprender y lograrlo
+            <p class="mb-0 fs-8 out-regular">
+              Invierte en tu futuro hogar
             </p>
           </div>
 
@@ -59,7 +60,7 @@
                 id="basic_name"
                 name="nombre"
                 type="text"
-                placeholder="Ejemplo: Juan Pérez"
+                placeholder=""
               />
             </label>
 
@@ -69,7 +70,7 @@
                 id="basic_apellido"
                 name="apellidos"
                 type="text"
-                placeholder="Ejemplo: Sanchez Montes"
+                placeholder=""
               />
             </label>
           </div>
@@ -82,7 +83,7 @@
                 name="telefono"
                 size="10"
                 type="text"
-                placeholder="999 999 999"
+                placeholder=""
               />
             </label>
 
@@ -94,12 +95,12 @@
                 type="email"
                 id="email"
                 name="email"
-                placeholder="Ingresa tu email"
+                placeholder=""
               />
             </label>
           </div>
 
-        <p class="font-raleway-medium fs-8 color-plomo mt-3">
+        <p class=" fs-8 color-plomo mt-3 out-regular" style="line-height: 15px;">
               Al enviar este formulario estás aceptando nuestros <a href="#" class="color-primary no-hover">términos y condiciones</a> y las <a href="#" class="color-primary no-hover">políticas de protección de datos</a>.
             </p>
           <span
@@ -138,26 +139,14 @@
       <div class="row row-cols-1 row-cols-lg-2  align-items-center " >
         <div class="pt-4 pb-2">
           <div class="d-flex flex-column gap-3 bg-white p-3 radius-section">
-            <h1 class="color-primary out-Extrabold mb-0">
-              <u>Impulsa Las Ventas De Tu Negocio</u>
+            <h1 class="color-primary out-Extrabold mb-0" style="line-height:40px">
+              <u>Descubre cómo rentabilizar tu dinero invirtiendo en un lote</u>
             </h1>
             <p class="out-normal">
-              Si algo he aprendido en mi caso de emprendedora a CEO es que el
-              éxito o fracaso de un negocio <b>online radica</b> en la capacidad
-              de trazar la <b>estrategia</b> de marketing digital que mejor se
-              adapte a cada proyecto.
+              Únete a nuestro exclusivo webinar y recibe asesoría personalizada sobre invertir en proyectos inmobiliarios en la costa, sierra y selva del Perú. 
+Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es perfecto para ti!
             </p>
-            <ul class="out-regular list-ventas-negocio">
-              <li>
-                Si algo he aprendido en mi caso de emprendedora a CEO es que e
-              </li>
-              <li>
-                Si algo he aprendido en mi caso de emprendedora a CEO es que e
-              </li>
-              <li>
-                Si algo he aprendido en mi caso de emprendedora a CEO es que e
-              </li>
-            </ul>
+           
           </div>
         </div>
 
@@ -184,34 +173,31 @@
         >
           <div class="">
             <div
-              class="d-flex flex-lg-row flex-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-2"
+              class="d-flex flex-lg-row flex-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3"
             >
               <img src="./assets_landings/hoja.png" alt="hoja" />
-              <p class="mb-0 text-center text-lg-start color-plomo">
-                Quieres lanzar tu propio negocio online o bien ya lo has
-                lanzado, pero no sabes por dónde comenzar ni continuar.
+              <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;">
+               Aprende cómo los lotes pueden ofrecer retornos significativos y estables a lo largo del tiempo.
               </p>
             </div>
           </div>
           <div class="">
             <div
-              class="d-flex flex-row flex-lg-row  flex-md-column  card-hoja justify-content-center align-items-center gap-3 p-2"
+              class="d-flex flex-row flex-lg-row  flex-md-column  card-hoja justify-content-center align-items-center gap-3 p-3"
             >
               <img src="./assets_landings/hoja.png" alt="hoja" />
-              <p class="mb-0 text-center text-lg-start color-plomo">
-                Quieres lanzar tu propio negocio online o bien ya lo has
-                lanzado, pero no sabes por dónde comenzar ni continuar.
+              <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;">
+               Conoce las mejores herramientas y técnicas clave para maximizar tu retorno de inversión
               </p>
             </div>
           </div>
           <div class="">
             <div
-              class="d-flex flex-row flex-lg-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-2"
+              class="d-flex flex-row flex-lg-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3"
             >
               <img src="./assets_landings/hoja.png" alt="hoja" />
-              <p class="mb-0 text-center text-lg-start color-plomo">
-                Quieres lanzar tu propio negocio online o bien ya lo has
-                lanzado, pero no sabes por dónde comenzar ni continuar.
+              <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
+                Aprende cómo los lotes pueden ofrecer retornos significativos y estables a lo largo del tiempo.
               </p>
             </div>
           </div>
@@ -221,7 +207,7 @@
 
     <!-- bento galery -->
     <section
-      class=" bg-white mb-3 container-xl container-lg container-md container-sm p-3 radius-section"
+      class=" bg-white mb-3 container-xl container-lg container-md container-sm p-3 radius-section out-regular"
     > 
       <!-- <h6 class=" text-white px-3 py-2 text-center" style="border-radius:10px;background:#00A593;font-size: 1.2rem;">Mira el Avance de Obra</h6> -->
       <div class="grid-bento-galery">
@@ -232,7 +218,7 @@
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
               <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
             </div>
           </div>
         </div>
@@ -244,7 +230,7 @@
                <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
               <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
             </div>
 
           </div>
@@ -256,7 +242,7 @@
              <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
               <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
             </div>
 
           </div>
@@ -268,7 +254,7 @@
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
               <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
             </div>
 
           </div>
@@ -280,7 +266,7 @@
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
               <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
             </div>
           </div>
         </div>
@@ -291,7 +277,7 @@
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
               <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
             </div>
 
           </div>
@@ -302,7 +288,7 @@
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
               <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
             </div>
 
           </div>
@@ -314,7 +300,7 @@
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
               <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.8rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
             </div>
           </div>
         </div>
@@ -329,19 +315,29 @@
         class="flex-proyectos container-xl container-lg container-md container-sm pt-3 pb-1"
       >
         <div class="info-proyectos">
-          <h2 class="color-primary out-Extrabold"><u>Los Proyectos</u></h2>
-          <p class="color-plomo">
-            Si algo he aprendido en mi caso de emprendedora a CEO es que el
-            éxito o fracaso de un negocio
+          <h2 class="color-primary out-Extrabold mb-4" style="line-height:40px"><u>¿Qué proyectos tenemos?</u></h2>
+          <p class="color-plomo out-regular ">
+            Nosotros contamos con proyectos en las tres regiones del país:
           </p>
 
-          <p class="color-plomo">
-          online <b>radica en la capacidad</b> de trazar la estrategia de
-          marketing digital que mejor se adapte a cada proyecto.</p>
 
-           <p class="color-plomo">
-          online <b>radica en la capacidad</b> de trazar la estrategia de
-          marketing digital que mejor se adapte a cada proyecto.</p>
+           <ul class="out-regular list-ventas-negocio">
+              <li>
+                 <strong>Costa: </strong>En Máncora (Piura) y Guadalupito (La Libertad)</p>
+              </li>
+              <li>
+               <strong>Sierra: </strong>Proyectos en Huanta (Ayacucho)</p>
+              </li>
+              <li>
+               <strong>Selva central: </strong>Proyectos en Oxapampa (Pasco) y Chanchamayo (Junín)
+              </li>
+            </ul>
+
+
+         
+
+           
+        
         </div>
 
         <!-- swiper container card proyectos -->
@@ -665,47 +661,9 @@ Descubre el parque Ruina Arqueológica, explora senderos de trekking y disfruta 
       </div>
     </section>
 
-    <section class="bg bg-white border py-3 d-none">
-      
-       <button id="openModalBtn">Open Modal</button>
 
 
-      <div class="container">
-          
-          <div class="row">
-            
-            <div class="col-lg-4 ">
-                
-
-                <div id="video-proyect" class=" shadow video-proyect position-relative">
-                    <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
-                    <img id="image-video-proyect" class="img-fluid w-100" src='{{ asset("nuevaweb_assets/assets/img/banner-nosotros.webp") }}' alt="Foto del equipo de asesores inmobiliarios y personal administrativo del Grupo Robles & Yasikov">
-                    <div id="video-youtube-galery" class="d-none">
-                        <div id="youtube-frame-proyect"></div>
-                    </div>
-                </div>
-
-
-
-
-            </div>
-          </div>  
-      </div>
-      
-    </section>
-
-
-
-     <div id="myModal" class="modal">
-        <!-- Contenido del modal -->
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div class="video-container">
-                <iframe id="youtubeVideo" src="https://www.youtube.com/embed/g33P5OgksUQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
+  
 
 
     <footer class=" py-3 text-center" style="background:#F3F3F3 !important ;">
@@ -814,83 +772,5 @@ Descubre el parque Ruina Arqueológica, explora senderos de trekking y disfruta 
   </script>
 
 
-  <!-- <script src="https://www.youtube.com/iframe_api"></script>
-
-
-
-<script type="text/javascript">
   
-
-
-
-let player = null;
-let video_unico_proyecto = "NifrqANEiHg";
-function onYouTubeIframeAPIReady() {
-  player = new YT.Player("youtube-frame-proyect", {
-    height: "360",
-    width: "100%",
-    videoId: video_unico_proyecto,
-    playerVars: {
-      autoplay: 0, 
-      controls: 1,
-    },
-    events: {
-      onReady: onPlayerReady,
-      onStateChange: onPlayerStateChange,
-    },
-  });
-}
-
-
-function onPlayerReady(event) {
-  player.stopVideo();
-}
-
-var done = false;
-
-
-const btnPlay = document.getElementById("play-video-galery");
-const videoYoutube = document.getElementById("video-youtube-galery");
-const imageVideo = document.getElementById("image-video-proyect");
-
-btnPlay.addEventListener("click", function (e) {
-  videoYoutube.classList.remove("d-none");
-  imageVideo.classList.add("d-none");
-  btnPlay.classList.add("d-none");
-  player.playVideo();
-});
-
-function onPlayerStateChange(event) {
-}
-
-
-</script> -->
-
-<script type="text/javascript">
- // Obtener el modal
-var modal = document.getElementById("myModal");
-
-// Obtener el botón que abre el modal
-var btn = document.getElementById("openModalBtn");
-
-// Obtener el elemento <span> que cierra el modal
-var span = document.getElementsByClassName("close")[0];
-
-// Cuando el usuario hace clic en el botón, se abre el modal
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// Cuando el usuario hace clic en <span> (x), se cierra el modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-// Cuando el usuario hace clic en cualquier lugar fuera del modal, se cierra el modal
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
 </html>

@@ -3,7 +3,7 @@ body {
   min-height: 100vh;
 }
 .color-primary {
-  color: #005c53;
+  color: #005c53 !important;
 }
 
 .color-plomo{
@@ -17,7 +17,7 @@ color: #595454;
   padding: 40px 0;
 
 /*    background: url(/assets_landings/VENTAS_DE_TU_NEGOCIO.png) center center/cover*/
-  background: url("https://static.wixstatic.com/media/a9ef1e_ecfd4f1076d54c3c8f93337bf5d0ecac~mv2.png/v1/fill/w_1349,h_740,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/a9ef1e_ecfd4f1076d54c3c8f93337bf5d0ecac~mv2.png") center center/cover
+  background: url("https://gruporobles.com.pe/storage/banners/webinar_robles.webp") center center/cover
     no-repeat;
 }
 
@@ -44,7 +44,7 @@ input::placeholder {
   font-size: 0.8rem;
 }
 .fs-8 {
-  font-size: 0.8rem !important;
+  font-size: 0.9rem !important;
 }
 .form-participacion > button {
 
@@ -474,84 +474,6 @@ font-size: 0.8rem;
 }
 
 
-.video-proyect {
-  height: 360px;
-}
-
-
-.video-proyect > iframe {
-  height: 100%;
-  width: 100%;
-}
-.video-proyect > img {
-  object-fit: cover;
-  height: 100% !important;
-}
 
 
 
-.modal {
-    display: none; /* Ocultar por defecto */
-    position: fixed; /* Fijar la posición */
-    z-index: 1; /* Asegurarse de que se muestra por encima de otros elementos */
-    left: 0;
-    top: 0;
-    width: 100%; /* Ancho completo */
-    height: 100%; /* Altura completa */
-    overflow: auto; /* Activar el scroll si es necesario */
-    background-color: rgb(0,0,0); /* Color de fondo */
-    background-color: rgba(0,0,0,0.4); /* Fondo con opacidad */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Contenido del modal */
-.modal-content {
-    position: relative;
-    background-color: #fff;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 100%;
-    max-width: 800px; /* Tamaño máximo del modal */
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-
-
-/* Contenedor del video */
-.video-container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-    background: #c0c0c0;
-/*  padding-top: 100%; */
-}
-
-/* Estilos del iframe */
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 800px;
-    height: 360px;
-}
-
-/* Botón de cerrar */
-.close {
-    color: white;
-    position: absolute;
-    top: 20px;
-    right: 35px;
-    font-size: 40px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-}
