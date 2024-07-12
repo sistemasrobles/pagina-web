@@ -221,7 +221,7 @@ a.disabled-link {
                        <div class="col-lg-12 mt-3">
 
                          <label class="control-label">DIRECCIÓN:</label>
-                        <input maxlength="100" type="text" readonly class="form-control mt-3" value="Av. Circunvalación del Golf Los Incas #154" id="direccion" name="direccion"/>
+                        <input maxlength="100" type="text" readonly class="form-control mt-3" value="AV. CIRCUNVALACION DEL GOLF LOS INCAS NRO. 154 INT. 602 (EDIFICIO CAPITAL GOLF) LIMA - LIMA - SANTIAGO DE SURCO" id="direccion" name="direccion"/>
 
                     </div>
 
@@ -1248,5 +1248,35 @@ function guardar_datos_formulario(){
      
       event.target.value = numericValue;
     });
+
+
+
+    $("#proyecto").on('change',function(){
+
+        let id_proyecto = this.value;
+
+        if(id_proyecto == 6 || id_proyecto == 7 ){
+
+            $("#ruc").val("20611296925");
+            $("#razon").val("FUNDO VALENTINA S.A.C");
+            $("#direccion").val("PJ. BUTTGEMBACH 09 A NRO. . URB. OXAPAMPA (ALT COLISEO MUNICIPAL -BODEGA BUTTGEMBAC) PASCO - OXAPAMPA - OXAPAMPA");
+
+        }else if(id_proyecto == 8 || id_proyecto == 9){
+
+
+            $("#ruc").val("20608617052");
+            $("#razon").val("GRUPO YASIKOV S.A.C");
+            $("#direccion").val("AV. CIRCUNVALACION DEL GOLF LOS INCAS NRO. 154 INT. 602 (EDIFICIO CAPITAL GOLF) LIMA - LIMA - SANTIAGO DE SURCO");
+
+        }else{
+
+
+            $("#ruc").val("20607487767");
+            $("#razon").val("GRUPO ROBLES & YASIKOV S.A.C");
+            $("#direccion").val("AV. CIRCUNVALACION DEL GOLF LOS INCAS NRO. 154 INT. 602 (EDIFICIO CAPITAL GOLF) LIMA - LIMA - SANTIAGO DE SURCO");
+        }
+
+
+    })
   </script>
 @endsection

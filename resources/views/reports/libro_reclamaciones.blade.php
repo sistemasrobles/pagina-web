@@ -173,14 +173,14 @@ tr:nth-child(12) td:last-child {
                     <tr>
                       
                       <td colspan="6" style="padding:5px">
-                        GRUPO ROBLES & YASIKOV S.A.C / RUC 20607487767
+                        {{$data->razon}} / RUC {{$data->ruc}}
 
                       </td>
                     </tr>
                     <tr>
                       
                       <td colspan="6" style="padding:5px">
-                        Av. Circunvalación del Golf Los Incas #154
+                        {{$data->direccion}}
 
 
                       </td>
