@@ -279,7 +279,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
         <img style="border-radius: 0px 0px 50px 0px;"src="https://gruporobles.com.pe/storage/banners/visitas_guiadas_portada_desktop.webp" class="img-fluid w-100 h-100 d-none d-md-block "  />
 			</div>
 
-			<div class="col-lg-4 p-5">
+			<div class="col-lg-4 p-5 ">
 				
 				<div class="">
 					
@@ -292,8 +292,8 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 					<hr >
  				<form
 		          id="promocion-form"  method="POST" action="{{ route('/promociones/registrar') }}"
-		          style="max-width: 480px;"
-		          class="  d-flex gap-2 flex-column justify-content-center bg-white py-2 radius-section text-black w-100 my-3 my-sm-0"
+		          style=""
+		          class="  d-flex gap-2 flex-column justify-content-center  bg-white py-2 radius-section text-black w-100 my-3 my-sm-0 "
        				 >
          
 
