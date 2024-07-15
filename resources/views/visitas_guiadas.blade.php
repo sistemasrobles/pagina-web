@@ -271,7 +271,8 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 	<div class="container-fluid  "  >
 		
 		<div class="row " >
-				
+			
+     
 			<div class="col-lg-8 " style="padding: 0px !important;margin:0px !important;height: 100vh !important">
 				<img src="https://gruporobles.com.pe/storage/banners/visitas_guiadas_portada.jpg" class="img-fluid w-100 h-100 d-block d-md-none"  />
 
@@ -444,6 +445,8 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
 				</div>
 			</div>
+
+      
 		</div>
 	</div>
 
