@@ -272,15 +272,18 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 		
 		<div class="row " >
 			
-     
-			<div class="col-lg-8 " style="padding: 0px !important;margin:0px !important;height: 100vh !important">
+      <div class="col-lg-12  d-none d-md-block" >
+        
+        <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/logo-color.svg" height="100" width="200" class=" py-3" />
+      </div>
+			<div class="col-lg-8 " style="padding: 0px !important;margin:0px !important">
 				<img src="https://gruporobles.com.pe/storage/banners/visitas_guiadas_portada.jpg" class="img-fluid w-100 h-100 d-block d-md-none"  />
 
 
-        <img style="border-radius: 0px 0px 50px 0px;"src="https://gruporobles.com.pe/storage/banners/visitas_guiadas_portada_desktop.webp" class="img-fluid w-100 h-100 d-none d-md-block "  />
+        <img style="border-radius: 0px 0px 50px 0px;height: 90vh;object-fit: cover;"src="https://gruporobles.com.pe/storage/banners/cesar_sin_logo.webp" class="img-fluid w-100  d-none d-md-block "  />
 			</div>
 
-			<div class="col-lg-4 p-5 ">
+			<div class="col-lg-4 px-5 py-5 py-md-0">
 				
 				<div class="">
 					
