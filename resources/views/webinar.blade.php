@@ -21,25 +21,36 @@
   </head>
   <body>
     <!-- main landing -->
-    <main class=" container-fluid bg-main-img" >
+
+  
+
+    <main class="container-fluid bg-main-img w-100 d-flex flex-column justify-content-center align-items-center"  >
 
 
-         <img style="" 
-            class=" w-100 img-fluid d-block d-sm-none"
-            src="https://gruporobles.com.pe/storage/banners/webinar_robles.webp"
-            alt="IMPULSA LAS VENTAS DE TU NEGOCIO"
+         <img 
+            class=" w-100 img-fluid d-none d-lg-block"
+            src="https://gruporobles.com.pe/storage/banners/portada_webinar_escritorio.webp"
+            alt="WEBINAR GRUPO ROBLES & YASIKOV"
+            srcset=""
+          />
+
+
+           <img 
+            class=" w-100 img-fluid d-block d-lg-none"
+            src="https://gruporobles.com.pe/storage/banners/portada_webinar_celular.webp"
+            alt="WEBINAR GRUPO ROBLES & YASIKOV"
             srcset=""
           />
 
       <div
-        class="container-xl container-lg container-md container-sm d-flex justify-content-end "
+        class="container  w-100   d-flex justify-content-lg-end  align-items-center form-img" 
       >
 
 
 
         <form
           id="form-proyect"
-          style="max-width: 480px;"
+          style=""
           class=" shadow d-flex gap-2 flex-column justify-content-center bg-white px-4 py-4 radius-section  w-100 my-3 my-sm-0 out-regular"
         >
           <div class="mb-2">

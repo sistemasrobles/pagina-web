@@ -14,22 +14,56 @@ color: #595454;
 
 /** styles de main */
 .bg-main-img {
-  padding: 40px 0;
 
-/*    background: url(/assets_landings/VENTAS_DE_TU_NEGOCIO.png) center center/cover*/
-  background: url("https://gruporobles.com.pe/storage/banners/webinar_robles.webp") center center/cover
-    no-repeat;
+padding: 0 !important;
+position:relative;
+}
+
+.form-img{
+position: absolute;
+top:0;
+right: 0; 
+height:100%  !important;
+margin: 0px 10% !important;
+
+}
+
+#form-proyect{
+
+max-width: 480px !important;
 }
 
 
-@media (max-width: 575.98px) {
-    
-
+@media (max-width: 992px) {
   .bg-main-img {
-    background:#fff;
-    margin: 0px !important;padding: 0px !important;
+    position:static;
   }
+
+
+  .form-img{
+    display: flex;
+    justify-content: center;
+    
+    position: static;
+    margin: 0px  !important;
+
+
+  }
+
+  #form-proyect{
+   
+    max-width:auto !important;
+  }
+
+
 }
+
+
+
+
+
+
+
 
 
 .radius-section {
