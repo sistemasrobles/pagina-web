@@ -147,9 +147,9 @@
     <!-- section impulsar ventar -->
     <section class="container-xl container-lg container-md container-sm ">
       <!-- grid -->
-      <div class="row row-cols-1 row-cols-lg-2  align-items-center " >
+      <div class="row row-cols-1 row-cols-lg-1  align-items-center " >
         <div class="pt-4 pb-2">
-          <div class="d-flex flex-column gap-3 bg-white p-3 radius-section">
+          <div class="d-flex flex-column gap-3 bg-white p-3 radius-section text-center">
             <h1 class="color-primary out-Extrabold mb-0" style="line-height:40px">
               <u>Descubre cómo rentabilizar tu dinero invirtiendo en un lote</u>
             </h1>
@@ -164,7 +164,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
       
 
         <!-- image rigth -->
-        <div class="pt-4 pb-2  " style="">
+        <div class="pt-4 pb-2  d-none" style="">
           <img style="border-radius: 20px;" 
             class="w-100  "
             src="https://www.lares.pe/cdn/shop/files/Foto_acompanante_de_texto.jpg?v=1700882502&width=600"
@@ -186,7 +186,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             <div
               class="d-flex flex-lg-row flex-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3"
             >
-              <img src="./assets_landings/hoja.png" alt="hoja" />
+              <img src="./assets_landings/time.png" alt="inversion" />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;">
                Aprende cómo los lotes pueden ofrecer retornos significativos y estables a lo largo del tiempo.
               </p>
@@ -196,7 +196,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             <div
               class="d-flex flex-row flex-lg-row  flex-md-column  card-hoja justify-content-center align-items-center gap-3 p-3"
             >
-              <img src="./assets_landings/hoja.png" alt="hoja" />
+              <img class="" src="./assets_landings/money.png" alt="rentabilidad" />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;">
                Conoce las mejores herramientas y técnicas clave para maximizar tu retorno de inversión
               </p>
@@ -206,7 +206,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             <div
               class="d-flex flex-row flex-lg-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3"
             >
-              <img src="./assets_landings/hoja.png" alt="hoja" />
+              <img class=""src="./assets_landings/land.png" alt="land"  />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
                 Aprende cómo los lotes pueden ofrecer retornos significativos y estables a lo largo del tiempo.
               </p>
@@ -228,8 +228,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
-              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <h5 class="text-center mb-4" style="font-weight:900">Fundo Los Robles</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">Entre 10 a 15 minutos de la plaza central de Oxapampa.</p>
             </div>
           </div>
         </div>
@@ -240,8 +240,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
                <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
-              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <h5 class="text-center mb-4" style="font-weight:900">Palmas del Caribe</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">Dentro de la Playa El Amor.</p>
             </div>
 
           </div>
@@ -252,8 +252,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             
              <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
-              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <h5 class="text-center mb-4" style="font-weight:900">Bella Primavera</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">Entre 25 a 30 minutos de la plaza central de Oxapampa.</p>
             </div>
 
           </div>
@@ -264,8 +264,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
-              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <h5 class="text-center mb-4" style="font-weight:900">La Retama</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 20 minutos de la plaza de Maynay.</p>
             </div>
 
           </div>
@@ -276,8 +276,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
-              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <h5 class="text-center mb-4" style="font-weight:900">Fundo Valentina</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">Entre 25 a 30 minutos de la plaza central de Oxapampa.</p>
             </div>
           </div>
         </div>
@@ -287,8 +287,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
-              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <h5 class="text-center mb-4" style="font-weight:900">Valle Orquídea</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 1 hora de La Merced.</p>
             </div>
 
           </div>
@@ -299,7 +299,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
               <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 45 minutos de la plaza central de Oxapampa.</p>
             </div>
 
           </div>
@@ -310,8 +310,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
-              <h5 class="text-center mb-4" style="font-weight:900">El Arco Dorado</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 10 minutos de la plaza de armas de Oxapampa encontrarás este magnífico condominio.</p>
+              <h5 class="text-center mb-4" style="font-weight:900">El Bosque del Rey</h5>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 45 minutos de la plaza central de Oxapampa.</p>
             </div>
           </div>
         </div>
@@ -322,34 +322,35 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
     <!-- section proyectos -->
     <section class="bg-white px-3 p-md-0 ">
-      <div
-        class="flex-proyectos container-xl container-lg container-md container-sm pt-3 pb-1"
-      >
-        <div class="info-proyectos">
-          <h2 class="color-primary out-Extrabold mb-4" style="line-height:40px"><u>¿Qué proyectos tenemos?</u></h2>
-          <p class="color-plomo out-regular ">
-            Nosotros contamos con proyectos en las tres regiones del país:
-          </p>
 
 
-           <ul class="out-regular list-ventas-negocio">
-              <li>
-                 <strong>Costa: </strong>En Máncora (Piura) y Guadalupito (La Libertad)</p>
+      <h2 class="color-primary out-Extrabold pt-5 mb-4 text-center" style="line-height:40px"><u>¿Qué proyectos tenemos?</u></h2>
+    <div class="container  w-100 d-flex justify-content-center align-items-center">
+         
+           <ul class="out-regular list-ventas-negocio " >
+              <li class="" >
+                  <strong>Costa: </strong>En Máncora (Piura) y Guadalupito (La Libertad) 
               </li>
               <li>
-               <strong>Sierra: </strong>Proyectos en Huanta (Ayacucho)</p>
+               <strong>Sierra: </strong>Proyectos en Huanta (Ayacucho)
               </li>
               <li>
-               <strong>Selva central: </strong>Proyectos en Oxapampa (Pasco) y Chanchamayo (Junín)
+                <strong>Selva central: </strong>Proyectos en Oxapampa (Pasco) y Chanchamayo (Junín)
               </li>
+              
             </ul>
 
 
-         
-
-           
-        
         </div>
+
+
+    
+
+
+      <div
+        class="flex-proyectos container-xl container-lg container-md container-sm pt-1 pb-1"
+      >
+        
 
         <!-- swiper container card proyectos -->
         <div class="container-swiper d-flex position-relative">
@@ -395,7 +396,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
                    <div class="bottom-card">
                     <span class="etiqueta-green py-2">
                       
-                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 400 m<sup>2</sup></p>
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 300 m<sup>2</sup></p>
 
                       <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
 
@@ -535,7 +536,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
                    <div class="bottom-card">
                     <span class="etiqueta-green py-2">
                       
-                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 215 m<sup>2</sup></p>
+                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 225 m<sup>2</sup></p>
 
                       <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Máncora</p>
 
@@ -557,7 +558,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
 
 
-     <section class="bg-white  ">
+     <section class="bg-white  d-none">
       <div
         class="container-xl container-lg container-md container-sm  px-4 "
       > 
@@ -566,7 +567,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
         <div
           class="row row-cols-1 row-cols-lg-3 row-cols-md-3  justify-content-center  pb-2 " style="border-radius: 20px;background: #f2f2f2;"
         >	
-        <h2 class="out-semibold w-100 text-center color-primary  py-3 mt-3" style="font-size: 1.6rem !important;" ><u>Vive Rodeado de la Naturaleza de Oxapampa</u></h2>
+        <h2 class="out-semibold w-100 text-center color-primary  py-3 mt-3" style="font-size: 1.6rem !important; font-weight: 900;" ><u>Cuales Son Nuestros Beneficios</u></h2>
 
           <p style="display: block;width: 100%;" class="color-plomo text-center">Ubicación privilegiada para apreciar la belleza en su máximo esplendor</p>
           
@@ -578,19 +579,59 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
               <div class=" w-100  ">
 
                 <div class=" px-3 " style="display:inline-block;background: #00968b;color:white;border-radius: 10px;">
-               <strong>Paso 1</strong>
+               <strong>Beneficio 1</strong>
 
             </div> 
 
 
             </div>
               
-                  <h6 class="mt-1 ">Separalo solo con ¡S/ 500 soles !</h6>
+                  <h6 class="mt-1 ">Financiamiento Directo</h6>
 
 
-               <p class="mb-0 text-center text-lg-start color-plomo" style="font-size:0.9rem">
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el de relleno estándar de 
-              </p>
+            </div>
+          </div>
+
+
+           <div class="">
+            <div
+              class="my-4 shadow d-flex  flex-column  justify-content-center align-items-center gap-3 p-4"  style="border-radius: 20px ;background: #fff "
+            >
+              <div class=" w-100  ">
+
+                <div class=" px-3 " style="display:inline-block;background: #00968b;color:white;border-radius: 10px;">
+               <strong>Beneficio 2</strong>
+
+            </div> 
+
+
+            </div>
+              
+                  <h6 class="mt-1 ">Hasta 12 cuotas sin interés</h6>
+
+
+             
+            </div>
+          </div>
+
+           <div class="">
+            <div
+              class="my-4 shadow d-flex  flex-column  justify-content-center align-items-center gap-3 p-4"  style="border-radius: 20px ;background: #fff "
+            >
+              <div class=" w-100  ">
+
+                <div class=" px-3 " style="display:inline-block;background: #00968b;color:white;border-radius: 10px;">
+               <strong>Beneficio 3</strong>
+
+            </div> 
+
+
+            </div>
+              
+                  <h6 class="mt-1 ">Separalo solo con ¡S/ 1000 soles !</h6>
+
+
+              
             </div>
           </div>
 
@@ -603,19 +644,17 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
               <div class=" w-100  ">
 
                 <div class=" px-3 " style="display:inline-block;background: #00968b;color:white;border-radius: 10px;">
-               <strong>Paso 1</strong>
+               <strong>Beneficio 4</strong>
 
             </div> 
 
 
             </div>
               
-                  <h6 class="mt-1 ">Separalo solo con ¡S/ 500 soles !</h6>
+                  <h6 class="mt-1 ">Sin evaluación crediticia</h6>
 
 
-               <p class="mb-0 text-center text-lg-start color-plomo"  style="font-size:0.9rem">
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el de relleno estándar de 
-              </p>
+              
             </div>
           </div>
 
@@ -626,17 +665,17 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
               <div class=" w-100  ">
 
                 <div class=" px-3 " style="display:inline-block;background: #00968b;color:white;border-radius: 10px;">
-               <strong>Paso 1</strong>
+               <strong>Beneficio 5</strong>
 
             </div> 
 
 
             </div>
               
-                  <h6 class="mt-1 ">Separalo solo con ¡S/ 500 soles !</h6>
+                  <h6 class="mt-1 ">Descuentos especiales en Pre-Venta</h6>
 
 
-             <p class="mb-0 text-center text-lg-start color-plomo"  style="font-size:0.9rem">
+             <p class="mb-0 text-center text-lg-start color-plomo d-none"  style="font-size:0.9rem">
                 Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el de relleno estándar de 
               </p>
             </div>
@@ -648,28 +687,36 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
 
      <section class="bg-white pb-5 px-2 p-md-0 ">
-      <div
-        class="container-xl container-lg container-md container-sm py-4 "
-      >
-        <div
-          class="row row-cols-1 row-cols-lg-1 row-cols-md-1 g-4 justify-content-center"
-        >
+       <h2 class="color-primary out-Extrabold pt-5 mb-4 text-center" style="line-height:40px"><u>¿Cuales son los beneficios?</u></h2>
+    <div class="container  w-100 d-flex justify-content-center align-items-center">
+         
+           <ul class="out-regular list-ventas-negocio " >
+              <li class="" >
+                 Financiamiento Directo
+              </li>
+              <li>
+               Hasta 12 cuotas sin interés
+              </li>
+              <li>
+                Separa tu lote desde <strong>S/ 1000 Soles </strong>
+              </li>
+               <li>
+               Sin evaluación crediticia
+              </li>
+               <li>
+               Descuentos especiales en Pre-Venta
+              </li>
+            </ul>
+
+
+        </div>
+
           <div class="text-center">
            
                 
-              
-              <p class="mb-0 text-center color-plomo">
-                RÍO DEL SOL se destaca como el primer proyecto en Perú con el sello distintivo de Maat <strong>Handasa y JSA Arquitectos. Este condominio fusiona</strong> nuestro rico legado cultural con diversas formas de entretenimiento y una vida en armonía con la naturaleza.<br>
-Descubre el parque Ruina Arqueológica, explora senderos de trekking y disfruta de impresionantes vistas desde nuestros miradores.
-              </p>
-              
-
-              <button class="  my-5 shadow" style=" background: linear-gradient(to bottom, #005c53 0%, #00968b 100%);padding: 10px 30px;border-radius: 10px;border:none;color:white"><strong>¡Haz Clic Aquí Para Ser Parte De la Presentación Zoom!</strong></button>
+          
+              <a  href="#" class="button  my-5 shadow" style="display: inline-block; background: linear-gradient(to bottom, #005c53 0%, #00968b 100%);padding: 10px 30px;border-radius: 10px;border:none;color:white"><strong>¡Haz Clic Aquí Para Ser Parte De la Presentación Zoom!</strong></a>
           </div>
-          
-          
-        </div>
-      </div>
     </section>
 
 
@@ -776,7 +823,7 @@ Descubre el parque Ruina Arqueológica, explora senderos de trekking y disfruta 
         },
         // when window width is >= 480px
         779: {
-          slidesPerView: 3,
+          slidesPerView: 4,
         },
       }
     });

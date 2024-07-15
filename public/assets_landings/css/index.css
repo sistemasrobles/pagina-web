@@ -160,13 +160,19 @@ input::placeholder {
   object-fit: contain;
 }
 .list-ventas-negocio {
-  padding-left: 5px;
+  padding-left: 0px;
   list-style: none;
+
 }
 
+.list-ventas-negocio li{
+font-size: 1.1rem;
+
+}
 .list-ventas-negocio li:before {
   content: "✓ ";
   color: yellow;
+  padding-right: 10px;
   font-weight: 800;
   font-size: 1.5rem;
 }
@@ -296,7 +302,7 @@ input::placeholder {
 }
 
 .info-proyectos {
-  width: 30%;
+  width: 25%;
 }
 
 .swiper {
@@ -305,7 +311,7 @@ input::placeholder {
 }
 .container-swiper {
   padding: 10px;
-  width: 75%;
+  width: 100%;
 }
 
 .card-proyect {
