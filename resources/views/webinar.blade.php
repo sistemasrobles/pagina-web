@@ -112,7 +112,7 @@
           </div>
 
         <p class=" fs-8 color-plomo mt-3 out-regular" style="line-height: 15px;">
-              Al enviar este formulario estás aceptando nuestros <a href="#" class="color-primary no-hover">términos y condiciones</a> y las <a href="#" class="color-primary no-hover">políticas de protección de datos</a>.
+              Al enviar este formulario estás aceptando nuestros <a target="_blank" href="https://gruporobles.com.pe/terminos" class="color-primary no-hover">términos y condiciones</a> y las <a target="_blank"href="https://gruporobles.com.pe/politicas" class="color-primary no-hover">políticas de protección de datos</a>.
             </p>
           <span
             class="form-participacion w-100 d-flex justify-content-center align-items-center"
@@ -218,13 +218,13 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
     <!-- bento galery -->
     <section
-      class=" bg-white mb-3 container-xl container-lg container-md container-sm p-3 radius-section out-regular"
+      class=" d-none d-lg-block bg-white mb-3 container-xl container-lg container-md container-sm p-3 radius-section out-regular"
     > 
       <!-- <h6 class=" text-white px-3 py-2 text-center" style="border-radius:10px;background:#00A593;font-size: 1.2rem;">Mira el Avance de Obra</h6> -->
       <div class="grid-bento-galery">
         <div class="bento1 bento-main">
           <img src="./assets_landings/bento/bento1.webp" alt="" srcset="" />
-          <div class="overlay">
+          <div class="overlay ">
             
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
