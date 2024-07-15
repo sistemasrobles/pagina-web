@@ -7,8 +7,8 @@
     />
     <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="./assets_landings/css/index.css?v=3444444" />
-    <link rel="stylesheet" href="./assets_landings/css/font.css" />
+    <link rel="stylesheet" href="{{asset('assets_landings/css/index.css?v=3444444')}}" />
+    <link rel="stylesheet" href="{{asset('assets_landings/css/font.css')}}" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,7 +17,24 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webinar Robles</title>
+    <title>Webinar Inmobiliario Robles & Yasikov</title>
+
+    <meta name="description" content="Te invitamos a nuestro webinar exclusivo donde expertos de la industria compartirán sus conocimientos y estrategias más recientes. No te pierdas esta oportunidad única de aprender, interactuar y hacer preguntas en tiempo real.">
+
+
+
+
+        <meta name="author" content="Robles & Yasikov" />
+
+        <meta name="keywords" content="terrenos,cabañas,inmobiliaria,proyectos,terrenos,casas,oxapampa">
+
+
+        <meta property="og:url" content="https://gruporobles.com.pe/webinar" />
+
+        <meta property="og:title" content="Webinar Inmobiliario Robles & Yasikov" />
+
+        <meta property="og:description" content="Te invitamos a nuestro webinar exclusivo donde expertos de la industria compartirán sus conocimientos y estrategias más recientes. No te pierdas esta oportunidad única de aprender, interactuar y hacer preguntas en tiempo real." />
+         <link rel="shortcut icon" href="/img/icons/ico.ico">
   </head>
   <body>
     <!-- main landing -->
@@ -48,8 +65,8 @@
 
 
 
-        <form
-          id="form-proyect"
+        <form  id="form-proyect"  method="POST" action="{{ route('/promociones/registrar') }}"
+          
           style=""
           class=" shadow d-flex gap-2 flex-column justify-content-center bg-white px-4 py-4 radius-section  w-100 my-3 my-sm-0 out-regular"
         >
@@ -68,7 +85,7 @@
             <label class="form-control d-flex flex-column">
               <span class="fs-8">Nombre</span>
               <input
-                id="basic_name"
+                id="nombre"
                 name="nombre"
                 type="text"
                 placeholder=""
@@ -78,8 +95,8 @@
             <label class="form-control d-flex flex-column">
               <span class="fs-8">Apellidos</span>
               <input
-                id="basic_apellido"
-                name="apellidos"
+                id="apellido"
+                name="apellido"
                 type="text"
                 placeholder=""
               />
@@ -90,8 +107,8 @@
             <label class="form-control d-flex flex-column">
               <span class="fs-8">Telefono</span>
               <input
-                id="basic_telefono"
-                name="telefono"
+                id="movil"
+                name="movil"
                 size="10"
                 type="text"
                 placeholder=""
@@ -111,13 +128,51 @@
             </label>
           </div>
 
+
+
+          <input
+              
+                type="hidden"
+                id="mensaje"
+                name="mensaje"
+                value=""
+              />
+
+
+               <input
+              
+                type="hidden"
+                id="horario"
+                name="horario"
+                value=""
+              />
+
+
+               <input
+              
+                type="hidden"
+                id="proyecto"
+                name="proyecto"
+                value="8"
+              />
+
+
+               <input
+              
+                type="hidden"
+                id="formulario"
+                name="formulario"
+                value="landing-webinar"
+              />
+
+
         <p class=" fs-8 color-plomo mt-3 out-regular" style="line-height: 15px;">
               Al enviar este formulario estás aceptando nuestros <a target="_blank" href="https://gruporobles.com.pe/terminos" class="color-primary no-hover">términos y condiciones</a> y las <a target="_blank"href="https://gruporobles.com.pe/politicas" class="color-primary no-hover">políticas de protección de datos</a>.
             </p>
           <span
             class="form-participacion w-100 d-flex justify-content-center align-items-center"
           >
-            <button class="">
+            <button class="" id="btn-enviar-promo">
               <div class="svg-wrapper-1">
                 <div class="svg-wrapper">
                   <svg
@@ -136,7 +191,16 @@
               </div>
               <span class="submit">Enviar Datos</span>
             </button>
+
+
           </span>
+
+          <div class="text-danger w-100" style="font-size:11px;line-height: 13px !important;">
+                                  
+                                 <span id="errores" >
+                                   
+                                 </span>
+                              </div>
         </form>
       </div>
     </main>
@@ -186,7 +250,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             <div
               class="d-flex flex-lg-row flex-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3"
             >
-              <img src="./assets_landings/time.png" alt="inversion" />
+              <img src="{{asset('assets_landings/time.png')}}" alt="inversion" />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;">
                Aprende cómo los lotes pueden ofrecer retornos significativos y estables a lo largo del tiempo.
               </p>
@@ -196,7 +260,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             <div
               class="d-flex flex-row flex-lg-row  flex-md-column  card-hoja justify-content-center align-items-center gap-3 p-3"
             >
-              <img class="" src="./assets_landings/money.png" alt="rentabilidad" />
+              <img class="" src="{{asset('assets_landings/money.png')}}" alt="rentabilidad" />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;">
                Conoce las mejores herramientas y técnicas clave para maximizar tu retorno de inversión
               </p>
@@ -206,7 +270,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             <div
               class="d-flex flex-row flex-lg-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3"
             >
-              <img class=""src="./assets_landings/land.png" alt="land"  />
+              <img class=""src="{{asset('assets_landings/land.png')}}" alt="land"  />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
                 Aprende cómo los lotes pueden ofrecer retornos significativos y estables a lo largo del tiempo.
               </p>
@@ -223,7 +287,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
       <!-- <h6 class=" text-white px-3 py-2 text-center" style="border-radius:10px;background:#00A593;font-size: 1.2rem;">Mira el Avance de Obra</h6> -->
       <div class="grid-bento-galery">
         <div class="bento1 bento-main">
-          <img src="./assets_landings/bento/bento1.webp" alt="" srcset="" />
+          <img src="{{asset('assets_landings/bento/bento1.webp')}}" alt="" srcset="" />
           <div class="overlay ">
             
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
@@ -234,7 +298,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
           </div>
         </div>
         <div class="bento2 bento-main">
-          <img src="./assets_landings/bento/bento5.webp" alt="" srcset="" />
+          <img src="{{asset('assets_landings/bento/bento5.webp')}}" alt="" srcset="" />
           <div class="overlay">
             
 
@@ -247,7 +311,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
           </div>
         </div>
         <div class="bento3 bento-main">
-          <img src="./assets_landings/bento/bento3.webp" alt="" srcset="" />
+          <img src="{{asset('assets_landings/bento/bento3.webp')}}" alt="" srcset="" />
           <div class="overlay">
             
              <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
@@ -259,7 +323,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
           </div>
         </div>
         <div class="bento4 bento-main">
-          <img src="./assets_landings/bento/bento4.webp" alt="" srcset="" />
+          <img src="{{asset('assets_landings/bento/bento4.webp')}}" alt="" srcset="" />
           <div class="overlay">
             
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
@@ -271,7 +335,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
           </div>
         </div>
         <div class="bento5 bento-main">
-          <img src="./assets_landings/bento/bento2.webp" alt="" srcset="" />
+          <img src="{{asset('assets_landings/bento/bento2.webp')}}" alt="" srcset="" />
           <div class="overlay">
             
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
@@ -282,7 +346,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
           </div>
         </div>
         <div class="bento6 bento-main">
-          <img src="./assets_landings/bento/bento6.webp" alt="" srcset="" />
+          <img src="{{asset('assets_landings/bento/bento6.webp')}}" alt="" srcset="" />
           <div class="overlay">
             
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
@@ -294,7 +358,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
           </div>
         </div>
         <div class="bento7 bento-main">
-          <img src="./assets_landings/bento/bento7.webp" alt="" srcset="" />
+          <img src="{{asset('assets_landings/bento/bento7.webp')}}" alt="" srcset="" />
           <div class="overlay">
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
@@ -305,7 +369,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
           </div>
         </div>
         <div class="bento8 bento-main">
-          <img src="./assets_landings/bento/bento8.webp" alt="" srcset="" />
+          <img src="{{asset('assets_landings/bento/bento8.webp')}}" alt="" srcset="" />
           <div class="overlay">
             
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
@@ -796,6 +860,12 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
         </p>
       </section>
     </footer>
+
+    <div class="loading-container">
+    <div class="loading-gif"></div>
+</div>
+
+
   </body>
 
   <script>
@@ -830,5 +900,149 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
   </script>
 
 
+
+
+<script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+  
+<script src="{{ asset('sweetalert2/sweetalert2.all.min.js') }}"></script>
+  <script>
+    var assetUrl = "{{ url('promociones/visitas') }}";
+    var token_="{{ csrf_token() }}";
+</script>
+
+
+<script type="text/javascript">
+  $("#btn-enviar-promo").on('click',(event)=>{
+
+ event.preventDefault()
+
+  var loadingContainer = document.querySelector(".loading-container");
+
+
+    let data =   new FormData($("#form-proyect")[0])
+    data.append( "_token",token_)
+
+
+
+    var urlActual = window.location.href;
+
+
+    var url = new URL(urlActual);
+    var utm_source = url.searchParams.get("utm_source");
+    var utm_medium = url.searchParams.get("utm_medium");
+    var utm_campaign = url.searchParams.get("utm_campaign");
+    var utm_term = url.searchParams.get("utm_term");
+    var utm_content = url.searchParams.get("utm_content");
+
+
+
+      data.append("utm_source",utm_source)
+      data.append("utm_medium",utm_medium)
+      data.append("utm_campaign",utm_campaign)
+      data.append("utm_term",utm_term)
+      data.append("utm_content",utm_content)
+
+
+      
+    $.ajax({
+        "url":assetUrl,
+        data: data,
+        cache: false,
+        contentType: false,
+        processData: false,
+        method: 'POST',
+           beforeSend: function() {
+
+
+         
+              loadingContainer.style.display = "flex"; 
+              loadingContainer.style.visibility = "visible";
+        },
+
+        'success': function(response){
+          
+            loadingContainer.style.display = "none";
+          loadingContainer.style.visibility = "hidden";
+
+
+
+          $("#errores").text('');
+
+            if(response.status=='ok'){
+
+               
+
+                $("#form-proyect")[0].reset()
+
+
+                  Swal.fire({
+
+                  icon: 'success',
+                  title: 'Datos Guardados correctamente',
+                  showConfirmButton: false,
+                  timer: 1500
+
+                })
+
+
+                
+                  
+
+                     setTimeout(function() {
+                    window.location.href = "/webinar/gracias";
+                  }, 3000); 
+
+            }else{
+
+
+                if(response.status=='error'){
+
+
+                    Swal.fire({
+
+                   icon: 'error',
+                    title: response.description,
+                    showConfirmButton: false,
+                    timer: 1500
+
+                  })
+
+
+                }
+
+                
+                var data = response.data;
+
+                var str = '';
+
+                for(let i=0;i<data.length;i++){
+                  str += data[i]+'<br>';
+                  
+                }
+
+                $("#errores").html(str);
+
+              
+
+
+
+            }
+        },
+        'error':(response)=>{
+
+           console.log(response)
+
+
+        }
+    })
+})
+
+
+</script>
   
 </html>
