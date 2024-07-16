@@ -9,6 +9,117 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="{{asset('assets_landings/css/index.css?v=3444444')}}" />
     <link rel="stylesheet" href="{{asset('assets_landings/css/font.css')}}" />
+
+    <style type="text/css">
+      body{
+        overflow-x: hidden !important;
+      }
+      .swiperx .container-swiper{
+    position: relative 
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.swiperx{
+    width: 100%;
+    height: 78vh;
+}
+.swiperx.swiper-slide div:first-child{
+    cursor: pointer;
+    overflow: hidden ;
+    border-radius: 20px;
+    height: 100%;
+}
+.swiperx img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.swiperx.swiper-button-prev-proyect, .swiperx.swiper-button-next-proyect,.swiperx.swiper-button-prev-proyect-modal,.swiperx.swiper-button-next-proyect-modal {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: #d2d0d0d8;
+    border-radius: 50px;
+ 
+}
+.swiperx.swiper-button-next-proyect{
+    top: 50%;
+    right: -5px;
+}
+.swiperx.swiper-button-next-proyect-modal{
+    top: 50%;
+    right: 20px;
+}
+.swiperx.swiper-button-prev-proyect-modal{
+    top: 50%;
+    left: 20px;
+}
+.swiperx.swiper-button-prev-proyect{
+    left: -5px;
+    top: 50%;
+}
+
+
+
+.modal-content iframe{
+    width: 90%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+.modal-content {
+   overflow: hidden;
+   background-color: transparent !important;
+}
+
+.modal-header {
+   border-bottom: 0px solid #dee2e6 !important;    
+}
+
+.container-blur{
+    background: #0000000f;
+    backdrop-filter: blur(10px);
+}
+.activer-model{
+    position: relative;
+}
+.container-blur .btn-close{
+     font-weight: 800;
+     font-size: 1.2rem;
+    color: white !important;
+    background: none !important;
+}
+.btn-close-youtube{
+    color: white !important;
+}
+.container-svg {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-svg > svg{
+    fill: white;
+    font-size: .5rem;
+}
+
+.modal-body{
+    position: relative;
+}
+
+    </style>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -107,7 +218,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
          <img 
             class=" w-100 img-fluid d-none d-lg-block"
-            src="https://gruporobles.com.pe/storage/banners/portada_webinar_escritorio.webp"
+            src="https://gruporobles.com.pe/storage/banners/portada_webinar_26_d.webp"
             alt="WEBINAR GRUPO ROBLES & YASIKOV"
             srcset=""
           />
@@ -115,7 +226,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
            <img 
             class=" w-100 img-fluid d-block d-lg-none"
-            src="https://gruporobles.com.pe/storage/banners/portada_webinar_celular.webp"
+            src="https://gruporobles.com.pe/storage/banners/portada_webinar_6_m.webp"
             alt="WEBINAR GRUPO ROBLES & YASIKOV"
             srcset=""
           />
@@ -847,7 +958,225 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
 
   
+    <section class="bg bg-white d-none" >
+        <div class="container-swiper container-lg container-md container-sm " >
+      <!-- Slider main container -->
+      <div class=" swiperx swiper" >
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div
+              class="activer-model"
+              data-bs-toggle="modal"
+              data-bs-target="#videoSwiper"
+              data-value="video1"
+            >
+              <div class="container-svg">
+                <svg
+                  aria-hidden="true"
+                  class="e-font-icon-svg e-eicon-play"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M838 162C746 71 633 25 500 25 371 25 258 71 163 162 71 254 25 367 25 500 25 633 71 746 163 837 254 929 367 979 500 979 633 979 746 933 838 837 929 746 975 633 975 500 975 367 929 254 838 162M808 192C892 279 933 379 933 500 933 621 892 725 808 808 725 892 621 938 500 938 379 938 279 896 196 808 113 725 67 621 67 500 67 379 108 279 196 192 279 108 383 62 500 62 621 62 721 108 808 192M438 392V642L642 517 438 392Z"
+                  ></path>
+                </svg>
+              </div>
+              <img src="https://talleres.marketea.pe/wp-content/uploads/2024/02/vlcsnap-2024-02-20-09h04m02s064.png" alt="woman" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="activer-model"
+              data-bs-toggle="modal"
+              data-bs-target="#videoSwiper"
+              data-value="video2"
+            >
+              <div class="container-svg">
+                <svg
+                  aria-hidden="true"
+                  class="e-font-icon-svg e-eicon-play"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M838 162C746 71 633 25 500 25 371 25 258 71 163 162 71 254 25 367 25 500 25 633 71 746 163 837 254 929 367 979 500 979 633 979 746 933 838 837 929 746 975 633 975 500 975 367 929 254 838 162M808 192C892 279 933 379 933 500 933 621 892 725 808 808 725 892 621 938 500 938 379 938 279 896 196 808 113 725 67 621 67 500 67 379 108 279 196 192 279 108 383 62 500 62 621 62 721 108 808 192M438 392V642L642 517 438 392Z"
+                  ></path>
+                </svg>
+              </div>
+              <img src="https://talleres.marketea.pe/wp-content/uploads/2024/02/vlcsnap-2024-02-20-09h04m02s064.png" alt="woman" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="activer-model"
+              data-bs-toggle="modal"
+              data-bs-target="#videoSwiper"
+              data-value="video3"
+            >
+              <div class="container-svg">
+                <svg
+                  aria-hidden="true"
+                  class="e-font-icon-svg e-eicon-play"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M838 162C746 71 633 25 500 25 371 25 258 71 163 162 71 254 25 367 25 500 25 633 71 746 163 837 254 929 367 979 500 979 633 979 746 933 838 837 929 746 975 633 975 500 975 367 929 254 838 162M808 192C892 279 933 379 933 500 933 621 892 725 808 808 725 892 621 938 500 938 379 938 279 896 196 808 113 725 67 621 67 500 67 379 108 279 196 192 279 108 383 62 500 62 621 62 721 108 808 192M438 392V642L642 517 438 392Z"
+                  ></path>
+                </svg>
+              </div>
+              <img src="https://talleres.marketea.pe/wp-content/uploads/2024/02/vlcsnap-2024-02-20-09h04m02s064.png" alt="woman" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="activer-model"
+              data-bs-toggle="modal"
+              data-bs-target="#videoSwiper"
+              data-value="video4"
+            >
+              <div class="container-svg">
+                <svg
+                  aria-hidden="true"
+                  class="e-font-icon-svg e-eicon-play"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M838 162C746 71 633 25 500 25 371 25 258 71 163 162 71 254 25 367 25 500 25 633 71 746 163 837 254 929 367 979 500 979 633 979 746 933 838 837 929 746 975 633 975 500 975 367 929 254 838 162M808 192C892 279 933 379 933 500 933 621 892 725 808 808 725 892 621 938 500 938 379 938 279 896 196 808 113 725 67 621 67 500 67 379 108 279 196 192 279 108 383 62 500 62 621 62 721 108 808 192M438 392V642L642 517 438 392Z"
+                  ></path>
+                </svg>
+              </div>
+              <img src="https://talleres.marketea.pe/wp-content/uploads/2024/02/vlcsnap-2024-02-20-09h04m02s064.png" alt="woman" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div
+              class="activer-model"
+              data-bs-toggle="modal"
+              data-bs-target="#videoSwiper"
+              data-value="video5"
+            >
+              <div class="container-svg">
+                <svg
+                  aria-hidden="true"
+                  class="e-font-icon-svg e-eicon-play"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M838 162C746 71 633 25 500 25 371 25 258 71 163 162 71 254 25 367 25 500 25 633 71 746 163 837 254 929 367 979 500 979 633 979 746 933 838 837 929 746 975 633 975 500 975 367 929 254 838 162M808 192C892 279 933 379 933 500 933 621 892 725 808 808 725 892 621 938 500 938 379 938 279 896 196 808 113 725 67 621 67 500 67 379 108 279 196 192 279 108 383 62 500 62 621 62 721 108 808 192M438 392V642L642 517 438 392Z"
+                  ></path>
+                </svg>
+              </div>
+              <img src="https://talleres.marketea.pe/wp-content/uploads/2024/02/vlcsnap-2024-02-20-09h04m02s064.png" alt="woman" />
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!-- If we need navigation buttons -->
+      <div
+        class="swiper-button-next-proyect"
+        tabindex="0"
+        role="button"
+        aria-label="Next slide"
+        aria-controls="swiper-wrapper-6bf66d469a28d302"
+      >
+        <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+      </div>
+      <div
+        class="swiper-button-prev-proyect"
+        tabindex="0"
+        role="button"
+        aria-label="Previous slide"
+        aria-controls="swiper-wrapper-6bf66d469a28d302"
+      >
+        <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade container-blur"
+      id="videoSwiper"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content" id="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close btn-close-youtube"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              X
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="swiper-video">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div
+                  class="swiper-slide d-flex justify-content-center align-items-center"
+                >
+                  <div class="video-slider" id="video-slider1"></div>
+                </div>
+
+                <div
+                  class="swiper-slide d-flex justify-content-center align-items-center"
+                >
+                  <div class="video-slider2" id="video-slider2"></div>
+                </div>
+
+                <div
+                  class="swiper-slide d-flex justify-content-center align-items-center"
+                >
+                  <div class="video-slider3" id="video-slider3"></div>
+                </div>
+
+                <div
+                  class="swiper-slide d-flex justify-content-center align-items-center"
+                >
+                  <div class="video-slider4" id="video-slider4"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div
+              id="modal-skip"
+              class="swiper-button-next-proyect-modal"
+              tabindex="0"
+              role="button"
+              aria-label="Next slide"
+              aria-controls="swiper-wrapper-6bf66d469a28d302"
+            >
+              <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+            </div>
+            <div
+             id="modal-back"
+              class="swiper-button-prev-proyect-modal"
+              tabindex="0"
+              role="button"
+              aria-label="Previous slide"
+              aria-controls="swiper-wrapper-6bf66d469a28d302"
+            >
+              <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
 
     <footer class=" py-3 text-center" style="background:#F3F3F3 !important ;">
       <p class="mb-0 " style="font-size:0.75rem ;color :#7A7777">
@@ -1105,5 +1434,174 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
 
 </script>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+    
+  <script type="text/javascript">
+    const btnAllOpen = document.querySelectorAll(".activer-model");
+const btnClose = document.querySelector(".btn-close-youtube");
+const outModalClose = document.querySelector(".modal-content");
+const modalBack = document.getElementById("modal-back");
+const modalSkip = document.getElementById("modal-skip");
+
+let player1;
+let player2;
+let player3;
+let player4;
+var currentIndexSwiper;
+
+function onYouTubeIframeAPIReady() {
+  player1 = new YT.Player("video-slider1", {
+    videoId: "GmG3eReHL6o",
+    playerVars: {
+      autoplay: 0, // 0 para no reproducir automáticamente
+      controls: 1,
+    },
+    events: {
+      onReady: onPlayerReady,
+      onStateChange: onPlayerStateChange,
+    },
+  });
+
+  player2 = new YT.Player("video-slider2", {
+    videoId: "ERjQRB9tEy8",
+    playerVars: {
+      autoplay: 0, // 0 para no reproducir automáticamente
+      controls: 1,
+    },
+    events: {
+      onReady: onPlayerReady,
+      onStateChange: onPlayerStateChange,
+    },
+  });
+
+  player3 = new YT.Player("video-slider3", {
+    videoId: "utY0qh4bl_E",
+    playerVars: {
+      autoplay: 0, // 0 para no reproducir automáticamente
+      controls: 1,
+    },
+    events: {
+      onReady: onPlayerReady,
+      onStateChange: onPlayerStateChange,
+    },
+  });
+
+  player4 = new YT.Player("video-slider4", {
+    videoId: "OFDnqFzGDus",
+    playerVars: {
+      autoplay: 0, // 0 para no reproducir automáticamente
+      controls: 1,
+    },
+    events: {
+      onReady: onPlayerReady,
+      onStateChange: onPlayerStateChange,
+    },
+  });
+}
+
+const jsonPlayer = {
+  video1: "GmG3eReHL6o",
+  video2: "GmG3eReHL6o",
+  video3: "GmG3eReHL6o",
+  video4: "GmG3eReHL6o",
+};
+
+// 4. The API will call this function when the video player is ready.
+function onPlayerReady(event) {
+  player1.stopVideo();
+  player2.stopVideo();
+  player3.stopVideo();
+  player4.stopVideo();
+}
+
+var done = false;
+let prueba;
+
+btnAllOpen.forEach((btnOpen) => {
+  btnOpen.addEventListener("click", (e) => {
+    let getDataValueVideo = btnOpen.getAttribute("data-value");
+    if (jsonPlayer[getDataValueVideo]) {
+      prueba = Number(getDataValueVideo.slice(-1)) - 1;
+      eval(`player${getDataValueVideo.slice(-1)}.playVideo()`);
+      const swipervideo = new Swiper(".swiper-video", {
+        // Optional parameters
+        slidesPerView: 1,
+        initialSlide: prueba,
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next-proyect-modal",
+          prevEl: ".swiper-button-prev-proyect-modal",
+        },
+      });
+    }
+  });
+});
+
+function onPlayerStateChange(event) {}
+
+btnClose.addEventListener("click", () => {
+  player1.stopVideo();
+  player2.stopVideo();
+  player3.stopVideo();
+  player4.stopVideo();
+});
+
+
+/**match */
+const $modal = document.getElementById("videoSwiper");
+const mod = document.querySelector(".modal-open");
+
+$modal.addEventListener("click", (e)=>{
+
+  if(!e.target.matches(".modal-content") || !e.target.matches(`.modal-content *`)){
+    player1.stopVideo();
+    player2.stopVideo();
+    player3.stopVideo();
+    player4.stopVideo();
+  }
+})
+
+
+modalBack.addEventListener("click", () => {
+  player1.stopVideo();
+  player2.stopVideo();
+  player3.stopVideo();
+  player4.stopVideo();
+});
+
+modalSkip.addEventListener("click", () => {
+  player1.stopVideo();
+  player2.stopVideo();
+  player3.stopVideo();
+  player4.stopVideo();
+});
+
+const swiperx = new Swiper(".swiperx", {
+  // Optional parameters
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 50,
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next-proyect",
+    prevEl: ".swiper-button-prev-proyect",
+  },
+});
+
+  </script>
   
 </html>
