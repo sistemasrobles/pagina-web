@@ -7,7 +7,7 @@
     />
     <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="{{asset('assets_landings/css/index.css?v=3444444')}}" />
+    <link rel="stylesheet" href="{{asset('assets_landings/css/index.css?v=34444444')}}" />
     <link rel="stylesheet" href="{{asset('assets_landings/css/font.css')}}" />
 
    
@@ -277,10 +277,10 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
       <div class="row row-cols-1 row-cols-lg-1  align-items-center " >
         <div class="pt-4 pb-2">
           <div class="d-flex flex-column gap-3 bg-white p-3 radius-section text-center">
-            <h1 class="color-primary out-Extrabold mb-0" style="line-height:40px">
+            <h1 class="color-primary out-Extrabold mb-0 mt-3" style="line-height:40px">
               <u>Descubre cómo rentabilizar tu dinero invirtiendo en un lote</u>
             </h1>
-            <p class="out-normal">
+            <p class="out-normal mt-3">
               Únete a nuestro exclusivo webinar y recibe asesoría personalizada sobre invertir en proyectos inmobiliarios en la costa, sierra y selva del Perú. 
 Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es perfecto para ti!
             </p>
@@ -813,8 +813,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
     </section>
 
 
-     <section class="bg-white pb-5 px-2 p-md-0 ">
-       <h2 class="color-primary out-Extrabold pt-5 mb-4 text-center" style="line-height:40px"><u>¿Cuales son los beneficios?</u></h2>
+     <section class="bg-white pb-1 px-2 p-md-0 ">
+       <h2 class="color-primary out-Extrabold pt-5 mb-4 text-center" style="line-height:40px"><u>¿ Cuales son los beneficios que te ofrecemos ?</u></h2>
     <div class="container  w-100 d-flex justify-content-center align-items-center">
          
            <ul class="out-regular list-ventas-negocio " >
@@ -838,16 +838,82 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
         </div>
 
-          <div class="text-center">
+         
+    </section>
+
+
+    <section class="bg bg-white  py-4">
+      
+      <h2 class="color-primary out-Extrabold pt-5 mb-4 text-center" style="line-height:40px"><u>Algunos de nuestros últimos clientes satisfechos</u></h2>
+
+      <div class="container">
+          
+          <div class="row">
+              
+              <div class="col-lg-4 mt-2" style="height:620px">
+                  
+                   <div id="video-proyect" class=" video-proyect position-relative">
+
+                        <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button" > <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
+
+                        <img id="image-video-proyect" class="img-fluid w-100" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEsCAMAAABgwwj8AAAAA1BMVEVSpmhzdjUBAAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+BsYMAAFjd3WkAAAAAElFTkSuQmCC' alt="Testimonios del Grupo Robles & Yasikov" style="max-height:620px;border-radius:15px">
+
+
+                      <div id="video-youtube-galery" class="d-none">
+                          <div id="youtube-frame-proyect"></div>
+                      </div>
+                  </div>
+
+
+              </div>
+
+              <div class="col-lg-4 mt-2"  style="height:620px">
+                  
+                   <div id="video-proyect2" class=" video-proyect position-relative">
+
+                        <button id="play-video-galery2" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
+
+                        <img id="image-video-proyect2" class="img-fluid w-100" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEsCAMAAABgwwj8AAAAA1BMVEVSpmhzdjUBAAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+BsYMAAFjd3WkAAAAAElFTkSuQmCC' alt="Testimonios del Grupo Robles & Yasikov" style="max-height:620px;border-radius:15px">
+
+
+                      <div id="video-youtube-galery2" class="d-none">
+                          <div id="youtube-frame-proyect2"></div>
+                      </div>
+                  </div>
+
+
+              </div>
+
+              <div class="col-lg-4 mt-2"  style="height:620px">
+                  
+                   <div id="video-proyect" class=" video-proyect position-relative">
+
+                        <button id="play-video-galery3" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
+
+                        <img id="image-video-proyect3" class="img-fluid w-100" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEsCAMAAABgwwj8AAAAA1BMVEVSpmhzdjUBAAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+BsYMAAFjd3WkAAAAAElFTkSuQmCC' alt="Testimonios del Grupo Robles & Yasikov" style="max-height:620px;border-radius:15px">
+
+
+                      <div id="video-youtube-galery3" class="d-none">
+                          <div id="youtube-frame-proyect3"></div>
+                      </div>
+                  </div>
+
+
+              </div>
+
+
+               <div class="text-center">
            
                 
           
               <a  href="#" class="button  my-5 shadow" style="display: inline-block; background: linear-gradient(to bottom, #005c53 0%, #00968b 100%);padding: 10px 30px;border-radius: 10px;border:none;color:white"><strong>¡Haz Clic Aquí Para Ser Parte De la Presentación Zoom!</strong></a>
           </div>
+
+
+
+          </div>
+      </div>
     </section>
-
-
-
   
     
 
@@ -1043,5 +1109,140 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 </script>
 
  
-  
+  <script src="https://www.youtube.com/iframe_api"></script>
+
+  <script type="text/javascript">
+   
+
+
+
+  let player;
+  let player2;
+  let player3;
+
+  function onYouTubeIframeAPIReady() {
+
+
+    player = new YT.Player("youtube-frame-proyect", {
+      height: "620",
+      width: "100%",
+      videoId: "GYOPVH-Y6aM",
+      playerVars: {
+        autoplay: 0, 
+        controls: 1,
+      },
+      events: {
+        onReady: onPlayerReady,
+        onStateChange: onPlayerStateChange,
+      },
+    });
+
+     player2 = new YT.Player("youtube-frame-proyect2", {
+      height: "620",
+      width: "100%",
+      videoId: "Y0e2oZH9v-o",
+      playerVars: {
+        autoplay: 0, 
+        controls: 1,
+      },
+      events: {
+        onReady: onPlayerReady,
+        onStateChange: onPlayerStateChange,
+      },
+    });
+
+      player3 = new YT.Player("youtube-frame-proyect3", {
+      height: "620",
+      width: "100%",
+      videoId: "bq4sRdSfsiU",
+      playerVars: {
+        autoplay: 0, 
+        controls: 1,
+      },
+      events: {
+        onReady: onPlayerReady,
+        onStateChange: onPlayerStateChange,
+      },
+    });
+
+
+
+  }
+
+
+  function onPlayerReady(event) {
+    player.stopVideo();
+    player2.stopVideo();
+    player3.stopVideo();
+  }
+
+
+
+
+  const btnPlay = document.getElementById("play-video-galery");
+  const videoYoutube = document.getElementById("video-youtube-galery");
+  const imageVideo = document.getElementById("image-video-proyect");
+
+
+
+    const btnPlay2 = document.getElementById("play-video-galery2");
+  const videoYoutube2 = document.getElementById("video-youtube-galery2");
+  const imageVideo2 = document.getElementById("image-video-proyect2");
+
+
+    const btnPlay3 = document.getElementById("play-video-galery3");
+  const videoYoutube3 = document.getElementById("video-youtube-galery3");
+  const imageVideo3 = document.getElementById("image-video-proyect3");
+
+
+
+  btnPlay.addEventListener("click", function (e) {
+
+
+     player3.stopVideo();
+    player2.stopVideo();
+
+
+    videoYoutube.classList.remove("d-none");
+    imageVideo.classList.add("d-none");
+    btnPlay.classList.add("d-none");
+    player.playVideo();
+  });
+
+
+
+    btnPlay2.addEventListener("click", function (e) {
+
+
+        player3.stopVideo();
+    player.stopVideo();
+
+
+    videoYoutube2.classList.remove("d-none");
+    imageVideo2.classList.add("d-none");
+    btnPlay2.classList.add("d-none");
+    player2.playVideo();
+  });
+
+
+
+     btnPlay3.addEventListener("click", function (e) {
+
+       player.stopVideo();
+    player2.stopVideo();
+
+
+    videoYoutube3.classList.remove("d-none");
+    imageVideo3.classList.add("d-none");
+    btnPlay3.classList.add("d-none");
+    player3.playVideo();
+  });
+
+  function onPlayerStateChange(event) {
+
+  }
+
+
+
+  </script>
 </html>
