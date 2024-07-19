@@ -144,9 +144,12 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
           </div>
 
           <!-- nombre y apellido -->
-          <div class="d-flex flex-column gap-3 mb-2">
-            <label class="form-control d-flex flex-column">
-              <span class="fs-8">Nombre</span>
+
+          <div class="row ">
+              
+              <div class="d-flex flex-column gap-3 mb-2  col-12">
+            <label class="form-control d-flex flex-column ">
+              <span class="fs-8">Nombres</span>
               <input
                 id="nombre"
                 name="nombre"
@@ -154,6 +157,13 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                 placeholder=""
               />
             </label>
+
+           
+          </div>
+
+
+          <div class="d-flex flex-column gap-3 mb-2  col-12 ">
+           
 
             <label class="form-control d-flex flex-column">
               <span class="fs-8">Apellidos</span>
@@ -165,9 +175,12 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               />
             </label>
           </div>
-          <div class="d-flex flex-column gap-3">
-            <!-- telefono -->
-            <label class="form-control d-flex flex-column">
+
+
+            <div class="d-flex flex-column gap-3 mb-2 col-12 col-md-6">
+              
+
+              <label class="form-control d-flex flex-column">
               <span class="fs-8">Telefono</span>
               <input
                 id="movil"
@@ -177,9 +190,11 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                 placeholder=""
               />
             </label>
+            </div>
 
-            <!-- Gmail form -->
-            <label class="form-control d-flex flex-column">
+            <div class="d-flex flex-column gap-3 mb-2 col-12 col-md-6">
+              
+                <label class="form-control d-flex flex-column">
               <span class="fs-8">Email</span>
               <input
                 autocomplete="off"
@@ -189,10 +204,13 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                 placeholder=""
               />
             </label>
+              
+            </div>
 
+            <div class="d-flex flex-column gap-3 mb-2 col-12">
+              
 
-             <!-- Gmail form -->
-            <label class="form-control d-flex flex-column">
+                <label class="form-control d-flex flex-column">
               <span class="fs-8">Tipo de Cliente</span>
               
                <select class="form-control" id="tipo" name="tipo">
@@ -220,11 +238,11 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
 
             </label>
-
-
-
+            </div>
           </div>
+          
 
+          
 
 
           <input
