@@ -38,6 +38,8 @@ class ZapierController extends Controller
         $timecall    = $data["timecall"];
         $slug        = $data["slug"];
         $prospecting = $data["prospecting"];
+        $tipo        = $data["tipo"];
+
 
          $url = 'https://hooks.zapier.com/hooks/catch/13923540/31avmb1/';
 
@@ -120,7 +122,8 @@ class ZapierController extends Controller
             'message' => $message,
             'form'=>$form,
             'timecall'=>$timecall,
-            'date'=>date('d-m-Y H:i:s')
+            'date'=>date('d-m-Y H:i:s'),
+            'type'=>$tipo,
             
         
         ];

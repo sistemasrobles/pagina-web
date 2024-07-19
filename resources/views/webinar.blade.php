@@ -7,7 +7,7 @@
     />
     <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="{{asset('assets_landings/css/index.css?v=34444444')}}" />
+    <link rel="stylesheet" href="{{asset('assets_landings/css/index.css?v=344444444')}}" />
     <link rel="stylesheet" href="{{asset('assets_landings/css/font.css')}}" />
 
    
@@ -189,6 +189,40 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                 placeholder=""
               />
             </label>
+
+
+             <!-- Gmail form -->
+            <label class="form-control d-flex flex-column">
+              <span class="fs-8">Tipo de Cliente</span>
+              
+               <select class="form-control" id="tipo" name="tipo">
+
+
+                                       <option value="">
+                                           *Seleccione tipo
+                                        </option>
+                                     
+
+                                       <option value="inversor">
+                                           Inversionista
+                                        </option>
+
+                                         <option value="vivienda">
+                                           Vivienda
+                                        </option>
+                                      
+
+
+
+              
+                                      
+                                  </select>
+
+
+            </label>
+
+
+
           </div>
 
 
@@ -368,7 +402,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
                <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
               <h5 class="text-center mb-4" style="font-weight:900">Palmas del Caribe</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">Dentro de la Playa El Amor.</p>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">Dentro de la Playa El Amor en Máncora.</p>
             </div>
 
           </div>
@@ -392,7 +426,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
             <div style="position: absolute;left:50%;top:50%; transform: translate(-50%, -50%);">
 
               <h5 class="text-center mb-4" style="font-weight:900">La Retama</h5>
-              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 20 minutos de la plaza de Maynay.</p>
+              <p class="text-center " style="line-height:17px;font-size: 0.9rem;">A solo 20 minutos de la plaza de Maynay , Huanta.</p>
             </div>
 
           </div>
@@ -850,13 +884,13 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
           
           <div class="row">
               
-              <div class="col-lg-4 mt-2" style="height:620px">
+              <div class="col-lg-4 mt-2"style="height:520px">
                   
-                   <div id="video-proyect" class=" video-proyect position-relative">
+                   <div id="video-proyect" class="text-center video-proyect position-relative">
 
                         <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button" > <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
 
-                        <img id="image-video-proyect" class="img-fluid w-100" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEsCAMAAABgwwj8AAAAA1BMVEVSpmhzdjUBAAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+BsYMAAFjd3WkAAAAAElFTkSuQmCC' alt="Testimonios del Grupo Robles & Yasikov" style="max-height:620px;border-radius:15px">
+                        <img id="image-video-proyect" class="" src="{{asset('assets_landings/testimonio1.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
 
 
                       <div id="video-youtube-galery" class="d-none">
@@ -867,30 +901,30 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
               </div>
 
-              <div class="col-lg-4 mt-2"  style="height:620px">
+              <div class="col-lg-4 mt-2"  style="height:520px">
                   
-                   <div id="video-proyect2" class=" video-proyect position-relative">
+                   <div id="video-proyect2" class="text-center video-proyect position-relative ">
 
                         <button id="play-video-galery2" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
 
-                        <img id="image-video-proyect2" class="img-fluid w-100" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEsCAMAAABgwwj8AAAAA1BMVEVSpmhzdjUBAAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+BsYMAAFjd3WkAAAAAElFTkSuQmCC' alt="Testimonios del Grupo Robles & Yasikov" style="max-height:620px;border-radius:15px">
+                        <img id="image-video-proyect2" class="" src="{{asset('assets_landings/testimonio2.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
 
 
-                      <div id="video-youtube-galery2" class="d-none">
-                          <div id="youtube-frame-proyect2"></div>
+                      <div id="video-youtube-galery2" class="d-none ">
+                          <div class="w-100" id="youtube-frame-proyect2"></div>
                       </div>
                   </div>
 
 
               </div>
 
-              <div class="col-lg-4 mt-2"  style="height:620px">
+              <div class="col-lg-4 mt-2"  style="height:520px">
                   
-                   <div id="video-proyect" class=" video-proyect position-relative">
+                   <div id="video-proyect" class="text-center  video-proyect position-relative">
 
                         <button id="play-video-galery3" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
 
-                        <img id="image-video-proyect3" class="img-fluid w-100" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEsCAMAAABgwwj8AAAAA1BMVEVSpmhzdjUBAAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+BsYMAAFjd3WkAAAAAElFTkSuQmCC' alt="Testimonios del Grupo Robles & Yasikov" style="max-height:620px;border-radius:15px">
+                        <img id="image-video-proyect3" class="" src="{{asset('assets_landings/testimonio2.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
 
 
                       <div id="video-youtube-galery3" class="d-none">
@@ -1124,8 +1158,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
 
     player = new YT.Player("youtube-frame-proyect", {
-      height: "620",
-      width: "100%",
+      height: "520",
+      width: "",
       videoId: "GYOPVH-Y6aM",
       playerVars: {
         autoplay: 0, 
@@ -1138,8 +1172,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
     });
 
      player2 = new YT.Player("youtube-frame-proyect2", {
-      height: "620",
-      width: "100%",
+      height: "520",
+      width: "",
       videoId: "Y0e2oZH9v-o",
       playerVars: {
         autoplay: 0, 
@@ -1152,8 +1186,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
     });
 
       player3 = new YT.Player("youtube-frame-proyect3", {
-      height: "620",
-      width: "100%",
+      height: "520",
+      width: "",
       videoId: "bq4sRdSfsiU",
       playerVars: {
         autoplay: 0, 

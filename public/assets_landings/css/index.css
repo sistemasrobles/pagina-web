@@ -549,3 +549,16 @@ font-size: 0.8rem;
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+select{
+
+        border:none !important;
+
+      }
+
+      .form-control:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+      

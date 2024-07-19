@@ -41,7 +41,7 @@ class PromocionesController extends Controller
        
 
         
-         $data = $request->only('nombre','apellido','movil','email','proyecto','mensaje','horario','formulario','utm_source','utm_medium','utm_campaign','utm_term','utm_content');
+         $data = $request->only('nombre','apellido','movil','email','proyecto','mensaje','horario','formulario','utm_source','utm_medium','utm_campaign','utm_term','utm_content','tipo');
 
 
 
@@ -81,7 +81,7 @@ class PromocionesController extends Controller
                        
                         'proyecto.required' => 'El proyecto es obligatorio.',
                        
-                       
+                        'tipo.required' => 'El tipo de cliente es obligatorio',
                         
                        
                     ];
@@ -89,6 +89,11 @@ class PromocionesController extends Controller
 
                     $validator = Validator::make($data,$rules,$customMessages);
                     
+                    $validator->sometimes('tipo', 'required', function ($input) {
+
+                            return $input->formulario === 'landing-webinar';
+                    });
+
 
                     if ($validator->fails()) {
 
@@ -297,7 +302,8 @@ class PromocionesController extends Controller
                             'timecall'=> $request->horario,
                             'form'=> $request->formulario,
                             'slug'=>$nameProyect->rewrite,
-                            'prospecting'=>$request->prospecting
+                            'prospecting'=>$request->prospecting,
+                            'tipo'=>$request->tipo,
 
                         );
 
