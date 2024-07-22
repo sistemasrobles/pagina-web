@@ -226,7 +226,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                                         </option>
 
                                          <option value="vivienda">
-                                           Vivienda
+                                           Familia
                                         </option>
                                       
 
@@ -1062,7 +1062,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
       data.append("utm_term",utm_term)
       data.append("utm_content",utm_content)
 
-
+  let tipo = $("#tipo").val();
       
     $.ajax({
         "url":assetUrl,
@@ -1074,7 +1074,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
            beforeSend: function() {
 
 
-         
+          
+                       
               loadingContainer.style.display = "flex"; 
               loadingContainer.style.visibility = "visible";
         },
@@ -1092,7 +1093,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
                
 
-                $("#form-proyect")[0].reset()
+                //$("#form-proyect")[0].reset()
 
 
                   Swal.fire({
@@ -1112,9 +1113,8 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
 
 
-                        let tipo = $("#tipo").val();
 
-                        if(tipo == 'inversor'){
+                        if(tipo == "inversor"){
 
                           window.location.href = "/webinar/gracias-inversionista";
 
