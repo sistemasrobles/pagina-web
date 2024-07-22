@@ -898,13 +898,13 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
       
       <h2 class="color-primary out-Extrabold pt-5 mb-4 text-center" style="line-height:40px"><u>Algunos de nuestros últimos clientes satisfechos</u></h2>
 
-      <div class="container">
+      <div class="container-fluid">
           
           <div class="row  d-flex justify-content-center align-items-center">
               
               <div class="col-lg-3 mt-2 "style="height:520px">
                   
-                   <div id="video-proyect" class="text-center video-proyect position-relative">
+                   <div id="video-proyect" class="text-center text-lg-end video-proyect position-relative">
 
                         <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button" > <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
 
@@ -938,7 +938,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
               <div class="col-lg-3 mt-2"  style="height:520px">
                   
-                   <div id="video-proyect" class="text-center  video-proyect position-relative">
+                   <div id="video-proyect" class="text-center text-lg-start  video-proyect position-relative">
 
                         <button id="play-video-galery3" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
 
