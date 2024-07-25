@@ -3,6 +3,11 @@
   --color-primary: rgb(0, 92, 83);
   --btn-bg : rgb(67, 104, 224);
 }
+
+*{
+
+  font-family: "Nunito", sans-serif;
+}
 main {
   min-height: 100vh;
 }
@@ -11,12 +16,15 @@ main {
   color: var(--color-primary);
 }
 .sub-title-main {
-  padding: 10px 4px;
-  background: rgb(139, 87, 42);
+  padding: 15px 4px;
+  background: #FFE000;
+    border-radius: 10px;
 }
 
 .title-main {
   border-bottom: 2px solid white;
+
+  
 }
 
 .sub-title-main h3 {
@@ -24,16 +32,19 @@ main {
 }
 
 .title-form {
-  max-width: 600px;
+/*  max-width: 600px;*/
 }
 main,
 .section-bg {
   color: white;
-  background: url(https://img.funnelish.com/46620/350794/1716485458-2d-graphic-wallpaper-with-colorful-grainy-gradients.jpg?auto=webp&clip=bounds)
+ background: url('../../img/elementos/gradiente.webp')
+
+
+
   center bottom/cover no-repeat;
 }
 .bg-granizo{
-    background: url(https://img.funnelish.com/46620/350794/1716489834-white-textured-concrete.jpg?auto=webp&clip=bounds)
+    background: url('../../img/elementos/background2.webp')
     center bottom/cover no-repeat !important;
     
 }
@@ -41,7 +52,8 @@ main,
     
     margin-bottom: 15px;
     color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.5)),  url(https://cdn.ballotpedia.org/images/9/94/NV_Desert_Valley_of_Fire.jpg)
+
+    background: linear-gradient(rgba(0, 0, 0, 0.595), rgba(0, 0, 0, 0.7)),  url(../../img/elementos/portada-back.webp)
     center bottom/cover no-repeat !important;
    
 }
@@ -63,11 +75,11 @@ main img,
 }
 .form-landing > span > button,
 .inversion-btn {
-  background: var(--btn-bg);
+  background: #FFE000;
   width: max-content;
   padding: 10px 30px;
   border: none;
-  color: white;
+  color: dark;
   box-shadow: RGB(37 42 50 / 32%) 0 1px 4px 1px;
   border-radius: 4px;
 }
@@ -125,7 +137,7 @@ main img,
     width: 100%;
 }
 .container-img-proyect{
-    height: 200px;
+/*    height: 200px;*/
 }
 .card-proyecto p {
     text-align: center;

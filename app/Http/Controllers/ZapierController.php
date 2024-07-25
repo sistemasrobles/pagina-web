@@ -69,8 +69,14 @@ class ZapierController extends Controller
                 $url='https://hooks.zapier.com/hooks/catch/13923540/226cnkc/';
             }
 
-           
-            
+             if($form =='landing-webinar-color'){
+
+                //hoja de google 25 de julio
+
+                $url='https://hooks.zapier.com/hooks/catch/13923540/2u4tn7p/';
+            }
+
+        
 
 
             if($prospecting == 1){

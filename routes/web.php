@@ -107,9 +107,15 @@ Route::get('/webinar/gracias-inversionista','PromocionesController@webinar');
 
 Route::get('/landing-color','PromocionesController@color');
 
-Route::get('/landing-color2','PromocionesController@color2');
+
 
 
 Route::get('/visitas-guiadas','PromocionesController@visitasGuiadas');
 Route::get('/visitas-guiadas/gracias','PromocionesController@visitasGuiadas');
 Route::post('/promociones/visitas','PromocionesController@saveVisitas');
+
+
+
+
+Route::get('/webinar-inversion','PromocionesController@webinarInversor');
+Route::get('/webinar-inversion/gracias','PromocionesController@webinarInversor');

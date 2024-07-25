@@ -143,7 +143,7 @@ class PromocionesController extends Controller
   }
 
 
-   public function color2(){
+   public function webinarInversor(){
 
 
     return view('landing_color_2');
