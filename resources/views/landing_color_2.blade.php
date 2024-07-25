@@ -144,7 +144,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             class="w-100" style=""
           />
           <h1 class="text-center title-form" style="font-weight:900">
-            Regístrate a nuestra presentación Zoom <br>¡Viernes 24 de Mayo, a las
+            Regístrate a nuestra presentación Zoom <br>¡Sábado 26 de Julio, a las
             8pm!
           </h1>
         </div>
@@ -238,7 +238,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               <div class="container-img-proyect d-flex justify-content-center align-items-center">
                 <img src="{{asset('assets_landing_color_2/img/turismo/01.png')}}" alt="" srcset="" class=""  style="border-radius: 50%;height: 200px;width: 200px;" />
               </div>
-              <h3 class="mb-0 mt-3 text-center" style="font-size:1.2rem;font-weight: 700;">Ciudad sagrada de Caral</h3>
+              <h3 class="mb-0 mt-3 text-center" style="font-size:1.2rem;font-weight: 700;">LAGUNA OCANAL</h3>
             </div>
           </div>
 
@@ -247,7 +247,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               <div class="container-img-proyect d-flex justify-content-center align-items-center">
                 <img src="{{asset('assets_landing_color_2/img/turismo/02.png')}}" alt="" srcset="" style="border-radius: 50%;height: 200px;width: 200px;"/>
               </div>
-               <h3 class="mb-0 mt-3 text-center" style="font-size:1.2rem;font-weight: 700;">Ciudad sagrada de Caral</h3>
+               <h3 class="mb-0 mt-3 text-center" style="font-size:1.2rem;font-weight: 700;">PLAZA OXAPAMPA</h3>
             </div>
           </div>
 
@@ -256,7 +256,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               <div class="container-img-proyect d-flex justify-content-center align-items-center">
                 <img src="{{asset('assets_landing_color_2/img/turismo/03.png')}}" alt="" srcset="" style="border-radius: 50%;height: 200px;width: 200px;"/>
               </div>
-              <h3 class="mb-0 mt-3 text-center" style="font-size:1.2rem;font-weight: 700;">Ciudad sagrada de Caral</h3>
+              <h3 class="mb-0 mt-3 text-center" style="font-size:1.2rem;font-weight: 700;">LA CATARATA RIO DEL TIGRE</h3>
             </div>
           </div>
 
@@ -265,7 +265,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               <div class="container-img-proyect d-flex justify-content-center align-items-center">
                  <img src="{{asset('assets_landing_color_2/img/turismo/04.png')}}" alt="" srcset="" style="border-radius: 50%;height: 200px;width: 200px;"/>
               </div>
-               <h3 class="mb-0 mt-3 text-center" style="font-size:1.2rem;font-weight: 700;">Ciudad sagrada de Caral</h3>
+               <h3 class="mb-0 mt-3 text-center" style="font-size:1.2rem;font-weight: 700;">CATARATA JANIRIANI</h3>
             </div>
           </div>
 
@@ -274,7 +274,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               <div class="container-img-proyect d-flex justify-content-center align-items-center">
                  <img src="{{asset('assets_landing_color_2/img/turismo/05.png')}}" alt="" srcset="" style="border-radius: 50%;height: 200px;width: 200px;"/>
               </div>
-               <h3 class="mb-0 mt-3 text-center" style="font-size:1.2rem;font-weight: 700;">Ciudad sagrada de Caral</h3>
+               <h3 class="mb-0 mt-3 text-center" style="font-size:1.2rem;font-weight: 700;">MIRADOR LA FLORIDA</h3>
             </div>
           </div>
         </div>
@@ -287,7 +287,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
         class="bg-granizo container d-flex flex-column justify-content-center align-items-center" style="padding:0px"
       >
         <div class="w-100  py-2  section-bg">
-          <h3 class="text-center mb-0" style="font-weight:900">EN CIUDAD NISQA CONTAMOS CON:</h3>
+          <h3 class="text-center mb-0" style="font-weight:900">LOS BENEFICIOS QUE OFRECEMOS:</h3>
         </div>
         <!-- grid 2 -->
         <div
@@ -302,7 +302,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                   srcset=""  style="height:120px ;width: 120px;" 
                 />
               </div>
-              <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Ciudad sagrada de Caral</p>
+              <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Retornos Significativos</p>
             </div>
           </div>
 
@@ -315,7 +315,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                   srcset=""  style="height:120px ;width: 120px;" 
                 />
               </div>
-              <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Ciudad sagrada de Caral</p>
+              <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Maximizar inversión</p>
             </div>
           </div>
 
@@ -328,7 +328,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                   srcset=""  style="height:120px ;width: 120px;" 
                 />
               </div>
-               <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Ciudad sagrada de Caral</p>
+               <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Financiamiento Directo</p>
             </div>
           </div>
         </div>
