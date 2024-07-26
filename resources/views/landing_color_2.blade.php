@@ -144,7 +144,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             class="w-100" style=""
           />
           <h1 class="text-center title-form" style="font-weight:900">
-            Regístrate a nuestra presentación Zoom <br>¡Sábado 26 de Julio, a las
+            Regístrate a nuestra presentación Zoom <br>¡Viernes 16 de Agosto, a las
             8pm!
           </h1>
         </div>
