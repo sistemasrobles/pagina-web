@@ -60,7 +60,7 @@ main,
 main img,
 .img-responsive {
   width: 100%;
-  max-height: 500px;
+/*  max-height: 500px;*/
   object-fit: contain;
 }
 .form-landing input {

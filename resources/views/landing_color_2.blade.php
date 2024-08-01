@@ -126,22 +126,22 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
   <body>
     <main class="py-4">
       <div class="container-xl container-lg container-md container-sm">
-        <div class="sub-title-main mb-4">
-          <h4 class="text-center mb-0 " style="font-weight:700 ;font-size: 1.1rem;color:#000 !important">¡¡ ATENCIÓN INVERSIONISTAS !!</h4>
+        <div class="sub-title-main mb-4" style="background:#ffffff">
+          <h4 class="text-center mb-0 " style="font-weight:900 ;font-size: 1.4rem;color:#006267 !important">¡¡¡ ATENCIÓN INVERSIONISTAS !!!</h4>
         </div>
         <div class="title-main mb-4 ">
           <h1 class="text-center" style="font-weight:900">
             DESCUBRE COMO TRIPLICAR TU INVERSIÓN EN MENOS DE 24 MESES CON TU
-            LOTE DE CASA DE CAMPO
+            LOTE EN OXAPAMPA
           </h1>
         </div>
         <div
           class="mb-4 d-flex flex-column gap-4 justify-content-center align-items-center"
         >
           <img
-           src="{{asset('assets_landing_color_2/img/elementos/portada.png')}}"
+           src="{{asset('assets_landing_color_2/img/elementos/portada2.webp')}}"
             alt=""
-            class="w-100" style=""
+            class="w-100 img-fluid" style="border:2px solid white"
           />
           <h1 class="text-center title-form" style="font-weight:900">
             Regístrate a nuestra presentación Zoom <br>¡Viernes 16 de Agosto, a las
@@ -151,12 +151,13 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
         <form class="d-flex flex-column gap-3 form-landing" id="form-proyect"  method="POST" action="{{ route('/promociones/registrar') }}">
           
           <input type="text"  id="nombre"
-                name="nombre" placeholder="Nombres" />
+                name="nombre" placeholder="Nombres y Apellidos" />
 
-          <input type="text"  id="apellido"
-                name="apellido" placeholder="Apellidos" />
+          <input type="hidden"  id="apellido"
+                name="apellido" placeholder="Apellidos"  value="-" />
+
           <input type="text" id="movil" name="movil" placeholder="Celular (Whatsapp)" />
-           <input type="text" id="email" name="email" placeholder="Correo " />
+           <input type="hidden" id="email" name="email" placeholder="Correo " value="sincorreo@sincorreo.com" />
 
 
              <input
@@ -203,8 +204,8 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               />
 
 
-          <span class="d-flex justify-content-center align-items-center">
-            <button id="btn-enviar-promo" type="submit"><strong style="font-weight:900">¡REGÍSTRARME AHORA!</strong></button>
+          <span class="d-flex justify-content-center align-items-center mt-4 w-100">
+            <button id="btn-enviar-promo"  class="w-100"type="submit"><strong style="font-weight:900;font-size: 1.5rem;">¡REGÍSTRARME AHORA!</strong></button>
           </span>
 
               <div class="text-danger w-100" style="font-size:14px;line-height: 13px !important;padding: 10px;">
