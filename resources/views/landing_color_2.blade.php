@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="{{asset('assets_landing_color_2/assets/css/index.css')}}" /> 
- 
+  <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -61,6 +61,24 @@
         <meta property="og:title" content="Webinar Inmobiliario Robles & Yasikov" />
 
         <meta property="og:description" content="Te invitamos a nuestro webinar exclusivo donde expertos de la industria compartirán sus conocimientos y estrategias más recientes. No te pierdas esta oportunidad única de aprender, interactuar y hacer preguntas en tiempo real." />
+
+        <style scoped>
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse {
+  animation: pulse 1s infinite;
+}
+</style>
          <link rel="shortcut icon" href="/img/icons/ico.ico">
 
                      <!-- Google Tag Manager -->
@@ -127,7 +145,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
     <main class="py-4">
       <div class="container-xl container-lg container-md container-sm">
         <div class="sub-title-main mb-4" style="background:#ffffff">
-          <h4 class="text-center mb-0 " style="font-weight:900 ;font-size: 1.4rem;color:#006267 !important">¡¡¡ ATENCIÓN INVERSIONISTAS !!!</h4>
+          <h4 class="text-center mb-0 pulse" style="font-weight:900 ;font-size: 1.2rem;color:#006267 !important">¡¡ ATENCIÓN INVERSIONISTAS !!</h4>
         </div>
         <div class="title-main mb-4 ">
           <h1 class="text-center" style="font-weight:900">
@@ -292,18 +310,18 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
         </div>
         <!-- grid 2 -->
         <div
-          class="row row-cols-1 row-cols-lg-3 row-cols-md-2   w-70 grid-card-proyect gy-5 align-items-center justify-content-center"
+          class="row row-cols-1 row-cols-lg-4 row-cols-md-2   w-100 grid-card-proyect gy-5 align-items-center justify-content-center"
         >
           <div class="card-proyecto ">
             <div class="d-flex flex-column justify-content-center align-items-center">
               <div class="container-img-proyect d-flex justify-content-center align-items-center " style="background:#005552;border-radius:50%;height:200px;width: 200px;">
                 <img class="img-fluid" 
-                  src="{{asset('assets_landing_color_2/img/iconos/01.png')}}"
+                  src="{{asset('assets_landing_color_2/img/iconos/habilitacion_urbana.png')}}"
                   alt=""
                   srcset=""  style="height:120px ;width: 120px;" 
                 />
               </div>
-              <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Retornos Significativos</p>
+              <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Habilitación Urbana</p>
             </div>
           </div>
 
@@ -311,12 +329,12 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             <div class="d-flex flex-column justify-content-center align-items-center">
               <div class="container-img-proyect d-flex justify-content-center align-items-center " style="background:#9DBD00;border-radius:50%;height:200px;width: 200px;">
                 <img class="img-fluid" 
-                  src="{{asset('assets_landing_color_2/img/iconos/02.png')}}"
+                  src="{{asset('assets_landing_color_2/img/iconos/lotes_200.png')}}"
                   alt=""
                   srcset=""  style="height:120px ;width: 120px;" 
                 />
               </div>
-              <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Maximizar inversión</p>
+              <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Lotes desde 300 m<sup>2</sup></p>
             </div>
           </div>
 
@@ -324,17 +342,32 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             <div class="d-flex flex-column justify-content-center align-items-center">
               <div class="container-img-proyect d-flex justify-content-center align-items-center " style="background:#009424;border-radius:50%;height:200px;width: 200px;">
                 <img class="img-fluid" 
-                  src="{{asset('assets_landing_color_2/img/iconos/03.png')}}"
+                  src="{{asset('assets_landing_color_2/img/iconos/ubicacion_estrategica.png')}}"
                   alt=""
                   srcset=""  style="height:120px ;width: 120px;" 
                 />
               </div>
-               <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Financiamiento Directo</p>
+               <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Ubicación Estrategica</p>
             </div>
           </div>
+
+           <div class="card-proyecto ">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              <div class="container-img-proyect d-flex justify-content-center align-items-center " style="background:#009424;border-radius:50%;height:200px;width: 200px;">
+                <img class="img-fluid" 
+                  src="{{asset('assets_landing_color_2/img/iconos/servicios_basicos.png')}}"
+                  alt=""
+                  srcset=""  style="height:120px ;width: 120px;" 
+                />
+              </div>
+               <p class="mb-0 mt-3 text-center fs-4 d-block" style="font-weight:700;font-size: 1.3rem !important">Servicios Básicos</p>
+            </div>
+          </div>
+
+
         </div>
-        <a href="#" class="button inversion-btn mb-4 " style="color:#000;text-decoration: none;">
-          <b style="font-weight: 900;">¡ERES INVERSIONISTA HAZ CLIC AQUÍ!</b>
+        <a href="#form-proyect" class="button inversion-btn mb-4 scroll-link" style="color:#000;text-decoration: none;">
+          <b style="font-weight: 900; font-size: 1.4rem;">¡ERES INVERSIONISTA HAZ CLICK AQUÍ!</b>
         </a>
       </div>
     </section>
@@ -348,41 +381,80 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
           ¡ELLOS YA ADQUIRIERON SU LOTE DE CAMPO EN OXAPAMPA!
         </h2>
 
-        <div class="container">
-            <div class="row">
-                
-                
-        <div class="col-lg-12 d-flex justify-content-center align-items-center">
-          <video
-           
-            autoplay
-            controls=""
-            loop="loop"
-            muted
-            playsinline=""
-            disablepictureinpicture=""
-            style="
-              
-              aspect-ratio: 720 / 1280;
-              object-position: center center;
-              max-height: 800px;
-            "
-            src="{{asset('assets_landing_color_2/assets/video2.mp4')}}"
-          ></video>
-        </div>
+         <div class="container-fluid">
           
+          <div class="row  d-flex justify-content-center align-items-center">
+              
+              <div class="col-lg-3 mt-2 "style="height:520px">
+                  
+                   <div id="video-proyect" class="text-center video-proyect position-relative">
+
+                        <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button" > <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
+
+                        <img id="image-video-proyect" class="" src="{{asset('assets_landings/testimoniox.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
 
 
-            </div>
-        </div>
+                      <div id="video-youtube-galery" class="d-none">
+                          <div id="youtube-frame-proyect"></div>
+                      </div>
+                  </div>
+
+
+              </div>
+
+              <div class="col-lg-3 mt-2"  style="height:520px">
+                  
+                   <div id="video-proyect2" class="text-center video-proyect position-relative ">
+
+                        <button id="play-video-galery2" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
+
+                        <img id="image-video-proyect2" class="" src="{{asset('assets_landings/testimoniox.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
+
+
+                      <div id="video-youtube-galery2" class="d-none ">
+                          <div class="w-100" id="youtube-frame-proyect2"></div>
+                      </div>
+                  </div>
+
+
+              </div>
+
+              <div class="col-lg-3 mt-2"  style="height:520px">
+                  
+                   <div id="video-proyect" class="text-center   video-proyect position-relative">
+
+                        <button id="play-video-galery3" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
+
+                        <img id="image-video-proyect3" class="" src="{{asset('assets_landings/testimoniox.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
+
+
+                      <div id="video-youtube-galery3" class="d-none">
+                          <div id="youtube-frame-proyect3"></div>
+                      </div>
+                  </div>
+
+
+              </div>
+
+
+
+
+          </div>
+      </div>
          
 
-        <a href="#" class="button inversion-btn mt-4 mb-4 " style="color:#000;text-decoration: none;">
-          <b style="font-weight: 900;">¡HAZ CLIC AQUÍ PARA SER PARTE DE AL PRESENTACIÓN ZOOM!</b>
+        <a href="#form-proyect" class="button inversion-btn mt-4 mb-4 scroll-link" style="color:#000;text-decoration: none;">
+          <b style="font-weight: 900; font-size: 1.4rem;">¡HAZ CLICK AQUÍ PARA SER PARTE DE AL PRESENTACIÓN ZOOM!</b>
         </a>
        
       </div>
     </section>
+
+
+
+   
+  
+
 
     <div class="loading-container">
     <div class="loading-gif"></div>
@@ -539,6 +611,165 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 })
 
 
+</script>
+
+ <script src="https://www.youtube.com/iframe_api"></script>
+
+  <script type="text/javascript">
+   
+
+
+
+  let player;
+  let player2;
+  let player3;
+
+  function onYouTubeIframeAPIReady() {
+
+
+    player = new YT.Player("youtube-frame-proyect", {
+      height: "520",
+      width: "",
+      videoId: "GYOPVH-Y6aM",
+      playerVars: {
+        autoplay: 0, 
+        controls: 1,
+      },
+      events: {
+        onReady: onPlayerReady,
+        onStateChange: onPlayerStateChange,
+      },
+    });
+
+     player2 = new YT.Player("youtube-frame-proyect2", {
+      height: "520",
+      width: "",
+      videoId: "Y0e2oZH9v-o",
+      playerVars: {
+        autoplay: 0, 
+        controls: 1,
+      },
+      events: {
+        onReady: onPlayerReady,
+        onStateChange: onPlayerStateChange,
+      },
+    });
+
+      player3 = new YT.Player("youtube-frame-proyect3", {
+      height: "520",
+      width: "",
+      videoId: "bq4sRdSfsiU",
+      playerVars: {
+        autoplay: 0, 
+        controls: 1,
+      },
+      events: {
+        onReady: onPlayerReady,
+        onStateChange: onPlayerStateChange,
+      },
+    });
+
+
+
+  }
+
+
+  function onPlayerReady(event) {
+    player.stopVideo();
+    player2.stopVideo();
+    player3.stopVideo();
+  }
+
+
+
+
+  const btnPlay = document.getElementById("play-video-galery");
+  const videoYoutube = document.getElementById("video-youtube-galery");
+  const imageVideo = document.getElementById("image-video-proyect");
+
+
+
+    const btnPlay2 = document.getElementById("play-video-galery2");
+  const videoYoutube2 = document.getElementById("video-youtube-galery2");
+  const imageVideo2 = document.getElementById("image-video-proyect2");
+
+
+    const btnPlay3 = document.getElementById("play-video-galery3");
+  const videoYoutube3 = document.getElementById("video-youtube-galery3");
+  const imageVideo3 = document.getElementById("image-video-proyect3");
+
+
+
+  btnPlay.addEventListener("click", function (e) {
+
+
+     player3.stopVideo();
+    player2.stopVideo();
+
+
+    videoYoutube.classList.remove("d-none");
+    imageVideo.classList.add("d-none");
+    btnPlay.classList.add("d-none");
+    player.playVideo();
+  });
+
+
+
+    btnPlay2.addEventListener("click", function (e) {
+
+
+        player3.stopVideo();
+    player.stopVideo();
+
+
+    videoYoutube2.classList.remove("d-none");
+    imageVideo2.classList.add("d-none");
+    btnPlay2.classList.add("d-none");
+    player2.playVideo();
+  });
+
+
+
+     btnPlay3.addEventListener("click", function (e) {
+
+       player.stopVideo();
+    player2.stopVideo();
+
+
+    videoYoutube3.classList.remove("d-none");
+    imageVideo3.classList.add("d-none");
+    btnPlay3.classList.add("d-none");
+    player3.playVideo();
+  });
+
+  function onPlayerStateChange(event) {
+
+  }
+
+
+
+  </script>
+
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('.scroll-link');
+
+    links.forEach(link => {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          targetElement.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  });
 </script>
   </body>
 </html>
