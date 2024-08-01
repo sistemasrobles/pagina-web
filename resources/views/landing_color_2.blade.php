@@ -381,11 +381,11 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
           ¡ELLOS YA ADQUIRIERON SU LOTE DE CAMPO EN OXAPAMPA!
         </h2>
 
-         <div class="container-fluid">
+         <div class="container">
           
-          <div class="row  d-flex justify-content-center align-items-center">
+          <div class="row  d-flex justify-content-center align-items-center gap-5">
               
-              <div class="col-lg-3 mt-2 "style="height:520px">
+              <div class="col-lg-3 mt-2"style="height:520px">
                   
                    <div id="video-proyect" class="text-center video-proyect position-relative">
 
