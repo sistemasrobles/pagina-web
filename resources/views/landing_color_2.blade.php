@@ -353,7 +353,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
            <div class="card-proyecto ">
             <div class="d-flex flex-column justify-content-center align-items-center">
-              <div class="container-img-proyect d-flex justify-content-center align-items-center " style="background:#009424;border-radius:50%;height:200px;width: 200px;">
+              <div class="container-img-proyect d-flex justify-content-center align-items-center " style="background:#0b989f;border-radius:50%;height:200px;width: 200px;">
                 <img class="img-fluid" 
                   src="{{asset('assets_landing_color_2/img/iconos/servicios_basicos.png')}}"
                   alt=""
