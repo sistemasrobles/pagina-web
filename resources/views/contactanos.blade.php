@@ -87,7 +87,7 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
 
         <h2 class="family-700-one color-green-2  " >Estás a un paso de tu lote ideal</h2>
         <p class="mt-2">Grupo Robles & Yasikov te ofrece la oportunidad de hacer realidad tu sueño de tener tu propio lote. Nuestra amplia oferta de lotes te permitirá elegir el espacio perfecto para construir la casa de tus sueños.</p>
-       <img src="{{asset('nuevaweb_assets/assets/img/llavero.webp')}}" alt="7 Años de Experiencia" class="img-fluid w-100 mt-1">  
+       <img src="https://www.elmueble.com/medio/2018/10/18/00461022_222c1bf0_2000x1332.jpg" alt="7 Años de Experiencia" class="img-fluid w-100 mt-1 ">  
         
         <p class="mt-3">Con años de experiencia en el mercado inmobiliario y un compromiso inquebrantable con la calidad y satisfacción del cliente, Grupo Robles & Yasikov te brinda asesoría personalizada durante todo el proceso de adquisición.</p>
         <h5 class="family-700-one color-green-2  my-3" >¡Estemos en contacto!</h5>
