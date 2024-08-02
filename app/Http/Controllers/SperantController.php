@@ -122,7 +122,7 @@ class SperantController extends Controller
 
             $inputChannels = $this->listEntities('input_channels',$channel_id); //pagina web o tiktok
             $captationWays = $this->listEntities('captation_ways',$idCap); //pagina web o tiktok
-            $interestTypes = $this->listEntities('interest_types',5); //por contactar para todos los casos
+            $interestTypes = $this->listEntities('interest_types',21); //por contactar para todos los casos ,importado lead
 
         
        
