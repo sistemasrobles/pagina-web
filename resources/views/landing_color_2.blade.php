@@ -425,7 +425,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
                         <button id="play-video-galery3" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
 
-                        <img id="image-video-proyect3" class="" src="{{asset('assets_landings/testimoniox.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
+                        <img id="image-video-proyect3" class="" src="{{asset('assets_landings/testimonio-final.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
 
 
                       <div id="video-youtube-galery3" class="d-none">
