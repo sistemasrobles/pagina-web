@@ -52,7 +52,7 @@ background:  #FBFBFB;
 
 @section('content')
 
-
+@inject('telefono_footer', 'App\Http\Controllers\PoryectoController');
     <div class="d-flex  justify-content-center align-items-center bg-terce" style=" position: relative;">
                 
                  <img src="{{asset('nuevaweb_assets/assets/img/paisa.webp')}}" class="w-100 img-fluid  d-none d-sm-block"  >
@@ -196,7 +196,7 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
 
                                       </div>
 
-                                      <div class="input-data ">
+                                      <div class="input-data d-none">
                                     
                                    
 
@@ -242,12 +242,14 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
 
                                        <button   type="button" id="btn-enviar-promo"  class="mt-4  w-100 btn raleway-bold py-2 bg-terce text-white">Solicitar Información</button>
 
+                                        <a class="btn  w-100 mt-2 text-white " target="_blank"  href=" {{$telefono_footer->getPhoneProyect(0)}}"  style="background: #25D366;"><i class="fab fa-whatsapp me-2"></i> Contáctanos por Whatsapp.</a>
+
                                 </div>
 
                               </div>
 
 
-                              <div class="form-row text-danger   px-4  py-4 " style="margin-top:40px" >
+                              <div class="form-row text-danger   px-4  py-4 " style="margin-top:80px" >
                                   
                                  <span id="errores" style="font-size:12px" class="">
                                   

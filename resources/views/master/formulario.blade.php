@@ -71,7 +71,7 @@
                               </div>
                            </div>
 
-                           <div class="form-row">
+                           <div class="form-row d-none">
                                
                                <div class="input-data ">
                                     
@@ -129,12 +129,14 @@
                               <div class="form-row mt-5 ">
 
 
-                                <div class="input-data textarea">
+                                <div class="input-data textarea mb-5">
 
                                       
 
 
                                        <button   type="button" id="btn-enviar-promo"  class="w-100 btn raleway-bold py-2  bg-terce text-white">Solicitar Información</button>
+
+                                         <a class="btn  w-100 mt-2 text-white " target="_blank"  href=" {{$telefono_footer->getPhoneProyect(0)}}"  style="background: #25D366;"><i class="fab fa-whatsapp me-2"></i> Contáctanos por Whatsapp.</a>
 
                                 </div>
 

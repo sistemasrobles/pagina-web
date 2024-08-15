@@ -174,7 +174,7 @@ background:  #FBFBFB;
 
 @endsection
 @section('content')
-
+@inject('telefono_footer', 'App\Http\Controllers\PoryectoController');
  <div id="divPantallaCompleta">
       
 
@@ -550,9 +550,9 @@ background:  #FBFBFB;
 
             </div>
 
-            <div class="col-lg-4 " id="formulario-contacto">
+            <div class="col-lg-4 " id="formulario-contacto" >
 
-                <div class="sticky-top  header-form" style="z-index: 0">
+                <div class="sticky-top  header-form" style="z-index: 0;">
                    
                    
                     
