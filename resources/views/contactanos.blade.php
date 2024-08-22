@@ -140,7 +140,7 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
                                  <label for="">Correo</label>
                               </div>
                               <div class="input-data">
-                                 <input type="text" id="movil" name="movil" required>
+                                 <input type="text" id="movil" name="movil" required oninput="this.value = this.value.replace(/[^0-9]/g, '')" maxlength="9">
                                  <div class="underline"></div>
                                  <label for="">Celular</label>
                               </div>

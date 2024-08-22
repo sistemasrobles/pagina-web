@@ -357,7 +357,16 @@ class PromocionesController extends Controller
  
                         'nombre' => 'required',
                         'apellido' => 'required',
-                        'movil' => 'required|string|min:9|max:20',
+                        //'movil' => 'required|string|min:9|max:20',
+
+
+                        'movil' => [
+                            'required',
+                            'string',
+                               'regex:/^9[0-9]{8}$/',
+
+                        ],
+
                         'email' => 'required|email',
                           //'email' => ['required', 'regex:/^[^\s@]+@[^\s@]+\.[^\s@]+$/'],
                           //'email' => ['required', 'regex:/^[^\s@]+@[^\s@]+\.[^\s@]+\.[^\s@]+$/'],
@@ -382,12 +391,13 @@ class PromocionesController extends Controller
                        
                         'nombre.required' => 'El nombre es obligatorio.',
                         'apellido.required' => 'El apellido es obligatorio.',
-                        'movil.required' => 'El teléfono es obligatorio.',
-                        'movil.min' => 'El teléfono debe tener al menos 9 dígitos.',
-                        'movil.max' => 'El teléfono debe tener como maximo 20 dígitos.',
+                        'movil.required' => 'El celular es obligatorio.',
+                        //'movil.min' => 'El teléfono debe tener al menos 9 dígitos.',
+                        //'movil.max' => 'El teléfono debe tener como maximo 20 dígitos.',
+                        'movil.regex'=>'El celular no tiene un formato válido . ejm (999999999)',
                         'email.required' => 'El email es obligatorio.',
-                        //'email.email' => 'El email es inválido.',
-                         'email.regex' => 'El email es inválido.',
+                        'email.email' => 'El email es inválido.',
+                         //'email.regex' => 'El email es inválido.',
                         'proyecto.required' => 'El proyecto es obligatorio.',
                        
                        
