@@ -449,11 +449,11 @@ dentro de nuestros exclusivos condominios.
         class="container-xl container-lg container-md container-sm pt-3  mb-4"
       >
         <div
-          class="row row-cols-1 row-cols-lg-5 row-cols-md-3 g-4 justify-content-center"
+          class="row row-cols-2 row-cols-lg-5 row-cols-md-3 g-4 justify-content-center"
         >
           <div class="">
             <div
-              class="d-flex flex-column flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3"
+              class="d-flex flex-column flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3 shadow"
             >
               <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/iconos-proyectos/cerco-perimetrico.svg" alt="inversion" />
               <p class="mb-0 text-center text-lg-start  out-regular" style="line-height: 25px;font-size: 1rem">
@@ -463,7 +463,7 @@ dentro de nuestros exclusivos condominios.
           </div>
           <div class="">
             <div
-              class="d-flex flex-column  flex-md-column  card-hoja justify-content-center align-items-center gap-3 p-3"
+              class="d-flex flex-column  flex-md-column  card-hoja justify-content-center align-items-center gap-3 p-3 shadow"
             >
               <img class="" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/iconos-proyectos/servicios.svg" alt="rentabilidad" />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;">
@@ -473,7 +473,7 @@ dentro de nuestros exclusivos condominios.
           </div>
           <div class="">
             <div
-              class="d-flex flex-column flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3"
+              class="d-flex flex-column flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3 shadow"
             >
               <img class=""src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/iconos-proyectos/pistas.svg" alt="land"  />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
@@ -484,7 +484,7 @@ dentro de nuestros exclusivos condominios.
 
           <div class="">
             <div
-              class="d-flex flex-column flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3"
+              class="d-flex flex-column flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3 shadow"
             >
               <img class=""src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/iconos-proyectos/club.svg" alt="land"  />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
@@ -495,7 +495,7 @@ dentro de nuestros exclusivos condominios.
 
           <div class="">
             <div
-              class="d-flex flex-column flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3"
+              class="d-flex flex-column flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3 shadow"
             >
               <img class=""src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/iconos-proyectos/vigilancia.svg" alt="land"  />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
@@ -511,7 +511,7 @@ dentro de nuestros exclusivos condominios.
     <section class="" style="margin-top: 70px;">
       
      <div
-        class="container-fluid   text-white text-center " style="background: #005c53 ;padding :60px 0px;">
+        class="container-fluid   text-white text-center " style="background: #005c53 ;padding :60px 20px;">
         
         <h4 style="font-weight: 200;">¡Cumple el sueño de la Casa de Campo para tí y tu familia!</h4><br>
         <h2>¡APROVECHA Y SEPARA TU LOTE DESDE SOLO S/5000!</h2>
