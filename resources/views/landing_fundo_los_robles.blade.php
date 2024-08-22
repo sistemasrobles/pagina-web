@@ -293,10 +293,10 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
 
     <!-- section impulsar ventar -->
-    <section class="container-xl container-lg container-md container-sm ">
+    <section class="container-xl container-lg container-md container-sm  mt-3">
       <!-- grid -->
       <div class="row row-cols-1 row-cols-lg-1  align-items-center " >
-        <div class="pt-4 pb-2">
+        <div class="">
           <div class="d-flex flex-column gap-3 bg-white p-3 radius-section text-center">
             <h1 class="color-primary out-Extrabold mb-0 mt-3" style="line-height:40px">
               <u>¡Conoce Oxapampa!</u>
@@ -311,15 +311,7 @@ dentro de nuestros exclusivos condominios.
 
       
 
-        <!-- image rigth -->
-        <div class="pt-4 pb-2  d-none" style="">
-          <img style="border-radius: 20px;" 
-            class="w-100  "
-            src="https://www.lares.pe/cdn/shop/files/Foto_acompanante_de_texto.jpg?v=1700882502&width=600"
-            alt="IMPULSA LAS VENTAS DE TU NEGOCIO"
-            srcset=""
-          />
-        </div>
+      
       </div>
     </section>
     <!-- card hojas 3  -->
@@ -327,7 +319,7 @@ dentro de nuestros exclusivos condominios.
 
 
     <!-- section proyectos -->
-    <section class=" px-3 p-md-0  ">
+    <section class=" px-3 p-md-0  " >
 
 
     
