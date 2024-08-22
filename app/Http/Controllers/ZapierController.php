@@ -76,6 +76,13 @@ class ZapierController extends Controller
                 $url='https://hooks.zapier.com/hooks/catch/13923540/2u4tn7p/';
             }
 
+
+             if($form =='landing-fundo-robles'){
+
+                //hoja de landing-fundo-robles
+
+                $url='https://hooks.zapier.com/hooks/catch/13923540/26fi5ip/';
+            }
         
 
 

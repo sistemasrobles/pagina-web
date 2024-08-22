@@ -170,6 +170,16 @@ class PromocionesController extends Controller
     }
 
 
+    
+
+    public function landingFundoLosRobles(){
+        
+        
+        
+
+        return view('landing_fundo_los_robles');
+    }
+
 
 
    public function formularioDetalle($slug){
