@@ -423,7 +423,7 @@ Aquí encontraremos 5 de nuestros condominios, siendo cada uno diferente, con la
 
                                 <div class="col-12 col-lg-6">
 
-                                  <input type="text" class="form-control" name="movil" id="movil"  placeholder="*Celular">
+                                  <input type="text" class="form-control" name="movil" id="movil"  placeholder="*Celular" oninput="this.value = this.value.replace(/[^0-9]/g, '')" maxlength="9">
                                   
 
                                 </div>
