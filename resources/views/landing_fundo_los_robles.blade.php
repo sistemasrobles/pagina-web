@@ -7,8 +7,8 @@
     />
     <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="{{asset('assets_landings/css/index.css?v=344444444')}}" />
-    <link rel="stylesheet" href="{{asset('assets_landings/css/font.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets_l_frobles/index.css?v=344444444')}}" />
+   <link rel="stylesheet" href="{{asset('assets_landings/css/font.css')}}" />
 
    
     <link
@@ -109,16 +109,16 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
          <img 
             class=" w-100 img-fluid d-none d-lg-block"
-            src="https://gruporobles.com.pe/storage/banners/portada_webinar_agosto_lg.webp"
-            alt="WEBINAR GRUPO ROBLES & YASIKOV"
+            src="{{asset('assets_l_frobles/portada_home.webp')}}"
+            alt="Fundo los Robles | Grupo Robles & Yasikov"
             srcset=""
           />
 
 
            <img 
             class=" w-100 img-fluid d-block d-lg-none"
-            src="https://gruporobles.com.pe/storage/banners/portada_webinar_agosto.webp"
-            alt="WEBINAR GRUPO ROBLES & YASIKOV"
+            src="{{asset('assets_l_frobles/portada_cel.webp')}}"
+             alt="Fundo los Robles | Grupo Robles & Yasikov"
             srcset=""
           />
 
@@ -301,7 +301,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             <h1 class="color-primary out-Extrabold mb-0 mt-3" style="line-height:40px">
               <u>¡Conoce Oxapampa!</u>
             </h1>
-            <p class="out-normal mt-3">
+            <p class="out-normal mt-3" style="font-size:19px !important">
               Te brindamos proyectos inmobiliarios <strong>ecoamigables de alta calidad</strong>, con lotes y cabañas<br>
 dentro de nuestros exclusivos condominios.
             </p>
@@ -353,26 +353,15 @@ dentro de nuestros exclusivos condominios.
                <div class="swiper-slide">
                 <!-- card -->
                 <div class="card-proyect position-relative">
-                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/robles.webp" alt="" />
-                 <span class="title-span shadow px-4"><strong>Fundo Los Robles</strong></span>
-                  
+                  <img src="{{asset('assets_l_frobles/portada_home.webp')}}"   alt="Fundo los Robles | Grupo Robles & Yasikov" />
+             
 
                   
 
 
 
 
-                  <div class="bottom-card">
-                    <span class="etiqueta-green py-2">
-                      
-                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 300 m<sup>2</sup></p>
-
-                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
-
-                    </span>
-                    
-                    
-                  </div>
+                 
                 </div>
               </div>
 
@@ -380,60 +369,28 @@ dentro de nuestros exclusivos condominios.
               <div class="swiper-slide">
                 <!-- card -->
                 <div class="card-proyect position-relative">
-                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/fundo.webp" alt="" />
-               <span class="title-span shadow px-4"><strong>Fundo Valentina</strong></span>
-                   <div class="bottom-card">
-                    <span class="etiqueta-green py-2">
-                      
-                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 300 m<sup>2</sup></p>
-
-                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
-
-                    </span>
-                    
-                    
-                  </div>
+                   <img src="{{asset('assets_l_frobles/2.webp')}}"   alt="Fundo los Robles | Grupo Robles & Yasikov" />
+              
+                   
                 </div>
               </div>
               <div class="swiper-slide">
                 <!-- card -->
                 <div class="card-proyect position-relative">
-                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/bella.webp" alt="" />
-                  <span class="title-span shadow px-4"><strong>Bella Primavera</strong></span>
+                   <img src="{{asset('assets_l_frobles/3.webp')}}"   alt="Fundo los Robles | Grupo Robles & Yasikov" />
+                
 
                   
 
 
-
-                <div class="bottom-card">
-                    <span class="etiqueta-green py-2">
-                      
-                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 200 m<sup>2</sup></p>
-
-                     <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
-
-                    </span>
-                    
-                    
-                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
                 <!-- card -->
                 <div class="card-proyect position-relative">
-                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/arco.webp" alt="" />
-                  <span class="title-span shadow px-4"><strong>El Arco Dorado</strong></span>
-                   <div class="bottom-card">
-                    <span class="etiqueta-green py-2">
-                      
-                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 300 m<sup>2</sup></p>
-
-                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
-
-                    </span>
-                    
-                    
-                  </div>
+                  <img src="{{asset('assets_l_frobles/4.webp')}}"   alt="Fundo los Robles | Grupo Robles & Yasikov" />
+                  
+                   
                 </div>
               </div>
 
@@ -441,19 +398,36 @@ dentro de nuestros exclusivos condominios.
               <div class="swiper-slide">
                 <!-- card -->
                 <div class="card-proyect position-relative">
-                  <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/proyectos/bosque.webp" alt="" />
-                  <span class="title-span shadow px-4"><strong>El Bosque del Rey</strong></span>
-                   <div class="bottom-card">
-                    <span class="etiqueta-green py-2">
-                      
-                      <p class="" style="margin:0px"><i class="fas fa-map me-2" style=" color: white;"></i>Desde 300 m<sup>2</sup></p>
+                   <img src="{{asset('assets_l_frobles/5.webp')}}"   alt="Fundo los Robles | Grupo Robles & Yasikov" />
+               
+                  
+                </div>
+              </div>
 
-                      <p class="" style="margin:0px"><i class="fas fa-map-marker-alt me-2" style=" color: white; "></i>Oxapampa</p>
+              <div class="swiper-slide">
+                <!-- card -->
+                <div class="card-proyect position-relative">
+                 <img src="{{asset('assets_l_frobles/6.webp')}}"   alt="Fundo los Robles | Grupo Robles & Yasikov" />
+               
+                  
+                </div>
+              </div>
 
-                    </span>
-                    
-                    
-                  </div>
+              <div class="swiper-slide">
+                <!-- card -->
+                <div class="card-proyect position-relative">
+                  <img src="{{asset('assets_l_frobles/7.webp')}}"   alt="Fundo los Robles | Grupo Robles & Yasikov" />
+               
+                  
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <!-- card -->
+                <div class="card-proyect position-relative">
+                   <img src="{{asset('assets_l_frobles/8.webp')}}"   alt="Fundo los Robles | Grupo Robles & Yasikov" />
+               
+                  
                 </div>
               </div>
 
@@ -585,11 +559,11 @@ dentro de nuestros exclusivos condominios.
       breakpoints: {
         // when window width is >= 320px
         552: {
-          slidesPerView: 2,
+          slidesPerView: 1,
         },
         // when window width is >= 480px
         779: {
-          slidesPerView: 4,
+          slidesPerView: 2,
         },
       }
     });
