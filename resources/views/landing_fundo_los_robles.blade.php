@@ -17,6 +17,11 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fundo Los Robles | Robles & Yasikov</title>
@@ -122,11 +127,23 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             srcset=""
           />
 
+      <div class="overlay2" style="">
+        
+      </div>
       <div
-        class="container  w-100   d-flex justify-content-lg-end  align-items-center form-img mt-3 mt-lg-0 " 
+        class="container  w-100   d-flex justify-content-lg-end  align-items-center form-img mt-3 mt-lg-0  " 
       >
 
+      <div class=" texto-cab w-100">
+          
+          <div class="">
+          
+            <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/logo-color.svg" class="bg bg-white p-3 my-2" style="border-radius:20px">
+          </div>
 
+          <h1 style="line-height:50px;font-size: 3.2rem;color:#fff">Tu espacio propio <br>en la naturaleza de </h1>
+          <h2 class="text-white allura-regular ">Oxapampa</h2>
+        </div>
 
         <form  id="form-proyect"  method="POST" action="{{ route('/promociones/registrar') }}"
           
@@ -298,10 +315,10 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
       <div class="row row-cols-1 row-cols-lg-1  align-items-center " >
         <div class="">
           <div class="d-flex flex-column gap-3 bg-white p-3 radius-section text-center">
-            <h1 class="color-primary out-Extrabold mb-0 mt-3" style="line-height:40px">
+            <h1 class="color-primary out-Extrabold mb-0 mt-3" style="line-height:40px;font-size: 2.4rem !important;">
               <u>¡Conoce Oxapampa!</u>
             </h1>
-            <p class="out-normal mt-3" style="font-size:19px !important">
+            <p class="out-normal mt-3" style="font-size:1.4rem !important">
               Te brindamos proyectos inmobiliarios <strong>ecoamigables de alta calidad</strong>, con lotes y cabañas<br>
 dentro de nuestros exclusivos condominios.
             </p>
@@ -506,7 +523,9 @@ dentro de nuestros exclusivos condominios.
         class="container-fluid   text-white text-center " style="background: #005c53 ;padding :60px 20px;">
         
         <h4 style="font-weight: 200;">¡Cumple el sueño de la Casa de Campo para tí y tu familia!</h4><br>
-        <h2>¡APROVECHA Y SEPARA TU LOTE DESDE SOLO S/5000!</h2>
+        <h2 style="font-size:2.9rem !important">¡APROVECHA Y SEPARA TU LOTE DESDE SOLO S/5000!</h2>
+
+        <a href="#" class="btn bg-white mt-4" style="color:#005c53 ; font-weight: 700;padding: 10px 30px;border-radius: 15px;font-size:1.7rem;">¡¡SEPARAR MI LOTE!!</a>
       </div>
     </section>
     

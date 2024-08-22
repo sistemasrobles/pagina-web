@@ -1,3 +1,12 @@
+
+.allura-regular {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:4.6rem
+}
+
+
 body {
   background: #fff !important;
   min-height: 100vh;
@@ -562,3 +571,27 @@ select{
     }
 
       
+
+      .overlay2{
+
+
+        height:100%;
+        width:100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.35);
+      }
+
+
+      
+      @media (max-width: 991.98px) {
+  
+  .texto-cab{
+    display: none;
+  }
+
+  .overlay2{
+    display: none;
+  }
+}
