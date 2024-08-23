@@ -114,7 +114,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
          <img 
             class=" w-100 img-fluid d-none d-lg-block"
-            src="{{asset('assets_l_frobles/portada_home.webp')}}"
+            src="{{asset('assets_l_frobles/por_des.webp')}}"
             alt="Fundo los Robles | Grupo Robles & Yasikov"
             srcset=""
           />
@@ -122,28 +122,17 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
            <img 
             class=" w-100 img-fluid d-block d-lg-none"
-            src="{{asset('assets_l_frobles/portada_cel.webp')}}"
+            src="{{asset('assets_l_frobles/por_mov.webp')}}"
              alt="Fundo los Robles | Grupo Robles & Yasikov"
             srcset=""
           />
 
-      <div class="overlay2" style="">
-        
-      </div>
+     
       <div
         class="container  w-100   d-flex justify-content-lg-end  align-items-center form-img mt-3 mt-lg-0  " 
       >
 
-      <div class=" texto-cab w-100">
-          
-          <div class="">
-          
-            <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/logo-color.svg" class="bg bg-white p-3 my-2" style="border-radius:20px">
-          </div>
-
-          <h1 style="line-height:50px;font-size: 3.2rem;color:#fff">Tu espacio propio <br>en la naturaleza de </h1>
-          <h2 class="text-white allura-regular ">Oxapampa</h2>
-        </div>
+     
 
         <form  id="form-proyect"  method="POST" action="{{ route('/promociones/registrar') }}"
           
