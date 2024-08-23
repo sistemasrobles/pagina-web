@@ -174,7 +174,7 @@ background:  #FBFBFB;
 
 @endsection
 @section('content')
-@inject('telefono_footer', 'App\Http\Controllers\PoryectoController');
+@inject('telefono_footer', 'App\Http\Controllers\PoryectoController')
  <div id="divPantallaCompleta">
       
 
@@ -519,7 +519,7 @@ background:  #FBFBFB;
     
 
 <!-- ver proyecto 3d -->
-                <section class="container-xl py-5" id="recorridos">
+                <section class="container-xl py-1" id="recorridos">
                     <span>
                         <h2 style="font-weight: 700;" class="color-green-2">Mira nuestro proyecto</h2>
                         <p class="sub-title-section">{{$proyetoactual->turismo_conocido}}</p>
@@ -548,33 +548,6 @@ background:  #FBFBFB;
                 </section>
 
 
-            </div>
-
-            <div class="col-lg-4 " id="formulario-contacto" >
-
-                <div class="sticky-top  header-form" style="z-index: 0;">
-                   
-                   
-                    
-                   @include('master.formulario')
-                   
-
-
-                </div>
-                
-            </div>
-        </div>
-    </div>
-
-
-
-
-   
-
-    <div class="container" >
-        <div class="row">
-            
-            <div class="col-lg-8">
                 
 
 
@@ -609,6 +582,38 @@ background:  #FBFBFB;
         </div>
 
     </section>
+
+            </div>
+
+            <div class="col-lg-4 " id="formulario-contacto" >
+
+                <div class="sticky-top  header-form" style="z-index: 0;">
+                   
+                   
+                    
+                   @include('master.formulario')
+                   
+
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+   
+
+    <div class="container" >
+        <div class="row">
+            
+            <div class="col-lg-8">
+                
+
+
+                
 
 
 

@@ -52,7 +52,7 @@ background:  #FBFBFB;
 
 @section('content')
 
-@inject('telefono_footer', 'App\Http\Controllers\PoryectoController');
+@inject('telefono_footer', 'App\Http\Controllers\PoryectoController')
     <div class="d-flex  justify-content-center align-items-center bg-terce" style=" position: relative;">
                 
                  <img src="{{asset('nuevaweb_assets/assets/img/paisa.webp')}}" class="w-100 img-fluid  d-none d-sm-block"  >

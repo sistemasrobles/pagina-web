@@ -131,7 +131,7 @@ background:  #FBFBFB;
 
 @section('content')
 
-@inject('telefono_footer', 'App\Http\Controllers\PoryectoController');
+@inject('telefono_footer', 'App\Http\Controllers\PoryectoController')
 
 <main class="" style="">
     <div class=" swiper mySwiperBanner ">
@@ -166,121 +166,10 @@ background:  #FBFBFB;
   </div>
   </main>
 
-  <!-- Nuestros proyectos -->
-  <section class=" container-xl  py-5 ">
-
-
-    <div class="row  d-flex justify-content-center align-items-center  py-3  ">
-      
-      <div class="col-12 col-lg-8 ">
-         <h2 class="text-left  title-proyect family-700-one margin-0" >Nuestros Proyectos</h2>
-         <p class="mt-2">Conoce más a detalle nuestros <strong>proyectos inmobiliarios</strong> que tenemos al interior del país</p>
-      </div>
-
-      <div class="col-12 col-lg-4  text-end d-none d-lg-block ">
-          <a type="button"  href="{{url('/proyectos')}}"class="btn bg-terce border-white py-2  px-5 raleway-medium text-white" style="">Ver Todos</a>
-      </div>
-    </div>
-   
-
   
-          
-         
-
-    <!-- Slider main container -->
-    <div class="swiper swiperProyectos h-100 w-100 d-flex justify-content-center align-items-center">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper pb-5 " id="swiper-padre">
-        <!-- Slides -->
-
-      </div>
-      <!-- Paginado slider -->
-      <div class="swiper-pagination " style=""></div>
-
-    </div>
-  </section>
 
 
-  <!-- Section Años de experencia -->
-  <section class="container-xl container-experiencia px-4  ">
-    <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 justify-content-between g-4 align-items-center">
-      <div class=" d-flex flex-column gap-3">
-        <h1 class="family-700-one color-green-2">Grupo Robles & Yasikov: Haciendo feliz a más de 500 familias</h1>
-        <p>Te brindamos <strong>proyectos inmobiliarios</strong> ecoamigables de alta calidad, con lotes y cabañas dentro de nuestros exclusivos condominios en zonas estratégicas del país como <strong>Oxapampa, Chanchamayo, La Libertad y Máncora</strong>.
-
-        </p>
-        <ul class="list-group">
-           <li class="d-flex gap-2 align-items-center raleway-medium my-1">
-           <i class="fa-solid fa  fa-check me-2 bg-terce text-white   p-1 rounded-2"style="font-size: 1.5rem;"></i>
-           Proyectos inmobiliarios en la costa, sierra y selva del Perú.
-          </li>
-          <li class="d-flex gap-2 align-items-center raleway-medium  my-1">
-            <i class="fa-solid fa  fa-check me-2 bg-terce text-white   p-1 rounded-2"style="font-size: 1.5rem;"></i>
-            Condominios con zona de club house.
-          </li>
-          <li class="d-flex gap-2 align-items-center raleway-medium  my-1"><i class="fa-solid fa  fa-check me-2 bg-terce text-white   p-1 rounded-2"style="font-size: 1.5rem;"></i> En Grupo Robles & Yasikov, tu inversión está en manos seguras.</li>
-        </ul>
-      </div>
-      <div class=" d-flex justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-center">
-        <img loading="lazy" src="{{asset('nuevaweb_assets/assets/img/nosotros2.webp')}}" alt="Equipo de asesores inmobiliarios de Robles & Yasikov saludando a la cámara junto a Alexandra Graña">
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Section Noticias -->
-  <section class="container-xxl text-white py-4 ">
-    <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 justify-content-center">
-      <div class="bg-campo d-flex gap-5 flex-column">
-        <button type="button" class="btn-superior-noticia btn py-1 btn-link text-white  border border-white raleway-medium rounded-2">Casas de campo</button>
-        <h2>Robles Tours: Encuentra el lote de tus sueños en Oxapampa</h2>
-        <a href="{{url('detalle_blog/robles-tours-encuentra-el-lote-de-tus-suenos-en-oxapampa')}}" type="button" class="btn py-2 px-4 btn-ver-mas-noticias raleway-medium ">Leer Artículo <i class="fa-solid fa-arrow-right-long"></i></a>
-      </div>
-      <div class=" align-self-center container-slider-col2 position-relative">
-        <!-- swiper noticias -->
-        <div class="swiper-noticias py-4">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-           
-
-            @foreach($blog as $list)
-
-
-               <div class="swiper-slide  overflow-hidden">
-              
-
-               <div class="row container-card-noticias">
-                <div class="col-12"><img loading="lazy" src="/storage/blog/{{$list->img}}" alt="{{$list->alt}}"></div>
-                <div class="p-4">
-                    <h5 class="family-700-one fs-5 color-green-2">{{$list->titulo}}</h5>
-                    <p>{{$list->descripcion_min}}</p>
-                    <a href="detalle_blog/{{$list->slug}}" type="button" class="btn bg-terce text-white px-4 raleway-medium ">Ver más</a>
-                </div>
-            </div>
-
-
-            </div>
-
-
-
-            @endforeach
-
-
-           
-
-          
-          </div>
-
-          
-          <div class="swiper-pagination noticias"></div>
-        </div>
-
-      </div>
-    </div>
-    </div>
-  </section>
-
-   <div class="container-fluid bg-frm " style="padding-left: 20px;padding-right: 20px;" >
+  <div class="container-fluid bg-frm " style="padding-left: 20px;padding-right: 20px;" >
 
      
      <section  class="container-xxl py-4 mb-2 "  >
@@ -458,6 +347,122 @@ background:  #FBFBFB;
     </div>
   </section>
    </div>
+
+
+<!-- Nuestros proyectos -->
+  <section class=" container-xl  py-5 ">
+
+
+    <div class="row  d-flex justify-content-center align-items-center  py-3  ">
+      
+      <div class="col-12 col-lg-8 ">
+         <h2 class="text-left  title-proyect family-700-one margin-0" >Nuestros Proyectos</h2>
+         <p class="mt-2">Conoce más a detalle nuestros <strong>proyectos inmobiliarios</strong> que tenemos al interior del país</p>
+      </div>
+
+      <div class="col-12 col-lg-4  text-end d-none d-lg-block ">
+          <a type="button"  href="{{url('/proyectos')}}"class="btn bg-terce border-white py-2  px-5 raleway-medium text-white" style="">Ver Todos</a>
+      </div>
+    </div>
+   
+
+  
+          
+         
+
+    <!-- Slider main container -->
+    <div class="swiper swiperProyectos h-100 w-100 d-flex justify-content-center align-items-center">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper pb-5 " id="swiper-padre">
+        <!-- Slides -->
+
+      </div>
+      <!-- Paginado slider -->
+      <div class="swiper-pagination " style=""></div>
+
+    </div>
+  </section>
+
+  <!-- Section Años de experencia -->
+  <section class="container-xl container-experiencia px-4  ">
+    <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 justify-content-between g-4 align-items-center">
+      <div class=" d-flex flex-column gap-3">
+        <h1 class="family-700-one color-green-2">Grupo Robles & Yasikov: Haciendo feliz a más de 500 familias</h1>
+        <p>Te brindamos <strong>proyectos inmobiliarios</strong> ecoamigables de alta calidad, con lotes y cabañas dentro de nuestros exclusivos condominios en zonas estratégicas del país como <strong>Oxapampa, Chanchamayo, La Libertad y Máncora</strong>.
+
+        </p>
+        <ul class="list-group">
+           <li class="d-flex gap-2 align-items-center raleway-medium my-1">
+           <i class="fa-solid fa  fa-check me-2 bg-terce text-white   p-1 rounded-2"style="font-size: 1.5rem;"></i>
+           Proyectos inmobiliarios en la costa, sierra y selva del Perú.
+          </li>
+          <li class="d-flex gap-2 align-items-center raleway-medium  my-1">
+            <i class="fa-solid fa  fa-check me-2 bg-terce text-white   p-1 rounded-2"style="font-size: 1.5rem;"></i>
+            Condominios con zona de club house.
+          </li>
+          <li class="d-flex gap-2 align-items-center raleway-medium  my-1"><i class="fa-solid fa  fa-check me-2 bg-terce text-white   p-1 rounded-2"style="font-size: 1.5rem;"></i> En Grupo Robles & Yasikov, tu inversión está en manos seguras.</li>
+        </ul>
+      </div>
+      <div class=" d-flex justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-center">
+        <img loading="lazy" src="{{asset('nuevaweb_assets/assets/img/nosotros2.webp')}}" alt="Equipo de asesores inmobiliarios de Robles & Yasikov saludando a la cámara junto a Alexandra Graña">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section Noticias -->
+  <section class="container-xxl text-white py-4 mb-5">
+    <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 justify-content-center">
+      <div class="bg-campo d-flex gap-5 flex-column">
+        <button type="button" class="btn-superior-noticia btn py-1 btn-link text-white  border border-white raleway-medium rounded-2">Casas de campo</button>
+        <h2>Robles Tours: Encuentra el lote de tus sueños en Oxapampa</h2>
+        <a href="{{url('detalle_blog/robles-tours-encuentra-el-lote-de-tus-suenos-en-oxapampa')}}" type="button" class="btn py-2 px-4 btn-ver-mas-noticias raleway-medium ">Leer Artículo <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+      <div class=" align-self-center container-slider-col2 position-relative">
+        <!-- swiper noticias -->
+        <div class="swiper-noticias py-4">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+           
+
+            @foreach($blog as $list)
+
+
+               <div class="swiper-slide  overflow-hidden">
+              
+
+               <div class="row container-card-noticias">
+                <div class="col-12"><img loading="lazy" src="/storage/blog/{{$list->img}}" alt="{{$list->alt}}"></div>
+                <div class="p-4">
+                    <h5 class="family-700-one fs-5 color-green-2">{{$list->titulo}}</h5>
+                    <p>{{$list->descripcion_min}}</p>
+                    <a href="detalle_blog/{{$list->slug}}" type="button" class="btn bg-terce text-white px-4 raleway-medium ">Ver más</a>
+                </div>
+            </div>
+
+
+            </div>
+
+
+
+            @endforeach
+
+
+           
+
+          
+          </div>
+
+          
+          <div class="swiper-pagination noticias"></div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+   
   
 
 
