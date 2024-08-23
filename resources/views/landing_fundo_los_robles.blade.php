@@ -520,6 +520,77 @@ dentro de nuestros exclusivos condominios.
     
 
 
+    <section class="bg bg-white  py-4 mb-4">
+      
+      <h2 class="color-primary out-Extrabold pt-5 mb-4 text-center" style="line-height:40px"><u>Algunos de nuestros últimos clientes satisfechos</u></h2>
+
+      <div class="container-fluid">
+          
+          <div class="row  d-flex justify-content-center align-items-center">
+              
+              <div class="col-lg-3 mt-2 "style="height:520px">
+                  
+                   <div id="video-proyect" class="text-center text-lg-end video-proyect position-relative">
+
+                        <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button" > <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
+
+                        <img id="image-video-proyect" class="" src="{{asset('assets_landings/testimonio1.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
+
+
+                      <div id="video-youtube-galery" class="d-none">
+                          <div id="youtube-frame-proyect"></div>
+                      </div>
+                  </div>
+
+
+              </div>
+
+              <div class="col-lg-3 mt-2"  style="height:520px">
+                  
+                   <div id="video-proyect2" class="text-center video-proyect position-relative ">
+
+                        <button id="play-video-galery2" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
+
+                        <img id="image-video-proyect2" class="" src="{{asset('assets_landings/testimonio2.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
+
+
+                      <div id="video-youtube-galery2" class="d-none ">
+                          <div class="w-100" id="youtube-frame-proyect2"></div>
+                      </div>
+                  </div>
+
+
+              </div>
+
+              <div class="col-lg-3 mt-2"  style="height:520px">
+                  
+                   <div id="video-proyect" class="text-center text-lg-start  video-proyect position-relative">
+
+                        <button id="play-video-galery3" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
+
+                        <img id="image-video-proyect3" class="" src="{{asset('assets_landings/testimonio3.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
+
+
+                      <div id="video-youtube-galery3" class="d-none">
+                          <div id="youtube-frame-proyect3"></div>
+                      </div>
+                  </div>
+
+
+              </div>
+
+
+               <div class="text-center">
+           
+                
+        
+          </div>
+
+
+
+          </div>
+      </div>
+    </section>
    
   
     
@@ -725,7 +796,142 @@ dentro de nuestros exclusivos condominios.
 
 </script>
 
- 
+  <script src="https://www.youtube.com/iframe_api"></script>
+
+  <script type="text/javascript">
+   
+
+
+
+  let player;
+  let player2;
+  let player3;
+
+  function onYouTubeIframeAPIReady() {
+
+
+    player = new YT.Player("youtube-frame-proyect", {
+      height: "520",
+      width: "",
+      videoId: "GYOPVH-Y6aM",
+      playerVars: {
+        autoplay: 0, 
+        controls: 1,
+      },
+      events: {
+        onReady: onPlayerReady,
+        onStateChange: onPlayerStateChange,
+      },
+    });
+
+     player2 = new YT.Player("youtube-frame-proyect2", {
+      height: "520",
+      width: "",
+      videoId: "Y0e2oZH9v-o",
+      playerVars: {
+        autoplay: 0, 
+        controls: 1,
+      },
+      events: {
+        onReady: onPlayerReady,
+        onStateChange: onPlayerStateChange,
+      },
+    });
+
+      player3 = new YT.Player("youtube-frame-proyect3", {
+      height: "520",
+      width: "",
+      videoId: "bq4sRdSfsiU",
+      playerVars: {
+        autoplay: 0, 
+        controls: 1,
+      },
+      events: {
+        onReady: onPlayerReady,
+        onStateChange: onPlayerStateChange,
+      },
+    });
+
+
+
+  }
+
+
+  function onPlayerReady(event) {
+    player.stopVideo();
+    player2.stopVideo();
+    player3.stopVideo();
+  }
+
+
+
+
+  const btnPlay = document.getElementById("play-video-galery");
+  const videoYoutube = document.getElementById("video-youtube-galery");
+  const imageVideo = document.getElementById("image-video-proyect");
+
+
+
+    const btnPlay2 = document.getElementById("play-video-galery2");
+  const videoYoutube2 = document.getElementById("video-youtube-galery2");
+  const imageVideo2 = document.getElementById("image-video-proyect2");
+
+
+    const btnPlay3 = document.getElementById("play-video-galery3");
+  const videoYoutube3 = document.getElementById("video-youtube-galery3");
+  const imageVideo3 = document.getElementById("image-video-proyect3");
+
+
+
+  btnPlay.addEventListener("click", function (e) {
+
+
+     player3.stopVideo();
+    player2.stopVideo();
+
+
+    videoYoutube.classList.remove("d-none");
+    imageVideo.classList.add("d-none");
+    btnPlay.classList.add("d-none");
+    player.playVideo();
+  });
+
+
+
+    btnPlay2.addEventListener("click", function (e) {
+
+
+        player3.stopVideo();
+    player.stopVideo();
+
+
+    videoYoutube2.classList.remove("d-none");
+    imageVideo2.classList.add("d-none");
+    btnPlay2.classList.add("d-none");
+    player2.playVideo();
+  });
+
+
+
+     btnPlay3.addEventListener("click", function (e) {
+
+       player.stopVideo();
+    player2.stopVideo();
+
+
+    videoYoutube3.classList.remove("d-none");
+    imageVideo3.classList.add("d-none");
+    btnPlay3.classList.add("d-none");
+    player3.playVideo();
+  });
+
+  function onPlayerStateChange(event) {
+
+  }
+
+
+
+  </script>
 
 
 
