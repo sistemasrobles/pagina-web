@@ -305,11 +305,10 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
         <div class="">
           <div class="d-flex flex-column gap-3 bg-white p-3 radius-section text-center">
             <h1 class="color-primary out-Extrabold mb-0 mt-3" style="line-height:40px;font-size: 2.4rem !important;">
-              <u>¡Conoce Oxapampa!</u>
+              <u>¡Conoce Fundo Los Robles!</u>
             </h1>
             <p class="out-normal mt-3" style="font-size:1.4rem !important">
-              Te brindamos proyectos inmobiliarios <strong>ecoamigables de alta calidad</strong>, con lotes y cabañas<br>
-dentro de nuestros exclusivos condominios.
+             En Fundo Los Robles te ofrecemos lotes exclusivos en el corazón de <strong>Oxapampa</strong>, ubicados a tan solo 10 minutos de la plaza, en una zona correcta y estratégicamente seleccionada para que puedas disfrutar el máximo con tu familia y amigos de la tranquilidad y el aire fresco de la naturaleza, fuera del ruido constante de la ciudad.
             </p>
            
           </div>
