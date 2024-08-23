@@ -584,7 +584,10 @@ select{
       }
 
 
-      
+      .icon-text{
+
+        font-size: 1rem;
+      }
       @media (max-width: 991.98px) {
   
   .texto-cab{
@@ -594,4 +597,9 @@ select{
   .overlay2{
     display: none;
   }
+
+  .icon-text{
+
+        font-size: 0.8rem;
+      }
 }
