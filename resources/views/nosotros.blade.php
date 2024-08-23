@@ -439,7 +439,7 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
 
                                       </div>
 
-                                      <div class="input-data ">
+                                      <div class="input-data d-none">
                                     
                                    
 
