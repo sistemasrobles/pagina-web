@@ -108,8 +108,25 @@ class SperantController extends Controller
 
                  //si es robles tours setear 18
 
-                $idCap= ($request->formulario == 'robles-tour')?18:8;
+                $idCap = 8;
 
+                if($request->formulario == 'robles-tour'){
+
+                    $idCap = 18;
+
+                }
+
+                 if($request->formulario == 'landing-fundo-robles'){
+
+                    $idCap = 20;
+
+                }
+
+
+
+                //$idCap= ($request->formulario == 'robles-tour')?18:8;
+
+                
 
             }elseif ($source =='tik-tok'){
 

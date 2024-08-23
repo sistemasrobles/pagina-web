@@ -652,7 +652,8 @@ dentro de nuestros exclusivos condominios.
   
 <script src="{{ asset('sweetalert2/sweetalert2.all.min.js') }}"></script>
   <script>
-    var assetUrl = "{{ url('promociones/visitas') }}";
+    //var assetUrl = "{{ url('promociones/visitas') }}";
+     var assetUrl = "{{ url('promociones/registrar') }}";
     var token_="{{ csrf_token() }}";
 </script>
 
