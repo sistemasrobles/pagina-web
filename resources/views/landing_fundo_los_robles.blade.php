@@ -442,7 +442,7 @@ dentro de nuestros exclusivos condominios.
       </div>
     </section>
 
-     <section class="my-3 px-5">
+     <section class="my-3 px-3">
       <div
         class="container pt-3  mb-4"
       >
