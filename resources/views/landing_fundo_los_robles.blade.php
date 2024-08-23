@@ -454,8 +454,8 @@ dentro de nuestros exclusivos condominios.
               class="d-flex flex-column flex-md-column card-hoja justify-content-center align-items-center gap-1 p-3 shadow"
             >
               <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/iconos-proyectos/cerco-perimetrico.svg" alt="inversion"  style="height:80px ;width: 80px;" />
-              <p class="mb-0 text-center text-lg-start  out-regular" style="line-height: 25px;font-size: 1rem">
-              <strong>Portico de ingreso.</strong>
+              <p class="mb-0 text-center text-lg-start  out-regular" style="line-height: 25px;font-size: 0.8rem">
+              <strong>Portico ingreso</strong>
               </p>
             </div>
           </div>
@@ -464,7 +464,7 @@ dentro de nuestros exclusivos condominios.
               class="d-flex flex-column  flex-md-column  card-hoja justify-content-center align-items-center gap-1 p-3 shadow"
             >
               <img class="" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/iconos-proyectos/servicios.svg" alt="rentabilidad" style="height:80px ;width: 80px;"/>
-              <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;">
+              <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 0.8rem;">
                 <strong>Servicios Básicos</strong>
               </p>
             </div>
@@ -474,7 +474,7 @@ dentro de nuestros exclusivos condominios.
               class="d-flex flex-column flex-md-column card-hoja justify-content-center align-items-center gap-1 p-3 shadow"
             >
               <img class=""src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/iconos-proyectos/pistas.svg" alt="land"  style="height:80px ;width: 80px;"/>
-              <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
+              <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 0.8rem;" >
                  <strong>Vias de acceso</strong>
               </p>
             </div>
@@ -485,7 +485,7 @@ dentro de nuestros exclusivos condominios.
               class="d-flex flex-column flex-md-column card-hoja justify-content-center align-items-center gap-1 p-3 shadow"
             >
               <img class=""src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/iconos-proyectos/club.svg" alt="land"  style="height:80px ;width: 80px;"/>
-              <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
+              <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 0.8rem;" >
                  <strong>Oportunidad</strong>
               </p>
             </div>
@@ -496,7 +496,7 @@ dentro de nuestros exclusivos condominios.
               class="d-flex flex-column flex-md-column card-hoja justify-content-center align-items-center gap-1 p-3 shadow"
             >
               <img class=""src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/iconos-proyectos/vigilancia.svg" alt="land"  style="height:80px ;width: 80px;"/>
-              <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
+              <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 0.8rem;" >
                  <strong>Vigilancia las 24 horas</strong>
               </p>
             </div>
