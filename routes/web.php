@@ -124,3 +124,9 @@ Route::get('/webinar-inversion/gracias','PromocionesController@webinarInversor')
 
 Route::get('/landing-fundo-los-robles','PromocionesController@landingFundoLosRobles');
 Route::get('/landing-fundo-los-robles/gracias','PromocionesController@landingFundoLosRobles');
+
+
+
+
+Route::get('/robles-night','PromocionesController@roblesNight');
+Route::get('/robles-night/gracias','PromocionesController@roblesNight');
