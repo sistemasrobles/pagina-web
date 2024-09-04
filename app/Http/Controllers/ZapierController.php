@@ -91,7 +91,7 @@ class ZapierController extends Controller
 
                 //hoja de landing-robles-nigth
 
-                $url=' https://hooks.zapier.com/hooks/catch/13923540/2tqlaac/';
+                $url='https://hooks.zapier.com/hooks/catch/13923540/2tqlaac/';
             }
 
            
