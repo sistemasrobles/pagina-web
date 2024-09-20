@@ -509,20 +509,20 @@ Grupo Robles y Yasikov <br><br>
       </div>
     </div>
   </div>
-</div> -->
+</div>  -->
 
 
 
-<!-- <div class="modal fade" id="secondModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal fade" id="secondModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xs"> 
     <div class="modal-content border-0"> 
       <div class="modal-body p-0"> 
-        <a href="https://gruporobles.com.pe/eventos/robles-tours?utm_source=web&utm_medium=organic&utm_campaign=organic_campaign_web&utm_content=organic_campaign_web&utm_term=organic_campaign_web_pop_ad" target="_blank"><img src="{{asset('assets/img/popup_abril.webp')}}" class="img-fluid" alt="popup"> </a>
+        <a href="#" target="_blank"><img src="{{asset('assets/img/modal_rn.jpg')}}" class="img-fluid" alt="popup"> </a>
         
       </div>
     </div>
   </div>
-</div> -->
+</div> 
 
 @endsection
 
@@ -530,33 +530,33 @@ Grupo Robles y Yasikov <br><br>
 
 
 @section('js')
+ <script type="text/javascript">
+  
+
+ window.addEventListener('DOMContentLoaded', (event) => {
+      var myModal = new bootstrap.Modal(document.getElementById('secondModal'));
+      myModal.show();
+    });
+
+</script> 
+
+
 <!-- <script type="text/javascript">
   
 
  window.addEventListener('DOMContentLoaded', (event) => {
-      var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
-      myModal.show();
-    });
-
-</script> -->
-
-
-<script type="text/javascript">
-  
-
- window.addEventListener('DOMContentLoaded', (event) => {
-    //var firstModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+    var firstModal = new bootstrap.Modal(document.getElementById('exampleModal'));
     var secondModal = new bootstrap.Modal(document.getElementById('secondModal'));
 
-    //firstModal.show();
+     firstModal.show();
 
     secondModal.show();
-    // firstModal._element.addEventListener('hidden.bs.modal', function () {
-    //     secondModal.show();
-    // });
+     firstModal._element.addEventListener('hidden.bs.modal', function () {
+         secondModal.show();
+     });
 });
 
-</script> 
+</script>  -->
 
 
 <script type="module" src="{{asset('nuevaweb_assets/js/mainWeb.js?v=2')}}"></script>
