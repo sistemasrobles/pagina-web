@@ -517,7 +517,7 @@ Grupo Robles y Yasikov <br><br>
   <div class="modal-dialog modal-dialog-centered modal-xs"> 
     <div class="modal-content border-0"> 
       <div class="modal-body p-0"> 
-        <a href="https://gruporobles.com.pe/robles-night" target="_blank"><img src="{{asset('assets/img/modal_rn.jpg')}}" class="img-fluid" alt="popup"> </a>
+        <a href="#" target="_blank"><img src="{{asset('assets/img/modal_rn.jpg')}}" class="img-fluid" alt="popup"> </a>
         
       </div>
     </div>
