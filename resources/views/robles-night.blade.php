@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-   <meta name="description" content="Explora proyectos inmobiliarios con nuestras visitas guiadas personalizadas. Programa recorridos virtuales o presenciales y obtén información detallada sobre propiedades, precios y financiamiento.">
+   <meta name="description"  content="Robles Night es un evento especial donde, durante una sola noche, se ofrecen descuentos exclusivos en la compra de lotes del grupo Robles & Yasikov .">
 
 
 
@@ -29,7 +29,7 @@
 
         <meta property="og:title" content="Robles Night Robles & Yasikov" />
 
-        <meta property="og:description" content="Explora proyectos inmobiliarios con nuestras visitas guiadas personalizadas. Programa recorridos virtuales o presenciales y obtén información detallada sobre propiedades, precios y financiamiento." />
+        <meta property="og:description" content="Robles Night es un evento especial donde, durante una sola noche, se ofrecen descuentos exclusivos en la compra de lotes del grupo Robles & Yasikov ." />
 
     <title>Robles Night | Robles & Yasikov</title>
 
@@ -270,7 +270,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 	
 	<div class="container-fluid  "  >
 		
-		<div class="row " >
+		<div class="row" >
 			
      <!--  <div class="col-lg-12  d-none d-md-block" >
         
@@ -283,15 +283,15 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
         <img style="border-radius: 0px 0px 50px 0px;height: 90vh;object-fit: cover;"src="https://gruporobles.com.pe/storage/banners/escritorio_rn.webp" class="img-fluid w-100  d-none d-md-block "  />
 			</div>
 
-			<div class="col-lg-4 px-5 py-5 py-md-0">
+			<div class="col-lg-4 px-5 py-5 py-md-0 mt-2">
 				
 				<div class="">
 					
-					<h1 class="color-primary">¡ Agenda Una Visita Guiada a cualquiera de nuestros proyectos !</h1>
+					<h1 class="color-primary">¡ Oportunidades exclusivas que ofrecemos por una sola noche !</h1>
 
 
 					<p class="mt-4 mb-4 color-plomo"  style="font-size:0.9rem">
-						Agenda una Visita guiada y conoce todos los beneficios que grupo Robles & Yasikov te ofrece.
+						Reserva tu lugar en Robles Night y aprovecha los descuentos únicos que ofrecemos
 					</p>
 					<hr >
  				<form
