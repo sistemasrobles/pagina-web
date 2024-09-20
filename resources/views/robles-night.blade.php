@@ -277,7 +277,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
         <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/logo-color.svg" height="100" width="200" class=" py-3" />
       </div>
 			<div class="col-lg-8 " style="padding: 0px !important;margin:0px !important">
-				<img src="https://gruporobles.com.pe/storage/banners/celular_rn.jpg" class="img-fluid w-100 h-100 d-block d-md-none"  />
+				<img src="https://gruporobles.com.pe/storage/banners/celular_rn.webp" class="img-fluid w-100 h-100 d-block d-md-none"  />
 
 
         <img style="border-radius: 0px 0px 50px 0px;height: 90vh;object-fit: cover;"src="https://gruporobles.com.pe/storage/banners/escritorio_rn.webp" class="img-fluid w-100  d-none d-md-block "  />
