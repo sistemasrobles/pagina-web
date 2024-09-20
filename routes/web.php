@@ -112,6 +112,12 @@ Route::get('/landing-color','PromocionesController@color');
 
 Route::get('/visitas-guiadas','PromocionesController@visitasGuiadas');
 Route::get('/visitas-guiadas/gracias','PromocionesController@visitasGuiadas');
+
+
+
+
+
+
 Route::post('/promociones/visitas','PromocionesController@saveVisitas');
 
 
