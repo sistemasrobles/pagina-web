@@ -414,7 +414,7 @@ background:  #FBFBFB;
   <section class="container-xxl text-white py-4 mb-5">
     <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 justify-content-center">
       <div class="bg-campo d-flex gap-5 flex-column">
-        <button type="button" class="btn-superior-noticia btn py-1 btn-link text-white  border border-white raleway-medium rounded-2">Casas de campox</button>
+        <button type="button" class="btn-superior-noticia btn py-1 btn-link text-white  border border-white raleway-medium rounded-2">Casas de campo</button>
         <h2>Robles Tours: Encuentra el lote de tus sueños en Oxapampa</h2>
         <a href="{{url('detalle_blog/robles-tours-encuentra-el-lote-de-tus-suenos-en-oxapampa')}}" type="button" class="btn py-2 px-4 btn-ver-mas-noticias raleway-medium ">Leer Artículo <i class="fa-solid fa-arrow-right-long"></i></a>
       </div>
