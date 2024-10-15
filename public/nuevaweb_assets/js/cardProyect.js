@@ -89,7 +89,7 @@ const dataProyect = [
     },
     {   
         "id":6,
-        "title":"Golf de Poisedon",
+        "title":"Golf de Poseidon",
         "ubicacion": "Valle Santa, Provincia de Virú. Guadalupito",
         "precio": 500,
         "metraje":'<small>Desde</small> 180',
