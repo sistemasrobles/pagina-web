@@ -96,7 +96,7 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
 
 
 
-<script type="module" src="{{asset('nuevaweb_assets/js/proyectos.js')}}"></script>
+<script type="module" src="{{asset('nuevaweb_assets/js/proyectos.js?v=2')}}"></script>
 
 <script type="text/javascript">
     document.getElementById("buscar-proyecto").addEventListener("click", function() {
