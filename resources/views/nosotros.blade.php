@@ -142,11 +142,11 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
           w-100 row row-cols-1 row-cols-xl-2  row-cols-lg-2 row-cols-md-2 g-2 justify-content-between ">
             <div class="px-3 border-lg-end py-2 py-lg-5">
                 <h2 class="family-700-one color-green-2">Visión</h2>
-                <p class="mb-0 text-dark mt-3" style="font-size:1.0rem">Ser una destacada inmobiliaria a nivel nacional, comprometida con la preservación del medio ambiente, siendo líder en el desarrollo de condominios ecológicos.</p>
+                <p class="mb-0 text-dark mt-3" style="font-size:1.0rem">Ser reconocidos a nivel nacional como el referente en el desarrollo de proyectos inmobiliarios sostenibles, transformando el sector a través de soluciones innovadoras y prácticas que equilibren el desarrollo económico, social y ambiental.</p>
             </div>
             <div class="px-3 py-2 py-lg-5">
                 <h2 class="family-700-one color-green-2">Misión</h2>
-                <p class="mb-0 text-dark mt-3" style="font-size:1.0rem">Desarrollar proyectos de vivienda sostenible en diversas regiones del Perú, proporcionando experiencias memorables a las familias que eligen construir sus hogares en entornos naturales.</p>
+                <p class="mb-0 text-dark mt-3" style="font-size:1.0rem">Somos una empresa enfocada en crear proyectos de viviendas a nivel nacional. Estamos comprometidos con la creación de espacios que brinden calidad de vida, respeten el medio ambiente y contribuyan a un futuro mas sostenible para las generaciones venideras.</p>
             </div>
            
         </div>
