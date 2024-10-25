@@ -215,22 +215,22 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
                             <div class="swiper-slide text-white">
                                 <div class="card-valores creatividad position-relative  d-flex align-items-end">
                                     <div class="bg-trasparent d-none flex-column h-100 w-100 py-3 px-4">
-                                        <h2>Trabajo en Equipo</h2>
+                                        <h2>Transparencia</h2>
                                         <p>Formamos un sólido equipo de profesionales que trabaja eficazmente en conjunto para llevar acabo cada objetivo.</p>
                                     </div>
                                     <span class="p-2 w-100">
-                                        <h3 class="family-700-one with-lines">Trabajo en Equipo</h3>
+                                        <h3 class="family-700-one with-lines">Transparencia</h3>
                                     </span>
                                 </div>
                             </div>
                             <div class="swiper-slide text-white">
                                 <div class="card-valores empatia position-relative  d-flex align-items-end">
                                     <div class="bg-trasparent d-none flex-column h-100 w-100 py-3 px-4">
-                                        <h2>Confiabilidad</h2>
+                                        <h2>Bienestar</h2>
                                         <p>Priorizamos la satisfacción de cada uno de nuestros clientes, guiándolo durante todo el proceso para conseguir el hogar de sus sueños.</p>
                                     </div>
                                     <span class="p-2 w-100">
-                                        <h3 class="family-700-one with-lines">Confiabilidad</h3>
+                                        <h3 class="family-700-one with-lines">Bienestar</h3>
                                     </span>
                                 </div>
                             </div>
