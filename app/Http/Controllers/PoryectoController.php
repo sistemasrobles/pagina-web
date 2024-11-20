@@ -109,7 +109,11 @@ class PoryectoController extends Controller
 
         $proyetoactual=proyectos::where('rewrite','=',$slug)->where('estado_proyecto','=',1)->first();
        
+        if(!isset($proyetoactual)){
 
+            return view('error');
+
+        }
         SEOMeta::setTitle($proyetoactual->descripcion.' | Grupo Robles & Yasikov');
         SEOMeta::setDescription($proyetoactual->descripcion_banner);
         SEOMeta::addKeyword([$proyetoactual->descripcion,'Grupo Robles & Yasikov']);
