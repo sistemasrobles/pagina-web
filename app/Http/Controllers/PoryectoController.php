@@ -46,12 +46,13 @@ class PoryectoController extends Controller
 
         if($type == 1){
 
-
-            return (isset($proyetoactual->celular_proyecto))?$proyetoactual->celular_proyecto:'983 479 617';
+            //return (isset($proyetoactual->celular_proyecto))?$proyetoactual->celular_proyecto:'983 479 617';
+            return '983 479 617';
 
         }else{
 
-            return (isset($proyetoactual->wsp_bit))?$proyetoactual->wsp_bit:'https://bit.ly/RoblesYyasikov';
+            //return (isset($proyetoactual->wsp_bit))?$proyetoactual->wsp_bit:'https://bit.ly/RoblesYyasikov';
+            return 'https://bit.ly/RoblesYyasikov';
 
         }
         
