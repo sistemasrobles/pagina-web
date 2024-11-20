@@ -107,7 +107,7 @@ class PoryectoController extends Controller
     }
     public function detalle_proyecto($slug){
 
-        $proyetoactual=proyectos::where('rewrite','=',$slug)->first();
+        $proyetoactual=proyectos::where('rewrite','=',$slug)->where('estado_proyecto','=',1)->first();
        
 
         SEOMeta::setTitle($proyetoactual->descripcion.' | Grupo Robles & Yasikov');
