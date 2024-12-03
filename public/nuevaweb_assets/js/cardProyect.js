@@ -139,6 +139,24 @@ const dataProyect = [
        
     }
     ,
+
+    {   
+        "id":10,
+        "title":"Fundo Los Pinos",
+        "ubicacion": "Huancabamba",
+        "precio": 500,
+        "metraje":'<small>Desde</small> 200',
+        "estado":"<small>Construcción</small>",
+        "tipo": "Oxapampa",
+        "tipoProyecto":"Lotes",
+        "image":"nuevaweb_assets/assets/img/proyectos/pinos.webp",
+        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/fundo-los-pinos?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
+        "url_campana_terrenos":"#",
+        "oxapampa":1,
+          "url_web":'proyectos/lotes/fundo-los-pinos',
+        "financiamiento":0
+       
+    }
     // {   
     //     "id":9,
     //     "title":"Palmas del Caribe",

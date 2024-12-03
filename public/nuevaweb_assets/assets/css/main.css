@@ -255,6 +255,12 @@ a {
     center center/cover no-repeat;
 }
 
+.bg-slider-10:hover::before {
+  background:  url('../img/logos/pinos.png')
+    center center/cover no-repeat;
+}
+
+
 @keyframes framer {
   from {
     opacity: 0;

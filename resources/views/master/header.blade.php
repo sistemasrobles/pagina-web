@@ -445,7 +445,7 @@
 
 
 
-           <div class="d-none">
+           <div class="">
          
 
          
@@ -454,9 +454,9 @@
        
 
   
-       <a href="{{url('/proyectos/lotes/palmas-del-caribe')}}"> <div class="container-img-proyect position-relative " >
+       <a href="{{url('/proyectos/lotes/fundo-los-pinos')}}"> <div class="container-img-proyect position-relative " >
           <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
-          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/palmas.webp')}}" alt="proyecto palmas del caribe">
+          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/pinos.jpg')}}" alt="proyecto fundo los pinos">
 
         
 
@@ -474,7 +474,7 @@
            <div style="position:absolute;top:10px;right: 10px;" > <span class="text-white p-2  border btn"  style="font-size:14px">Máncora</span> </div>
 
 
-            <div style="position:absolute;bottom:0;left: 0; background: rgba(0, 92, 83, 0.7);" class="w-100 "> <span class="text-white p-2"  style="font-size:14px">Metrajes desde 225m<sup>2</sup></span> </div>
+            <div style="position:absolute;bottom:0;left: 0; background: rgba(0, 92, 83, 0.7);" class="w-100 "> <span class="text-white p-2"  style="font-size:14px">Metrajes desde 200m<sup>2</sup></span> </div>
 
 
         </div> 
@@ -489,7 +489,7 @@
       </div>
 
           <div class="col-12  ">
-               <h5 class=" py-3 border-bottom " style="font-weight:700">Palmas del Caribe</h5>
+               <h5 class=" py-3 border-bottom " style="font-weight:700">Fundo Los Pinos</h5>
             
           </div> 
        </div>
