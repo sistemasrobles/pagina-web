@@ -109,7 +109,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
          <img 
             class=" w-100 img-fluid d-none d-lg-block"
-            src="https://gruporobles.com.pe/storage/banners/webinar_09_escritorio.webp"
+            src="https://gruporobles.com.pe/storage/banners/webinar_diciembre_dekstop.jpg"
             alt="WEBINAR GRUPO ROBLES & YASIKOV"
             srcset=""
           />
@@ -117,7 +117,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
            <img 
             class=" w-100 img-fluid d-block d-lg-none"
-            src="https://gruporobles.com.pe/storage/banners/webinar_09_movil.webp"
+            src="https://gruporobles.com.pe/storage/banners/webinar_diciembre_movil.jpg"
             alt="WEBINAR GRUPO ROBLES & YASIKOV"
             srcset=""
           />
