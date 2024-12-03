@@ -29,7 +29,7 @@
 
  <link rel="stylesheet" href="{{ asset('sweetalert2/sweetalert2.min.css') }}">
   <!-- Theme CSS -->
-  <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/218e19590d.js" crossorigin="anonymous"></script>
 
 
   
