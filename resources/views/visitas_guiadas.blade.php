@@ -489,6 +489,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
     // var assetUrl = "{{ url('promociones/visitas') }}";
 
     var assetUrl = "{{ url('promociones/registrar') }}";
+    
     var token_="{{ csrf_token() }}";
 </script>
 
