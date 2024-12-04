@@ -188,6 +188,8 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                 size="10"
                 type="text"
                 placeholder=""
+
+                oninput="this.value = this.value.replace(/[^0-9]/g, '')" maxlength="9"
               />
             </label>
             </div>
@@ -207,7 +209,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               
             </div>
 
-            <div class="d-flex flex-column gap-3 mb-2 col-12">
+            <div class="d-flex flex-column gap-3 mb-2 col-12 d-none">
               
 
                 <label class="form-control d-flex flex-column">
