@@ -37,6 +37,14 @@ class PromocionesController extends Controller
     }
 
 
+      public function visitasGuiadas2(){
+
+        $projects = Proyectos::where('estado_proyecto','=',1)->get();
+
+
+        return view('visitas_guiadas_2',compact('projects'));
+    }
+
     
 
     public function roblesNight(){

@@ -120,6 +120,8 @@ Route::get('/visitas-guiadas','PromocionesController@visitasGuiadas');
 Route::get('/visitas-guiadas/gracias','PromocionesController@visitasGuiadas');
 
 
+Route::get('/visitas-guiadas-2','PromocionesController@visitasGuiadas2');
+Route::get('/visitas-guiadas-2/gracias','PromocionesController@visitasGuiadas2');
 
 
 

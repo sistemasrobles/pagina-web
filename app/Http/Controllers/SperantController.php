@@ -149,6 +149,13 @@ class SperantController extends Controller
                 }
                 
 
+                  if($request->formulario == 'landing-visitas-guiadas-2'){
+
+                    //evento guiado de lucy
+
+                    $idCap = 26;
+
+                }
 
                 //$idCap= ($request->formulario == 'robles-tour')?18:8;
 
