@@ -125,11 +125,22 @@ class SperantController extends Controller
                  if($request->formulario == 'landing-webinar'){
 
                     //evento de katerine
-                    
+
                     $idCap = 23;
 
                 }
 
+
+                if($request->formulario == 'landing-visitas-guiadas'){
+
+                    //evento guiado de katerine
+
+                    $idCap = 24;
+
+                }
+
+
+                
 
 
                 //$idCap= ($request->formulario == 'robles-tour')?18:8;

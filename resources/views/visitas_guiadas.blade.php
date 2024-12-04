@@ -390,14 +390,24 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                                       
 
 
+                                       @php
+                                          
+                                          
+                                          $condicion = config('sperant.getIdProject'); 
+
+                                      @endphp
+
+
 
                                        @foreach($projects as $list)
 
-                                        <option value="{{$list->idproyecto}}">
-                                            {{$list->region}} - {{$list->descripcion}}
+                                        <option value="{{ $condicion ? $list->id_sperant : $list->idproyecto }}">
+                                           {{$list->region}} - {{$list->descripcion}}
                                         </option>
 
                                       @endforeach
+
+
                                       
                                   </select>
 
@@ -476,7 +486,9 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
   
 <script src="{{ asset('sweetalert2/sweetalert2.all.min.js') }}"></script>
   <script>
-    var assetUrl = "{{ url('promociones/visitas') }}";
+    // var assetUrl = "{{ url('promociones/visitas') }}";
+
+    var assetUrl = "{{ url('promociones/registrar') }}";
     var token_="{{ csrf_token() }}";
 </script>
 
