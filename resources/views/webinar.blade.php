@@ -1116,15 +1116,17 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
 
 
+                      window.location.href = "/webinar/gracias";
 
-                        if(tipo == "inversor"){
 
-                          window.location.href = "/webinar/gracias-inversionista";
+                        // if(tipo == "inversor"){
 
-                        }else{
+                        //   window.location.href = "/webinar/gracias-inversionista";
 
-                          window.location.href = "/webinar/gracias-familia";
-                        }
+                        // }else{
+
+                        //   window.location.href = "/webinar/gracias-familia";
+                        // }
                     
 
 
