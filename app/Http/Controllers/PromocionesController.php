@@ -145,6 +145,13 @@ class PromocionesController extends Controller
 
   }
 
+   public function webinar2(){
+
+
+    return view('webinar2');
+
+
+  }
 
 
     public function color(){

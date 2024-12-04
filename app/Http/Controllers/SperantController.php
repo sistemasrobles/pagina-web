@@ -140,6 +140,13 @@ class SperantController extends Controller
                 }
 
 
+                 if($request->formulario == 'landing-webinar-2'){
+
+                    //webinar de lucy
+
+                    $idCap = 25;
+
+                }
                 
 
 

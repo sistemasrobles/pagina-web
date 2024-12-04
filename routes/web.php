@@ -106,6 +106,11 @@ Route::get('/webinar/gracias-familia','PromocionesController@webinar');
 Route::get('/webinar/gracias-inversionista','PromocionesController@webinar');
 
 
+Route::get('/webinar-2','PromocionesController@webinar2');
+Route::get('/webinar-2/gracias','PromocionesController@webinar2');
+
+
+
 Route::get('/landing-color','PromocionesController@color');
 
 
