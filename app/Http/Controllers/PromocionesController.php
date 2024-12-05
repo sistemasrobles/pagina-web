@@ -213,7 +213,7 @@ class PromocionesController extends Controller
    public function formularioDetalle($slug){
         
         
-         $proyetoactual=proyectos::where('rewrite','=',$slug)->first();
+         $proyetoactual=proyectos::where('rewrite','=',$slug)->where('estado_proyecto','=',1)->first();
 
         return view('formulario-landing',compact('proyetoactual'));
     }
