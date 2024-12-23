@@ -456,7 +456,7 @@
   
        <a href="{{url('/proyectos/lotes/fundo-los-pinos')}}"> <div class="container-img-proyect position-relative " >
           <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
-          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/pinos.jpg')}}" alt="proyecto fundo los pinos">
+          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/pinos.webp')}}" alt="proyecto fundo los pinos">
 
         
 
@@ -471,7 +471,7 @@
 
 
 
-           <div style="position:absolute;top:10px;right: 10px;" > <span class="text-white p-2  border btn"  style="font-size:14px">Máncora</span> </div>
+           <div style="position:absolute;top:10px;right: 10px;" > <span class="text-white p-2  border btn"  style="font-size:14px">Oxapampa</span> </div>
 
 
             <div style="position:absolute;bottom:0;left: 0; background: rgba(0, 92, 83, 0.7);" class="w-100 "> <span class="text-white p-2"  style="font-size:14px">Metrajes desde 200m<sup>2</sup></span> </div>
