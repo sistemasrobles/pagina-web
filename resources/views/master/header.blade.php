@@ -508,7 +508,7 @@
        
 
   
-       <a href="{{url('/proyectos/lotes/fundo-los-pinos')}}"> <div class="container-img-proyect position-relative " >
+       <a href="{{url('/proyectos/lotes/fundo-el-bosque')}}"> <div class="container-img-proyect position-relative " >
           <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
           <img src="{{asset('nuevaweb_assets/assets/img/proyectos/bosque.webp')}}" alt="proyecto fundo el bosque">
 
