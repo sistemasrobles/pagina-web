@@ -495,6 +495,60 @@
        </div>
 
 
+
+
+
+
+       <div class="">
+         
+
+         
+      <div class="card-proyect-header position-relative d-flex flex-column gap-4 family-700-one   " >
+
+       
+
+  
+       <a href="{{url('/proyectos/lotes/fundo-los-pinos')}}"> <div class="container-img-proyect position-relative " >
+          <span class="info-absolute-card text-white position-absolute top-50 start-50 translate-middle px-4 py-3 border border-white text-center btn">Conocer más</span>
+          <img src="{{asset('nuevaweb_assets/assets/img/proyectos/bosque.webp')}}" alt="proyecto fundo el bosque">
+
+        
+
+
+          <div style="position:absolute;top:0;left: 0; background: rgba(0, 0, 0, 0.3);" class="w-100 h-100 d-flex justify-content-center align-items-center"> 
+
+
+            <!-- <img src="{{asset('nuevaweb_assets/assets/img/retama_blanco.png')}}" alt="" style="height:200px ;width: 200px;">  -->
+
+
+          </div>
+
+
+
+           <div style="position:absolute;top:10px;right: 10px;" > <span class="text-white p-2  border btn"  style="font-size:14px">Oxapampa</span> </div>
+
+
+            <div style="position:absolute;bottom:0;left: 0; background: rgba(0, 92, 83, 0.7);" class="w-100 "> <span class="text-white p-2"  style="font-size:14px">Metrajes desde 200m<sup>2</sup></span> </div>
+
+
+        </div> 
+
+
+
+
+      </a>
+       
+
+
+      </div>
+
+          <div class="col-12  ">
+               <h5 class=" py-3 border-bottom " style="font-weight:700">Fundo El Bosque</h5>
+            
+          </div> 
+       </div>
+
+
     </div>
   </div>
 
