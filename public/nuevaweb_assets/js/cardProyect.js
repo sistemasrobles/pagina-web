@@ -164,7 +164,7 @@ const dataProyect = [
         "title":"Fundo El Bosque",
         "ubicacion": "Oxapampa",
         "precio": 500,
-        "metraje":'<small>Desde</small> 200',
+        "metraje":'<small>Desde</small> 300',
         "estado":"<small>Construcción</small>",
         "tipo": "Oxapampa",
         "tipoProyecto":"Lotes",
