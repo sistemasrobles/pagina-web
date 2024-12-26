@@ -259,7 +259,10 @@ a {
   background:  url('../img/logos/pinos.png')
     center center/cover no-repeat;
 }
-
+.bg-slider-11:hover::before {
+  background:  url('../img/logos/bosque.png')
+    center center/cover no-repeat;
+}
 
 @keyframes framer {
   from {
