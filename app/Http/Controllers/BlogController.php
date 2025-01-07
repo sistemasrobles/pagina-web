@@ -15,7 +15,7 @@ class BlogController extends Controller
 {
     public function blog(){
         $blog=blog::where('activo','=',1)->orderBy('created_at','desc')
-        ->paginate(8);
+        ->paginate(9);
     
 
         SEOMeta::setTitle('Grupo Robles & Yasikov - blog');
