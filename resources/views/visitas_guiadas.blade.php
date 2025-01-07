@@ -277,10 +277,10 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
         <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/logo-color.svg" height="100" width="200" class=" py-3" />
       </div>
 			<div class="col-lg-8 " style="padding: 0px !important;margin:0px !important">
-				<img src="https://gruporobles.com.pe/storage/banners/cs2.webp" class="img-fluid w-100 h-100 d-block d-md-none"  />
+				<img src="https://gruporobles.com.pe/storage/banners/11-m.jpg" class="img-fluid w-100 h-100 d-block d-md-none"  />
 
 
-        <img style="border-radius: 0px 0px 50px 0px;height: 90vh;object-fit: cover;"src="https://gruporobles.com.pe/storage/banners/cs1.webp" class="img-fluid w-100  d-none d-md-block "  />
+        <img style="border-radius: 0px 0px 50px 0px;height: 90vh;object-fit: cover;"src="https://gruporobles.com.pe/storage/banners/11-g.jpg" class="img-fluid w-100  d-none d-md-block "  />
 			</div>
 
 			<div class="col-lg-4 px-5 py-5 py-md-0">
