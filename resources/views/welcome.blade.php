@@ -404,7 +404,7 @@ background:  #FBFBFB;
         </ul>
       </div>
       <div class=" d-flex justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-center">
-        <img loading="lazy" src="{{asset('nuevaweb_assets/assets/img/nosotros2-web.webp')}}" alt="Equipo de asesores inmobiliarios de Robles & Yasikov saludando a la cámara junto a Alexandra Graña">
+        <img loading="lazy" src="{{asset('nuevaweb_assets/assets/img/nosotros2-web.jpg')}}" alt="Equipo de asesores inmobiliarios de Robles & Yasikov saludando a la cámara junto a Alexandra Graña">
       </div>
     </div>
   </section>
