@@ -51,7 +51,7 @@ class PoryectoController extends Controller
 
         }else{
 
-            return (isset($proyetoactual->wsp_bit))?$proyetoactual->wsp_bit:'bit.ly/3xWuCMX';
+            return (isset($proyetoactual->wsp_bit))?$proyetoactual->wsp_bit:'https://bit.ly/3xWuCMX';
             //return 'https://bit.ly/RoblesYyasikov';
 
         }
