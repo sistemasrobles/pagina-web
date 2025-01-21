@@ -192,23 +192,36 @@ background:  #FBFBFB;
                     </h3>
                         
                         <p>
-                            1. Para poder acceder al bono el referido, deberá haber firmado minuta de compra-venta.<br>
-                            2. No es válido para clientes que se encuentren registrados en nuestra base de datos en los últimos 30 días que llegue como referido.<br>
-                            3. El plazo para pagar el bono es de 30 días hábiles una vez ingresado al área de contabilidad previa coordinación con marketing.
-                        </p>
+                            Es muy sencillo. Solo sigue estos pasos para empezar a ganar recompensas:<br> 
 
-                     <div class="container-resort w-100 d-none">
+
+</p>                    
+                        <ul>
+                            <li>
+                        Comparte tu enlace de referido: Regístrate en nuestro programa de referidos y obtén tu enlace único para compartir con amigos, familiares y colegas. </li>
+
+                        <li>
+                        Invita a tus amigos: Envía tu enlace de referido a las personas que creas que estarían interesadas en nuestros proyectos. ¡No hay límites! Puedes invitar a tantas personas como quieras. </li>
+
+                        <li>
+
+                        Gana recompensas: Cada vez que uno de tus referidos complete una acción (compra y/o registro.), recibirás una recompensa. Cuantos más familiares o amigos invites, ¡ganas más!  </li>
+                    
+                        </ul>
+
+                     <div class="container-resort w-100 ">
                         
 
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div style="background: none;" class="accordion-item">
                                 <p class="accordion-header" id="flush-headingOne">
                                     <button style="background: none;" class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                      ¿Cuánto puedo ganar por referir?
+                                      ¿Cuántos referidos puedo invitar? 
+
                                     </button>
                                 </p>
                                 <div style="background: none;" id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div style="background: none;" class="accordion-body bg-none">Otorgamos premios por cada referido, equivalente a S/. 1,000</div>
+                                    <div style="background: none;" class="accordion-body bg-none">No hay un límite de referidos. ¡Cuantos más invites, más recompensas puedes ganar!</div>
                                 </div>
                             </div>
 
@@ -217,11 +230,11 @@ background:  #FBFBFB;
                             <div style="background: none;" class="accordion-item">
                                 <p class="accordion-header" id="flush-headingOnex">
                                     <button style="background: none;" class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOnex" aria-expanded="false" aria-controls="flush-collapseOne">
-                                      ¿Tendré algún sustento al registrar a mi referido en la web?
+                                      ¿Qué tipo de recompensas puedo ganar?
                                     </button>
                                 </p>
                                 <div style="background: none;" id="flush-collapseOnex" class="accordion-collapse collapse" aria-labelledby="flush-headingOnex" data-bs-parent="#accordionFlushExample">
-                                    <div style="background: none;" class="accordion-body bg-none">Si, recibirá una notificación de confirmación una vez su referido complete el formulario, al correo electrónico registrado.</div>
+                                    <div style="background: none;" class="accordion-body bg-none">Dependiendo de nuestro programa, podrás ganar descuentos, productos gratuitos o dinero. Verifica en tu cuenta los detalles específicos de las recompensas disponibles</div>
                                 </div>
                             </div>
 
@@ -231,22 +244,23 @@ background:  #FBFBFB;
                             <div style="background: none;" class="accordion-item">
                                 <p class="accordion-header" id="flush-headingTwo">
                                     <button style="background: none;" class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                      ¿Qué opciones de premio otorgan?
+                                      ¿Cómo sé si mi referido completó una acción? 
+
                                     </button>
                                 </p>
                                 <div style="background: none;" id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div style="background: none;" class="accordion-body bg-none">El premio es otorgado mediante una Tarjeta Visa Compras (tipo Gift Card) emitida por la empresa TEBCA, la cual podrá ser utilizada en establecimientos donde acepten VISA.</div>
+                                    <div style="background: none;" class="accordion-body bg-none">Recibirás una notificación por correo electrónico o podrás verificar el estado de tus referidos directamente desde tu cuenta.</div>
                                 </div>
                             </div>
 
                             <div style="background: none;" class="accordion-item">
                                 <p class="accordion-header" id="flush-headingThree">
                                     <button style="background: none;" class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                       ¿Con esa tarjeta podré retirar efectivo?
+                                       ¿El programa de referidos tiene alguna restricción?
                                     </button>
                                 </p>
                                 <div style="background: none;" id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div style="background: none;" class="accordion-body bg-none">No, la Tarjeta Visa Compras solo le permite realizar compras por su saldo total o parcial.</div>
+                                    <div style="background: none;" class="accordion-body bg-none">Para evitar abusos, el programa de referidos puede tener ciertas reglas. Por favor, revisa los términos y condiciones antes de comenzar. (No colocarlo, pero sería bueno elaborar unos términos y condiciones) </div>
                                 </div>
                             </div>
 
