@@ -1,3 +1,5 @@
+
+
 <header  class="header position-sticky    top-0  container-fluid w-100  d-flex flex-column justify-content-between align-items-center " style="background:rgba(255,255,255,1)">
 
   <div class="container-xl d-flex   justify-content-between align-items-center index-header ">
@@ -11,6 +13,7 @@
       <ul class="list-header  list-group list-group-horizontal-xl  list-group-horizontal-md list-group-horizontal-xxl ">
         <li><a href="{{url('/')}}" class="text-dark ">Inicio</a></li>
         <li id="view-propiedades" class="view-propiedades "><a href="{{url('/proyectos')}}" class="text-dark">Proyectos <i class="fa-solid fa-angle-down"></i></a></li>
+        <li><a href="{{url('/referidos')}}" class="text-dark " >Referidos</a></li>
         <li><a href="{{url('/nosotros')}}" class="text-dark " >Conócenos</a></li>
         <li><a href="{{url('/blog')}}" class="text-dark ">Blog</a></li>
 
@@ -27,6 +30,7 @@
       <ul class="list-header-2  gap-4 list-group list-group-horizontal-xl  list-group-horizontal-md list-group-horizontal-xxl ">
         <li><a class="text-dark fs-2"href="{{url('/')}}">Inicio</a></li>
         <li><a class="text-dark fs-2" href="{{url('/proyectos')}}">Proyectos</a></li>
+        <li><a class="text-dark fs-2" href="{{url('/referidos')}}">Referidos</a></li>
         <li><a class="text-dark fs-2" href="{{url('/nosotros')}}">Conócenos</a></li>
         <li><a class="text-dark fs-2" href="{{url('/blog')}}">Blog</a></li>
          <li><a class="text-dark fs-2" href="{{url('/contactanos')}}">Contáctanos</a></li>

@@ -108,6 +108,12 @@ class WebController extends Controller
         return view('politicas');
     }
 
+
+    public function referidos(){
+        return view('referidos');
+    }
+
+
      public function reclamaciones(){
 
         $projects = proyectos::where('estado_proyecto','=','1')->get();

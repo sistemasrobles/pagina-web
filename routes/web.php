@@ -10,6 +10,7 @@ Route::get('/error','WebController@error');
 
 Route::get('/','IndexController@index');
 Route::get('/nosotros','WebController@nosotros');
+Route::get('/referidos','WebController@referidos');
 Route::get('/proyectos','PoryectoController@proyectos');
 Route::get('/proyectos/lotes/{slug}', 'PoryectoController@detalle_proyecto');
 
