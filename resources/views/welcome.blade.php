@@ -410,6 +410,123 @@ background:  #FBFBFB;
   </section>
 
 
+<section class="container-xl container-experiencia px-4  ">
+    <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 justify-content-between g-4 align-items-center ">
+      
+
+      <h3 class="family-700-one color-green-2 w-100 my-4">Que dicen tus futuros vecinos</h3>
+
+       <div class="swiper swiper-testimonios h-100 w-100 d-flex justify-content-center align-items-center">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper pb-5 " id="">
+        <!-- Slides -->
+          
+
+          <div class="swiper-slide  overflow-hidden">
+              
+
+               <div class="row container-card-noticias">
+                <div class="col-12"><img loading="lazy" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/nosotros2-web.jpg" alt=""></div>
+                <div class="p-4">
+                    
+                    <p>Al fin hemos logrado el sueño que hemos perseguido durante años: tener nuestro propio lote</p>
+
+                    <h5 class="family-700-one fs-5 color-green-2">Familia Rodriguez</h5>
+                    <strong>Bella Primavera</strong>
+                </div>
+            </div>
+
+
+            </div>
+
+            <div class="swiper-slide  overflow-hidden">
+              
+
+               <div class="row container-card-noticias">
+                <div class="col-12"><img loading="lazy" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/nosotros2-web.jpg" alt=""></div>
+                <div class="p-4">
+                    
+                    <p>Un día inolvidable: finalmente tenemos nuestro propio lote. ¡El sueño comienza a hacerse realidad!</p>
+
+                    <h5 class="family-700-one fs-5 color-green-2">Familia Lopez</h5>
+                    <strong>Fundo Los Robles</strong>
+                </div>
+            </div>
+
+
+            </div>
+          
+
+               <div class="swiper-slide  overflow-hidden">
+              
+
+               <div class="row container-card-noticias">
+                <div class="col-12"><img loading="lazy" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/nosotros2-web.jpg" alt=""></div>
+                <div class="p-4">
+                    
+                    <p>Después de tanto esfuerzo, hoy logramos el sueño de tener nuestro lote. ¡Un paso más hacia nuestro futuro!</p>
+
+                    <h5 class="family-700-one fs-5 color-green-2">Familia Sanchez</h5>
+                    <strong>El Arco Dorado</strong>
+                </div>
+            </div>
+
+
+            </div>
+
+
+
+            
+
+      </div>
+      <!-- Paginado slider -->
+      <div class="swiper-pagination " style=""></div>
+
+    </div>
+
+
+
+
+     <!--  <div class="swiper-testimonios py-4 ">
+          
+          <div class="swiper-wrapper">
+           
+
+            @foreach($blog as $list)
+
+
+               <div class="swiper-slide  overflow-hidden">
+              
+
+               <div class="row container-card-noticias">
+                <div class="col-12"><img loading="lazy" src="/storage/blog/{{$list->img}}" alt="{{$list->alt}}"></div>
+                <div class="p-4">
+                    <h5 class="family-700-one fs-5 color-green-2">{{$list->titulo}}</h5>
+                    <p>{{$list->descripcion_min}}</p>
+                    <a href="detalle_blog/{{$list->slug}}" type="button" class="btn bg-terce text-white px-4 raleway-medium ">Ver más</a>
+                </div>
+            </div>
+
+
+            </div>
+
+
+
+            @endforeach
+
+
+           
+
+          
+          </div>
+
+          
+          <div class="swiper-pagination noticias"></div>
+        </div> -->
+     
+    </div>
+  </section>
+
   <!-- Section Noticias -->
   <section class="container-xxl text-white py-4 mb-5">
     <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 justify-content-center">
@@ -591,6 +708,36 @@ Grupo Robles y Yasikov <br><br>
         }
       }
     });
+
+
+    const swiperTestimonios = new Swiper('.swiper-testimonios', {
+      autoplay: {
+        delay: 4000,
+      },
+      loop: true,
+      spaceBetween: 20,
+      slidesPerView: 1,
+      // Navigation arrows
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        // when window width is >= 320px
+        420: {
+          slidesPerView: 1,
+        },
+        // when window width is >= 480px
+        600: {
+          slidesPerView: 2,
+        },
+        // when window width is >= 640px
+        1000: {
+          slidesPerView: 3,
+        }
+      }
+    });
+
 
     const swiperNoticias = new Swiper('.swiper-noticias', {
       // Optional parameters
