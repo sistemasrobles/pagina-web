@@ -540,7 +540,7 @@ background:  #FBFBFB;
         <div class="stats">
       <div class="stat">
         <div class="stat-number" id="years">0</div>
-        <div class="stat-label"><strong>años de experiencia</strong></div>
+        <div class="stat-label"><strong>Años de experiencia</strong></div>
       </div>
       <div class="stat">
         <div class="stat-number" id="projects">0</div>
