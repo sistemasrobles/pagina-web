@@ -212,7 +212,8 @@ background:  #FBFBFB;
                                     </button>
                                 </p>
                                 <div style="background: none;" id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThreey" data-bs-parent="#accordionFlushExample">
-                                    <div style="background: none;" class="accordion-body bg-none">Lamentablemente no podrá recuperar ese saldo debido a que ya salió de nuestras cuentas y por políticas de nuestro proveedor no permite la reposición de saldo.</div>
+                                    <div style="background: none;" class="accordion-body bg-none">Lamentablemente no podrá recuperar ese saldo debido a que ya salió de nuestras cuentas y por políticas de nuestro proveedor no permite la reposición de saldo.
+                                    </div>
                                 </div>
                             </div>
 
