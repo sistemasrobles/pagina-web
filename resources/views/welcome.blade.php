@@ -122,6 +122,45 @@ background:  #FBFBFB;
 }
 
 
+
+
+.stats-container {
+      text-align: center;
+    }
+
+    .stats-container h1 {
+      margin-bottom: 20px;
+      color: #00ffcc;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #005c53;
+    }
+
+    .stat-label {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    @keyframes countUp {
+      from {
+        content: '0';
+      }
+    }
+
+
       </style>
 
         <!-- Magnific Popup -->
@@ -485,45 +524,38 @@ background:  #FBFBFB;
     </div>
 
 
-
-
-     <!--  <div class="swiper-testimonios py-4 ">
-          
-          <div class="swiper-wrapper">
-           
-
-            @foreach($blog as $list)
-
-
-               <div class="swiper-slide  overflow-hidden">
-              
-
-               <div class="row container-card-noticias">
-                <div class="col-12"><img loading="lazy" src="/storage/blog/{{$list->img}}" alt="{{$list->alt}}"></div>
-                <div class="p-4">
-                    <h5 class="family-700-one fs-5 color-green-2">{{$list->titulo}}</h5>
-                    <p>{{$list->descripcion_min}}</p>
-                    <a href="detalle_blog/{{$list->slug}}" type="button" class="btn bg-terce text-white px-4 raleway-medium ">Ver más</a>
-                </div>
-            </div>
-
-
-            </div>
-
-
-
-            @endforeach
-
-
-           
-
-          
-          </div>
-
-          
-          <div class="swiper-pagination noticias"></div>
-        </div> -->
      
+    </div>
+  </section>
+
+
+   <section class="container-xl container-experiencia px-4  ">
+    <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 justify-content-between g-4 align-items-center">
+      <div class="w-100">
+        <h3 class="family-700-one color-green-2 text-center">Grupo Robles & Yasikov: Conectando a las personas con la esencia de la naturaleza</h3>
+
+        <p class="mt-5">Somos una empresa de capital 100% peruano, con más de 5 años de experiencia en el desarrollo de habilitaciones urbanas. Nuestro compromiso es transformar espacios en lugares donde las personas puedan vivir mejor. Por eso ofrecemos proyectos con todos los servicios básicos, accesos controlados, cerco perimétrico, amplias áreas verdes con diseño paisajístico y zonas recreativas ideales para disfrutar en familia. Creemos en hacer realidad los sueños de nuestros clientes, brindándoles un lugar perfecto para vivir y crecer.</p>
+        
+        
+        <div class="stats">
+      <div class="stat">
+        <div class="stat-number" id="years">0</div>
+        <div class="stat-label"><strong>años de experiencia</strong></div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" id="projects">0</div>
+        <div class="stat-label"><strong>Proyectos realizados</strong></div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" id="apartments">0</div>
+        <div class="stat-label"><strong>Familias felices</strong></div>
+      </div>
+    </div>
+
+
+      </div>
+     
+
     </div>
   </section>
 
@@ -780,7 +812,26 @@ Grupo Robles y Yasikov <br><br>
 
 
   
+<script>
+    function animateValue(id, start, end, duration) {
+      const obj = document.getElementById(id);
+      const range = end - start;
+      const increment = end > start ? 1 : -1;
+      const stepTime = Math.abs(Math.floor(duration / range));
+      let current = start;
+      const timer = setInterval(() => {
+        current += increment;
+        obj.textContent = `+${current}`;
+        if (current === end) {
+          clearInterval(timer);
+        }
+      }, stepTime);
+    }
 
+    animateValue("years", 0, 5, 2000);
+    animateValue("projects", 0, 8, 2000);
+    animateValue("apartments", 0, 500, 2000);
+  </script>
 
   <script>
 
