@@ -103,6 +103,34 @@ background:  #FBFBFB;
 .textarea label{
  background:  #FBFBFB;
 }
+
+
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #25D366; /* Color oficial de WhatsApp */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.whatsapp-button:hover {
+ color:white;
+}
+
+.whatsapp-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; /* Espacio entre ícono y texto */
+}
+
     </style>
 @endsection
 
@@ -145,15 +173,32 @@ background:  #FBFBFB;
         <div class="container-xl">
             <div class="row  row-cols-xl-1 row-cols-lg-1 g-4">
                 
-                
+
+                <div class="col col-lg-6">
+                     
+                </div>
+
+
+                <div class="col-12 col-lg-6">
+                     <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-button">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+                      Escríbenos en WhatsApp
+                    </a>
+                </div>
+             
                 <div class="order-md-first order-xl-last order-lg-last d-flex flex-column justify-content-between align-items-start">
-                    <h3 style="font-weight: 700;" class="family-700-one color-green-2 mt-5 mb-5">Preguntas Frecuentes
+                    <h3 style="font-weight: 700;" class="family-700-one color-green-2 mt-5 mb-5">Términos y Condiciones
                        
                     </h3>
-                    
+                        
+                        <p>
+                            1. Para poder acceder al bono el referido, deberá haber firmado minuta de compra-venta.<br>
+                            2. No es válido para clientes que se encuentren registrados en nuestra base de datos en los últimos 30 días que llegue como referido.<br>
+                            3. El plazo para pagar el bono es de 30 días hábiles una vez ingresado al área de contabilidad previa coordinación con marketing.
+                        </p>
 
-                     <div class="container-resort w-100">
-                        <!-- acordion boostrap -->
+                     <div class="container-resort w-100 d-none">
+                        
 
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div style="background: none;" class="accordion-item">

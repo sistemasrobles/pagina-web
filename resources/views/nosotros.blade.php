@@ -118,17 +118,17 @@ background:  #FBFBFB;
    
     <div class="d-flex  justify-content-center align-items-center" style=" position: relative;">
                 
-                 <img src="{{asset('nuevaweb_assets/assets/img/paisa.webp')}}" class="w-100 img-fluid  d-none d-sm-block"  >
-                <img src="{{asset('nuevaweb_assets/assets/img/valores.webp')}}" class="w-100 img-fluid d-block d-sm-none"  >
+                 <img src='{{ asset("nuevaweb_assets/assets/img/banner-nosotros.webp") }}' class="w-100 img-fluid  d-none d-sm-block"  >
+                <img src='{{ asset("nuevaweb_assets/assets/img/banner-nosotros.webp") }}'class="w-100 img-fluid d-block d-sm-none"  >
                  <div class="container  d-flex justify-content-center justify-content-lg-start align-items-center  h-100 w-100" style="position:absolute;top: 0;z-index: 1;">
-                    <h1 class="text-center family-700-one text-white">Nosotros</h1>
+                     <h1 class="text-center family-700-one text-white">Grupo Robles & Yasikov : Conoce un poco mas sobre nosotros</h1> 
 
                      
 
                 </div>
 
                 <div class="overlay-proyectos" style=" backdrop-filter: blur(0px);  background: rgba(0, 150, 139, 0.3);
-background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0.3) 100%);
+background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0.6) 100%);
 "></div> 
                  
         </div>

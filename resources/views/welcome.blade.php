@@ -144,8 +144,8 @@ background:  #FBFBFB;
     }
 
     .stat-number {
-      font-size: 3rem;
-      font-weight: bold;
+      font-size: 4rem;
+      font-weight: 900;
       color: #005c53;
     }
 
@@ -465,7 +465,7 @@ background:  #FBFBFB;
               
 
                <div class="row container-card-noticias">
-                <div class="col-12"><img loading="lazy" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/nosotros2-web.jpg" alt=""></div>
+                <div class="col-12"><img style="border-radius: 50% !important;" loading="lazy" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/nosotros2-web.jpg" alt=""></div>
                 <div class="p-4">
                     
                     <p>Al fin hemos logrado el sueño que hemos perseguido durante años: tener nuestro propio lote</p>
@@ -482,7 +482,7 @@ background:  #FBFBFB;
               
 
                <div class="row container-card-noticias">
-                <div class="col-12"><img loading="lazy" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/nosotros2-web.jpg" alt=""></div>
+                <div class="col-12"><img style="border-radius: 50% !important;" loading="lazy" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/nosotros2-web.jpg" alt=""></div>
                 <div class="p-4">
                     
                     <p>Un día inolvidable: finalmente tenemos nuestro propio lote. ¡El sueño comienza a hacerse realidad!</p>
@@ -500,7 +500,7 @@ background:  #FBFBFB;
               
 
                <div class="row container-card-noticias">
-                <div class="col-12"><img loading="lazy" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/nosotros2-web.jpg" alt=""></div>
+                <div class="col-12"><img style="border-radius: 50% !important;"loading="lazy" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/nosotros2-web.jpg" alt=""></div>
                 <div class="p-4">
                     
                     <p>Después de tanto esfuerzo, hoy logramos el sueño de tener nuestro lote. ¡Un paso más hacia nuestro futuro!</p>
@@ -537,21 +537,25 @@ background:  #FBFBFB;
         <p class="mt-5">Somos una empresa de capital 100% peruano, con más de 5 años de experiencia en el desarrollo de habilitaciones urbanas. Nuestro compromiso es transformar espacios en lugares donde las personas puedan vivir mejor. Por eso ofrecemos proyectos con todos los servicios básicos, accesos controlados, cerco perimétrico, amplias áreas verdes con diseño paisajístico y zonas recreativas ideales para disfrutar en familia. Creemos en hacer realidad los sueños de nuestros clientes, brindándoles un lugar perfecto para vivir y crecer.</p>
         
         
-        <div class="stats">
-      <div class="stat">
-        <div class="stat-number" id="years">0</div>
-        <div class="stat-label"><strong>Años de experiencia</strong></div>
-      </div>
-      <div class="stat">
-        <div class="stat-number" id="projects">0</div>
-        <div class="stat-label"><strong>Proyectos realizados</strong></div>
-      </div>
-      <div class="stat">
-        <div class="stat-number" id="apartments">0</div>
-        <div class="stat-label"><strong>Familias felices</strong></div>
-      </div>
-    </div>
+        
 
+
+<div class="stats">
+    <div class="stat">
+      <span class="stat-number" style="color:#282928 ">+<span class="number" data-target="5" style="color:#005c53 ">0</span></span>
+       <p><strong style="color:#000 ">Años de experiencia</strong></p>
+    </div>
+    <div class="stat">
+      <span class="stat-number" style="color:#282928 ">+<span class="number" data-target="9"  style="color:#005c53 ">0</span></span>
+       <p><strong style="color:#000 ">Proyectos inmobiliarios</strong></p>
+    </div>
+    <div class="stat">
+      <span class="stat-number" style="color:#282928 ">+<span class="number" data-target="500" style="color:#005c53 ">0</span></span>
+      <p><strong style="color:#000 ">Familias felices</strong></p>
+    </div>
+  </div>
+
+     
 
       </div>
      
@@ -811,27 +815,50 @@ Grupo Robles y Yasikov <br><br>
   </script>
 
 
-  
+
 <script>
-    function animateValue(id, start, end, duration) {
-      const obj = document.getElementById(id);
-      const range = end - start;
-      const increment = end > start ? 1 : -1;
-      const stepTime = Math.abs(Math.floor(duration / range));
-      let current = start;
-      const timer = setInterval(() => {
-        current += increment;
-        obj.textContent = `+${current}`;
-        if (current === end) {
-          clearInterval(timer);
-        }
-      }, stepTime);
+    // Función para animar los números
+    function animateNumbers() {
+      const numbers = document.querySelectorAll('.number');
+      numbers.forEach((number) => {
+        const target = +number.getAttribute('data-target'); // Número objetivo
+        const increment = Math.ceil(target / 100); // Incremento por paso
+        let current = 0;
+
+        const updateNumber = () => {
+          current += increment;
+          if (current >= target) {
+            number.textContent = target; // Asegurarse de llegar exactamente al objetivo
+          } else {
+            number.textContent = current;
+            requestAnimationFrame(updateNumber);
+          }
+        };
+        updateNumber();
+      });
     }
 
-    animateValue("years", 0, 5, 2000);
-    animateValue("projects", 0, 8, 2000);
-    animateValue("apartments", 0, 500, 2000);
+    // Detectar cuándo los números están visibles en la pantalla
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            animateNumbers(); // Inicia la animación
+            observer.unobserve(entry.target); // Deja de observar el contenedor para evitar múltiples animaciones
+          }
+        });
+      },
+      { threshold: 0.5 } // El 50% del elemento debe ser visible
+    );
+
+    // Observar el contenedor de estadísticas
+    const statsSection = document.querySelector('.stats');
+    observer.observe(statsSection);
   </script>
+
+
+
+
 
   <script>
 
