@@ -146,7 +146,7 @@ background:  #FBFBFB;
    
     <div class="d-flex  justify-content-center align-items-center" style=" position: relative;">
                 
-                 <img src="https://gruporobles.com.pe/storage/banners/referidos_d.png" class="w-100 img-fluid  d-none d-sm-block"  >
+                 <img src="https://gruporobles.com.pe/storage/banners/refiere2.webp" class="w-100 img-fluid  d-none d-sm-block"  >
                 <img src="https://gruporobles.com.pe/storage/banners/referidos_m.jpg" class="w-100 img-fluid d-block d-sm-none"  >
                 
 
