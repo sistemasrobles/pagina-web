@@ -465,7 +465,7 @@ background:  #FBFBFB;
               
 
                <div class="row container-card-noticias">
-                <div class="col-12"><img style="border-radius: 50% !important;" loading="lazy" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/nosotros2-web.jpg" alt=""></div>
+                <div class="col-12"><img style="border-radius: 50% !important;" loading="lazy" src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/test1.webp" alt=""></div>
                 <div class="p-4">
                     
                     <p>Al fin hemos logrado el sueño que hemos perseguido durante años: tener nuestro propio lote</p>
