@@ -644,7 +644,7 @@ class PromocionesController extends Controller
                             $file_reclamo = $this->genera_pdf_reclamo($request,$codigo_generado);
                             
 
-                             \Mail::to(['postventa@gruporobles.com.pe'])->send(new EmailReclamaciones($request,$nameProyect->descripcion,$codigo_generado,$file_reclamo));
+                             \Mail::to(['tisistemas@gruporobles.com.pe'])->send(new EmailReclamaciones($request,$nameProyect->descripcion,$codigo_generado,$file_reclamo));
 
 
                              
