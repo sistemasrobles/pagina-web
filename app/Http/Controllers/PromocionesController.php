@@ -652,7 +652,7 @@ class PromocionesController extends Controller
                              
 
 
-                             \Mail::to([$request->email,'tisistemas@gruporobles.com.pe'])->send(new ClienteReclamo($request,$nameProyect->descripcion,$codigo_generado,$file_reclamo));
+                             \Mail::to([$request->email,'postventa@gruporobles.com.pe'])->send(new ClienteReclamo($request,$nameProyect->descripcion,$codigo_generado,$file_reclamo));
                              
 
 
