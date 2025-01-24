@@ -180,7 +180,7 @@ background:  #FBFBFB;
 
 
                 <div class="col-12 col-lg-6">
-                     <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-button">
+                     <a href="https://api.whatsapp.com/send?phone=51983479617&text=%C2%A1Hola!%20Estoy%20interesado%20desde%20la%20web,%20solicito%20informaci%C3%B3n%20de%20los%20proyectos%20inmobilarios." target="_blank" class="whatsapp-button">
                       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
                       Escríbenos en WhatsApp
                     </a>
