@@ -272,8 +272,14 @@ background:  #FBFBFB;
             <span>
                 <h2 style="font-weight: 700;" class="color-green-2">Ubicación de nuestro proyecto
 </h2>
-                <p class="sub-title-section">Contamos con la mejor zona para <strong>comprar tu lote</strong>, estamos ubicados en el corazón de <strong>{{ $proyetoactual->ubicacion }}</strong>.
+               <!--  <p class="sub-title-section">Contamos con la mejor zona para <strong>comprar tu lote</strong>, estamos ubicados en el corazón de <strong>{{ $proyetoactual->ubicacion }}</strong>.
+        </p> -->
+
+
+        <p class="sub-title-section">{!! $proyetoactual->ubicacion_desc !!}
         </p>
+
+
             </span>
             <!-- iconos infon -->
             <div class="row row-cols-lg-3  py-2 mb-4 gy-4 width-max-proyect align-items-center justify-content-center">
@@ -336,7 +342,9 @@ background:  #FBFBFB;
         <div class="container-xl">
             <span>
                 <h2 class="family-700-one color-green-2" style="font-weight: 700;">Beneficios</h2>
-                <p class="sub-title-section">Ambientes ideales para ti en nuestro condominio {{ $proyetoactual->descripcion}}</p>
+                <!-- <p class="sub-title-section">Ambientes ideales para ti en nuestro condominio {{ $proyetoactual->descripcion}}</p> -->
+
+                <p class="sub-title-section">{!! $proyetoactual->descripcion_beneficios !!}</p>
             </span>
             <!-- iconos infon -->
             <div class="row row-cols-2 row-cols-xl-3 row-cols-md-3 row-cols-sm-2 gy-3 width-max-proyect">
@@ -400,7 +408,9 @@ background:  #FBFBFB;
         <div class="container-xl">
             <span>
                 <h2 class="family-700-one color-green-2" style="font-weight: 700;">Beneficios</h2>
-                <p class="sub-title-section">Ambientes ideales para ti en nuestro condominio  {{ $proyetoactual->descripcion}}</p>
+               <!--  <p class="sub-title-section">Ambientes ideales para ti en nuestro condominio  {{ $proyetoactual->descripcion}}</p> -->
+
+                 <p class="sub-title-section">{!! $proyetoactual->descripcion_beneficios !!}</p>
             </span>
             <!-- iconos infon -->
             <div class="row row-cols-2 row-cols-xl-3 row-cols-md-3 row-cols-sm-2 gy-3 width-max-proyect">
