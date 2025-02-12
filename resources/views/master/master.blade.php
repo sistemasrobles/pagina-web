@@ -30,8 +30,8 @@
  <link rel="stylesheet" href="{{ asset('sweetalert2/sweetalert2.min.css') }}">
   <!-- Theme CSS -->
  
-<script src="https://kit.fontawesome.com/67814d04d2.js" crossorigin="anonymous"></script>
 
+<script src="https://kit.fontawesome.com/1c446c7f7d.js" crossorigin="anonymous"></script>
   
 
   @yield('css')
