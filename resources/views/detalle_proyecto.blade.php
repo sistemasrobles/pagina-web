@@ -81,7 +81,7 @@
 
     
 
-    @media (max-width: 992px) { 
+   /* @media (max-width: 992px) { 
 
 
         .only-detalle-proyect{
@@ -102,7 +102,7 @@
             display: block;
         }
 
-    }
+    }*/
 
 
     #regresa-frame {
