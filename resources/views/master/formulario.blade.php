@@ -136,7 +136,7 @@
 
                                        <button   type="button" id="btn-enviar-promo"  class="w-100 btn raleway-bold py-2  bg-terce text-white">Solicitar Información</button>
 
-                                         <a class="btn  w-100 mt-2 text-white " target="_blank"  href=" {{$telefono_footer->getPhoneProyect(0)}}"  style="background: #25D366;"><i class="fab fa-whatsapp me-2"></i> Contáctanos por Whatsapp.</a>
+                                         <!-- <a class="btn  w-100 mt-2 text-white " target="_blank"  href=" {{$telefono_footer->getPhoneProyect(0)}}"  style="background: #25D366;"><i class="fab fa-whatsapp me-2"></i> Contáctanos por Whatsapp.</a> -->
 
                                 </div>
 
