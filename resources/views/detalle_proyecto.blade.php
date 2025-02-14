@@ -319,7 +319,11 @@ background:  #FBFBFB;
 
                     <a class="w-100 bg-white py-3 px-3 rounded-2 text-center" href="https://www.waze.com/ul?ll={{$proyetoactual->lat}}%2C{{$proyetoactual->long}}&navigate=yes" target="_blank" ><img src="{{asset('nuevaweb_assets/assets/img/waze.svg')}}" alt="ubicación del proyecto {{ $proyetoactual->descripcion }} en waze"> Ver en Waze</a>
 
-                    <a class="w-100 bg-white py-3 px-3 rounded-2 text-center" href="https://www.google.com/maps/dir/?api=1&destination={{$proyetoactual->lat}}%2C{{$proyetoactual->long}}" target="_blank"><img src="{{asset('nuevaweb_assets/assets/img/maps.svg')}}" alt="ubicación del proyecto {{ $proyetoactual->descripcion }} en google maps"> Ver en Maps</a>
+                    <!-- <a class="w-100 bg-white py-3 px-3 rounded-2 text-center" href="https://www.google.com/maps/dir/?api=1&destination={{$proyetoactual->lat}}%2C{{$proyetoactual->long}}" target="_blank"><img src="{{asset('nuevaweb_assets/assets/img/maps.svg')}}" alt="ubicación del proyecto {{ $proyetoactual->descripcion }} en google maps"> Ver en Maps</a> -->
+
+
+                    <a class="w-100 bg-white py-3 px-3 rounded-2 text-center" href="{{$proyetoactual->googlemap}}" target="_blank"><img src="{{asset('nuevaweb_assets/assets/img/maps.svg')}}" alt="ubicación del proyecto {{ $proyetoactual->descripcion }} en google maps"> Ver en Maps</a>
+
 
                    
                 </div>
