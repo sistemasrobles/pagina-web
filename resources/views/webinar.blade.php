@@ -209,26 +209,28 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               
             </div>
 
-            <div class="d-flex flex-column gap-3 mb-2 col-12 d-none">
+            <div class="d-flex flex-column gap-3 mb-2 col-12 ">
               
 
                 <label class="form-control d-flex flex-column">
-              <span class="fs-8">Tipo de Cliente</span>
+              <span class="fs-8">Proyecto de interes</span>
               
-               <select class="form-control" id="tipo" name="tipo">
+               <select class="form-control" id="mensaje" name="mensaje">
 
 
-                                       <option value="">
-                                           *Seleccione tipo
-                                        </option>
+                                      
                                      
 
-                                       <option value="inversor">
-                                           Inversor
+                                       <option value="fundo-los-pinos">
+                                           Fundo Los Pinos
                                         </option>
 
-                                         <option value="vivienda">
-                                            Vivienda
+                                         <option value="la-retama">
+                                            La Retama
+                                        </option>
+
+                                        <option value="valle-orquidea">
+                                            Valle Orquidea
                                         </option>
                                       
 
@@ -247,13 +249,13 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
           
 
 
-          <input
+     <!--      <input
               
                 type="hidden"
                 id="mensaje"
                 name="mensaje"
                 value=""
-              />
+              /> -->
 
 
                <input
@@ -549,6 +551,18 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
 
 <script type="text/javascript">
+
+$("#tipo").on('change',function(){
+
+
+  let valor = $(this).val();
+
+  alert(valor);
+
+
+
+});
+
   $("#btn-enviar-promo").on('click',(event)=>{
 
  event.preventDefault()
