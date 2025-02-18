@@ -148,3 +148,7 @@ Route::get('/robles-night','PromocionesController@roblesNight');
 
 Route::get('/robles-night-2','PromocionesController@roblesNight2');
  Route::get('/robles-night-2/gracias','PromocionesController@roblesNight2');
+
+
+ Route::get('/tematica','PromocionesController@tematica');
+ Route::get('/tematica/gracias','PromocionesController@tematica');

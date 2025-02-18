@@ -47,6 +47,16 @@ class PromocionesController extends Controller
 
     
 
+    public function tematica(){
+
+        $projects = Proyectos::where('estado_proyecto','=',1)->get();
+
+
+        return view('tematica',compact('projects'));
+    }
+
+
+
     public function roblesNight(){
 
         $projects = Proyectos::where('estado_proyecto','=',1)->get();

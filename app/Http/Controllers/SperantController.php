@@ -167,6 +167,15 @@ class SperantController extends Controller
 
                 }
 
+
+                if($request->formulario == 'landing-tematica'){
+
+                    //campana tematica diana
+
+                    $idCap = 31;
+
+                }
+
                 //$idCap= ($request->formulario == 'robles-tour')?18:8;
 
                 
