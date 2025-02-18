@@ -931,7 +931,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
       
       <h2 class="color-primary out-Extrabold pt-5 mb-4 text-center" style="line-height:40px"><u>Algunos de nuestros proyectos</u></h2>
 
-      <p>En Robles & Yasikov contamos con más de 8 proyectos inmobiliarios a lo largo de la costa, sierra y selva del Perú. Conoce más sobre ellos a continuación.</p>
+      <p class="out-normal mt-3 text-center">En Robles & Yasikov contamos con más de 8 proyectos inmobiliarios a lo largo de la costa, sierra y selva del Perú. Conoce más sobre ellos a continuación.</p>
 
       <div class="container-fluid">
           
