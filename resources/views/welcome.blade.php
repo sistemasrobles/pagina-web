@@ -449,7 +449,7 @@ background:  #FBFBFB;
   </section>
 
 
-<section class="container-xl container-experiencia px-4  ">
+<section class="container-xl container-experiencia px-4  d-none">
     <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 justify-content-between g-4 align-items-center ">
       
 
