@@ -1226,7 +1226,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
   let player2;
   let player3;
 
-  function onYouTubeIframeAPIReadyx() {
+  function onYouTubeIframeAPIReady() {
 
 
     player = new YT.Player("youtube-frame-proyect", {
