@@ -107,9 +107,9 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
     <main class="container-fluid bg-main-img w-100 d-flex flex-column justify-content-center align-items-center"  >
 
 
-         <img 
+        <img 
             class=" w-100 img-fluid d-none d-lg-block"
-            src="https://gruporobles.com.pe/storage/banners/webinar_diciembre_escritorio.jpg"
+            src="https://gruporobles.com.pe/storage/banners/webinar-feb-d.webp"
             alt="WEBINAR GRUPO ROBLES & YASIKOV"
             srcset=""
           />
@@ -117,7 +117,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
            <img 
             class=" w-100 img-fluid d-block d-lg-none"
-            src="https://gruporobles.com.pe/storage/banners/webinar_diciembre_movil.jpg"
+            src="https://gruporobles.com.pe/storage/banners/webinar_febrero_m.jpg"
             alt="WEBINAR GRUPO ROBLES & YASIKOV"
             srcset=""
           />
@@ -209,7 +209,44 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               
             </div>
 
-            <div class="d-flex flex-column gap-3 mb-2 col-12 d-none">
+
+            <div class="d-flex flex-column gap-3 mb-2 col-12 ">
+              
+
+                <label class="form-control d-flex flex-column">
+              <span class="fs-8">Proyecto de interes</span>
+              
+               <select class="form-control" id="mensaje" name="mensaje">
+
+
+                                      
+                                     
+
+                                       <option value="fundo-los-pinos">
+                                           Fundo Los Pinos
+                                        </option>
+
+                                         <option value="la-retama">
+                                            La Retama
+                                        </option>
+
+                                        <option value="valle-orquidea">
+                                            Valle Orquidea
+                                        </option>
+                                      
+
+
+
+              
+                                      
+                                  </select>
+
+
+            </label>
+            </div>
+
+
+            <!-- <div class="d-flex flex-column gap-3 mb-2 col-12 d-none">
               
 
                 <label class="form-control d-flex flex-column">
@@ -240,20 +277,14 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
 
             </label>
-            </div>
+            </div> -->
           </div>
           
 
           
 
 
-          <input
-              
-                type="hidden"
-                id="mensaje"
-                name="mensaje"
-                value=""
-              />
+         
 
 
                <input
@@ -270,7 +301,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                 type="hidden"
                 id="proyecto"
                 name="proyecto"
-                value="32"
+                value="28"
               />
 
 
@@ -399,7 +430,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
     <!-- bento galery -->
     <section
-      class=" d-none d-lg-block bg-white mb-3 container-xl container-lg container-md container-sm p-3 radius-section out-regular"
+      class=" d-none  bg-white mb-3 container-xl container-lg container-md container-sm p-3 radius-section out-regular"
     > 
       <!-- <h6 class=" text-white px-3 py-2 text-center" style="border-radius:10px;background:#00A593;font-size: 1.2rem;">Mira el Avance de Obra</h6> -->
       <div class="grid-bento-galery">
@@ -502,7 +533,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
     </section>
 
     <!-- section proyectos -->
-    <section class="bg-white px-3 p-md-0 ">
+    <section class="bg-white px-3 p-md-0 d-none">
 
 
       <h2 class="color-primary out-Extrabold pt-5 mb-4 text-center" style="line-height:40px"><u>¿Qué proyectos tenemos?</u></h2>
@@ -867,7 +898,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
     </section>
 
 
-     <section class="bg-white pb-1 px-2 p-md-0 ">
+     <section class="bg-white pb-1 px-2 p-md-0 d-none">
        <h2 class="color-primary out-Extrabold pt-5 mb-4 text-center" style="line-height:40px"><u>¿ Cuales son los beneficios que te ofrecemos ?</u></h2>
     <div class="container  w-100 d-flex justify-content-center align-items-center">
          
