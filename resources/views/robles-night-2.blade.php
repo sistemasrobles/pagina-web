@@ -505,7 +505,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
   
 <script src="{{ asset('sweetalert2/sweetalert2.all.min.js') }}"></script>
   <script>
-    var assetUrl = "{{ url('promociones/visitas') }}";
+    var assetUrl = "{{ url('promociones/registrar') }}";
     var token_="{{ csrf_token() }}";
 </script>
 
@@ -588,7 +588,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                   
 
                      setTimeout(function() {
-                    window.location.href = "/robles-night/gracias";
+                    window.location.href = "/robles-night-2/gracias";
                   }, 3000); 
 
             }else{
