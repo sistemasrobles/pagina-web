@@ -929,7 +929,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
     <section class="bg bg-white  py-4">
       
-      <h2 class="color-primary out-Extrabold pt-5 mb-4 text-center" style="line-height:40px"><u>Algunos de nuestros últimos clientes satisfechos</u></h2>
+      <h2 class="color-primary out-Extrabold pt-5 mb-4 text-center" style="line-height:40px"><u>Algunos de nuestros proyectos</u></h2>
 
       <div class="container-fluid">
           
@@ -1232,7 +1232,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
     player = new YT.Player("youtube-frame-proyect", {
       height: "520",
       width: "",
-      videoId: "GYOPVH-Y6aM",
+      videoId: "cUXbWi-yvCI",
       playerVars: {
         autoplay: 0, 
         controls: 1,
@@ -1246,7 +1246,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
      player2 = new YT.Player("youtube-frame-proyect2", {
       height: "520",
       width: "",
-      videoId: "Y0e2oZH9v-o",
+      videoId: "FJlzc3TeSQ0",
       playerVars: {
         autoplay: 0, 
         controls: 1,
@@ -1260,7 +1260,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
       player3 = new YT.Player("youtube-frame-proyect3", {
       height: "520",
       width: "",
-      videoId: "bq4sRdSfsiU",
+      videoId: "fJD67T7VKd0",
       playerVars: {
         autoplay: 0, 
         controls: 1,
