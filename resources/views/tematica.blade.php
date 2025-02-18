@@ -588,7 +588,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                   
 
                      setTimeout(function() {
-                    window.location.href = "/robles-night-2/gracias";
+                    window.location.href = "/tematica/gracias";
                   }, 3000); 
 
             }else{
