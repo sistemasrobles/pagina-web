@@ -142,6 +142,9 @@ Route::get('/landing-fundo-los-robles/gracias','PromocionesController@landingFun
 
 
 
-
 Route::get('/robles-night','PromocionesController@roblesNight');
  Route::get('/robles-night/gracias','PromocionesController@roblesNight');
+
+
+Route::get('/robles-night-2','PromocionesController@roblesNight2');
+ Route::get('/robles-night-2/gracias','PromocionesController@roblesNight2');

@@ -157,6 +157,16 @@ class SperantController extends Controller
 
                 }
 
+
+
+                if($request->formulario == 'landing-robles-night-2'){
+
+                    //rnoche de diana
+
+                    $idCap = 30;
+
+                }
+
                 //$idCap= ($request->formulario == 'robles-tour')?18:8;
 
                 
