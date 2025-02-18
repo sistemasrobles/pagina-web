@@ -356,13 +356,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               <span class="fs-8">Proyecto</span>
              
             
-               <input
-              
-                type="hidden"
-                id="mensaje"
-                name="mensaje"
-                value=""
-              />
+             
 
 
                <input
@@ -382,7 +376,42 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                 value="landing-visitas-guiadas-2"
               />
 
-            <select class="form-control" id="proyecto" name="proyecto">
+               <input
+              
+                type="hidden"
+                id="proyecto"
+                name="proyecto"
+                value="18"
+              />
+
+
+               <select class="form-control" id="mensaje" name="mensaje">
+
+
+                                      
+                                     
+
+                                       <option value="fundo-los-pinos">
+                                           Fundo Los Pinos
+                                        </option>
+
+                                         <option value="la-retama">
+                                            La Retama
+                                        </option>
+
+                                        <option value="valle-orquidea">
+                                            Valle Orquidea
+                                        </option>
+                                      
+
+
+
+              
+                                      
+                                  </select>
+
+
+           <!--  <select class="form-control" id="proyecto" name="proyecto">
 
                                       <option value="">*Elige el proyecto</option>
 
@@ -409,7 +438,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
 
                                       
-                                  </select>
+                                  </select> -->
 
                                   </label>
 
