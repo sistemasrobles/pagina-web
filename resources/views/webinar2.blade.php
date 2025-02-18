@@ -943,7 +943,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
                         <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button" > <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
 
-                        <img id="image-video-proyect" class="" src="{{asset('assets_landings/testimonio1.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
+                        <img id="image-video-proyect" class="" src="{{asset('assets_landings/miniatura-valle.jpg')}}" alt="Grupo Robles & Yasikov - Valle Orquidea" style="max-height:520px;border-radius:15px">
 
 
                       <div id="video-youtube-galery" class="d-none">
@@ -960,7 +960,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
                         <button id="play-video-galery2" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
 
-                        <img id="image-video-proyect2" class="" src="{{asset('assets_landings/testimonio2.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
+                        <img id="image-video-proyect2" class="" src="{{asset('assets_landings/miniatura-los-pinos.jpg')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
 
 
                       <div id="video-youtube-galery2" class="d-none ">
@@ -977,7 +977,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
 
                         <button id="play-video-galery3" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
 
-                        <img id="image-video-proyect3" class="" src="{{asset('assets_landings/testimonio3.webp')}}" alt="Testimonios del Grupo Robles & Yasikov" style="max-height:520px;border-radius:15px">
+                        <img id="image-video-proyect3" class="" src="{{asset('assets_landings/miniatura-la-retama.jpg')}}" alt="Grupo Robles & Yasikov - La Retama" style="max-height:520px;border-radius:15px">
 
 
                       <div id="video-youtube-galery3" class="d-none">
@@ -1248,7 +1248,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
      player2 = new YT.Player("youtube-frame-proyect2", {
       height: "520",
       width: "",
-      videoId: "FJlzc3TeSQ0",
+      videoId: "mmQTTz6gz50",
       playerVars: {
         autoplay: 0, 
         controls: 1,
