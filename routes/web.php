@@ -152,3 +152,9 @@ Route::get('/robles-night-2','PromocionesController@roblesNight2');
 
  Route::get('/tematica','PromocionesController@tematica');
  Route::get('/tematica/gracias','PromocionesController@tematica');
+
+
+ // landings johan
+
+Route::get('/{slug}', 'PromocionesController@formularioMkt');
+Route::get('/{slug}/gracias', 'PromocionesController@formularioMkt');

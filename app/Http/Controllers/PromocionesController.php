@@ -229,6 +229,25 @@ class PromocionesController extends Controller
 
 
 
+
+    
+
+    public function formularioMkt($slug){
+        
+        
+         $proyetoactual=proyectos::where('rewrite','=',$slug)->where('estado_proyecto','=',1)->first();
+
+
+          if(!isset($proyetoactual)){
+
+            return view('error');
+
+        }
+
+        
+        return view('formulario-mkt',compact('proyetoactual'));
+    }
+
    public function formularioDetalle($slug){
         
         
