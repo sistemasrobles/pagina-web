@@ -570,6 +570,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
       
 
 
+
           <div id="video-proyect" class=" video-proyect position-relative">
                 <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
                 <img id="image-video-proyect" class="img-fluid w-100" src='https://gruporobles.com.pe/storage/proyectos/la-retama/bg_yt.webp' alt="La Retama ">
