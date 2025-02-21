@@ -250,7 +250,7 @@
       
       
       <!-- dos -->
-      <div>
+      <div class="d-none">
          
 
          
@@ -350,7 +350,7 @@
 
 
 
-       <div>
+       <div class="d-none">
          
 
          
