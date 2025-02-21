@@ -242,7 +242,7 @@ background:  #FBFBFB;
                               <div class="input-data">
                                  <input type="text" id="nombre" name="nombre" required>
                                  <div class="underline"></div>
-                                 <label for="" >Nombresd</label>
+                                 <label for="" >Nombres</label>
                               </div>
                               <div class="input-data">
                                  <input type="text" id="apellido" name="apellido" required>

@@ -238,7 +238,7 @@ class PromocionesController extends Controller
 
 
         
-        return view('laRetamaa',compact('proyetoactual'));
+        return view('laretamaa',compact('proyetoactual'));
     }
 
 
@@ -250,7 +250,7 @@ class PromocionesController extends Controller
 
 
         
-        return view('laRetamab',compact('proyetoactual'));
+        return view('laretamab',compact('proyetoactual'));
     }
 
 
