@@ -51,40 +51,42 @@ const dataProyect = [
           "url_web":'proyectos/lotes/fundo-el-bosque',
         "financiamiento":0
        
-    },{   
-        "id":2,
-        "title":"Fundo Valentina",
-        "ubicacion": "Sector San Jorge Gramazu. Distrito de Chotabamba",
-        "precio": 500,
-        "metraje":'<small>Desde</small> 300',
-        "estado":"<small>Pre Venta</small>",
-        "tipo": "Oxapampa",
-        "tipoProyecto":"Lotes",
-        "image":"nuevaweb_assets/assets/img/proyectos/fundo.webp",
-        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/fundo-valentina?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
-        "url_campana_terrenos":"#",
-        "oxapampa":1,
-        "url_web":'proyectos/lotes/fundo-valentina',
-        "financiamiento":1
+    },
+
+    // {   
+    //     "id":2,
+    //     "title":"Fundo Valentina",
+    //     "ubicacion": "Sector San Jorge Gramazu. Distrito de Chotabamba",
+    //     "precio": 500,
+    //     "metraje":'<small>Desde</small> 300',
+    //     "estado":"<small>Pre Venta</small>",
+    //     "tipo": "Oxapampa",
+    //     "tipoProyecto":"Lotes",
+    //     "image":"nuevaweb_assets/assets/img/proyectos/fundo.webp",
+    //     "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/fundo-valentina?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
+    //     "url_campana_terrenos":"#",
+    //     "oxapampa":1,
+    //     "url_web":'proyectos/lotes/fundo-valentina',
+    //     "financiamiento":1
       
-    },
-    {   
-        "id":1,
-        "title":"Bella Primavera",
-        "ubicacion": "Sector San Jorge Gramazu. Distrito de Chotabamba",
-        "precio": 500,
-        "metraje":'<small>Desde</small> 200',
-        "estado":"<small>Pre Venta</small>",
-        "tipo": "Oxapampa",
-        "tipoProyecto":"Lotes",
-        "image":"nuevaweb_assets/assets/img/proyectos/bella.webp",
-        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/bella-primavera?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
-        "url_campana_terrenos":"#",
-        "oxapampa":1,
-        "url_web":'proyectos/lotes/bella-primavera',
-        "financiamiento":1
+    // },
+    // {   
+    //     "id":1,
+    //     "title":"Bella Primavera",
+    //     "ubicacion": "Sector San Jorge Gramazu. Distrito de Chotabamba",
+    //     "precio": 500,
+    //     "metraje":'<small>Desde</small> 200',
+    //     "estado":"<small>Pre Venta</small>",
+    //     "tipo": "Oxapampa",
+    //     "tipoProyecto":"Lotes",
+    //     "image":"nuevaweb_assets/assets/img/proyectos/bella.webp",
+    //     "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/bella-primavera?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
+    //     "url_campana_terrenos":"#",
+    //     "oxapampa":1,
+    //     "url_web":'proyectos/lotes/bella-primavera',
+    //     "financiamiento":1
     
-    },
+    // },
     
     
     {   
