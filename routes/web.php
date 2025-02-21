@@ -158,3 +158,14 @@ Route::get('/robles-night-2','PromocionesController@roblesNight2');
 
 Route::get('/{slug}', 'PromocionesController@formularioMkt');
 Route::get('/{slug}/gracias', 'PromocionesController@formularioMkt');
+
+
+
+
+ Route::get('/formulario/la-retama','PromocionesController@laRetamaA');
+ //Route::get('/formulario/la-retama/gracias','PromocionesController@laRetamaA');
+
+
+
+  Route::get('/formulario/la-retama-2','PromocionesController@laRetamaB');
+ //Route::get('/formulario/la-retama-2/gracias','PromocionesController@laRetamaB');

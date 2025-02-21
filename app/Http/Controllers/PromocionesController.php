@@ -230,6 +230,30 @@ class PromocionesController extends Controller
 
 
 
+     public function laRetamaA(){
+        
+        
+         $proyetoactual=proyectos::where('idproyecto','=',3)->first();
+
+
+
+        
+        return view('laRetamaa',compact('proyetoactual'));
+    }
+
+
+  public function laRetamaB(){
+        
+        
+         $proyetoactual=proyectos::where('idproyecto','=',3)->first();
+
+
+
+        
+        return view('laRetamab',compact('proyetoactual'));
+    }
+
+
     
 
     public function formularioMkt($slug){
