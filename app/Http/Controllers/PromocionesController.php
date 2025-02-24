@@ -254,6 +254,30 @@ class PromocionesController extends Controller
     }
 
 
+
+
+    public function lospinosA(){
+        
+        
+         $proyetoactual=proyectos::where('idproyecto','=',10)->first();
+
+
+
+        
+        return view('lospinosa',compact('proyetoactual'));
+    }
+
+
+  public function lospinosB(){
+        
+        
+         $proyetoactual=proyectos::where('idproyecto','=',10)->first();
+
+
+
+        
+        return view('lospinosb',compact('proyetoactual'));
+    }
     
 
     public function formularioMkt($slug){
