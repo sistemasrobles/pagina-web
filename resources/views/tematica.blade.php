@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-   <meta name="description"  content="Robles Night es un evento especial donde, durante una sola noche, se ofrecen descuentos exclusivos en la compra de lotes del grupo Robles & Yasikov .">
+   <meta name="description"  content="Tematica es un evento especial donde, durante una sola noche, se ofrecen descuentos exclusivos en la compra de lotes del grupo Robles & Yasikov .">
 
 
 
@@ -25,13 +25,13 @@
         <meta name="keywords" content="terrenos,cabañas,inmobiliaria,proyectos,terrenos,casas,oxapampa">
 
 
-        <meta property="og:url" content="https://gruporobles.com.pe/robles-night" />
+        <meta property="og:url" content="https://gruporobles.com.pe/tematica" />
 
-        <meta property="og:title" content="Robles Night Robles & Yasikov" />
+        <meta property="og:title" content="Tematica Robles & Yasikov" />
 
-        <meta property="og:description" content="Robles Night es un evento especial donde, durante una sola noche, se ofrecen descuentos exclusivos en la compra de lotes del grupo Robles & Yasikov ." />
+        <meta property="og:description" content="Tematica es un evento especial donde, durante una sola noche, se ofrecen descuentos exclusivos en la compra de lotes del grupo Robles & Yasikov ." />
 
-    <title>Robles Night | Robles & Yasikov</title>
+    <title>Tematica | Robles & Yasikov</title>
 
     <link rel="shortcut icon" href="/img/icons/ico.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -277,10 +277,10 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
         <img src="https://gruporobles.com.pe/nuevaweb_assets/assets/img/logo-color.svg" height="100" width="200" class=" py-3" />
       </div> 
 			<div class="col-lg-8 " style="padding: 0px !important;margin:0px !important">
-				<img src="https://gruporobles.com.pe/assets/img/popup-invierte.webp" class="img-fluid w-100 h-100 d-block d-md-none"  />
+				<img src="https://gruporobles.com.pe/storage/banners/carnaval-m.webp" class="img-fluid w-100 h-100 d-block d-md-none"  />
 
 
-        <img style="border-radius: 0px 0px 50px 0px;height: 90vh;object-fit: cover;"src="https://gruporobles.com.pe/storage/banners/rn-g.webp" class="img-fluid w-100  d-none d-md-block "  />
+        <img style="border-radius: 0px 0px 50px 0px;height: 90vh;object-fit: cover;"src="https://gruporobles.com.pe/storage/banners/carnaval.webp" class="img-fluid w-100  d-none d-md-block "  />
 			</div>
 
 			<div class="col-lg-4 px-5 py-5 py-md-0 mt-2">
