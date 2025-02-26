@@ -25,13 +25,12 @@
         <meta name="keywords" content="terrenos,cabañas,inmobiliaria,proyectos,terrenos,casas,oxapampa">
 
 
-        <meta property="og:url" content="https://gruporobles.com.pe/visitas-guiadas" />
 
         <meta property="og:title" content="Visitas Guiadas Robles & Yasikov" />
 
         <meta property="og:description" content="Explora proyectos inmobiliarios con nuestras visitas guiadas personalizadas. Programa recorridos virtuales o presenciales y obtén información detallada sobre propiedades, precios y financiamiento." />
 
-    <title>Visitas Guiadas Robles & Yasikov</title>
+      <title>Robles & Yasikov Fundo Los Pinos</title>
 
     <link rel="shortcut icon" href="/img/icons/ico.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
