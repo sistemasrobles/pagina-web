@@ -303,12 +303,12 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 				
 				<div class="">
 					
-					<h1 class="color-primary">¡ Agenda Una Visita Guiada a cualquiera de nuestros proyectos !</h1>
+					 <h1 class="color-primary">¡ Compra tu lote en una de las zonas mas exclusivas de Oxapampa !</h1>
 
 
-					<p class="mt-4 mb-4 color-plomo"  style="font-size:0.9rem">
-						Agenda una Visita guiada y conoce todos los beneficios que grupo Robles & Yasikov te ofrece.
-					</p>
+				<p class="mt-4 mb-4 color-plomo"  style="font-size:0.9rem">
+            Completa el formulario y un asesor se comunicara contigo.
+          </p>
 					<hr >
  				<form
 		          id="promocion-form"  method="POST" action="{{ route('/promociones/registrar') }}"
@@ -689,7 +689,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                   
 
                      setTimeout(function() {
-                    window.location.href = "/visitas-guiadas/gracias";
+                    window.location.href = "/formulario/fundo-los-pinos/gracias";
                   }, 3000); 
 
             }else{
