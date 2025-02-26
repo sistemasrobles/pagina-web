@@ -349,17 +349,26 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               />
             </label>
 
-
+            <label class="form-control d-flex flex-column">
+              <span class="fs-8">Ciudad</span>
+              <input
+                autocomplete="off"
+                type="text"
+                id="mensaje"
+                name="mensaje"
+                placeholder=""
+              />
+            </label>
          
             
             
-               <input
+             <!--   <input
               
                 type="hidden"
                 id="mensaje"
                 name="mensaje"
                 value=""
-              />
+              /> -->
 
 
                <input
