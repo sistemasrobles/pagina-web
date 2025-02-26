@@ -163,13 +163,17 @@ Route::get('/{slug}/gracias', 'PromocionesController@formularioMkt');
 
 
  Route::get('/formulario/la-retama','PromocionesController@laRetamaA');
- //Route::get('/formulario/la-retama/gracias','PromocionesController@laRetamaA');
+ Route::get('/formulario/la-retama/gracias','PromocionesController@laRetamaA');
 
 
 
   Route::get('/formulario/la-retama-2','PromocionesController@laRetamaB');
- //Route::get('/formulario/la-retama-2/gracias','PromocionesController@laRetamaB');
+ Route::get('/formulario/la-retama-2/gracias','PromocionesController@laRetamaB');
 
 
 Route::get('/formulario/fundo-los-pinos','PromocionesController@losPinosA');
+Route::get('/formulario/fundo-los-pinos/gracias','PromocionesController@losPinosA');
+
+
 Route::get('/formulario/fundo-los-pinos-2','PromocionesController@losPinosB');
+Route::get('/formulario/fundo-los-pinos-2/gracias','PromocionesController@losPinosB');

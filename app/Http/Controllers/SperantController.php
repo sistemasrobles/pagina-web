@@ -176,9 +176,43 @@ class SperantController extends Controller
 
                 }
 
-                //$idCap= ($request->formulario == 'robles-tour')?18:8;
+                //landings marco
 
                 
+
+                 if($request->formulario == 'landing-los-pinos-a'){
+
+                   
+                    $channel_id = 8;
+                    $idCap = 8;
+
+                }
+
+                 if($request->formulario == 'landing-los-pinos-b'){
+
+                   
+                    $channel_id = 8;
+                    $idCap = 8;
+
+                }
+
+                 if($request->formulario == 'landing-la-retama-a'){
+
+                   
+                    $channel_id = 8;
+                    $idCap = 8;
+
+                }
+
+                 if($request->formulario == 'landing-la-retama-b'){
+
+                    
+                    $channel_id = 8;
+                    $idCap = 8;
+
+                }
+
+
 
             }elseif ($source =='tik-tok'){
 
