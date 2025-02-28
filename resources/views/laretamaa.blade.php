@@ -512,7 +512,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
         >
           <div class="" >
             <div
-              class="d-flex flex-lg-row flex-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-2 border" style=" border-radius: 20px;"
+              class="d-flex flex-lg-row flex-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3 border" style=" border-radius: 20px;"
             >
               <img src="{{asset('assets_landings/iconos-la-retama/svg/inversion.svg')}}" alt="inversion" />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;">
