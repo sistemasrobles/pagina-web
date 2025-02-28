@@ -555,7 +555,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             <div
               class="d-flex flex-row flex-lg-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3 border"  style=" border-radius: 20px;"
             >
-              <img class=""src="{{asset('assets_landings/iconos-los-pinos/svg/ambientes.svg')}}" alt="land"  />
+              <img class=""src="{{asset('assets_landings/iconos-los-pinos/svg/paisajes.svg')}}" alt="land"  />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
                 Paisajes y ambientes naturales 
               </p>
