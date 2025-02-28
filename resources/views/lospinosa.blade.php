@@ -296,7 +296,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 				<img src="https://gruporobles.com.pe/storage/banners/los-pinos-m.webp" class="img-fluid w-100 h-100 d-block d-md-none"  />
 
 
-        <img style="border-radius: 0px 0px 50px 0px;height: 90vh;object-fit: cover;"src="https://gruporobles.com.pe/storage/banners/los-pinos-d.webp" class="img-fluid w-100  d-none d-md-block "  />
+        <img style="border-radius: 0px 0px 50px 0px;height: 90vh;object-fit: cover;"src="https://gruporobles.com.pe/storage/banners/landing-los-pinos-d-2.webp" class="img-fluid w-100  d-none d-md-block "  />
 			</div>
 
 			<div class="col-lg-4 px-5 py-5 py-md-0">
@@ -515,7 +515,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             <div
               class="d-flex flex-lg-row flex-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-2 border" style=" border-radius: 20px;"
             >
-              <img src="{{asset('assets_landings/inversion.svg')}}" alt="inversion" />
+              <img src="{{asset('assets_landings/iconos-los-pinos/svg/inversion.svg')}}" alt="inversion" />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;">
                Oportunidad de inversión
               </p>
@@ -525,7 +525,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             <div
               class="d-flex flex-row flex-lg-row  flex-md-column  card-hoja justify-content-center align-items-center gap-3 p-3 border"  style=" border-radius: 20px;"
             >
-              <img class="" src="{{asset('assets_landings/vigilancia.svg')}}" alt="rentabilidad" />
+              <img class="" src="{{asset('assets_landings/iconos-los-pinos/svg/vigilancia.svg')}}" alt="rentabilidad" />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;">
                Vigilancia 24 horas
               </p>
@@ -535,7 +535,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             <div
               class="d-flex flex-row flex-lg-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3 border"  style=" border-radius: 20px;"
             >
-              <img class=""src="{{asset('assets_landings/portico.svg')}}" alt="land"  />
+              <img class=""src="{{asset('assets_landings/iconos-los-pinos/svg/portico.svg')}}" alt="land"  />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
                 Portico de ingreso 
               </p>
@@ -545,7 +545,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             <div
               class="d-flex flex-row flex-lg-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3 border"  style=" border-radius: 20px;"
             >
-              <img class=""src="{{asset('assets_landings/servicios.svg')}}" alt="land"  />
+              <img class=""src="{{asset('assets_landings/iconos-los-pinos/svg/servicios.svg')}}" alt="land"  />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
                 Servicios básicos
               </p>
@@ -555,7 +555,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
             <div
               class="d-flex flex-row flex-lg-row flex-md-column card-hoja justify-content-center align-items-center gap-3 p-3 border"  style=" border-radius: 20px;"
             >
-              <img class=""src="{{asset('assets_landings/ambientes.svg')}}" alt="land"  />
+              <img class=""src="{{asset('assets_landings/iconos-los-pinos/svg/ambientes.svg')}}" alt="land"  />
               <p class="mb-0 text-center text-lg-start color-plomo out-regular" style="line-height: 25px;font-size: 1rem;" >
                 Paisajes y ambientes naturales 
               </p>
