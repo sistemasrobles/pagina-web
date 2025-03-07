@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{asset('assets_landings/css/index.css?v=344444444')}}" />
     <link rel="stylesheet" href="{{asset('assets_landings/css/font.css')}}" />
 
-   <script src="https://kit.fontawesome.com/a7b665094f.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/9776badadf.js" crossorigin="anonymous"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
