@@ -935,7 +935,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
           
           <div class="row  d-flex justify-content-center align-items-center">
               
-              <div class="col-lg-3 mt-2 "style="height:520px">
+              <!-- <div class="col-lg-3 mt-2 "style="height:520px">
                   
                    <div id="video-proyect" class="text-center text-lg-end video-proyect position-relative">
 
@@ -950,7 +950,7 @@ Si quieres salir de la rutina y explorar nuevos horizontes, ¡este evento es per
                   </div>
 
 
-              </div>
+              </div> -->
 
               <div class="col-lg-3 mt-2"  style="height:520px">
                   
