@@ -117,7 +117,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
            <img 
             class=" w-100 img-fluid d-block d-lg-none"
-            src="https://gruporobles.com.pe/storage/banners/inversion-c.jpg"
+            src="https://gruporobles.com.pe/storage/banners/inversion-c.webp"
             alt="WEBINAR GRUPO ROBLES & YASIKOV"
             srcset=""
           />
