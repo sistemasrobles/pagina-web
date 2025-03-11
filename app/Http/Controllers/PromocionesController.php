@@ -746,7 +746,7 @@ class PromocionesController extends Controller
 
                                
 
-                                 $rpta = array('status'=>'error','description'=>'Error al enviar','data'=>implode(', ', Mail::failures());
+                                 $rpta = array('status'=>'error','description'=>'Error al enviar','data'=>implode(', ', Mail::failures()));
                         
                                     return response()->json($rpta);
 
