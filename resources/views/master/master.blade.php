@@ -31,7 +31,7 @@
   <!-- Theme CSS -->
  
 
-<script src="https://kit.fontawesome.com/a7b665094f.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
   
 
   @yield('css')
