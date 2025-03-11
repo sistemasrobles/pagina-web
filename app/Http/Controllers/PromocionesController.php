@@ -742,9 +742,28 @@ class PromocionesController extends Controller
                              
 
 
-                            $rpta = array('status'=>'ok','description'=>'Datos guardados satisfactoriamente','data'=>[]);
+                             if (count(Mail::failures()) > 0) {
+
+                               
+
+                                 $rpta = array('status'=>'error','description'=>'Error al enviar','data'=>implode(', ', Mail::failures());
                         
-                            return response()->json($rpta);
+                                    return response()->json($rpta);
+
+
+
+                            } else {
+
+                                 $rpta = array('status'=>'ok','description'=>'Datos guardados satisfactoriamente','data'=>[]);
+                        
+                                    return response()->json($rpta);
+
+                            }
+
+
+
+
+                           
 
 
 
