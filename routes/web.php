@@ -177,3 +177,14 @@ Route::get('/formulario/fundo-los-pinos/gracias','PromocionesController@losPinos
 
 Route::get('/formulario/fundo-los-pinos-2','PromocionesController@losPinosB');
 Route::get('/formulario/fundo-los-pinos-2/gracias','PromocionesController@losPinosB');
+
+
+
+
+
+ // landings johan segunda parte
+
+Route::get('/{slug}/landing', 'PromocionesController@landingDinamicaA');
+Route::get('/{slug}/landing/gracias', 'PromocionesController@landingDinamicaA');
+
+Route::get('/{slug}/landing-page', 'PromocionesController@landingDinamicaB');

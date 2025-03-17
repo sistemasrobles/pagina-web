@@ -213,6 +213,14 @@ class SperantController extends Controller
                 }
 
 
+                if($request->formulario == 'landing-dinamica'){
+
+                    
+                    $channel_id = 8;
+                    $idCap = 8;
+
+                }
+
 
             }elseif ($source =='tik-tok'){
 
