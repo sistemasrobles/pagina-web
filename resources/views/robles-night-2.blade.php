@@ -489,6 +489,22 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 </header>
 
 
+ <section class="container-xl container-lg container-md container-sm ">
+      <!-- grid -->
+      <div class="row row-cols-1 row-cols-lg-1  align-items-center " >
+        <div class="pt-4 pb-2">
+          <div class="d-flex flex-column gap-3 bg-white p-3 radius-section text-center">
+            <h1 class="color-primary out-Extrabold mb-0 mt-3" style="line-height:40px">
+              <u>Invierte en Terrenos y Asegura tu Futuro</u>
+            </h1>
+            <p class="out-normal mt-3">
+              Únete a nuestro Cóctel Inmobiliario Exclusivo, recibe asesoría personalizada y descubre oportunidades únicas en la costa, sierra y selva del Perú. ¡Reserva tu lugar ahora!
+            </p>
+           
+          </div>
+        </div>
+        </div>
+</section>
 
 <div class="loading-container">
     <div class="loading-gif"></div>
