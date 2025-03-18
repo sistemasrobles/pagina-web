@@ -534,7 +534,7 @@ $("#tipo").on('change',function(){
 
 
 
-                      window.location.href = slug+"/landing/gracias";
+                      window.location.href ="landing/gracias";
 
 
                     
