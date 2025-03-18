@@ -598,7 +598,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
            
                 
           
-              <a  href="#" class="button  my-5 shadow" style="display: inline-block; background: linear-gradient(to bottom, #005c53 0%, #00968b 100%);padding: 10px 30px;border-radius: 10px;border:none;color:white"><strong>¡Haz Clic Aquí Para Ser Parte De la Presentación Zoom!</strong></a>
+              <a  href="#" class="button  my-5 shadow" style="display: inline-block; background: linear-gradient(to bottom, #005c53 0%, #00968b 100%);padding: 10px 30px;border-radius: 10px;border:none;color:white"><strong>¡Haz Clic Aquí Para Más Información!</strong></a>
           </div>
 
 
