@@ -849,4 +849,31 @@ class PromocionesController extends Controller
         
         return view('landing-dinamica',compact('proyetoactual'));
     }
+
+
+    public function landingDinamicaB($slug){
+        
+          $proyectos_aceptados = ["fundo-los-robles","fundo-el-bosque","el-arco-dorado","el-bosque-del-rey"];
+
+          
+
+        if(!in_array($slug,$proyectos_aceptados)){
+
+            return view('error');
+
+        }
+
+        
+         $proyetoactual=proyectos::where('rewrite','=',$slug)->where('estado_proyecto','=',1)->first();
+
+
+          if(!isset($proyetoactual)){
+
+            return view('error');
+
+        }
+
+        
+        return view('landing-dinamica-b',compact('proyetoactual'));
+    }
 }

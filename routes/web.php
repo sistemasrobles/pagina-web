@@ -188,3 +188,4 @@ Route::get('/{slug}/landing', 'PromocionesController@landingDinamicaA');
 Route::get('/{slug}/landing/gracias', 'PromocionesController@landingDinamicaA');
 
 Route::get('/{slug}/landing-page', 'PromocionesController@landingDinamicaB');
+Route::get('/{slug}/landing-page/gracias', 'PromocionesController@landingDinamicaB');
