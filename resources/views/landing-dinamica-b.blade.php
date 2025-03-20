@@ -131,7 +131,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
            <img 
             class=" w-100 img-fluid d-block d-lg-none"
-            src="https://gruporobles.com.pe/storage/banners/fundo-los-robles-m.webp"
+            src="https://gruporobles.com.pe/storage/banners/frobles-c.webp"
             alt="WEBINAR GRUPO ROBLES & YASIKOV"
             srcset=""
           />
@@ -150,7 +150,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
            <img 
             class=" w-100 img-fluid d-block d-lg-none"
-            src="https://gruporobles.com.pe/storage/banners/fundo-el-bosque-m.webp"
+            src="https://gruporobles.com.pe/storage/banners/fbosque-c.webp"
             alt="WEBINAR GRUPO ROBLES & YASIKOV"
             srcset=""
           />
@@ -167,7 +167,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
            <img 
             class=" w-100 img-fluid d-block d-lg-none"
-            src="https://gruporobles.com.pe/storage/banners/el-arco-dorado-m.webp"
+            src="https://gruporobles.com.pe/storage/banners/adorado-c.webp"
             alt="WEBINAR GRUPO ROBLES & YASIKOV"
             srcset=""
           />
@@ -185,7 +185,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
            <img 
             class=" w-100 img-fluid d-block d-lg-none"
-            src="https://gruporobles.com.pe/storage/banners/bosque-del-rey-m.webp"
+            src="https://gruporobles.com.pe/storage/banners/brey-c.webp"
             alt="WEBINAR GRUPO ROBLES & YASIKOV"
             srcset=""
           />
