@@ -459,11 +459,62 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
     <div class="row d-flex justify-content-center align-items-center">
       
-      <div class="col-lg-6 d-none d-lg-block  text-center" >
-       <img loading="lazy" src="{{asset('nuevaweb_assets/assets/img/img-form.webp')}}" alt="Vistas del paisaje de dos proyectos inmobiliarios de Robles & Yakisov en Oxapampa con el texto Financia tu Hogar Ideal e Invierte Seguro" class="img-fluid"  >  
+
+      @if ($proyetoactual->rewrite == 'fundo-los-robles')
+
+               <div class="col-lg-6 d-none d-lg-block  text-center" >
+
+
+
+       <img loading="lazy" src="{{asset('nuevaweb_assets/assets/img/collage-robles.webp')}}" alt="Vistas del paisaje de dos proyectos inmobiliarios de Robles & Yakisov en Oxapampa con el texto Financia tu Hogar Ideal e Invierte Seguro" class="img-fluid"  >  
 
         
       </div>
+
+
+
+        @elseif ($proyetoactual->rewrite == 'fundo-el-bosque')
+        
+         <div class="col-lg-6 d-none d-lg-block  text-center" >
+
+
+
+       <img loading="lazy" src="{{asset('nuevaweb_assets/assets/img/collage-fbosque.webp')}}" alt="Vistas del paisaje de dos proyectos inmobiliarios de Robles & Yakisov en Oxapampa con el texto Financia tu Hogar Ideal e Invierte Seguro" class="img-fluid"  >  
+
+        
+      </div>
+
+        @elseif ($proyetoactual->rewrite == 'el-arco-dorado')
+
+          <div class="col-lg-6 d-none d-lg-block  text-center" >
+
+
+
+       <img loading="lazy" src="{{asset('nuevaweb_assets/assets/img/collage-dorado.webp')}}" alt="Vistas del paisaje de dos proyectos inmobiliarios de Robles & Yakisov en Oxapampa con el texto Financia tu Hogar Ideal e Invierte Seguro" class="img-fluid"  >  
+
+        
+      </div>
+        
+         @elseif ($proyetoactual->rewrite == 'el-bosque-del-rey')
+
+
+           <div class="col-lg-6 d-none d-lg-block  text-center" >
+
+
+
+       <img loading="lazy" src="{{asset('nuevaweb_assets/assets/img/collage-bosque.webp')}}" alt="Vistas del paisaje de dos proyectos inmobiliarios de Robles & Yakisov en Oxapampa con el texto Financia tu Hogar Ideal e Invierte Seguro" class="img-fluid"  >  
+
+        
+      </div>
+
+        @else
+
+            
+        @endif
+
+
+
+      
 
 
 
