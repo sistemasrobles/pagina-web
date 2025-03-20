@@ -569,11 +569,95 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
       </div>
 
 
-      <div class="col-lg-6 d-none d-lg-block  text-center" >
-       <img loading="lazy" src="https://gruporobles.com.pe/storage/proyectos/fundo-el-bosque/mini-mapa.png" alt="Vistas del paisaje de dos proyectos inmobiliarios de Robles & Yakisov en Oxapampa con el texto Financia tu Hogar Ideal e Invierte Seguro" class="img-fluid" style="border-radius:20px">  
+
+
+
+
+      @if ($proyetoactual->rewrite == 'fundo-los-robles')
+
+               <div class="col-lg-6 d-none d-lg-block  text-center" >
+     
+
+       <iframe 
+    src="https://www.google.com/maps/place/Fundo+los+Robles/@-10.6823111,-75.3832755,17z/data=!3m1!4b1!4m6!3m5!1s0x9109bf002db44041:0x9af7c45ac134f4e0!8m2!3d-10.6823111!4d-75.3832755!16s%2Fg%2F11y2ssm2l7?entry=ttu&g_ep=EgoyMDI1MDMxNy4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D"
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
 
         
       </div>
+
+
+
+        @elseif ($proyetoactual->rewrite == 'fundo-el-bosque')
+        
+         <div class="col-lg-6 d-none d-lg-block  text-center" >
+     
+
+       <iframe 
+    src="https://www.google.com/maps/place/5NA,+Tambo+Mar%C3%ADa+19230/@-10.6786964,-75.392434,16z/data=!4m6!3m5!1s0x9109be5450bfad39:0x57a56a01dc21ab7e!8m2!3d-10.6804877!4d-75.3846916!16s%2Fg%2F11hcw430t8?entry=tts&g_ep=EgoyMDI1MDExNS4wIPu8ASoASAFQAw%3D%3D"
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+        
+      </div>
+
+        @elseif ($proyetoactual->rewrite == 'el-arco-dorado')
+
+          <div class="col-lg-6 d-none d-lg-block  text-center" >
+     
+
+       <iframe 
+    src="https://www.google.com/maps/place/El+Arco+Dorado+Condominio+%26+Lodge/@-10.5750236,-75.7048988,11z/data=!4m6!3m5!1s0x9109c5605a25a201:0x2cf04659d6c8ebfc!8m2!3d-10.5394373!4d-75.4970819!16s%2Fg%2F11t7mblj02?entry=ttu&g_ep=EgoyMDI1MDMxNy4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D"
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+        
+      </div>
+        
+         @elseif ($proyetoactual->rewrite == 'el-bosque-del-rey')
+
+
+          
+          <div class="col-lg-6 d-none d-lg-block  text-center" >
+     
+
+       <iframe 
+    src="https://www.google.com/maps/place/Chontabamba/@-10.6912381,-76.046551,9z/data=!4m6!3m5!1s0x9109b7e32ca6afff:0x880e4228c2230d5d!8m2!3d-10.5942997!4d-75.4810786!16s%2Fg%2F11h3kxcpwl?entry=ttu&g_ep=EgoyMDI1MDMxNy4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D"
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+        
+      </div>
+
+        @else
+
+            
+        @endif
+
+
+
+
+      
 
 
 
