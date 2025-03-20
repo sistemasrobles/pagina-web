@@ -5,7 +5,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
+    
+    <script src="https://kit.fontawesome.com/9ae3163beb.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="{{asset('assets_landings/css/index.css?v=344444444')}}" />
     <link rel="stylesheet" href="{{asset('assets_landings/css/font.css')}}" />
