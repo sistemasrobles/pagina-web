@@ -579,8 +579,8 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
                <div class="col-lg-6 d-none d-lg-block  text-center" >
      
 
-       <iframe 
-    src="https://www.google.com/maps/place/Fundo+los+Robles/@-10.6823111,-75.3832755,17z/data=!3m1!4b1!4m6!3m5!1s0x9109bf002db44041:0x9af7c45ac134f4e0!8m2!3d-10.6823111!4d-75.3832755!16s%2Fg%2F11y2ssm2l7?entry=ttu&g_ep=EgoyMDI1MDMxNy4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D"
+      <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.168164358632!2d-75.3832755!3d-10.682311099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9109bf002db44041%3A0x9af7c45ac134f4e0!2sFundo%20los%20Robles!5e0!3m2!1ses-419!2spe!4v1700000000000"
     width="600" 
     height="450" 
     style="border:0;" 
@@ -600,7 +600,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
      
 
        <iframe 
-    src="https://www.google.com/maps/place/5NA,+Tambo+Mar%C3%ADa+19230/@-10.6786964,-75.392434,16z/data=!4m6!3m5!1s0x9109be5450bfad39:0x57a56a01dc21ab7e!8m2!3d-10.6804877!4d-75.3846916!16s%2Fg%2F11hcw430t8?entry=tts&g_ep=EgoyMDI1MDExNS4wIPu8ASoASAFQAw%3D%3D"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7841.4434005910125!2d-75.392434!3d-10.6786964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9109be5450bfad39%3A0x57a56a01dc21ab7e!2s5NA%2C%20Tambo%20Mar%C3%ADa%2019230!5e0!3m2!1ses!2spe!4v1742485814401!5m2!1ses!2spe"
     width="600" 
     height="450" 
     style="border:0;" 
@@ -608,6 +608,9 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
     loading="lazy" 
     referrerpolicy="no-referrer-when-downgrade">
 </iframe>
+      
+
+
 
         
       </div>
@@ -618,7 +621,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
      
 
        <iframe 
-    src="https://www.google.com/maps/place/El+Arco+Dorado+Condominio+%26+Lodge/@-10.5750236,-75.7048988,11z/data=!4m6!3m5!1s0x9109c5605a25a201:0x2cf04659d6c8ebfc!8m2!3d-10.5394373!4d-75.4970819!16s%2Fg%2F11t7mblj02?entry=ttu&g_ep=EgoyMDI1MDMxNy4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d251011.3937452394!2d-75.7048988!3d-10.5750236!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9109c5605a25a201%3A0x2cf04659d6c8ebfc!2sEl%20Arco%20Dorado%20Condominio%20%26%20Lodge!5e0!3m2!1ses!2spe!4v1742485886437!5m2!1ses!2spe"
     width="600" 
     height="450" 
     style="border:0;" 
@@ -628,6 +631,8 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 </iframe>
 
         
+
+
       </div>
         
          @elseif ($proyetoactual->rewrite == 'el-bosque-del-rey')
@@ -638,7 +643,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
      
 
        <iframe 
-    src="https://www.google.com/maps/place/Chontabamba/@-10.6912381,-76.046551,9z/data=!4m6!3m5!1s0x9109b7e32ca6afff:0x880e4228c2230d5d!8m2!3d-10.5942997!4d-75.4810786!16s%2Fg%2F11h3kxcpwl?entry=ttu&g_ep=EgoyMDI1MDMxNy4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1003663.3021575939!2d-76.046551!3d-10.6912381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9109b7e32ca6afff%3A0x880e4228c2230d5d!2sChontabamba!5e0!3m2!1ses!2spe!4v1742485921435!5m2!1ses!2spe"
     width="600" 
     height="450" 
     style="border:0;" 
@@ -648,6 +653,10 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 </iframe>
 
         
+       
+
+
+
       </div>
 
         @else
