@@ -145,7 +145,7 @@
       </div>
 
           <div class="col-12  ">
-               <h5 class=" py-3 border-bottom " style="font-weight:700">Fundo El Bosque</h5>
+               <h5 class=" py-3 border-bottom " style="font-weight:700">Fundo Los Alpes</h5>
             
           </div> 
        </div>
