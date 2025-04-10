@@ -1,4 +1,4 @@
-import dataProyect from "./cardProyect.js?v=111343";
+import dataProyect from "./cardProyect.js?v=1113433";
 import renderCardProyect from "./renderCard.js";
 
 const SwiperPadre = document.getElementById("swiper-padre");

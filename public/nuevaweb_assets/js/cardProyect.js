@@ -37,7 +37,7 @@ const dataProyect = [
 
       {   
         "id":11,
-        "title":"Fundo El Bosque",
+        "title":"Fundo Los Alpes",
         "ubicacion": "Oxapampa",
         "precio": 500,
         "metraje":'<small>Desde</small> 300',
@@ -45,10 +45,10 @@ const dataProyect = [
         "tipo": "Oxapampa",
         "tipoProyecto":"Lotes",
         "image":"nuevaweb_assets/assets/img/proyectos/bosque.webp",
-        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/fundo-el-bosque?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
+        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/fundo-los-alpes?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
         "url_campana_terrenos":"#",
         "oxapampa":1,
-          "url_web":'proyectos/lotes/fundo-el-bosque',
+          "url_web":'proyectos/lotes/fundo-los-alpes',
         "financiamiento":0
        
     },
