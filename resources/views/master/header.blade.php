@@ -47,7 +47,7 @@
     <div class="row row-cols-3  mb-2">
       <!-- one -->
 
-        <div class="">
+        <div class="d-none">
          
 
          
