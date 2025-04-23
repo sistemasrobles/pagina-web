@@ -51,10 +51,10 @@ const dataProyect = [
         "tipo": "Oxapampa",
         "tipoProyecto":"Lotes",
         "image":"nuevaweb_assets/assets/img/proyectos/bosque.webp",
-        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/fundo-los-alpes?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
+        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/los-alpes?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
         "url_campana_terrenos":"#",
         "oxapampa":1,
-          "url_web":'proyectos/lotes/fundo-los-alpes',
+          "url_web":'proyectos/lotes/los-alpes',
         "financiamiento":0
        
     },

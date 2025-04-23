@@ -1,4 +1,4 @@
-import dataProyect from "./cardProyect.js?v=21322333";
+import dataProyect from "./cardProyect.js?v=2132442333";
 import renderCardProyect from "./renderCardWeb.js";
 
 const btnBuscarProyect = document.getElementById("buscar-proyecto");
