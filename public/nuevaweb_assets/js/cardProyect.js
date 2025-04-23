@@ -43,7 +43,7 @@ const dataProyect = [
 
       {   
         "id":11,
-        "title":"Fundo Los Alpes",
+        "title":"Los Alpes",
         "ubicacion": "Oxapampa",
         "precio": 500,
         "metraje":'<small>Desde</small> 300',
