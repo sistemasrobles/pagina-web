@@ -280,7 +280,7 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 				<img src="https://gruporobles.com.pe/storage/banners/HBm.webp" class="img-fluid w-100 h-100 d-block d-md-none"  />
 
 
-        <img style="border-radius: 0px 0px 50px 0px;height: 90vh;object-fit: cover;"src="https://gruporobles.com.pe/storage/banners/HBd.webp" class="img-fluid w-100  d-none d-md-block "  />
+        <img style="border-radius: 0px 0px 50px 0px;height: 90vh;object-fit: cover;"src="https://gruporobles.com.pe/storage/banners/HBd2.webp" class="img-fluid w-100  d-none d-md-block "  />
 			</div>
 
 			<div class="col-lg-4 px-5 py-5 py-md-0 mt-2">
