@@ -356,13 +356,13 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               <span class="fs-8">Proyecto</span>
              
             
-               <input
+             <!--   <input
               
                 type="hidden"
                 id="proyecto"
                 name="proyecto"
                 value="21"
-              />
+              /> -->
 
 
                <input
@@ -383,18 +383,30 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
               />
 
 
-              <select class="form-control" id="mensaje" name="mensaje">
+              <select class="form-control" id="proyecto" name="proyecto">
 
 
                                       
                                      
 
-                                       <option value="fundo-los-pinos">
-                                           Fundo Los Pinos
+                                       <option value="16">
+                                           Fundo Los Robles
                                         </option>
 
-                                         <option value="la-retama">
-                                            La Retama
+                                         <option value="26">
+                                            Los Pinos
+                                        </option>
+
+                                         <option value="5">
+                                            El Arco Dorado
+                                        </option>
+
+                                         <option value="24">
+                                            Los Alpes
+                                        </option>
+                                        
+                                        <option value="3">
+                                            El Bosque del Rey
                                         </option>
 
                                       
