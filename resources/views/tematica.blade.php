@@ -287,11 +287,11 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 				
 				<div class="">
 					
-					<h1 class="color-primary">¡ Oportunidades exclusivas que ofrecemos por una sola noche !</h1>
+					<h1 class="color-primary">¡Celebra el Día de la Madre con una oportunidad única!</h1>
 
 
 					<p class="mt-4 mb-4 color-plomo"  style="font-size:0.9rem">
-						Reserva tu lugar en Robles Night y aprovecha los descuentos únicos que ofrecemos
+						Separa tu lote y llévate una gift card especial para engreír a mamá. ¡Además, accede a descuentos exclusivos solo por esta ocasión!
 					</p>
 					<hr >
  				<form
