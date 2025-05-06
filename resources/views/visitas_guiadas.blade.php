@@ -399,13 +399,32 @@ src="https://www.facebook.com/tr?id=841134490271081&ev=PageView&noscript=1"
 
 
 
-                                       @foreach($projects as $list)
+
+                                       <option value="16">
+                                          Fundo los robles
+                                        </option>
+
+                                  
+
+                                        <option value="5">
+                                           El Arco dorado
+                                        </option>
+
+                                        <option value="24">
+                                           Los alpes
+                                        </option>
+
+                                        <option value="3">
+                                           El Bosque del Rey
+                                        </option>
+
+                                      <!--  @foreach($projects as $list)
 
                                         <option value="{{ $condicion ? $list->id_sperant : $list->idproyecto }}">
                                            {{$list->region}} - {{$list->descripcion}}
                                         </option>
 
-                                      @endforeach
+                                      @endforeach -->
 
 
                                       
