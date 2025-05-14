@@ -57,7 +57,7 @@
 
 
 
-        <h6>2. La asosiación</h6>
+        <h6>2. La Empresa</h6>
         <p>Garantiza la confidencialidad de los datos de carácter personal facilitados por los USUARIOS y su tratamiento de acuerdo con la legislación vigente sobre protección de datos de carácter personal, habiendo adoptado los niveles de seguridad de protección legalmente requeridos, e instalado todos los medios y medidas técnicas a su alcance para evitar la pérdida, mal uso, alteración, acceso no autorizado y robo de la información facilitada. A pesar de ello, el USUARIO debe ser consciente de que las medidas de seguridad en internet no son inexpugnables.</p>
 
 
