@@ -151,6 +151,16 @@ Para realizar cualquier tipo de consulta respecto a esta política puede dirigir
 
 
 
+<h6>13. Sobre las separaciones</h6>
+
+
+ <p>Sobre las separaciones, si el cliente decide no continuar con la compra, se genera una retención del 30% por gastos administrativos sobre el monto de la separación, esta penalidad aplica desde el momento en que el cliente realiza el aporte en cuenta, dando de esta manera su conformidad con el depósito realizado.</br>
+
+El contrato deberá firmarse en un plazo no mayor a 20 días calendario contados desde la fecha de la separación y/o aporte final según el acuerdo de venta. En caso de vencimiento de dicho plazo sin que el cliente haya realizado la firma del contrato, la empresa podrá resolver la separación del lote y realizara la devolución de los aportes haciendo la retención del 30% del total abonado, quedando sin efecto cualquier documento suscrito por las partes.</br>
+
+Política de devolución: la solicitud para devolución de los abonos que ha realizado para la adquisición del lote será efectiva en un plazo máximo de 60 a 90 días hábiles
+</p>
+
       </div>
 
       
