@@ -93,7 +93,7 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
         <h5 class="family-700-one color-green-2  my-3" >¡Estemos en contacto!</h5>
 
         <ul style="list-style: none;margin:0px;padding: 0px;">
-            <li class="py-1"><i class="fa-solid fa-home me-2 color-green-2"></i>Edificio Capital Golf (Oficina 1801) - Av. Club Golf Los Incas 154 ; Santiago de Surco - Lima.</li>
+            <li class="py-1"><i class="fa-solid fa-home me-2 color-green-2"></i>Edificio Capital Golf - Av. Club Golf Los Incas 154 ; Santiago de Surco - Lima.</li>
              <li class="py-1"><i class="fa-solid fa-phone me-2 color-green-2"></i>(+51) 983 479 617 / 924 266 566 </li>
               <li class="py-1" ><a href="javascript:void(0)" class="color-green-2" style="text-decoration:underline;"><i class="fa-regular fa-envelope me-2 color-green-2"></i>ventas@gruporobles.com.pe</a></li>
         </ul>
