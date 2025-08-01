@@ -1259,21 +1259,21 @@ function guardar_datos_formulario(){
 
             $("#ruc").val("20611296925");
             $("#razon").val("FUNDO VALENTINA S.A.C");
-            $("#direccion").val("AV. CIRCUNVALACION DEL GOLF LOS INCAS NRO. 154 INT. 602 (EDIFICIO CAPITAL GOLF) LIMA - LIMA - SANTIAGO DE SURCO");
+            $("#direccion").val("Av. La Encalada 1090 (oficina 804 - Edificio Amalfi) - Lima Santiago de Surco");
 
         }else if(id_proyecto == 8 || id_proyecto == 9){
 
 
             $("#ruc").val("20608617052");
             $("#razon").val("GRUPO YASIKOV S.A.C");
-            $("#direccion").val("AV. CIRCUNVALACION DEL GOLF LOS INCAS NRO. 154 INT. 602 (EDIFICIO CAPITAL GOLF) LIMA - LIMA - SANTIAGO DE SURCO");
+            $("#direccion").val("Av. La Encalada 1090 (oficina 804 - Edificio Amalfi) - Lima Santiago de Surco");
 
         }else{
 
 
             $("#ruc").val("20607487767");
             $("#razon").val("GRUPO ROBLES & YASIKOV S.A.C");
-            $("#direccion").val("AV. CIRCUNVALACION DEL GOLF LOS INCAS NRO. 154 INT. 602 (EDIFICIO CAPITAL GOLF) LIMA - LIMA - SANTIAGO DE SURCO");
+            $("#direccion").val("Av. La Encalada 1090 (oficina 804 - Edificio Amalfi) - Lima Santiago de Surco");
         }
 
 
