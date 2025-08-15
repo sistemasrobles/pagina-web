@@ -150,7 +150,7 @@
           </div> 
        </div>
 
-         <div>
+         <!-- <div>
          
 
          
@@ -197,7 +197,7 @@
                <h5 class=" py-3 border-bottom " style="font-weight:700">Fundo Los Robles</h5>
             
           </div> 
-       </div>
+       </div> -->
 
 
        <div>
