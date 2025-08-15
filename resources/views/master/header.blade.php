@@ -150,7 +150,7 @@
           </div> 
        </div>
 
-         <!-- <div>
+         <div style="display:none">
          
 
          
@@ -169,7 +169,7 @@
           <div style="position:absolute;top:0;left: 0; background: rgba(0, 0, 0, 0.3);" class="w-100 h-100 d-flex justify-content-center align-items-center"> 
 
 
-            <!-- <img src="{{asset('nuevaweb_assets/assets/img/retama_blanco.png')}}" alt="" style="height:200px ;width: 200px;">  -->
+         
 
 
           </div>
@@ -197,7 +197,7 @@
                <h5 class=" py-3 border-bottom " style="font-weight:700">Fundo Los Robles</h5>
             
           </div> 
-       </div> -->
+       </div>
 
 
        <div>
