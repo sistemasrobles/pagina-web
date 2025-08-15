@@ -1,22 +1,22 @@
 const dataProyect = [
 
-    {   
-        "id":4,
-        "title":"Fundo Los Robles",
-        "ubicacion": "Llamaquizu Tambo Maria I Etapa .Oxapampa",
-        "precio": 500,
-        "metraje":'<small>Desde</small> 300',
-        "estado":"<small>Pre Venta</small>",
-        "tipo": "Oxapampa",
-        "tipoProyecto":"Lotes",
-        "image":"nuevaweb_assets/assets/img/proyectos/robles.webp",
-        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/fundo-los-robles?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
-        "url_campana_terrenos":"#",
-        "oxapampa":1,
-          "url_web":'proyectos/lotes/fundo-los-robles',
-        "financiamiento":0
+    // {   
+    //     "id":4,
+    //     "title":"Fundo Los Robles",
+    //     "ubicacion": "Llamaquizu Tambo Maria I Etapa .Oxapampa",
+    //     "precio": 500,
+    //     "metraje":'<small>Desde</small> 300',
+    //     "estado":"<small>Pre Venta</small>",
+    //     "tipo": "Oxapampa",
+    //     "tipoProyecto":"Lotes",
+    //     "image":"nuevaweb_assets/assets/img/proyectos/robles.webp",
+    //     "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/fundo-los-robles?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
+    //     "url_campana_terrenos":"#",
+    //     "oxapampa":1,
+    //       "url_web":'proyectos/lotes/fundo-los-robles',
+    //     "financiamiento":0
        
-    } 
+    // } 
 
     // ,
 
@@ -41,23 +41,23 @@ const dataProyect = [
     ,
 
 
-      {   
-        "id":11,
-        "title":"Los Alpes",
-        "ubicacion": "Oxapampa",
-        "precio": 500,
-        "metraje":'<small>Desde</small> 300',
-        "estado":"<small>Construcción</small>",
-        "tipo": "Oxapampa",
-        "tipoProyecto":"Lotes",
-        "image":"nuevaweb_assets/assets/img/proyectos/bosque.webp",
-        "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/los-alpes?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
-        "url_campana_terrenos":"#",
-        "oxapampa":1,
-          "url_web":'proyectos/lotes/los-alpes',
-        "financiamiento":0
+    //   {   
+    //     "id":11,
+    //     "title":"Los Alpes",
+    //     "ubicacion": "Oxapampa",
+    //     "precio": 500,
+    //     "metraje":'<small>Desde</small> 300',
+    //     "estado":"<small>Construcción</small>",
+    //     "tipo": "Oxapampa",
+    //     "tipoProyecto":"Lotes",
+    //     "image":"nuevaweb_assets/assets/img/proyectos/bosque.webp",
+    //     "url_campana_lotes":"https://gruporobles.com.pe/proyectos/lotes/los-alpes?utm_source=landingpage&utm_medium=cpc&utm_campaign=lotes-en-oxapampa",
+    //     "url_campana_terrenos":"#",
+    //     "oxapampa":1,
+    //       "url_web":'proyectos/lotes/los-alpes',
+    //     "financiamiento":0
        
-    },
+    // },
 
     // {   
     //     "id":2,
