@@ -116,7 +116,7 @@ background:  #FBFBFB;
 
 
    
-    <div class="d-flex  justify-content-center align-items-center" style=" position: relative;">
+    <!-- <div class="d-flex  justify-content-center align-items-center " style=" position: relative;">
                 
                  <img src='{{ asset("nuevaweb_assets/assets/img/banner-nosotros.webp") }}' class="w-100 img-fluid  d-none d-sm-block"  >
                 <img src='{{ asset("nuevaweb_assets/assets/img/banner-nosotros.webp") }}'class="w-100 img-fluid d-block d-sm-none"  >
@@ -131,7 +131,7 @@ background:  #FBFBFB;
 background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0.6) 100%);
 "></div> 
                  
-        </div>
+        </div> -->
 
    
 
@@ -152,13 +152,11 @@ background: linear-gradient(90deg, rgba(0, 150, 139, 0.3) 35%, rgba(0, 92, 83, 0
         </div>
     </section>
 
-     <section class="container-fluid pt-2 ">
+     <section class="container-fluid pt-2 d-none ">
         <div class="container-xl">
             <div class="row  row-cols-xl-2 row-cols-lg-2 g-4">
                 <div >
-                    <!-- <div class="position-relative container-video-faq d-flex justify-content-center align-items-center">
-                        <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i>
-                    </div> -->
+                   
 
                      <div id="video-proyect" class=" video-proyect position-relative">
                 <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"> <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i></button>
