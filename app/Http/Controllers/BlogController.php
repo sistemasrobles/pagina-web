@@ -50,8 +50,16 @@ class BlogController extends Controller
     public function blogd($slug){
 
 
-        $blog=blog::where('slug',$slug)->first();
+            
+
+        $blog=blog::where('slug',$slug)->where('activo','=',1)->first();
         
+         if(!isset($blog)){
+
+            return view('error');
+
+        }
+
         SEOMeta::setTitle($blog->titulo);
         SEOMeta::setDescription($blog->titulo);
         SEOMeta::addMeta('article:published_time', $blog->created_at->toW3CString(), 'property');
